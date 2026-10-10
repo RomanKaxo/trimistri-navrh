@@ -22,6 +22,8 @@ Recenze jsou statickým záznamem z Google; relativní stáří odpovídá okam�
 
 Mobilní hero s hlavičkou vyplňuje dostupnou výšku obrazovky a na nízkých displejích se může zvětšit podle obsahu. Jemně tmavší překryv zlepšuje čitelnost. Fotografie na desktopu reaguje mírným posunem na rolování a šipky tlačítek na hover i klávesnicový focus. Efekty respektují omezení pohybu v systému.
 
+Mobilní hlavní tlačítko i jeho text jsou vycentrované se sekundárním odkazem. Hlavička používá vedle telefonního čísla ikonu telefonu na všech velikostech obrazovky. Podstránky služeb mají postupný nástup obsahu a fotografií, odezvu odkazů a formulářů na hover i focus a animované rozbalování FAQ a dalších realizací v prohlížečích s podporou animace přirozené výšky. Mobilní menu se rozbaluje s jemným nástupem a jeho ikona se mění na křížek.
+
 Rychlý výběr služby na homepage předvyplní hlavní poptávku. Vybrané fotografie mají místní náhledy a lze je jednotlivě odebrat; stále je nutné přiložit je ručně do připraveného e-mailu.
 
 ## Lokální náhled
