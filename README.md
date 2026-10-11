@@ -24,7 +24,7 @@ Mobilní hero s hlavičkou vyplňuje dostupnou výšku obrazovky a na nízkých 
 
 Mobilní hero skládá hlavní tlačítko a sekundární odkaz pod sebe. Nápis hlavního tlačítka je vystředěný společně se šipkou; na širších displejích tlačítka navazují na levý okraj textu. Hlavička používá vedle telefonního čísla ikonu telefonu na všech velikostech obrazovky. Podstránky služeb mají postupný nástup obsahu a fotografií, odezvu odkazů a formulářů na hover i focus a animované rozbalování FAQ a dalších realizací v prohlížečích s podporou animace přirozené výšky. Mobilní menu se rozbaluje s jemným nástupem a jeho ikona se mění na křížek.
 
-Obsah každé služby rozdělují samostatné sekce pro rozsah práce, čtyřkrokový postup a časté otázky. Krátká navigace odkazuje přímo na tyto sekce a na vlastní realizace, pokud jsou k dispozici; jinak nabízí přechod na poptávku. FAQ začíná otázkou o ceně a odpovědi se rozbalují jednotlivě. Styly této obsahové struktury jsou v `navrhy/service-content.css`.
+Rozsah služby, čtyřkrokový postup a časté otázky tvoří jeden společný blok. Postup a otázky jsou na desktopu vedle sebe a na menších obrazovkách pod sebou. První odpověď o ceně je otevřená; další se rozbalují jednotlivě. Otázky i odpovědi mají shodné vnitřní odsazení. Styly této struktury jsou v `navrhy/service-content.css`.
 
 Tlačítko „Zobrazit další realizace“ po rozbalení zmizí. Galerie zůstává otevřená a nově zobrazené fotografie navazují na původní výběr.
 
