@@ -139,7 +139,7 @@
   .tm-header-phone strong { font-size: .82rem; }
 }
 
-/* Keep header actions quiet and the opened navigation close to its toggle. */
+/* Keep header actions quiet and connect opened navigation to the header. */
 @media (min-width: 1361px) {
   .tm-header-actions .tm-header-quote {
     min-height: 44px; padding: 10px 16px; column-gap: 8px; font-size: .85rem;
@@ -147,12 +147,12 @@
 }
 @media (max-width: 1360px) {
   .menu-js .tm-navigation {
-    top: calc(100% + 8px); left: auto; right: 0;
+    top: 100%; left: auto; right: 0;
     width: min(440px, 100%);
-    max-height: calc(100dvh - 108px);
+    max-height: calc(100dvh - 100px);
     padding: 16px; gap: 6px; grid-template-columns: repeat(2, minmax(0, 1fr));
     align-items: stretch; align-content: start;
-    border: 1px solid #d4cdbf; border-top: 2px solid #8b6627;
+    border: 1px solid #d4cdbf; border-top: 0;
     box-shadow: 0 18px 48px #15171926;
   }
   .menu-js .tm-navigation.is-open { display: grid; }
@@ -167,8 +167,11 @@
 }
 @media (max-width: 700px) {
   .menu-js .tm-navigation {
-    top: calc(100% + 6px); max-height: calc(100dvh - 96px);
-    grid-template-columns: minmax(0, 1fr); padding: 12px; gap: 2px;
+    right: calc(-1 * var(--tm-page-gutter));
+    width: calc(100% + 2 * var(--tm-page-gutter));
+    max-height: calc(100dvh - 90px);
+    grid-template-columns: minmax(0, 1fr); padding: 12px var(--tm-page-gutter); gap: 2px;
+    border-inline: 0;
   }
 }
 
