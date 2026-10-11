@@ -210,10 +210,9 @@
 .tm-detail-more{text-align:center;margin-top:30px}
 .tm-detail-more>summary{list-style:none;cursor:pointer}
 .tm-detail-more>summary::-webkit-details-marker{display:none}
-.tm-detail-more>summary .tm-more-open{display:none}
-.tm-detail-more[open]>summary .tm-more-closed{display:none}
-.tm-detail-more[open]>summary .tm-more-open{display:block}
+.tm-detail-more[open]>summary{display:none}
 .tm-detail-more .tm-project-grid{margin-top:28px;text-align:left}
+.tm-detail-more[open] .tm-project-grid{margin-top:0}
 .tm-detail-form-section{background:#f8f5ef}
 .tm-detail-form-section .tm-contact-copy>p:not(.tm-eyebrow){max-width:620px}
 .tm-detail-form-aside{align-self:end;max-width:510px}
@@ -288,7 +287,7 @@
 .tm-detail-faq details[open] p{animation:tm-faq-enter .25s ease-out}
 @keyframes tm-faq-enter{from{opacity:.7;transform:translateY(4px)}to{opacity:1;transform:none}}
 .tm-detail-phone{line-height:1.4}
-.tm-detail-more>summary>.tm-more-closed,.tm-detail-more>summary>.tm-more-open{grid-column:2;grid-row:1}
+.tm-detail-more>summary>.tm-more-closed{grid-column:2;grid-row:1}
 .tm-detail-form-section .tm-form .quote-content{padding:0}
 @media(max-width:900px){.tm-detail-benefits{margin-top:28px;margin-bottom:40px}.tm-detail-benefits>li{padding-inline:20px;grid-template-columns:24px 1fr;gap:12px}.tm-detail-benefit-icon .tm-icon{width:23px;height:23px}.tm-detail-answers{padding:26px;grid-template-columns:1fr 1fr}.tm-detail-work{padding-right:24px}.tm-detail-answers .tm-detail-faq{padding-left:24px}.tm-detail-work li{grid-template-columns:28px 1fr;gap:10px}.tm-detail-work h3:not(.tm-eyebrow){font-size:1rem}.tm-detail-faq summary{font-size:.9rem}}
 @media(max-width:700px){.tm-detail-benefits{display:grid;grid-template-columns:1fr;margin-bottom:32px}.tm-detail-benefits>li,.tm-detail-benefits>li:first-child,.tm-detail-benefits>li:last-child{border-right:0;border-bottom:1px solid #d4cdbf;padding:22px 0;grid-template-columns:26px 1fr;gap:6px 15px}.tm-detail-benefits>li:last-child{border-bottom:0}.tm-detail-benefits h3{font-size:1.1rem}.tm-detail-benefits p{font-size:.96rem}.tm-detail-answers-heading>h3{font-size:1.5rem}.tm-detail-answers{grid-template-columns:1fr;padding:24px 20px;gap:30px}.tm-detail-work{padding:0}.tm-detail-answers .tm-detail-faq{border-left:0;border-top:1px solid #d4cdbf;padding:28px 0 0}.tm-detail-answers .tm-eyebrow{font-size:.68rem;margin-bottom:22px}.tm-detail-faq summary{font-size:.95rem}.tm-detail-faq details p{font-size:.93rem}.tm-detail-actions .tm-btn,.tm-detail-actions .tm-call-btn{min-height:58px;line-height:1.4}}
