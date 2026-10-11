@@ -148,7 +148,7 @@
 @media (max-width: 1360px) {
   .menu-js .tm-navigation {
     top: calc(100% + 8px); left: auto; right: 0;
-    width: min(440px, calc(100vw - 2 * var(--tm-page-gutter)));
+    width: min(440px, 100%);
     max-height: calc(100dvh - 108px);
     padding: 16px; gap: 6px; grid-template-columns: repeat(2, minmax(0, 1fr));
     align-items: stretch; align-content: start;
