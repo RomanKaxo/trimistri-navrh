@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PREVIEW – Materiály a techniky (finální návrh, jen k odsouhlasení)</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style-v2.css">
+  <style>
+    /* pouze chrome preview stránky, není součást návrhu */
+    .preview-banner { position: sticky; top: 0; z-index: 50; background: #151719; color: #fff; padding: .9rem 1.5rem; font-size: .85rem; font-weight: 600; text-align: center; }
+    .preview-label { max-width: 1200px; margin: 0 auto; padding: 3rem 1.5rem 0; font-size: .78rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: #b98b38; }
+    .preview-block { border-bottom: 16px solid #151719; }
+    .preview-block:last-of-type { border-bottom: none; }
+
+    /* ---- vše pod touto čarou používá výhradně tokeny a fonty z assets/css/style-v2.css ---- */
+    .tech-wrap { display: grid; grid-template-columns: 210px 1fr 1.1fr; gap: 0; border: 1px solid var(--line); min-height: 420px; margin-top: 3rem; }
+    .tech-tabs { display: flex; flex-direction: column; border-right: 1px solid var(--line); }
+    .tech-tab {
+      text-align: left; border: none; background: #fff; padding: 1.1rem 1.25rem; font-weight: 700; font-size: .92rem;
+      color: #4a4d51; cursor: pointer; border-bottom: 1px solid var(--line); transition: background .2s, color .2s; font-family: inherit;
+    }
+    .tech-tab:last-child { border-bottom: none; }
+    .tech-tab.is-active { background: var(--soft); color: var(--gold-dark); box-shadow: inset 3px 0 0 var(--gold); }
+    .tech-panel { padding: 2.5rem; display: none; border-right: 1px solid var(--line); }
+    .tech-panel.is-active { display: block; }
+    .tech-panel .eyebrow-mini { font-size: .74rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--gold); margin-bottom: .6rem; }
+    .tech-panel h3 { font-size: 1.6rem; font-weight: 800; letter-spacing: -.02em; margin-bottom: 1rem; }
+    .tech-panel p { color: #4a4d51; font-size: 1.02rem; max-width: 44ch; margin: 0 0 1.5rem; }
+    .tech-panel .btn-gold { font-size: .88rem; padding: .65rem 1.2rem; }
+    .tech-photos { position: relative; height: 420px; background: #eee; overflow: hidden; }
+    .tech-photo { position: absolute; inset: 0; opacity: 0; visibility: hidden; transition: opacity .25s ease; }
+    .tech-photo.is-active { opacity: 1; visibility: visible; }
+    .tech-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+    .tech-photo span { position: absolute; left: 1rem; bottom: 1rem; background: rgba(21,23,25,.72); color: #fff; font-size: .74rem; font-weight: 700; padding: .4rem .7rem; letter-spacing: .02em; z-index: 1; }
+    @media (max-width: 860px) {
+      .tech-wrap { grid-template-columns: 1fr; min-height: 0; }
+      .tech-tabs { flex-direction: row; flex-wrap: wrap; border-right: none; border-bottom: 1px solid var(--line); }
+      .tech-panel { border-right: none; border-bottom: 1px solid var(--line); }
+      .tech-photos { height: 260px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="preview-banner">PREVIEW — 4 návrhy sekce „Materiály a techniky", striktně na tokenech webu (var(--gold)/var(--ink)/var(--muted)/Inter). Tahle stránka není součást webu.</div>
+
+  <main>
+  <div class="preview-block">
+  <p class="preview-label">Návrh A — přepínač (taby) + fotka + CTA u každé techniky</p>
+    <section class="section-padding" id="o-sterkach">
+      <div class="container-xl">
+        <div class="section-heading mx-auto mb-5">
+          <p class="eyebrow"><span></span> Materiály a techniky</p>
+          <h2>Pět povrchů, jeden váš</h2>
+          <p>Každá technika mění, jak prostor působí a jak dlouho vydrží. Vyberte si podle toho, co chcete, aby stěna dělala – a proberte to s námi zdarma na místě.</p>
+        </div>
+
+        <div class="tech-wrap">
+          <div class="tech-tabs">
+            <button class="tech-tab is-active" data-target="t1">Marmorino</button>
+            <button class="tech-tab" data-target="t2">Patinování</button>
+            <button class="tech-tab" data-target="t3">Pohledový beton</button>
+            <button class="tech-tab" data-target="t4">Travertino Romano</button>
+            <button class="tech-tab" data-target="t5">Ottocento a Seta</button>
+          </div>
+          <div class="tech-panels">
+            <div class="tech-panel is-active" id="t1">
+              <p class="eyebrow-mini">Nejluxusnější volba</p>
+              <h3>Marmorino</h3>
+              <p>Benátská vápenná stěrka s příměsí mramorové moučky. Po vyleštění získává hloubku a jemný lesk připomínající skutečný mramor – hodí se, kde má povrch vypadat draze bez obkladu.</p>
+              <a class="btn btn-gold" href="#poptavka">Poptat Marmorino</a>
+            </div>
+            <div class="tech-panel" id="t2">
+              <p class="eyebrow-mini">Pro osobitý charakter</p>
+              <h3>Patinování</h3>
+              <p>Tónování do hloubky a kontrastů vytváří jemně nepravidelný, starobylý vzhled povrchu s vlastní kresbou – žádné dvě stěny nevyjdou úplně stejně.</p>
+              <a class="btn btn-gold" href="#poptavka">Poptat patinování</a>
+            </div>
+            <div class="tech-panel" id="t3">
+              <p class="eyebrow-mini">Pro moderní a industriální prostory</p>
+              <h3>Pohledový beton</h3>
+              <p>Syrově působící povrch imitující beton bez nutnosti bourání zdi. Oblíbená volba do minimalistických interiérů, kanceláří i showroomů.</p>
+              <a class="btn btn-gold" href="#poptavka">Poptat pohledový beton</a>
+            </div>
+            <div class="tech-panel" id="t4">
+              <p class="eyebrow-mini">Pro přírodní, zemitý vzhled</p>
+              <h3>Travertino Romano</h3>
+              <p>Struktura přírodního travertinu s charakteristickými póry a nepravidelnou kresbou – přináší do prostoru charakter kamene bez jeho váhy a ceny.</p>
+              <a class="btn btn-gold" href="#poptavka">Poptat Travertino Romano</a>
+            </div>
+            <div class="tech-panel" id="t5">
+              <p class="eyebrow-mini">Pro jemný, elegantní dojem</p>
+              <h3>Ottocento a Seta</h3>
+              <p>Sametově jemné stěrky s hedvábným leskem, které vyniknou zejména při bočním osvětlení. Decentní pozadí pro ložnice, jídelny i reprezentativní prostory.</p>
+              <a class="btn btn-gold" href="#poptavka">Poptat Ottocento a Seta</a>
+            </div>
+          </div>
+          <div class="tech-photos">
+            <div class="tech-photo is-active" id="p1"><img src="assets/img/gallery/DekoracniSterky.jpeg" alt="Realizace dekorativní stěrky"><span>Realizace</span></div>
+            <div class="tech-photo" id="p2"><img src="assets/img/gallery/dekoracnisterky6.jpeg" alt="Realizace dekorativní stěrky"><span>Realizace</span></div>
+            <div class="tech-photo" id="p3"><img src="assets/img/gallery/dekoracnisterky8.jpeg" alt="Realizace dekorativní stěrky"><span>Realizace</span></div>
+            <div class="tech-photo" id="p4"><img src="assets/img/gallery/dekoracnisterky9.jpeg" alt="Realizace dekorativní stěrky"><span>Realizace</span></div>
+            <div class="tech-photo" id="p5"><img src="assets/img/gallery/dekoracnisterky11.jpeg" alt="Realizace dekorativní stěrky"><span>Realizace</span></div>
+          </div>
+        </div>
+        <p style="font-size:.8rem;color:#888;margin-top:.75rem;">Pozn.: fotky jsou obecné ukázky realizace z galerie, nejde o tvrzení, že fotka zobrazuje přesně danou techniku.</p>
+
+        <div class="row g-0 stagger mt-5">
+          <div class="col-md-4">
+            <div class="trust-item"><i class="bi bi-geo-alt"></i><div><strong>Kam se stěrky hodí</strong><span>Obývací pokoje, ložnice, koupelny a sprchové kouty (s hydroizolací), recepce, showroomy i restaurace.</span></div></div>
+          </div>
+          <div class="col-md-4">
+            <div class="trust-item"><i class="bi bi-shield-check"></i><div><strong>Jak dlouho vydrží</strong><span>Při správné přípravě podkladu a dodržení technologie je stěrka trvanlivá na roky; odolnost zvyšuje závěrečná impregnace nebo vosk.</span></div></div>
+          </div>
+          <div class="col-md-4">
+            <div class="trust-item no-border"><i class="bi bi-droplet"></i><div><strong>Údržba a čištění</strong><span>Setření vlhkým hadrem bez agresivních prostředků. U vlhkých ploch (koupelny) doporučujeme čas od času obnovit impregnaci.</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="preview-block">
+  <p class="preview-label">Návrh B — rozklikávací seznam (accordion), první položka zvýrazněná jako doporučená</p>
+  <section class="dst-techniques" id="o-sterkach-b">
+  <style>
+    .dst-techniques{font-family:'Inter',system-ui,sans-serif; padding: 5rem 0;}
+    .dst-techniques .dst-intro{max-width:760px;color:#4a4d51;}
+
+    .dst-index{max-width:920px;margin:0 auto;border-top:1px solid var(--line,#e9e3d8);}
+
+    .dst-row{border-bottom:1px solid var(--line,#e9e3d8);}
+    .dst-row summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:clamp(16px,3vw,32px);padding:22px 4px;-webkit-tap-highlight-color:transparent;}
+    .dst-row summary::-webkit-details-marker{display:none;}
+    .dst-row summary:focus-visible{outline:2px solid var(--gold,#b98b38);outline-offset:-2px;}
+
+    .dst-num{flex:0 0 auto;font-weight:800;font-size:1.5rem;line-height:1;color:var(--line,#e9e3d8);font-variant-numeric:tabular-nums;transition:color .25s ease;width:2.4ch;}
+    .dst-row[open] .dst-num,
+    .dst-row summary:hover .dst-num{color:var(--gold,#b98b38);}
+
+    .dst-title-wrap{flex:1 1 auto;display:flex;flex-direction:column;gap:2px;min-width:0;}
+    .dst-name{font-weight:700;font-size:1.15rem;color:var(--ink,#151719);letter-spacing:.01em;transition:color .2s ease;}
+    .dst-row summary:hover .dst-name{color:var(--gold-dark,#9a722b);}
+    .dst-hook{font-size:.9rem;color:#4a4d51;}
+
+    .dst-toggle{flex:0 0 auto;width:34px;height:34px;border:1px solid var(--line,#e9e3d8);display:flex;align-items:center;justify-content:center;color:var(--ink,#151719);transition:transform .3s ease,background-color .2s ease,border-color .2s ease,color .2s ease;}
+    .dst-row summary:hover .dst-toggle{border-color:var(--gold,#b98b38);color:var(--gold-dark,#9a722b);}
+    .dst-row[open] .dst-toggle{transform:rotate(45deg);background:var(--gold,#b98b38);border-color:var(--gold,#b98b38);color:#fff;}
+
+    .dst-body{padding:0 4px 30px calc(2.4ch + clamp(16px,3vw,32px));max-width:640px;}
+    .dst-body p{color:#4a4d51;margin-bottom:14px;}
+    .dst-cta{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:.9rem;color:var(--ink,#151719);text-decoration:none;border-bottom:1px solid var(--ink,#151719);padding-bottom:2px;transition:color .2s ease,border-color .2s ease,gap .2s ease;}
+    .dst-cta i{transition:transform .2s ease;}
+    .dst-cta:hover{color:var(--gold-dark,#9a722b);border-color:var(--gold,#b98b38);}
+    .dst-cta:hover i{transform:translateX(3px);}
+
+    .dst-row--featured{background:var(--soft,#f8f5ef);border-left:3px solid var(--gold,#b98b38);margin-left:-3px;}
+    .dst-row--featured summary{padding:30px 20px;}
+    .dst-row--featured .dst-num{font-size:2.1rem;}
+    .dst-row--featured .dst-name{font-size:1.5rem;}
+    .dst-row--featured .dst-hook{font-size:.95rem;}
+    .dst-row--featured .dst-body{padding:0 20px 34px calc(2.4ch + 20px + clamp(16px,3vw,32px));}
+    .dst-row--featured .dst-body p{font-size:1.02rem;}
+
+    @media (min-width:576px){
+      .dst-row--featured{position:relative;}
+      .dst-row--featured::before{content:"Doporučujeme";display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-dark,#9a722b);background:#fff;border:1px solid var(--line,#e9e3d8);padding:3px 10px;position:absolute;top:-11px;left:20px;}
+    }
+
+    .dst-final{max-width:920px;margin:44px auto 0;padding-top:36px;border-top:1px solid var(--line,#e9e3d8);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px;}
+    .dst-final p{margin:0;color:var(--ink,#151719);font-weight:600;font-size:1.05rem;max-width:420px;}
+
+    @media (max-width:575.98px){
+      .dst-row summary{gap:14px;padding:18px 2px;}
+      .dst-num{width:2ch;font-size:1.2rem;}
+      .dst-row--featured .dst-num{font-size:1.6rem;}
+      .dst-name{font-size:1.02rem;}
+      .dst-row--featured .dst-name{font-size:1.2rem;}
+      .dst-hook{display:none;}
+      .dst-body{padding-left:2.2rem;}
+      .dst-row--featured .dst-body{padding-left:1.2rem;}
+      .dst-final{flex-direction:column;align-items:flex-start;}
+    }
+  </style>
+
+  <div class="container-xl">
+    <div class="section-heading mx-auto mb-5">
+      <p class="eyebrow"><span></span> Materiály a techniky</p>
+      <h2>Pět technik. Jeden řemeslný standard.</h2>
+      <p class="dst-intro">Každá stěrka má vlastní charakter a vlastní důvod, proč si ji lidé vybírají. Rozklikněte techniku a zjistěte, co od ní čekat — my ji pak na vaší zdi odvedeme s tímtéž důrazem na detail u všech pěti.</p>
+    </div>
+
+    <div class="dst-index">
+      <details class="dst-row dst-row--featured" open>
+        <summary>
+          <span class="dst-num">01</span>
+          <span class="dst-title-wrap">
+            <span class="dst-name">Marmorino</span>
+            <span class="dst-hook">Mramor, aniž byste platili cenu mramoru.</span>
+          </span>
+          <span class="dst-toggle" aria-hidden="true"><i class="bi bi-plus"></i></span>
+        </summary>
+        <div class="dst-body">
+          <p>Benátská vápenná stěrka s příměsí mramorové moučky. Po vyleštění získává hloubku a jemný lesk připomínající skutečný mramor.</p>
+          <a href="#poptavka" class="dst-cta">Poptat Marmorino <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </details>
+
+      <details class="dst-row">
+        <summary>
+          <span class="dst-num">02</span>
+          <span class="dst-title-wrap">
+            <span class="dst-name">Patinování</span>
+            <span class="dst-hook">Stěna, která vypadá, jako by měla vlastní historii.</span>
+          </span>
+          <span class="dst-toggle" aria-hidden="true"><i class="bi bi-plus"></i></span>
+        </summary>
+        <div class="dst-body">
+          <p>Tónování do hloubky a kontrastů vytváří jemně nepravidelný, starobylý vzhled povrchu s vlastní kresbou.</p>
+          <a href="#poptavka" class="dst-cta">Poptat patinování <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </details>
+
+      <details class="dst-row">
+        <summary>
+          <span class="dst-num">03</span>
+          <span class="dst-title-wrap">
+            <span class="dst-name">Pohledový beton</span>
+            <span class="dst-hook">Beton bez bourání. Beton bez kompromisů.</span>
+          </span>
+          <span class="dst-toggle" aria-hidden="true"><i class="bi bi-plus"></i></span>
+        </summary>
+        <div class="dst-body">
+          <p>Syrově působící povrch imitující beton bez nutnosti bourání zdi. Oblíbená volba do minimalistických interiérů.</p>
+          <a href="#poptavka" class="dst-cta">Poptat pohledový beton <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </details>
+
+      <details class="dst-row">
+        <summary>
+          <span class="dst-num">04</span>
+          <span class="dst-title-wrap">
+            <span class="dst-name">Travertino Romano</span>
+            <span class="dst-hook">Charakter kamene. Váha peří.</span>
+          </span>
+          <span class="dst-toggle" aria-hidden="true"><i class="bi bi-plus"></i></span>
+        </summary>
+        <div class="dst-body">
+          <p>Struktura přírodního travertinu s charakteristickými póry a nepravidelnou kresbou — charakter kamene bez jeho váhy a ceny.</p>
+          <a href="#poptavka" class="dst-cta">Poptat Travertino Romano <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </details>
+
+      <details class="dst-row">
+        <summary>
+          <span class="dst-num">05</span>
+          <span class="dst-title-wrap">
+            <span class="dst-name">Ottocento a Seta</span>
+            <span class="dst-hook">Hedvábný lesk, který ožije s bočním světlem.</span>
+          </span>
+          <span class="dst-toggle" aria-hidden="true"><i class="bi bi-plus"></i></span>
+        </summary>
+        <div class="dst-body">
+          <p>Sametově jemné stěrky s hedvábným leskem, které vyniknou zejména při bočním osvětlení.</p>
+          <a href="#poptavka" class="dst-cta">Poptat Ottocento a Seta <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </details>
+    </div>
+
+    <div class="dst-final">
+      <p>Nevíte, která technika sedne vašemu interiéru? Poradíme přímo na místě, zdarma a bez závazků.</p>
+      <a href="#poptavka" class="btn btn-gold btn-lg">Nezávazná poptávka stěrek</a>
+    </div>
+  </div>
+  </section>
+  </div>
+
+  <div class="preview-block">
+  <p class="preview-label">Návrh C — srovnávací seznam (povrch / charakter vedle sebe) + tmavý CTA blok</p>
+  <section class="mtsr-section" id="materialy-techniky">
+  <style>
+    .mtsr-section{
+      --m-gold:#b98b38; --m-gold-dark:#9a722b; --m-ink:#151719; --m-muted:#4a4d51;
+      --m-line:#e9e3d8; --m-soft:#f8f5ef; --m-white:#fff;
+      background:var(--m-soft); padding:6rem 0; font-family:"Inter",system-ui,-apple-system,sans-serif; color:var(--m-ink);
+    }
+    .mtsr-section *{box-sizing:border-box;}
+    .mtsr-inner{max-width:1180px;margin:0 auto;padding:0 1.5rem;}
+    .mtsr-head{max-width:760px;margin:0 auto 1rem;text-align:center;}
+    .mtsr-eyebrow{display:inline-flex;align-items:center;gap:.5rem;font-size:.78rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--m-gold-dark);margin-bottom:1rem;}
+    .mtsr-eyebrow span{display:inline-block;width:22px;height:1px;background:var(--m-gold);}
+    .mtsr-head h2{font-weight:800;font-size:clamp(1.75rem,3vw,2.4rem);line-height:1.2;letter-spacing:-0.01em;margin:0 0 .9rem;color:var(--m-ink);}
+    .mtsr-head p{color:var(--m-muted);font-size:1.02rem;line-height:1.65;margin:0 auto;}
+    .mtsr-legend{display:none;grid-template-columns: 56px 1.9fr 1fr 1fr 150px;gap:1.5rem;align-items:end;padding:0 1.75rem .8rem;border-bottom:1px solid var(--m-line);margin-top:3rem;}
+    .mtsr-legend span{font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--m-muted);}
+    .mtsr-list{margin-top:.5rem;border-top:1px solid var(--m-line);}
+    .mtsr-row{display:grid;grid-template-columns: 56px 1.9fr 1fr 1fr 150px;gap:1.5rem;align-items:center;padding:1.75rem;border-bottom:1px solid var(--m-line);background:var(--m-white);transition:background-color .25s ease, box-shadow .25s ease;}
+    .mtsr-row:hover{box-shadow:0 18px 40px rgba(0,0,0,.035);position:relative;z-index:1;}
+    .mtsr-num{width:44px;height:44px;border-radius:50%;border:1px solid var(--m-line);display:flex;align-items:center;justify-content:center;font-size:.85rem;font-weight:700;color:var(--m-gold-dark);flex-shrink:0;transition:border-color .25s ease, color .25s ease;}
+    .mtsr-row:hover .mtsr-num{border-color:var(--m-gold);color:var(--m-gold);}
+    .mtsr-name h3{font-size:1.15rem;font-weight:700;margin:0 0 .4rem;color:var(--m-ink);letter-spacing:-0.01em;}
+    .mtsr-name p{font-size:.92rem;line-height:1.6;color:var(--m-muted);margin:0;}
+    .mtsr-attr{display:flex;flex-direction:column;gap:.3rem;}
+    .mtsr-attr-label{display:none;font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--m-gold-dark);}
+    .mtsr-attr-value{font-size:.9rem;font-weight:600;color:var(--m-ink);line-height:1.4;}
+    .mtsr-cta-cell{text-align:right;}
+    .mtsr-mini-link{display:inline-flex;align-items:center;gap:.4rem;font-size:.85rem;font-weight:600;color:var(--m-gold-dark);text-decoration:none;border-bottom:1px solid transparent;transition:border-color .2s ease, color .2s ease;white-space:nowrap;}
+    .mtsr-mini-link:hover{color:var(--m-gold);border-color:var(--m-gold);}
+    .mtsr-trust{display:flex;flex-wrap:wrap;justify-content:center;gap:2.5rem;margin-top:3rem;padding-top:2.5rem;border-top:1px solid var(--m-line);}
+    .mtsr-trust-item{display:flex;align-items:center;gap:.7rem;padding-right:2.5rem;border-right:1px solid var(--m-line);}
+    .mtsr-trust-item:last-child{border-right:none;padding-right:0;}
+    .mtsr-trust-item i{font-size:1.2rem;color:var(--m-gold);}
+    .mtsr-trust-item span{font-size:.88rem;font-weight:600;color:var(--m-ink);}
+    .mtsr-cta{margin-top:3.5rem;background:var(--m-ink);padding:3rem 2.5rem;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1.5rem;}
+    .mtsr-cta-text h3{color:var(--m-white);font-size:1.4rem;font-weight:700;margin:0 0 .5rem;letter-spacing:-0.01em;}
+    .mtsr-cta-text p{color:#c7c8ca;margin:0;font-size:.95rem;line-height:1.6;max-width:480px;}
+    .mtsr-btn-gold{display:inline-flex;align-items:center;gap:.6rem;background:var(--m-gold);color:var(--m-white);font-weight:700;font-size:.95rem;padding:.95rem 1.9rem;text-decoration:none;white-space:nowrap;border:1px solid var(--m-gold);transition:background-color .2s ease, border-color .2s ease;}
+    .mtsr-btn-gold:hover{background:var(--m-gold-dark);border-color:var(--m-gold-dark);color:var(--m-white);}
+    @media (min-width: 992px){ .mtsr-legend{ display:grid; } .mtsr-attr-label{ display:block; } }
+    @media (max-width: 991.98px){
+      .mtsr-row{grid-template-columns: 1fr;gap:.9rem;padding:1.5rem;}
+      .mtsr-num{ margin-bottom:.25rem; }
+      .mtsr-attr{flex-direction:row;align-items:baseline;gap:.5rem;}
+      .mtsr-attr-label{display:inline;}
+      .mtsr-cta-cell{text-align:left;margin-top:.25rem;}
+    }
+    @media (max-width: 575.98px){
+      .mtsr-trust{ gap:1.25rem; }
+      .mtsr-trust-item{border-right:none;padding-right:0;width:100%;}
+      .mtsr-cta{flex-direction:column;align-items:flex-start;padding:2.25rem 1.5rem;}
+    }
+  </style>
+
+  <div class="mtsr-inner">
+    <div class="mtsr-head">
+      <p class="mtsr-eyebrow"><span></span>Materiály a techniky</p>
+      <h2>Pět charakterů povrchu. Jeden, který je váš.</h2>
+      <p>Každá technika dává stěně jiný výraz — od leštěného mramoru po syrový beton. Porovnejte je a vyberte tu, která sedí k vašemu prostoru.</p>
+    </div>
+
+    <div class="mtsr-legend">
+      <span></span><span>Technika</span><span>Povrch</span><span>Charakter</span><span></span>
+    </div>
+
+    <div class="mtsr-list">
+      <div class="mtsr-row">
+        <div class="mtsr-num">01</div>
+        <div class="mtsr-name"><h3>Marmorino</h3><p>Benátská vápenná stěrka s příměsí mramorové moučky. Po vyleštění získává hloubku a jemný lesk připomínající skutečný mramor.</p></div>
+        <div class="mtsr-attr"><span class="mtsr-attr-label">Povrch</span><span class="mtsr-attr-value">Leštěný, lesklý</span></div>
+        <div class="mtsr-attr"><span class="mtsr-attr-label">Charakter</span><span class="mtsr-attr-value">Mramorová hloubka</span></div>
+        <div class="mtsr-cta-cell"><a class="mtsr-mini-link" href="#poptavka">Chci nabídku <i class="bi bi-arrow-right"></i></a></div>
+      </div>
+      <div class="mtsr-row">
+        <div class="mtsr-num">02</div>
+        <div class="mtsr-name"><h3>Patinování</h3><p>Tónování do hloubky a kontrastů vytváří jemně nepravidelný, starobylý vzhled povrchu s vlastní kresbou.</p></div>
+        <div class="mtsr-attr"><span class="mtsr-attr-label">Povrch</span><span class="mtsr-attr-value">Matný, nepravidelný</span></div>
+        <div class="mtsr-attr"><span class="mtsr-attr-label">Charakter</span><span class="mtsr-attr-value">Starobylá patina</span></div>
+        <div class="mtsr-cta-cell"><a class="mtsr-mini-link" href="#poptavka">Chci nabídku <i class="bi bi-arrow-right"></i></a></div>
+      </div>
+      <div class="mtsr-row">
+        <div class="mtsr-num">03</div>
+        <div class="mtsr-name"><h3>Pohledový beton</h3><p>Syrově působící povrch imitující beton bez nutnosti bourání zdi. Oblíbená volba do minimalistických interiérů.</p></div>
+        <div class="mtsr-attr"><span class="mtsr-attr-label">Povrch</span><span class="mtsr-attr-value">Syrový, matný</span></div>
+        <div class="mtsr-attr"><span class="mtsr-attr-label">Charakter</span><span class="mtsr-attr-value">Minimalistický beton</span></div>
+        <div class="mtsr-cta-cell"><a class="mtsr-mini-link" href="#poptavka">Chci nabídku <i class="bi bi-arrow-right"></i></a></div>
+      </div>
+      <div class="mtsr-row">
+        <div class="mtsr-num">04</div>
+        <div class="mtsr-name"><h3>Travertino Romano</h3><p>Struktura přírodního travertinu s charakteristickými póry a nepravidelnou kresbou — charakter kamene bez jeho váhy a ceny.</p></div>
+        <div class="mtsr-attr"><span class="mtsr-attr-label">Povrch</span><span class="mtsr-attr-value">Pórovitý, kresebný</span></div>
+        <div class="mtsr-attr"><span class="mtsr-attr-label">Charakter</span><span class="mtsr-attr-value">Charakter kamene</span></div>
+        <div class="mtsr-cta-cell"><a class="mtsr-mini-link" href="#poptavka">Chci nabídku <i class="bi bi-arrow-right"></i></a></div>
+      </div>
+      <div class="mtsr-row">
+        <div class="mtsr-num">05</div>
+        <div class="mtsr-name"><h3>Ottocento a Seta</h3><p>Sametově jemné stěrky s hedvábným leskem, které vyniknou zejména při bočním osvětlení.</p></div>
+        <div class="mtsr-attr"><span class="mtsr-attr-label">Povrch</span><span class="mtsr-attr-value">Sametový, hedvábný</span></div>
+        <div class="mtsr-attr"><span class="mtsr-attr-label">Charakter</span><span class="mtsr-attr-value">Vynikne v bočním světle</span></div>
+        <div class="mtsr-cta-cell"><a class="mtsr-mini-link" href="#poptavka">Chci nabídku <i class="bi bi-arrow-right"></i></a></div>
+      </div>
+    </div>
+
+    <div class="mtsr-trust">
+      <div class="mtsr-trust-item"><i class="bi bi-hand-index-thumb"></i><span>Poradíme s výběrem techniky na místě</span></div>
+      <div class="mtsr-trust-item"><i class="bi bi-brush"></i><span>Ruční řemeslná aplikace</span></div>
+      <div class="mtsr-trust-item"><i class="bi bi-clock"></i><span>Odpovídáme do 24 hodin</span></div>
+    </div>
+
+    <div class="mtsr-cta">
+      <div class="mtsr-cta-text"><h3>Nevíte, která technika je ta pravá?</h3><p>Pošlete nám pár fotek prostoru — doporučíme techniku, která bude sedět k dispozici i účelu místnosti.</p></div>
+      <a href="#poptavka" class="mtsr-btn-gold">Nezávazná poptávka <i class="bi bi-arrow-right"></i></a>
+    </div>
+  </div>
+  </section>
+  </div>
+
+  <div class="preview-block">
+  <p class="preview-label">Návrh D — velká fotka + krátký claim, techniky jako štítky (emoční/aspirační)</p>
+  <section class="dsx-section" id="o-sterkach-d">
+    <style>
+      .dsx-section{
+        --d-gold:#b98b38; --d-gold-dark:#9a722b; --d-ink:#151719; --d-muted:#4a4d51;
+        --d-line:#e9e3d8; --d-soft:#f8f5ef; --d-white:#fff;
+        background:var(--d-soft); padding:clamp(56px,8vw,112px) 0; font-family:"Inter",sans-serif; color:var(--d-ink); overflow-x:clip;
+      }
+      .dsx-section *{box-sizing:border-box;}
+      .dsx-wrap{max-width:1240px;margin:0 auto;padding:0 24px;}
+      .dsx-grid{display:grid;grid-template-columns:minmax(300px,420px) 1fr;gap:clamp(28px,5vw,64px);align-items:center;}
+      .dsx-copy{display:flex;flex-direction:column;gap:20px;}
+      .dsx-eyebrow{display:flex;align-items:center;gap:10px;font-size:.8rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--d-gold-dark);margin:0;}
+      .dsx-eyebrow span{display:inline-block;width:28px;height:1px;background:var(--d-gold);}
+      .dsx-claim{font-size:clamp(1.9rem,3.1vw,2.7rem);line-height:1.14;font-weight:800;letter-spacing:-.01em;margin:0;color:var(--d-ink);}
+      .dsx-claim em{font-style:normal;color:var(--d-gold-dark);}
+      .dsx-lede{font-size:1.05rem;line-height:1.65;color:var(--d-muted);margin:0;max-width:46ch;}
+      .dsx-cta-row{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-top:8px;}
+      .dsx-btn{display:inline-flex;align-items:center;gap:10px;background:var(--d-gold);color:var(--d-white);font-weight:600;font-size:.95rem;letter-spacing:.01em;padding:15px 28px;border:1px solid var(--d-gold);text-decoration:none;transition:background-color .2s ease, border-color .2s ease, transform .2s ease;white-space:nowrap;}
+      .dsx-btn:hover{background:var(--d-gold-dark);border-color:var(--d-gold-dark);transform:translateY(-1px);color:var(--d-white);}
+      .dsx-subcta{font-size:.85rem;color:var(--d-muted);margin:0;}
+      .dsx-subcta strong{color:var(--d-ink);font-weight:600;}
+      .dsx-chip-label{font-size:.72rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--d-muted);margin:18px 0 2px;}
+      .dsx-chips{display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:0;list-style:none;}
+      .dsx-chips li{font-size:.82rem;font-weight:500;color:var(--d-ink);background:var(--d-white);border:1px solid var(--d-line);padding:7px 13px;line-height:1.3;}
+      .dsx-media{position:relative;height:clamp(360px,52vw,620px);border:1px solid var(--d-line);box-shadow:0 18px 40px rgba(0,0,0,.035);}
+      .dsx-media img{width:100%;height:100%;object-fit:cover;display:block;}
+      .dsx-media-tag{position:absolute;left:0;bottom:0;display:flex;align-items:center;gap:10px;background:rgba(21,23,25,.82);color:var(--d-white);font-size:.78rem;font-weight:500;letter-spacing:.03em;padding:11px 18px;}
+      .dsx-media-tag i{color:var(--d-gold);font-size:.9rem;}
+      .dsx-media-frame{position:absolute;top:16px;right:16px;bottom:16px;left:16px;border:1px solid rgba(255,255,255,.35);pointer-events:none;}
+      @media (max-width:991px){ .dsx-grid{grid-template-columns:1fr;} .dsx-media{order:-1; height:clamp(280px,70vw,440px);} }
+      @media (max-width:480px){ .dsx-cta-row{flex-direction:column;align-items:flex-start;gap:12px;} .dsx-btn{width:100%;justify-content:center;} }
+    </style>
+
+    <div class="dsx-wrap">
+      <div class="dsx-grid">
+        <div class="dsx-copy">
+          <p class="dsx-eyebrow"><span></span> Materiály a techniky</p>
+          <h2 class="dsx-claim">Stěny, které <em>vypadají</em> jinak než všechny ostatní.</h2>
+          <p class="dsx-lede">Hloubka, lesk nebo syrová textura místo ploché barvy. Dekorativní stěrka promění místnost v prostor, který si lidé zapamatují – a vy si ho budete užívat každý den.</p>
+          <div class="dsx-cta-row">
+            <a href="#poptavka" class="dsx-btn">Poptat dekorativní stěrky <i class="bi bi-arrow-right"></i></a>
+            <p class="dsx-subcta">Nezávazně <strong>do 24 hodin</strong> odpovíme s návrhem řešení.</p>
+          </div>
+          <p class="dsx-chip-label">Techniky, ze kterých vybíráme</p>
+          <ul class="dsx-chips">
+            <li>Marmorino</li><li>Patinování</li><li>Pohledový beton</li><li>Travertino Romano</li><li>Ottocento a Seta</li>
+          </ul>
+        </div>
+        <div class="dsx-media">
+          <img src="assets/img/gallery/dekoracnisterky8.jpeg" alt="Realizace dekorativní stěrky v interiéru – Tři Mistři" loading="lazy">
+          <div class="dsx-media-frame"></div>
+          <div class="dsx-media-tag"><i class="bi bi-camera"></i> Realizace Tři Mistři</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+  </main>
+
+  <script>
+    document.querySelectorAll('.tech-tab').forEach(function (btn, idx) {
+      btn.addEventListener('click', function () {
+        document.querySelectorAll('.tech-tab').forEach(function (b) { b.classList.remove('is-active'); });
+        document.querySelectorAll('.tech-panel').forEach(function (p) { p.classList.remove('is-active'); });
+        document.querySelectorAll('.tech-photo').forEach(function (p) { p.classList.remove('is-active'); });
+        btn.classList.add('is-active');
+        document.getElementById(btn.dataset.target).classList.add('is-active');
+        document.getElementById('p' + (idx + 1)).classList.add('is-active');
+      });
+    });
+  </script>
+</body>
+</html>

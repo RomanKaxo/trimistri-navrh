@@ -1,0 +1,86 @@
+/* A single service overview joins scope, workflow and practical answers. */
+.tm-detail-page .tm-detail-hero { padding-bottom: 20px; }
+.tm-detail-page .tm-detail-service-info { padding-block: 24px 56px; }
+.tm-detail-page :is(#rozsah, #realizace-postup, #otazky, #ukazky) { scroll-margin-top: 110px; }
+.tm-detail-info-surface { padding: clamp(28px, 3.5vw, 48px); background: #f8f5ef; border: 1px solid #d4cdbf; }
+.tm-detail-service-info .tm-detail-overview-heading {
+  display: grid; grid-template-columns: 1.15fr 1fr; align-items: center; gap: 40px; margin: 0;
+}
+.tm-detail-service-info .tm-detail-overview-heading .tm-eyebrow { font-size: .78rem; margin: 0 0 14px; }
+.tm-detail-service-info .tm-detail-overview-heading h2 {
+  font-size: clamp(1.9rem, 2.8vw, 2.6rem); line-height: 1.17; font-weight: 700;
+  max-width: 24ch; margin: 0; text-wrap: balance;
+}
+.tm-detail-service-info .tm-detail-overview-heading > p {
+  margin: 0; max-width: 54ch; font-size: 1rem; font-weight: 400; line-height: 1.75; color: #45484d;
+}
+.tm-detail-service-info .tm-detail-benefits {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; margin: 32px 0 36px; padding: 0;
+}
+.tm-detail-service-info .tm-detail-benefits:has(li:nth-child(4)) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.tm-detail-service-info .tm-detail-benefits > li {
+  display: grid; grid-template-columns: 24px minmax(0, 1fr); gap: 8px 14px;
+  align-content: start; padding: 0; border: 0; min-width: 0;
+}
+.tm-detail-service-info .tm-detail-benefit-icon { grid-column: 1; grid-row: 1 / 3; padding-top: 2px; }
+.tm-detail-service-info .tm-detail-benefit-icon .tm-icon { width: 24px; height: 24px; color: #8b6627; }
+.tm-detail-service-info .tm-detail-benefits h3 { grid-column: 2; margin: 0; font-size: 1.06rem; font-weight: 650; line-height: 1.4; }
+.tm-detail-service-info .tm-detail-benefits p { grid-column: 2; margin: 0; font-size: 1rem; font-weight: 400; line-height: 1.7; color: #45484d; }
+.tm-detail-info-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; padding-top: 32px; border-top: 1px solid #d4cdbf; }
+.tm-detail-info-columns > div { min-width: 0; }
+.tm-detail-info-title { font-size: 1.4rem; font-weight: 700; line-height: 1.3; letter-spacing: -.03em; margin: 0 0 24px; }
+.tm-detail-info-questions > .tm-detail-info-title { padding-inline: 20px; }
+.tm-detail-service-info .tm-detail-work { padding: 0; }
+.tm-detail-service-info .tm-detail-work ol { list-style: none; display: grid; gap: 24px; margin: 0; padding: 0; }
+.tm-detail-service-info .tm-detail-work li {
+  position: relative; display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 14px; padding: 0; border: 0;
+}
+.tm-detail-service-info .tm-detail-work li:not(:last-child)::after {
+  content: ''; position: absolute; width: 1px; left: 11px; top: 36px; bottom: -10px; background: #d4cdbf;
+}
+.tm-detail-service-info .tm-detail-work .tm-detail-step-number { font-size: 1.12rem; font-weight: 650; line-height: 1.5; font-variant-numeric: tabular-nums; }
+.tm-detail-service-info .tm-detail-work h4 { font-size: 1.08rem; font-weight: 650; line-height: 1.4; letter-spacing: -.02em; margin: 0 0 6px; }
+.tm-detail-service-info .tm-detail-work li p { font-size: 1rem; font-weight: 400; line-height: 1.7; color: #45484d; margin: 0; }
+.tm-detail-service-info .tm-detail-faq { padding: 0; min-width: 0; }
+.tm-detail-service-info .tm-detail-faq details { border-bottom: 1px solid #d4cdbf; }
+.tm-detail-service-info .tm-detail-faq details:first-child { border-top: 1px solid #d4cdbf; }
+.tm-detail-service-info .tm-detail-faq details[open] { background: #efe9de; }
+.tm-detail-service-info .tm-detail-faq summary {
+  display: grid; grid-template-columns: minmax(0, 1fr) 20px; gap: 18px; align-items: center;
+  min-height: 68px; padding: 18px 20px; font-size: 1rem; font-weight: 650; line-height: 1.5;
+}
+.tm-detail-service-info .tm-detail-faq summary:is(:hover, :focus-visible) { background: #efe9de; color: #8b6627; }
+.tm-detail-service-info .tm-detail-faq summary:focus-visible { outline-offset: -3px; }
+.tm-detail-service-info .tm-detail-faq .tm-faq-question,
+.tm-detail-service-info .tm-detail-faq details[open] .tm-faq-question { font: inherit; color: inherit; transform: none; }
+.tm-detail-service-info .tm-detail-faq .tm-faq-plus { font-size: 1.3rem; line-height: 1; text-align: center; }
+.tm-detail-service-info .tm-faq-answer { padding: 8px 20px 24px; }
+.tm-detail-service-info .tm-detail-faq details p { margin: 0; max-width: 62ch; font-size: 1rem; font-weight: 400; line-height: 1.75; color: #45484d; }
+.tm-detail-service-info .tm-detail-faq details p + p { margin-top: 14px; }
+.tm-detail-page .tm-detail-showcase { padding-top: 16px; }
+@media (max-width: 1000px) {
+  .tm-detail-service-info .tm-detail-overview-heading { grid-template-columns: 1fr; gap: 18px; }
+  .tm-detail-service-info .tm-detail-overview-heading h2 { max-width: 30ch; }
+  .tm-detail-service-info .tm-detail-overview-heading > p { max-width: 65ch; }
+  .tm-detail-service-info .tm-detail-benefits { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .tm-detail-service-info .tm-detail-benefits:has(li:nth-child(3):last-child) > li:last-child { grid-column: 1 / -1; }
+  .tm-detail-info-columns { grid-template-columns: 1fr; gap: 32px; }
+  .tm-detail-info-questions { padding-top: 30px; border-top: 1px solid #d4cdbf; }
+}
+@media (max-width: 700px) {
+  .tm-detail-page .tm-detail-hero { padding-bottom: 16px; }
+  .tm-detail-page .tm-detail-service-info { padding-block: 8px 36px; }
+  .tm-detail-info-surface { padding: 24px 20px; }
+  .tm-detail-page :is(#rozsah, #realizace-postup, #otazky, #ukazky) { scroll-margin-top: 98px; }
+  .tm-detail-service-info .tm-detail-overview-heading h2 { font-size: 1.8rem; }
+  .tm-detail-service-info .tm-detail-benefits,
+  .tm-detail-service-info .tm-detail-benefits:has(li:nth-child(4)) { grid-template-columns: 1fr; gap: 24px; margin-block: 26px 28px; }
+  .tm-detail-service-info .tm-detail-benefits > li { gap: 7px 12px; }
+  .tm-detail-info-columns { padding-top: 26px; }
+  .tm-detail-info-title { font-size: 1.25rem; margin-bottom: 22px; }
+  .tm-detail-service-info .tm-detail-work li { grid-template-columns: 28px minmax(0, 1fr); gap: 12px; }
+  .tm-detail-service-info .tm-detail-work h4 { font-size: 1.05rem; }
+  .tm-detail-info-questions > .tm-detail-info-title { padding-inline: 12px; }
+  .tm-detail-service-info .tm-detail-faq summary { padding-inline: 12px; gap: 12px; }
+  .tm-detail-service-info .tm-faq-answer { padding-inline: 12px; }
+}

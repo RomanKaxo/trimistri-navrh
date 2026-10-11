@@ -2,6 +2,8 @@
 
 Veřejný návrh: **https://romankaxo.github.io/trimistri-navrh/**
 
+**Pro nahrání na trimistri.cz použijte [PHP verzi `hosting/web/`](hosting/README.md).** Zachovává původní strukturu PHP webu a adresy služeb. Kořen tohoto repozitáře je statická varianta pro GitHub Pages.
+
 Schválené hero, výrazná zlatá a krémová paleta, služby, realizace a poptávka. Návrh obsahuje 14 podstránek služeb, 37 původních realizací se 160 fotografiemi a 29 zákaznických recenzí.
 
 ## Struktura

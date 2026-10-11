@@ -1,0 +1,30 @@
+{
+  "checks": 2082,
+  "resources": 257,
+  "routes": 19,
+  "original_paths": 636,
+  "failures": [],
+  "passed": true,
+  "mail_test": true,
+  "cms": {
+    "passed": true,
+    "checks": 16,
+    "network": "offline fixture"
+  },
+  "browser": {
+    "passed": true,
+    "layouts": 20,
+    "errors": [],
+    "failedResources": [],
+    "interactions": [
+      "mobile menu / Escape",
+      "quick inquiry",
+      "PHP form",
+      "photo preview / removal",
+      "prefilled service",
+      "expanded gallery",
+      "lightbox / Escape"
+    ]
+  },
+  "email_delivery": "Local sendmail capture only; no external email sent."
+}

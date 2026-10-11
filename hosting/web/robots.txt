@@ -1,0 +1,9 @@
+# Výchozí pravidlo pro všechny crawlery (včetně AI: OAI-SearchBot, GPTBot,
+# ClaudeBot, PerplexityBot, Google-Extended...) - web je otevřený, mimo
+# form-handler a interní PHP partiály, které nejsou samostatné stránky.
+User-agent: *
+Allow: /
+Disallow: /send
+Disallow: /includes/
+
+Sitemap: https://trimistri.cz/sitemap.xml

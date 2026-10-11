@@ -1,0 +1,20 @@
+/* Hosting-only components; the approved proposal remains in navrh-*.css. */
+.tm-anchor { display: block; height: 0; scroll-margin-top: 130px; }
+.form-status { padding: 18px; margin-bottom: 18px; border: 1px solid #b98b38; }
+.form-status-error { background: #fff2ec; color: #772c1b; }
+.form-status-success { background: #edf7ee; color: #244b2a; }
+.footer-consent-settings { color: inherit; background: none; border: 0; padding: 12px 0; text-decoration: underline; cursor: pointer; font: inherit; }
+.consent-panel[hidden] { display: none; }
+.consent-panel { position: fixed; z-index: 10000; bottom: 20px; left: 20px; right: 20px; max-width: 650px; padding: 24px; background: #fff; color: #151719; border: 1px solid #b98b38; box-shadow: 0 15px 60px #0003; }
+.consent-panel p { font-size: 14px; line-height: 1.6; }
+.consent-panel a { color: #8b6627; text-decoration: underline; }
+.consent-panel-actions { display: flex; gap: 12px; }
+.consent-panel-actions button { border: 1px solid #8b6627; padding: 10px 18px; background: #fff; color: #151719; cursor: pointer; }
+.consent-panel-actions [data-consent-choice="granted"] { background: #8b6627; color: #fff; }
+.tm-legacy .tm-header a, .tm-legacy .tm-footer a { text-decoration: none; }
+.tm-legacy main { color: #151719; background: #eeece6; }
+.tm-legacy .tm-contact { background: #eeece6; }
+.tm-legacy .tm-detail-contact-card { color: #fff; }
+.tm-legacy .tm-header .tm-menu-toggle { color: #151719; }
+.service-gallery-pagination { display: flex; gap: 24px; padding: 24px 0; }
+@media (max-width: 500px) { .consent-panel { left: 10px; right: 10px; bottom: 10px; padding: 18px; } }
