@@ -35,8 +35,14 @@
 .hero-scene .text-action > [aria-hidden] {
   grid-column: 3; grid-row: 1; width: 1.05em; margin: 0;
 }
-@media (max-width: 1360px) {
-  .hero-scene .hero-actions { justify-content: center; }
+.hero-scene .button { grid-template-columns: minmax(0, auto) 1.05em; }
+.hero-scene .button::before { display: none; }
+.hero-scene .button > .tm-cta-label { grid-column: 1; }
+.hero-scene .button > [aria-hidden] { grid-column: 2; }
+@media (min-width: 701px) {
+  .hero-scene .hero-actions { justify-content: flex-start; }
+  /* Preserve the button width while centering the visible label and arrow together. */
+  .hero-scene .button { padding-inline: calc(34px + .525em); }
 }
 .hero-image { translate: 0 var(--tm-hero-offset, 0px); }
 .tm-btn > [aria-hidden], .hero-scene .button > [aria-hidden],
