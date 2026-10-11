@@ -35,7 +35,7 @@ if ($formStatus !== ''): ?>
 <p class="form-status <?= $formStatus === 'sent' ? 'form-status-success' : 'form-status-error' ?>" role="alert"><?= htmlspecialchars($messages[$formStatus] ?? 'Poptávku se nepodařilo odeslat. Zkontrolujte údaje a zkuste to znovu.', ENT_QUOTES, 'UTF-8') ?></p>
 <?php endif; ?>
 <form class="quote-form" action="send" method="post" enctype="multipart/form-data">
-          
+
 <input type="hidden" name="quote_form_token" value="<?= htmlspecialchars($_SESSION['quote_form_token'], ENT_QUOTES, 'UTF-8') ?>">
 <input type="hidden" name="return_to" value="<?= htmlspecialchars(basename((string) ($_SERVER['SCRIPT_NAME'] ?? 'index.php')), ENT_QUOTES, 'UTF-8') ?>">
 <div class="form-honeypot" aria-hidden="true">

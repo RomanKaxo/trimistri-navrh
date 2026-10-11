@@ -109,6 +109,7 @@ def main():
 <input type="hidden" name="return_to" value="<?= htmlspecialchars(basename((string) ($_SERVER['SCRIPT_NAME'] ?? 'index.php')), ENT_QUOTES, 'UTF-8') ?>">
 '''
     form = form.replace('<div class="form-honeypot"', hidden + '<div class="form-honeypot"', 1)
+    form = '\n'.join(line.rstrip() for line in form.split('\n'))
     statuses = '''<?php
 $messages = [
  'sent' => 'Poptávka byla úspěšně odeslána. Děkujeme, ozveme se vám.',
