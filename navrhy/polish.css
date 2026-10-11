@@ -13,6 +13,31 @@
 }
 .hero-loaded .hero-scene[data-hero-intro] { animation: none; }
 .hero-scene .hero-copy h1 { text-wrap: balance; }
+.hero-scene .text-action {
+  display: inline-grid;
+  grid-template-columns: 1.05em minmax(0, auto) 1.05em;
+  column-gap: 12px;
+  align-items: center;
+  justify-content: center;
+  min-height: 58px;
+  padding: 16px 0;
+  border-top: 1px solid transparent;
+  font: 800 1rem/1.4 Inter, Arial, sans-serif;
+  text-align: center;
+}
+.hero-scene .text-action::before {
+  content: ''; width: 1.05em; grid-column: 1; grid-row: 1;
+}
+.hero-scene .text-action > span { font: inherit; line-height: inherit; }
+.hero-scene .text-action > .tm-cta-label {
+  grid-column: 2; grid-row: 1; color: inherit; margin: 0; padding: 0;
+}
+.hero-scene .text-action > [aria-hidden] {
+  grid-column: 3; grid-row: 1; width: 1.05em; margin: 0;
+}
+@media (max-width: 1360px) {
+  .hero-scene .hero-actions { justify-content: center; }
+}
 .hero-image { translate: 0 var(--tm-hero-offset, 0px); }
 .tm-btn > [aria-hidden], .hero-scene .button > [aria-hidden],
 .tm-navigation .tm-nav-cta > [aria-hidden] {
@@ -104,9 +129,15 @@
 }
 
 /* The telephone icon carries the same meaning at every breakpoint. */
-.tm-header-phone { display: inline-flex; align-items: center; justify-content: center; gap: 9px; }
+.tm-header-phone {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 44px; padding: 7px 10px;
+}
 .tm-header-phone small { display: none; }
-.tm-header .tm-header-phone .tm-icon { display: block; width: 20px; height: 20px; flex: none; }
+.tm-header .tm-header-phone .tm-icon { display: block; width: 18px; height: 18px; flex: none; }
+@media (min-width: 701px) {
+  .tm-header-phone strong { font-size: .82rem; }
+}
 
 /* Interactive feedback works with the pointer and with keyboard focus. */
 .tm-detail-page .tm-btn, .tm-call-btn, .tm-header-phone {
@@ -238,7 +269,7 @@
   .hero-scene .hero-copy > p:not(.kicker) { font-size: .9rem; line-height: 1.6; margin-bottom: 14px; }
   .hero-scene .hero-copy .kicker { margin-bottom: 12px; line-height: 1.6; }
   .hero-scene .hero-actions { gap: 8px; }
-  .hero-scene .text-action { min-height: 44px; padding-block: 8px; }
+  .hero-scene .text-action { min-height: 54px; padding-block: 14px; font-size: .95rem; }
   .hero-scene .button { min-height: 54px; padding: 14px 18px; font-size: .95rem; }
 }
 @media (max-width: 360px) {
