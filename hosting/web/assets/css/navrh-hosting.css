@@ -17,5 +17,17 @@
 .tm-legacy .tm-detail-contact-card { color: #fff; }
 .tm-legacy .tm-header .tm-menu-toggle { color: #151719; }
 .service-gallery-pagination { display: flex; gap: 24px; padding: 24px 0; }
-.tm-home-gallery .tm-category-grid + .tm-project-grid { margin-top: 24px; }
+.tm-home-gallery .tm-category-grid + .tm-project-grid { margin-top: 20px; }
+.tm-home-gallery .tm-project-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.tm-home-gallery .tm-project-card .tm-category-caption > span { max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tm-home-gallery .tm-project-card .tm-category-caption h3 { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
+@media (max-width: 900px) {
+  .tm-home-gallery .tm-category-grid + .tm-project-grid { margin-top: 32px; }
+  .tm-home-gallery .tm-project-grid { gap: 32px 18px; }
+}
+@media (max-width: 700px) {
+  .tm-home-gallery .tm-category-grid + .tm-project-grid { margin-top: 30px; }
+  .tm-home-gallery .tm-project-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px 14px; }
+  .tm-home-gallery .tm-project-card .tm-category-caption h3 { -webkit-line-clamp: 2; }
+}
 @media (max-width: 500px) { .consent-panel { left: 10px; right: 10px; bottom: 10px; padding: 18px; } }
