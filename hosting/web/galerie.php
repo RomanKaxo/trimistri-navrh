@@ -10,10 +10,10 @@ $defaultService = '';
 <html lang="cs">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Galerie realizací | Tři Mistři</title><meta name="description" content="Malířské práce v Brně a okolí: malování bytů, dekorativní a betonové stěrky, tapetování i nátěry. Prohlédněte si realizace a nezávazně poptejte práci.">
+<title>Galerie realizací | Tři Mistři</title><meta name="description" content="Prohlédněte si realizace Tři Mistři: malování interiérů, dekorativní stěrky, tapetování, fasády a nátěry dřeva i kovů. Fotografie před a po práci.">
 <link rel="canonical" href="https://trimistri.cz/galerie">
 <meta property="og:type" content="website"><meta property="og:site_name" content="Tři Mistři"><meta property="og:locale" content="cs_CZ">
-<meta property="og:title" content="Galerie realizací | Tři Mistři"><meta property="og:description" content="Malířské práce v Brně a okolí: malování bytů, dekorativní a betonové stěrky, tapetování i nátěry. Prohlédněte si realizace a nezávazně poptejte práci.">
+<meta property="og:title" content="Galerie realizací | Tři Mistři"><meta property="og:description" content="Prohlédněte si realizace Tři Mistři: malování interiérů, dekorativní stěrky, tapetování, fasády a nátěry dřeva i kovů. Fotografie před a po práci.">
 <meta property="og:url" content="https://trimistri.cz/galerie"><meta property="og:image" content="https://trimistri.cz/assets/img/about.JPEG">
 <meta name="twitter:card" content="summary_large_image"><link rel="icon" href="favicon.ico"><meta name="theme-color" content="#151719">
 <?php require __DIR__ . '/includes/navrh-styles.php'; ?>

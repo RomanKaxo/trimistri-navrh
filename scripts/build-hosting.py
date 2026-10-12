@@ -126,7 +126,9 @@ if ($formStatus !== ''): ?>
 <?php endif; ?>
 '''
     hint_script = element(home[home.index('</form>') + 7:], r'<script>', 'script')
-    write(dest, 'includes/quote-form.php', hints + '\n' + statuses + form + '\n' + hint_script)
+    # Keep form labels and status messages out of Google snippets on legacy pages too.
+    # data-nosnippet is supported on div, span and section; never on the form itself.
+    write(dest, 'includes/quote-form.php', hints + '\n<div data-nosnippet>\n' + statuses + form + '\n</div>\n' + hint_script)
     write(dest, 'includes/navrh-init.php', '''<?php declare(strict_types=1);
 if (session_status() !== PHP_SESSION_ACTIVE) {
     $isHttps = !empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off';

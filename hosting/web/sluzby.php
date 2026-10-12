@@ -107,7 +107,7 @@ $schema = ['@context' => 'https://schema.org', '@graph' => [
       </section>
     <?php endforeach; ?>
   </div>
-  <section class="tm-contact" id="kontakt"><div class="tm-container">
+  <section class="tm-contact" id="kontakt" data-nosnippet><div class="tm-container">
   <div class="tm-contact-heading" data-reveal><div class="tm-contact-copy"><p class="tm-eyebrow tm-numbered"><span class="tm-section-number" aria-hidden="true">05</span><span>Nezávazná poptávka</span></p><h2>Řekněte nám,<br><em>co potřebujete.</em></h2><p>Malování bytu, stěrka nebo nový nátěr? Popište práci, místo a přibližný rozsah. Když přidáte fotky, snáz navrhneme další postup.</p></div><div class="tm-direct-contact"><span>Raději se domluvíte přímo?</span><a href="tel:+420774927182"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 3 3 5-2 2c2 4 3 5 7 7l2-2 5 3c0 3-2 4-4 3C9 19 5 15 3 7 2 5 3 3 6 3Z"/></svg>+420 774 927 182</a><a href="mailto:info@trimistri.cz"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2" y="4" width="20" height="16" rx="1"/><path d="m3 6 9 7 9-7"/></svg>info@trimistri.cz</a><p>Brno a okolí · domácnosti i firmy</p></div></div>
   <div class="tm-form"><section class="section-padding quote-section">
   <div class="container-xl">

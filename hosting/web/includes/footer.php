@@ -1,4 +1,4 @@
-<footer class="tm-footer"><div class="tm-container">
+<footer class="tm-footer"><div class="tm-container" data-nosnippet>
   <div class="tm-footer-main"><div class="tm-footer-about"><a class="tm-footer-brand" href="./">Tři Mistři<span>.</span></a><p>Malby, nátěry a povrchy.<br>Od první domluvy po poslední detail.</p><a class="tm-underlink" href="./#poptavka">Probrat váš projekt <span aria-hidden="true">↗</span></a></div>
   <nav aria-label="Služby v patičce"><span>Co pro vás uděláme</span><a href="./natery-interieru">Malování interiérů</a><a href="./dekoracni-sterky">Dekorativní stěrky</a><a href="./tapetovani">Tapetování</a><a href="./natery-drevo-kovu">Dřevo a kov</a><a href="./natery-fasad">Fasády</a><a href="./cisteni-fasad">Čištění fasád</a><a class="tm-footer-all" href="./sluzby">Všechny služby ↗</a></nav>
   <nav aria-label="Navigace v patičce"><span>Prohlédněte si</span><a href="./galerie">Naše realizace</a><a href="./#postup">Jak pracujeme</a><a href="./#recenze">Recenze zákazníků</a><a href="./#kontakt">Kontakt</a></nav>

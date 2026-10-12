@@ -23,6 +23,7 @@ $serviceHints = [
 ];
 $messageHint = $serviceHints[$defaultService] ?? 'Popište stručně rozsah prací a ideální termín.';
 ?>
+<div data-nosnippet>
 <?php
 $messages = [
  'sent' => 'Poptávka byla úspěšně odeslána. Děkujeme, ozveme se vám.',
@@ -127,6 +128,7 @@ if ($formStatus !== ''): ?>
             </div>
           </div>
         </form>
+</div>
 <script>
   (() => {
     const service = document.getElementById('service');

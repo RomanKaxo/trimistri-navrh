@@ -160,7 +160,7 @@ $schema['@graph'][] = json_decode('{"@type": "FAQPage", "mainEntity": [{"@type":
       </section>
 <?php endif; ?>
 
-  <section class="tm-contact tm-detail-form-section" id="kontakt"><div class="tm-container">
+  <section class="tm-contact tm-detail-form-section" id="kontakt" data-nosnippet><div class="tm-container">
     <div class="tm-contact-heading" data-tm-motion><div class="tm-contact-copy"><p class="tm-eyebrow">03 / Nezávazná poptávka</p><h2>Pojďme se <em>domluvit.</em></h2><p>Pošlete nám stručné zadání. Probereme možnosti a připravíme nabídku podle skutečného rozsahu práce.</p></div><div class="tm-detail-form-aside"><strong>Pro první domluvu stačí:</strong><p>co a z jakého materiálu natíráme, počet prvků nebo jejich rozměry, fotografie starého nátěru a detailů.</p></div></div>
     <div class="tm-form"><section class="section-padding quote-section">
   <div class="container-xl">
