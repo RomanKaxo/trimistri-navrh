@@ -52,7 +52,8 @@ verify(!$result && $html === '', 'unavailable CMS keeps legacy proposal');
 $row = ['id' => '11111111-1111-4111-8111-111111111111', 'service' => 'mikrocement',
     'title' => '<script>alert(1)</script>', 'locality' => 'Brno', 'description' => '',
     'featured' => true, 'photos' => [['id' => '22222222-2222-4222-8222-222222222222',
-      'alt' => '<img src=x onerror=alert(1)>', 'tag' => 'after']]];
+      'alt' => '<img src=x onerror=alert(1)>', 'tag' => 'after'],
+      ['id' => '33333333-3333-4333-8333-333333333333', 'alt' => 'Detail', 'tag' => 'detail']]];
 verify(cms_validate_feed(['items' => [$row], 'has_more' => false]) !== null, 'valid CMS feed');
 $invalid = $row; $invalid['photos'][0]['id'] = '../private';
 verify(cms_validate_feed(['items' => [$invalid], 'has_more' => false]) === null, 'invalid photo ID rejected');
@@ -64,6 +65,10 @@ verify($result && substr_count($html, 'class="tm-project-card"') === 1, 'new CMS
 verify(str_contains($html, '?realizace_page=1'), 'CMS pagination');
 verify(!str_contains($html, '<script>') && !str_contains($html, '<img src=x'), 'CMS text escaped');
 verify(str_contains($html, '&amp;lt;img'), 'lightbox title remains escaped after attribute decoding');
+preg_match_all('/<a\\b[^>]*class="photo-link[^>]*>/', $html, $photoLinks);
+verify(count($photoLinks[0]) === 2, 'CMS cover and additional photo included');
+verify(count(array_filter($photoLinks[0], static fn(string $link): bool => str_contains($link, 'data-type="image"'))) === 2,
+    'extensionless CMS photo URLs open as images rather than external frames');
 $row['service'] = 'dekoracni-sterky';
 $GLOBALS['fixtureFeed'] = ['items' => [$row], 'has_more' => false];
 [$result, $html] = render('dekoracni-sterky');

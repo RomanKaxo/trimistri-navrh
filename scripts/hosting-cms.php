@@ -26,7 +26,8 @@ function navrh_cms_card(array $row, bool $linkToService = false): void {
     endif;
     ?>
     <article class="tm-project-card" id="<?= cms_escape($group) ?>" data-reveal>
-      <a class="<?= $linkToService ? '' : 'photo-link ' ?>tm-project-photo" href="<?= cms_escape($href) ?>" <?= $linkToService ? '' : 'data-gallery="' . cms_escape($group) . '"' ?> data-title="<?= cms_escape(cms_escape($cover['caption'])) ?>">
+      <?php // CMS image URLs have no extension; GLightbox would infer an external frame. ?>
+      <a class="photo-link tm-project-photo" href="<?= cms_escape($href) ?>" data-gallery="<?= cms_escape($group) ?>" data-type="image" data-title="<?= cms_escape(cms_escape($cover['caption'])) ?>">
         <img data-src="<?= cms_escape($cover['thumb']) ?>" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="<?= cms_escape($cover['alt']) ?>" loading="lazy" decoding="async" fetchpriority="low">
         <noscript><img src="<?= cms_escape($cover['thumb']) ?>" alt="<?= cms_escape($cover['alt']) ?>" loading="lazy" decoding="async"></noscript>
         <span class="tm-project-photo-total"><?= $count ?> <?= $count === 1 ? 'fotografie' : ($count < 5 ? 'fotografie' : 'fotografií') ?></span>
@@ -35,7 +36,7 @@ function navrh_cms_card(array $row, bool $linkToService = false): void {
       <?php if (!$linkToService): ?>
       <div class="tm-project-hidden-photos" hidden>
         <?php foreach (array_slice($photos, 1) as $photo): ?>
-          <a class="photo-link" href="<?= cms_escape($photo['src']) ?>" data-gallery="<?= cms_escape($group) ?>" data-title="<?= cms_escape(cms_escape($photo['caption'])) ?>" aria-label="<?= cms_escape($photo['alt']) ?>"></a>
+          <a class="photo-link" href="<?= cms_escape($photo['src']) ?>" data-gallery="<?= cms_escape($group) ?>" data-type="image" data-title="<?= cms_escape(cms_escape($photo['caption'])) ?>" aria-label="<?= cms_escape($photo['alt']) ?>"></a>
         <?php endforeach; ?>
       </div>
       <?php endif; ?>
