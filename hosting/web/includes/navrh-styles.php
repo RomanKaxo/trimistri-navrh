@@ -53,7 +53,11 @@
 })();
 
 </script>
-<link rel="preload" href="assets/vendor/elaris-preview/inter-400.4c6a816fef33.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="assets/vendor/elaris-preview/inter-600.2096ecbf141c.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="assets/vendor/elaris-preview/inter-800.4ee07cf4ce39.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/css/site-hosting.4a730b3fbc95.css">
+<link rel="preload" href="assets/vendor/elaris-preview/inter-400.403d6cdd1f17.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/vendor/elaris-preview/inter-600.915dba52ffed.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/vendor/elaris-preview/inter-800.5570877bfe4f.woff2" as="font" type="font/woff2" crossorigin>
+<?php if (!empty($isHome)): ?>
+<link rel="stylesheet" href="assets/css/site-hosting-home.6c06e851b273.css">
+<?php else: ?>
+<link rel="stylesheet" href="assets/css/site-hosting.81e79f450682.css">
+<?php endif; ?>

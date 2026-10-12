@@ -139,6 +139,18 @@ header('Cache-Control: no-store, max-age=0');
 header('CDN-Cache-Control: no-store');
 // Send the first view while optional CMS galleries are fetched.
 header('X-Accel-Buffering: no');
+// Compress in PHP so ob_flush sends a gzip sync point before waiting for CMS.
+// The hosting proxy otherwise holds its compressed response until PHP finishes.
+if (PHP_SAPI !== 'cli' && function_exists('ob_gzhandler') &&
+    in_array(strtolower((string) ini_get('zlib.output_compression')), ['', '0', 'off'], true)) {
+    $buffer = ob_get_status();
+    if ($buffer && $buffer['name'] === 'default output handler' &&
+        $buffer['buffer_used'] === 0 && ($buffer['flags'] & PHP_OUTPUT_HANDLER_REMOVABLE)) {
+        ob_end_clean();
+    }
+    // Never replace a custom output handler or compress twice.
+    if (ob_get_level() === 0) ob_start('ob_gzhandler');
+}
 require_once __DIR__ . '/navrh-cms.php';
 
 function navrh_flush_first_view(): void {
@@ -153,7 +165,11 @@ function navrh_flush_first_view(): void {
     common_styles = ['<script>\n' + '\n'.join((ROOT / 'navrhy' / name).read_text() for name in ['menu-init.js', 'lazy-images.js']) + '\n</script>']
     for weight in ['400', '600', '800']:
         common_styles.append(f'<link rel="preload" href="{performance["fonts"][weight]}" as="font" type="font/woff2" crossorigin>')
-    common_styles.append(f'<link rel="stylesheet" href="{performance["css"]["hosting"]}">')
+    common_styles.append('<?php if (!empty($isHome)): ?>\n'
+                         f'<link rel="stylesheet" href="{performance["css"]["hosting_home"]}">\n'
+                         '<?php else: ?>\n'
+                         f'<link rel="stylesheet" href="{performance["css"]["hosting"]}">\n'
+                         '<?php endif; ?>')
     write(dest, 'includes/navrh-styles.php', '\n'.join(common_styles) + '\n')
     for slug, source in pages:
         content = urls(source.read_text())
@@ -177,11 +193,11 @@ function navrh_flush_first_view(): void {
 '''
         if slug == 'index':
             # Copy the responsive preload from the source, preserving the PHP URL base.
-            preload = re.search(r'<link rel="preload" as="image"[^>]*>', content)
+            preload = re.findall(r'<link rel="preload" as="image"[^>]*>', content)
             if preload:
                 # Discover the LCP image before styles and classic inline tracking scripts.
                 styles_include = "<?php require __DIR__ . '/includes/navrh-styles.php'; ?>"
-                head = head.replace(styles_include, preload[0] + '\n' + styles_include, 1)
+                head = head.replace(styles_include, '\n'.join(preload) + '\n' + styles_include, 1)
         faqs = []
         for faq in re.finditer(r'<details[^>]*><summary>.*?<span class="tm-faq-question">(.*?)</span>.*?</summary><div class="tm-faq-answer">(.*?)</div></details>', content, re.S):
             faqs.append({'@type': 'Question', 'name': plain(faq[1]), 'acceptedAnswer': {'@type': 'Answer', 'text': plain(faq[2])}})
@@ -261,7 +277,7 @@ $schema = ['@context' => 'https://schema.org', '@graph' => [$business]];
   AddType font/woff2 .woff2
 </IfModule>
 <IfModule mod_headers.c>
-  <FilesMatch "^(?:site(?:-service|-hosting)?\\.[a-f0-9]{12}\\.css|inter-[0-9]{3}\\.[a-f0-9]{12}\\.woff2|(?:homepage-hero|process-kitchen)-[0-9]+\\.[a-f0-9]{12}\\.(?:avif|webp))$">
+  <FilesMatch "^(?:site(?:-service|-hosting|-home|-hosting-home)?\\.[a-f0-9]{12}\\.css|inter-[0-9]{3}\\.[a-f0-9]{12}\\.woff2|(?:homepage-hero(?:-mobile)?|process-kitchen)-[0-9]+\\.[a-f0-9]{12}\\.(?:avif|webp))$">
     Header set Cache-Control "public, max-age=31536000, immutable"
   </FilesMatch>
 </IfModule>

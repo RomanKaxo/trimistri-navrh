@@ -199,13 +199,274 @@
         "cumulative-layout-shift": 0,
         "speed-index": 364.67925
       }
+    },
+    {
+      "run": "target97-baseline",
+      "version": "13.5.0",
+      "form_factor": "mobile",
+      "gzip": true,
+      "score": 94,
+      "metrics": {
+        "first-contentful-paint": 1507.43475,
+        "largest-contentful-paint": 3079.9565000000002,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1507.43475
+      }
+    },
+    {
+      "run": "target97-critical",
+      "version": "13.5.0",
+      "form_factor": "mobile",
+      "gzip": true,
+      "score": 83,
+      "metrics": {
+        "first-contentful-paint": 2405.5986000000003,
+        "largest-contentful-paint": 4203.7324,
+        "total-blocking-time": 42,
+        "cumulative-layout-shift": 0,
+        "speed-index": 2405.5986000000003
+      }
+    },
+    {
+      "run": "target97-crop",
+      "version": "13.5.0",
+      "form_factor": "mobile",
+      "gzip": true,
+      "score": 96,
+      "metrics": {
+        "first-contentful-paint": 1504.91955,
+        "largest-contentful-paint": 2703.2797,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1504.91955
+      }
+    },
+    {
+      "run": "target97-inline",
+      "version": "13.5.0",
+      "form_factor": "mobile",
+      "gzip": true,
+      "score": 95,
+      "metrics": {
+        "first-contentful-paint": 1503.1346,
+        "largest-contentful-paint": 2853.1346,
+        "total-blocking-time": 64,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1503.1346
+      }
+    },
+    {
+      "run": "target97-crop-confirm",
+      "version": "13.5.0",
+      "form_factor": "mobile",
+      "gzip": true,
+      "score": 97,
+      "metrics": {
+        "first-contentful-paint": 1506.7505999999998,
+        "largest-contentful-paint": 2556.7506,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1506.7505999999998
+      }
+    },
+    {
+      "run": "target97-home-css",
+      "version": "13.5.0",
+      "form_factor": "mobile",
+      "gzip": true,
+      "score": 96,
+      "metrics": {
+        "first-contentful-paint": 1509.1797,
+        "largest-contentful-paint": 2706.1198,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1509.1797
+      }
+    },
+    {
+      "run": "target97-subset",
+      "version": "13.5.0",
+      "form_factor": "mobile",
+      "gzip": true,
+      "score": 99,
+      "metrics": {
+        "first-contentful-paint": 1355.50605,
+        "largest-contentful-paint": 2103.6706999999997,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1355.50605
+      }
+    },
+    {
+      "run": "target97-subset-confirm",
+      "version": "13.5.0",
+      "form_factor": "mobile",
+      "gzip": true,
+      "score": 98,
+      "metrics": {
+        "first-contentful-paint": 1358.505,
+        "largest-contentful-paint": 2255.67,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1358.505
+      }
     }
   ],
   "validation": {
-    "first_view_seconds": 0.072,
+    "first_view_seconds": 0.052,
     "cms_delay_seconds_per_request": 2,
     "menu_works_before_dom_loaded": true,
     "csrf_preserved": true,
-    "private_response": true
-  }
+    "private_response": true,
+    "mobile_hero_single_request_viewports": 7,
+    "build_idempotent": true,
+    "gzip_stream": [
+      {
+        "request_encoding": "gzip",
+        "response_encoding": "gzip",
+        "first_view_seconds": 0.007,
+        "total_seconds": 4.009,
+        "complete_valid_html": true,
+        "private": true
+      },
+      {
+        "request_encoding": "identity",
+        "response_encoding": null,
+        "first_view_seconds": 0.001,
+        "total_seconds": 4.002,
+        "complete_valid_html": true,
+        "private": true
+      }
+    ],
+    "live_stream": [
+      {
+        "request_encoding": "gzip",
+        "response_encoding": "gzip",
+        "headers_seconds": 0.331,
+        "first_view_seconds": 0.331,
+        "total_seconds": 2.014,
+        "complete_valid_html": true,
+        "private": true
+      },
+      {
+        "request_encoding": "identity",
+        "response_encoding": null,
+        "headers_seconds": 0.085,
+        "first_view_seconds": 0.087,
+        "total_seconds": 1.486,
+        "complete_valid_html": true,
+        "private": true
+      }
+    ],
+    "glyph_coverage_per_weight": 934,
+    "original_glyph_widths_preserved": true,
+    "rare_latin_loads_on_demand": true,
+    "layout_comparisons": 15,
+    "layout_differences": 0
+  },
+  "google_pagespeed": [
+    {
+      "report": "https://pagespeed.web.dev/analysis/https-trimistri-cz/bas17qz5xl?form_factor=mobile",
+      "phase": "original",
+      "form_factor": "mobile",
+      "score": 37,
+      "metrics_ui": {
+        "FCP": "9.2 s",
+        "LCP": "10.4 s",
+        "CLS": "0.43",
+        "TBT": "0 ms"
+      }
+    },
+    {
+      "report": "https://pagespeed.web.dev/analysis/https-trimistri-cz/nd4dlh236w?form_factor=mobile",
+      "phase": "first optimization",
+      "form_factor": "mobile",
+      "score": 92,
+      "metrics_ui": {
+        "FCP": "1.7 s",
+        "LCP": "2.9 s",
+        "CLS": "0.001",
+        "TBT": "140 ms"
+      }
+    },
+    {
+      "report": "https://pagespeed.web.dev/analysis/https-trimistri-cz/cwxp244y45?form_factor=mobile",
+      "phase": "crop",
+      "form_factor": "mobile",
+      "score": 94,
+      "metrics_ui": {
+        "FCP": "1.7 s",
+        "LCP": "2.6 s",
+        "CLS": "0",
+        "TBT": "100 ms"
+      }
+    },
+    {
+      "report": "https://pagespeed.web.dev/analysis/https-trimistri-cz/boh2apemnj?form_factor=mobile",
+      "phase": "gzip streaming",
+      "form_factor": "mobile",
+      "score": 94,
+      "metrics_ui": {
+        "FCP": "1.7 s",
+        "LCP": "2.6 s",
+        "CLS": "0",
+        "TBT": "40 ms"
+      }
+    },
+    {
+      "report": "https://pagespeed.web.dev/analysis/https-trimistri-cz/8wztc6bsuk?form_factor=mobile",
+      "phase": "gzip streaming repeat",
+      "form_factor": "mobile",
+      "score": 93,
+      "metrics_ui": {
+        "FCP": "1.7 s",
+        "LCP": "2.6 s",
+        "CLS": "0",
+        "TBT": "170 ms"
+      }
+    },
+    {
+      "report": "https://pagespeed.web.dev/analysis/https-trimistri-cz/w81iim8y2t?form_factor=mobile",
+      "phase": "final",
+      "form_factor": "mobile",
+      "score": 97,
+      "accessibility": 97,
+      "best_practices": 100,
+      "seo": 100,
+      "metrics_ui": {
+        "FCP": "1.2 s",
+        "LCP": "2.0 s",
+        "CLS": "0.001",
+        "TBT": "70 ms",
+        "SI": "3.7 s"
+      },
+      "calculator_ms": {
+        "FCP": 1203,
+        "LCP": 1960,
+        "TBT": 74,
+        "SI": 3705
+      }
+    },
+    {
+      "report": "https://pagespeed.web.dev/analysis/https-trimistri-cz/w81iim8y2t?form_factor=desktop",
+      "phase": "final",
+      "form_factor": "desktop",
+      "score": 99,
+      "metrics_ui": {
+        "FCP": "0.3 s",
+        "LCP": "0.5 s",
+        "CLS": "0",
+        "TBT": "0 ms",
+        "SI": "1.3 s"
+      },
+      "calculator_ms": {
+        "FCP": 296,
+        "LCP": 462,
+        "TBT": 5,
+        "SI": 1304
+      }
+    }
+  ],
+  "google_real_user_data": "unavailable; laboratory results only"
 }

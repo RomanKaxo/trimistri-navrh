@@ -1,36 +1,48 @@
 {
   "fonts": {
-    "400": "assets/vendor/elaris-preview/inter-400.4c6a816fef33.woff2",
-    "500": "assets/vendor/elaris-preview/inter-500.6d0a4bcae81f.woff2",
-    "600": "assets/vendor/elaris-preview/inter-600.2096ecbf141c.woff2",
-    "700": "assets/vendor/elaris-preview/inter-700.4e64a3e6f745.woff2",
-    "800": "assets/vendor/elaris-preview/inter-800.4ee07cf4ce39.woff2"
+    "400": "assets/vendor/elaris-preview/inter-400.403d6cdd1f17.woff2",
+    "500": "assets/vendor/elaris-preview/inter-500.278c2969b4b4.woff2",
+    "600": "assets/vendor/elaris-preview/inter-600.915dba52ffed.woff2",
+    "700": "assets/vendor/elaris-preview/inter-700.d2e9cdf1c5ab.woff2",
+    "800": "assets/vendor/elaris-preview/inter-800.5570877bfe4f.woff2"
+  },
+  "extended_fonts": {
+    "400": "assets/vendor/elaris-preview/inter-400.3b991241b0b0.woff2",
+    "500": "assets/vendor/elaris-preview/inter-500.bce3ce3e65b8.woff2",
+    "600": "assets/vendor/elaris-preview/inter-600.b4ffc16d84c3.woff2",
+    "700": "assets/vendor/elaris-preview/inter-700.715dd209ffc0.woff2",
+    "800": "assets/vendor/elaris-preview/inter-800.aaadc0b19df0.woff2"
   },
   "font_sizes": [
     {
       "weight": 400,
       "before": 324820,
-      "after": 37400
+      "after": 19696,
+      "extended": 22944
     },
     {
       "weight": 500,
       "before": 325304,
-      "after": 38696
+      "after": 20076,
+      "extended": 23796
     },
     {
       "weight": 600,
       "before": 326048,
-      "after": 38740
+      "after": 20284,
+      "extended": 24016
     },
     {
       "weight": 700,
       "before": 326468,
-      "after": 38884
+      "after": 20140,
+      "extended": 23916
     },
     {
       "weight": 800,
       "before": 327324,
-      "after": 38888
+      "after": 20308,
+      "extended": 23916
     }
   ],
   "hero": {
@@ -75,6 +87,24 @@
       }
     ]
   },
+  "mobile_hero": {
+    "avif": [
+      {
+        "path": "assets/img/hero/homepage-hero-mobile-900.e7558bb81a52.avif",
+        "width": 900,
+        "height": 1440,
+        "bytes": 63650
+      }
+    ],
+    "webp": [
+      {
+        "path": "assets/img/hero/homepage-hero-mobile-900.89227a18f181.webp",
+        "width": 900,
+        "height": 1440,
+        "bytes": 93666
+      }
+    ]
+  },
   "process": {
     "webp": [
       {
@@ -92,22 +122,32 @@
     ]
   },
   "css": {
-    "common": "assets/css/site.43b4fcaa1caa.css",
-    "service": "assets/css/site-service.6c9c30691876.css",
-    "hosting": "assets/css/site-hosting.4a730b3fbc95.css"
+    "common": "assets/css/site.8bd2c3015241.css",
+    "service": "assets/css/site-service.b2b407932c6c.css",
+    "hosting": "assets/css/site-hosting.81e79f450682.css",
+    "home": "assets/css/site-home.63b29e82ed43.css",
+    "hosting_home": "assets/css/site-hosting-home.6c06e851b273.css"
   },
   "css_sizes": {
     "common": {
-      "source": 170738,
-      "minified": 153319
+      "source": 173683,
+      "minified": 156244
     },
     "service": {
-      "source": 177259,
-      "minified": 159049
+      "source": 180204,
+      "minified": 161974
     },
     "hosting": {
-      "source": 178884,
-      "minified": 160369
+      "source": 181829,
+      "minified": 163294
+    },
+    "home": {
+      "source": 173683,
+      "minified": 81837
+    },
+    "hosting_home": {
+      "source": 181829,
+      "minified": 83187
     }
   }
 }
