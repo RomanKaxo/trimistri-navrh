@@ -49,6 +49,10 @@ def main():
     parser.add_argument('--original', type=Path, required=True, help='Original repository web/ directory')
     parser.add_argument('--destination', type=Path, default=ROOT / 'hosting/web')
     args = parser.parse_args()
+    manifest_path = ROOT / 'assets/performance-manifest.json'
+    if not manifest_path.is_file():
+        raise ValueError('Run scripts/build-performance.py before the hosting export')
+    performance = json.loads(manifest_path.read_text())
     original, dest = args.original.resolve(), args.destination.resolve()
     if dest == original or original in dest.parents or dest in original.parents:
         raise ValueError('The deployment directory must be separate from the original')
@@ -85,11 +89,10 @@ def main():
     original_footer = (original / 'includes/footer.php').read_text()
     consent = element(original_footer, r'<aside id="consent-panel"', 'aside')
     footer += '\n' + consent + '\n<script src="assets/js/consent-mode.js?v=20260923" defer></script>\n<script src="assets/js/phone-conversion.js?v=20260914" defer></script>\n'
-    footer += '\n'.join(f'<script src="assets/js/navrh-{name}.js?v=20261012" defer></script>' for name in ['02-rest', 'motion', 'gallery', 'polish'])
-    footer += '\n<script src="assets/vendor/elaris-preview/glightbox.min.js" defer></script>\n'
-    # GLightbox has to load before the gallery initializer.
-    footer = footer.replace('<script src="assets/js/navrh-gallery.js?v=20261012" defer></script>', '')
-    footer += '<script src="assets/js/navrh-gallery.js?v=20261012" defer></script>\n'
+    footer += '\n'.join(f'<script src="assets/js/navrh-{name}.js?v={hashlib.sha256((ROOT / "navrhy" / (name + ".js")).read_bytes()).hexdigest()[:12]}" defer></script>' for name in ['02-rest', 'motion', 'polish'])
+    # The small gallery loader downloads GLightbox only on hover, focus or click.
+    gallery_version = hashlib.sha256((ROOT / 'navrhy/gallery.js').read_bytes()).hexdigest()[:12]
+    footer += f'<script src="assets/js/navrh-gallery.js?v={gallery_version}" defer></script>\n'
     write(dest, 'includes/footer.php', footer)
 
     original_form = (original / 'includes/quote-form.php').read_text()
@@ -134,13 +137,24 @@ require_once __DIR__ . '/quote-form-session.php';
 // Pages containing session-bound CSRF tokens must never be shared by caches.
 header('Cache-Control: no-store, max-age=0');
 header('CDN-Cache-Control: no-store');
+// Send the first view while optional CMS galleries are fetched.
+header('X-Accel-Buffering: no');
 require_once __DIR__ . '/navrh-cms.php';
+
+function navrh_flush_first_view(): void {
+    if (PHP_SAPI === 'cli') return;
+    $buffer = ob_get_status();
+    if ($buffer && ($buffer['flags'] & PHP_OUTPUT_HANDLER_FLUSHABLE)) ob_flush();
+    flush();
+}
 ''')
 
     pages = [('index', ROOT / 'index.html')] + [(p.parent.name, p) for p in sorted((ROOT / 'sluzby').glob('*/index.html'))] + [('galerie', ROOT / 'galerie/index.html')]
-    style_names = ['base.css', '02.css', '02-rest.css', '02-service-layout.css', 'polish.css', 'service-content.css']
-    common_styles = '\n'.join(f'<link rel="stylesheet" href="assets/css/navrh-{name}?v=20261012">' for name in style_names)
-    write(dest, 'includes/navrh-styles.php', '<link rel="stylesheet" href="assets/vendor/elaris-preview/inter.css">\n<link rel="stylesheet" href="assets/vendor/elaris-preview/glightbox.min.css">\n' + common_styles + '\n<link rel="stylesheet" href="assets/css/navrh-hosting.css?v=20261012">\n')
+    common_styles = ['<script>\n' + '\n'.join((ROOT / 'navrhy' / name).read_text() for name in ['menu-init.js', 'lazy-images.js']) + '\n</script>']
+    for weight in ['400', '600', '800']:
+        common_styles.append(f'<link rel="preload" href="{performance["fonts"][weight]}" as="font" type="font/woff2" crossorigin>')
+    common_styles.append(f'<link rel="stylesheet" href="{performance["css"]["hosting"]}">')
+    write(dest, 'includes/navrh-styles.php', '\n'.join(common_styles) + '\n')
     for slug, source in pages:
         content = urls(source.read_text())
         content = re.sub(r'<script\b[^>]*src="[^"]+"[^>]*></script>', '', content)
@@ -161,6 +175,11 @@ require_once __DIR__ . '/navrh-cms.php';
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18282958447"></script>
 <script>gtag('js',new Date());gtag('config','AW-18282958447');</script>
 '''
+        if slug == 'index':
+            # Copy the responsive preload from the source, preserving the PHP URL base.
+            preload = re.search(r'<link rel="preload" as="image"[^>]*>', content)
+            if preload:
+                head += preload[0] + '\n'
         faqs = []
         for faq in re.finditer(r'<details[^>]*><summary>.*?<span class="tm-faq-question">(.*?)</span>.*?</summary><div class="tm-faq-answer">(.*?)</div></details>', content, re.S):
             faqs.append({'@type': 'Question', 'name': plain(faq[1]), 'acceptedAnswer': {'@type': 'Answer', 'text': plain(faq[2])}})
@@ -201,6 +220,9 @@ $schema = ['@context' => 'https://schema.org', '@graph' => [$business]];
                     content = re.sub(r'(<section\b[^>]*\bid="' + new_id + r'"[^>]*>)', r'\1<span class="tm-anchor" id="' + old_id + '"></span>', content, count=1)
             if 'id="o-nas"' not in content:
                 content = re.sub(r'(<section\b[^>]*\bid="postup"[^>]*>)', r'\1<span class="tm-anchor" id="o-nas"></span>', content, count=1)
+        if slug == 'index' or service:
+            first_view = element(content, r'<section class="hero-scene"' if slug == 'index' else r'<section class="tm-detail-hero', 'section')
+            content = content.replace(first_view, first_view + '\n<?php navrh_flush_first_view(); ?>', 1)
         prelude = '<?php declare(strict_types=1);\nrequire __DIR__ . \'/includes/navrh-init.php\';\n'
         prelude += f"$pageSlug = '{slug}';\n$isHome = {'true' if slug == 'index' else 'false'};\n$isService = {'true' if service else 'false'};\n$hasQuote = {'true' if slug != 'galerie' else 'false'};\n$defaultService = '{default}';\n?>\n"
         write(dest, f'{slug}.php', prelude + content)
@@ -209,6 +231,7 @@ $schema = ['@context' => 'https://schema.org', '@graph' => [$business]];
     catalog = (original / 'sluzby.php').read_text()
     catalog = catalog.replace("require __DIR__ . '/includes/quote-form-session.php';", "require __DIR__ . '/includes/navrh-init.php';\n$pageSlug = 'sluzby'; $isService = true; $hasQuote = true;")
     catalog = catalog.replace('</head>', "<?php require __DIR__ . '/includes/navrh-styles.php'; ?>\n</head>")
+    catalog = re.sub(r'<link[^>]*href="https://fonts\.googleapis\.com/[^>]*>\s*', '', catalog)
     catalog = catalog.replace('<body>', '<body class="night-gallery tm-legacy">')
     catalog = catalog.replace('<main>', '<a class="tm-skip" href="#obsah">Přeskočit na obsah</a><main id="obsah">')
     contact = element((dest / 'index.php').read_text(), r'<section[^>]*id="kontakt"', 'section')
@@ -220,6 +243,7 @@ $schema = ['@context' => 'https://schema.org', '@graph' => [$business]];
         if filename == '404.php':
             content = content.replace('<head>', '<head>\n<base href="/">', 1)
         content = content.replace('</head>', "<?php require __DIR__ . '/includes/navrh-styles.php'; ?>\n</head>")
+        content = re.sub(r'<link[^>]*href="https://fonts\.googleapis\.com/[^>]*>\s*', '', content)
         content = content.replace('<body>', '<body class="night-gallery tm-legacy">')
         content = re.sub(r'<main>', '<a class="tm-skip" href="#obsah">Přeskočit na obsah</a><main id="obsah">', content)
         write(dest, filename, content)
@@ -228,6 +252,18 @@ $schema = ['@context' => 'https://schema.org', '@graph' => [$business]];
     htaccess = (original / '.htaccess').read_text()
     htaccess = htaccess.replace('RewriteEngine On', 'DirectoryIndex index.php\nRewriteEngine On', 1)
     htaccess = htaccess.replace('RewriteCond %{THE_REQUEST} \\s/([^.\\s]+)\\.php', 'RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$\nRewriteCond %{THE_REQUEST} \\s/([^.\\s]+)\\.php')
+    htaccess += '''
+# Fingerprinted performance assets: safe to cache for a year, new content = new URL.
+<IfModule mod_mime.c>
+  AddType image/avif .avif
+  AddType font/woff2 .woff2
+</IfModule>
+<IfModule mod_headers.c>
+  <FilesMatch "^(?:site(?:-service|-hosting)?\\.[a-f0-9]{12}\\.css|inter-[0-9]{3}\\.[a-f0-9]{12}\\.woff2|(?:homepage-hero|process-kitchen)-[0-9]+\\.[a-f0-9]{12}\\.(?:avif|webp))$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>
+'''
     write(dest, '.htaccess', htaccess)
     write(dest, '.user.ini', 'upload_max_filesize=4M\npost_max_size=16M\n')
     sitemap = (original / 'sitemap.xml').read_text()

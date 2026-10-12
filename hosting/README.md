@@ -24,7 +24,10 @@ Veřejné stránky mají produkční canonical adresy a umožňují indexaci. D�
 V kořeni repozitáře:
 
 ```sh
-rtk proxy python scripts/build-hosting.py --original /home/roman/Projects/trimistri/web
+rtk proxy .venv/bin/python scripts/build-performance.py
+rtk proxy python3 scripts/build-hosting.py --original /home/roman/Projects/trimistri/web
 ```
 
 Zdrojové statické stránky pro veřejný náhled zůstávají v kořeni repozitáře. Pro hosting používejte PHP balíček `hosting/web/`.
+
+Instalace nástrojů a měření rychlosti jsou v [PERFORMANCE.md](../PERFORMANCE.md). Hashe nových souborů dovolují dlouhou cache; PHP dokumenty s CSRF tokenem zůstávají `no-store`. První obrazovka se může odeslat už během načítání CMS galerií.

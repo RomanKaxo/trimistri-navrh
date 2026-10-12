@@ -58,11 +58,12 @@ $schema['@graph'][] = json_decode('{"@type": "FAQPage", "mainEntity": [{"@type":
         </div>
       </div>
             <figure class="tm-detail-cover" data-tm-motion>
-        <div class="tm-detail-cover-image"><img src="./assets/img/gallery/thumbs/fasadynatery18-700w.webp" alt="Nátěr fasády 3 - Starez Aréna Brno" fetchpriority="high"></div>
+        <div class="tm-detail-cover-image"><img src="./assets/img/gallery/thumbs/fasadynatery18-700w.webp" alt="Nátěr fasády 3 - Starez Aréna Brno" width="700" height="941" decoding="async" fetchpriority="high"></div>
         <figcaption><span><i aria-hidden="true"></i> Z naší práce</span><strong>Starez Aréna Brno</strong></figcaption>
       </figure>
           </div>
   </section>
+<?php navrh_flush_first_view(); ?>
 
   <section class="tm-detail-section tm-container tm-detail-service-info" id="rozsah" aria-labelledby="scope-title">
     <div class="tm-detail-info-surface">
@@ -97,7 +98,7 @@ $schema['@graph'][] = json_decode('{"@type": "FAQPage", "mainEntity": [{"@type":
     <span class="tm-anchor" id="galerie"></span><span class="tm-anchor" id="web-realizace"></span><div class="tm-detail-section-heading"><div><p class="tm-eyebrow">02 / Ukázky realizací</p><h2 id="showcase-title">Podívejte se na výsledek.</h2></div><p>5 realizací · 33 fotografií</p></div>
     <div class="tm-project-grid tm-detail-projects">            <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-55f276719017" href="./assets/img/gallery/fasadynatery18.jpeg" data-glightbox="title: Nátěr fasády 3 - Starez Aréna Brno" aria-label="Nátěr fasády — Starez Aréna Brno — prohlédnout 2 fotografií">
-                <img src="./assets/img/gallery/thumbs/fasadynatery18-700w.webp" alt="Nátěr fasády 3 - Starez Aréna Brno" loading="lazy">
+                <img data-src="./assets/img/gallery/thumbs/fasadynatery18-700w.webp" alt="Nátěr fasády 3 - Starez Aréna Brno" loading="lazy" width="700" height="941" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="./assets/img/gallery/thumbs/fasadynatery18-700w.webp" alt="Nátěr fasády 3 - Starez Aréna Brno" loading="lazy" width="700" height="941" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Fasády</span><span class="tm-project-photo-total">2 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Starez Aréna Brno</span><h3>Nátěr fasády</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -105,7 +106,7 @@ $schema['@graph'][] = json_decode('{"@type": "FAQPage", "mainEntity": [{"@type":
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-b799aa2ecbee" href="./assets/img/gallery/fasadynatery19.jpeg" data-glightbox="title: Nátěr fasády 5 - Brno - Krásného" aria-label="Nátěr fasády — Brno - Krásného — prohlédnout 3 fotografií">
-                <img src="./assets/img/gallery/thumbs/fasadynatery19-700w.webp" alt="Nátěr fasády 5 - Brno - Krásného" loading="lazy">
+                <img data-src="./assets/img/gallery/thumbs/fasadynatery19-700w.webp" alt="Nátěr fasády 5 - Brno - Krásného" loading="lazy" width="700" height="941" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="./assets/img/gallery/thumbs/fasadynatery19-700w.webp" alt="Nátěr fasády 5 - Brno - Krásného" loading="lazy" width="700" height="941" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Fasády</span><span class="tm-project-photo-total">3 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Brno - Krásného</span><h3>Nátěr fasády</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -113,7 +114,7 @@ $schema['@graph'][] = json_decode('{"@type": "FAQPage", "mainEntity": [{"@type":
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-6ab217f17943" href="./assets/img/gallery/grafiti9.jpeg" data-glightbox="title: Nátěr fasády - Česká - před 1" aria-label="Nátěr fasády — Česká — prohlédnout 4 fotografií">
-                <img src="./assets/img/gallery/thumbs/FasadyNatery2-700w.webp" alt="Nátěr fasády - Česká - po" loading="lazy">
+                <img data-src="./assets/img/gallery/thumbs/FasadyNatery2-700w.webp" alt="Nátěr fasády - Česká - po" loading="lazy" width="700" height="323" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="./assets/img/gallery/thumbs/FasadyNatery2-700w.webp" alt="Nátěr fasády - Česká - po" loading="lazy" width="700" height="323" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Fasády</span><span class="tm-project-photo-total">4 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Česká</span><h3>Nátěr fasády</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -121,7 +122,7 @@ $schema['@graph'][] = json_decode('{"@type": "FAQPage", "mainEntity": [{"@type":
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-c0b206e4b367" href="./assets/img/gallery/FasadyNatery.jpeg" data-glightbox="title: Nátěr fasády - Rozdrojovice Fasáda - před" aria-label="Nátěr fasády — Rozdrojovice Fasáda — prohlédnout 14 fotografií">
-                <img src="./assets/img/gallery/thumbs/fasadynatery13-700w.webp" alt="Nátěr fasády - Rozdrojovice Fasáda - po" loading="lazy">
+                <img data-src="./assets/img/gallery/thumbs/fasadynatery13-700w.webp" alt="Nátěr fasády - Rozdrojovice Fasáda - po" loading="lazy" width="700" height="1244" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="./assets/img/gallery/thumbs/fasadynatery13-700w.webp" alt="Nátěr fasády - Rozdrojovice Fasáda - po" loading="lazy" width="700" height="1244" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Fasády</span><span class="tm-project-photo-total">14 fotografií</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Rozdrojovice Fasáda</span><h3>Nátěr fasády</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -132,7 +133,7 @@ $schema['@graph'][] = json_decode('{"@type": "FAQPage", "mainEntity": [{"@type":
       <summary class="tm-btn"><span class="tm-more-closed">Zobrazit další realizace (1)</span><span aria-hidden="true">↓</span></summary>
       <div class="tm-project-grid tm-detail-projects">            <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-3d8ef65762de" href="./assets/img/gallery/fasadynatery3.jpeg" data-glightbox="title: Nátěr fasády 8" aria-label="Nátěr fasády — prohlédnout 10 fotografií">
-                <img src="./assets/img/gallery/thumbs/fasadynatery3-700w.webp" alt="Nátěr fasády 8" loading="lazy">
+                <img data-src="./assets/img/gallery/thumbs/fasadynatery3-700w.webp" alt="Nátěr fasády 8" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="./assets/img/gallery/thumbs/fasadynatery3-700w.webp" alt="Nátěr fasády 8" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Fasády</span><span class="tm-project-photo-total">10 fotografií</span>
                 <span class="tm-project-overlay"><h3>Nátěr fasády</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>

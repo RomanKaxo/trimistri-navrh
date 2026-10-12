@@ -32,6 +32,10 @@ Tlačítko „Zobrazit další realizace“ po rozbalení zmizí. Galerie zůst�
 
 Rychlý výběr služby na homepage předvyplní hlavní poptávku. Vybrané fotografie mají místní náhledy a lze je jednotlivě odebrat; stále je nutné přiložit je ručně do připraveného e-mailu.
 
+## Rychlost a sestavení
+
+Optimalizované fonty, styly, fotografie a způsob načítání jsou popsané v [PERFORMANCE.md](PERFORMANCE.md), včetně měření před a po a příkazů pro opětovné sestavení. Po změně zdrojů spusťte nejprve `scripts/build-performance.py` a potom export PHP hostingu.
+
 ## Lokální náhled
 
 Z adresáře repozitáře spusťte `python3 -m http.server 8080 --bind 127.0.0.1 --directory ..` a otevřete `http://127.0.0.1:8080/trimistri-navrh/`.

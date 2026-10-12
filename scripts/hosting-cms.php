@@ -11,7 +11,8 @@ function navrh_cms_card(array $row, bool $linkToService = false): void {
     ?>
     <article class="tm-project-card" id="<?= cms_escape($group) ?>" data-reveal>
       <a class="<?= $linkToService ? '' : 'photo-link ' ?>tm-project-photo" href="<?= cms_escape($href) ?>" <?= $linkToService ? '' : 'data-gallery="' . cms_escape($group) . '"' ?> data-title="<?= cms_escape(cms_escape($cover['caption'])) ?>">
-        <img src="<?= cms_escape($cover['thumb']) ?>" alt="<?= cms_escape($cover['alt']) ?>" loading="lazy">
+        <img data-src="<?= cms_escape($cover['thumb']) ?>" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="<?= cms_escape($cover['alt']) ?>" loading="lazy" decoding="async" fetchpriority="low">
+        <noscript><img src="<?= cms_escape($cover['thumb']) ?>" alt="<?= cms_escape($cover['alt']) ?>" loading="lazy" decoding="async"></noscript>
         <span class="tm-project-photo-total"><?= $count ?> <?= $count === 1 ? 'fotografie' : ($count < 5 ? 'fotografie' : 'fotografií') ?></span>
         <span class="tm-project-overlay"><span class="tm-project-place"><?= cms_escape($cover['locality']) ?></span><h3><?= cms_escape($row['title']) ?></h3><span class="tm-project-view">Prohlédnout realizaci ↗</span></span>
       </a>

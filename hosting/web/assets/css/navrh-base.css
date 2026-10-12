@@ -9,6 +9,7 @@
 [data-menu-toggle] { cursor: pointer; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 .photo-caption { display: none; }
+html:not(.menu-js) img[data-src] { display: none; }
 [data-menu] { visibility: visible; opacity: 1; pointer-events: auto; }
 @media (max-width: 600px) { .menu-js [data-menu]:not(.is-open) { visibility: hidden; opacity: 0; pointer-events: none; } .menu-js [data-menu].is-open { visibility: visible; opacity: 1; pointer-events: auto; } }
 [data-menu] { transition: opacity 180ms ease; }

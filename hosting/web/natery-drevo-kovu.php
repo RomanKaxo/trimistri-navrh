@@ -58,11 +58,12 @@ $schema['@graph'][] = json_decode('{"@type": "FAQPage", "mainEntity": [{"@type":
         </div>
       </div>
             <figure class="tm-detail-cover" data-tm-motion>
-        <div class="tm-detail-cover-image"><img src="./assets/img/gallery/thumbs/naterydreva6-700w.webp" alt="Nátěr dřeva 1 - Blansko - Chata" fetchpriority="high"></div>
+        <div class="tm-detail-cover-image"><img src="./assets/img/gallery/thumbs/naterydreva6-700w.webp" alt="Nátěr dřeva 1 - Blansko - Chata" width="700" height="1493" decoding="async" fetchpriority="high"></div>
         <figcaption><span><i aria-hidden="true"></i> Z naší práce</span><strong>Blansko - Chata</strong></figcaption>
       </figure>
           </div>
   </section>
+<?php navrh_flush_first_view(); ?>
 
   <section class="tm-detail-section tm-container tm-detail-service-info" id="rozsah" aria-labelledby="scope-title">
     <div class="tm-detail-info-surface">
@@ -97,7 +98,7 @@ $schema['@graph'][] = json_decode('{"@type": "FAQPage", "mainEntity": [{"@type":
     <span class="tm-anchor" id="galerie"></span><span class="tm-anchor" id="web-realizace"></span><div class="tm-detail-section-heading"><div><p class="tm-eyebrow">02 / Ukázky realizací</p><h2 id="showcase-title">Podívejte se na výsledek.</h2></div><p>7 realizací · 13 fotografií</p></div>
     <div class="tm-project-grid tm-detail-projects">            <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-fc2848fd8b86" href="./assets/img/gallery/naterydreva6.jpeg" data-glightbox="title: Nátěr dřeva 1 - Blansko - Chata" aria-label="Nátěr dřeva — Blansko - Chata — prohlédnout 6 fotografií">
-                <img src="./assets/img/gallery/thumbs/naterydreva6-700w.webp" alt="Nátěr dřeva 1 - Blansko - Chata" loading="lazy">
+                <img data-src="./assets/img/gallery/thumbs/naterydreva6-700w.webp" alt="Nátěr dřeva 1 - Blansko - Chata" loading="lazy" width="700" height="1493" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="./assets/img/gallery/thumbs/naterydreva6-700w.webp" alt="Nátěr dřeva 1 - Blansko - Chata" loading="lazy" width="700" height="1493" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dřevo a kov</span><span class="tm-project-photo-total">6 fotografií</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Blansko - Chata</span><h3>Nátěr dřeva</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -105,7 +106,7 @@ $schema['@graph'][] = json_decode('{"@type": "FAQPage", "mainEntity": [{"@type":
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-373a6f350286" href="./assets/img/gallery/naterydreva.jpeg" data-glightbox="title: Nátěr dřeva 8" aria-label="Nátěr dřeva — prohlédnout 1 fotografií">
-                <img src="./assets/img/gallery/thumbs/naterydreva-700w.webp" alt="Nátěr dřeva 8" loading="lazy">
+                <img data-src="./assets/img/gallery/thumbs/naterydreva-700w.webp" alt="Nátěr dřeva 8" loading="lazy" width="700" height="1244" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="./assets/img/gallery/thumbs/naterydreva-700w.webp" alt="Nátěr dřeva 8" loading="lazy" width="700" height="1244" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dřevo a kov</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><h3>Nátěr dřeva</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -113,7 +114,7 @@ $schema['@graph'][] = json_decode('{"@type": "FAQPage", "mainEntity": [{"@type":
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-484ae30daea2" href="./assets/img/gallery/naterydreva4.jpeg" data-glightbox="title: Nátěr dřeva 12" aria-label="Nátěr dřeva — prohlédnout 1 fotografií">
-                <img src="./assets/img/gallery/thumbs/naterydreva4-700w.webp" alt="Nátěr dřeva 12" loading="lazy">
+                <img data-src="./assets/img/gallery/thumbs/naterydreva4-700w.webp" alt="Nátěr dřeva 12" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="./assets/img/gallery/thumbs/naterydreva4-700w.webp" alt="Nátěr dřeva 12" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dřevo a kov</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><h3>Nátěr dřeva</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -121,7 +122,7 @@ $schema['@graph'][] = json_decode('{"@type": "FAQPage", "mainEntity": [{"@type":
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-a49e1627b79e" href="./assets/img/gallery/naterydreva2.jpeg" data-glightbox="title: Nátěr dřeva 9" aria-label="Nátěr dřeva — prohlédnout 1 fotografií">
-                <img src="./assets/img/gallery/thumbs/naterydreva2-700w.webp" alt="Nátěr dřeva 9" loading="lazy">
+                <img data-src="./assets/img/gallery/thumbs/naterydreva2-700w.webp" alt="Nátěr dřeva 9" loading="lazy" width="700" height="1244" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="./assets/img/gallery/thumbs/naterydreva2-700w.webp" alt="Nátěr dřeva 9" loading="lazy" width="700" height="1244" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dřevo a kov</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><h3>Nátěr dřeva</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -132,7 +133,7 @@ $schema['@graph'][] = json_decode('{"@type": "FAQPage", "mainEntity": [{"@type":
       <summary class="tm-btn"><span class="tm-more-closed">Zobrazit další realizace (3)</span><span aria-hidden="true">↓</span></summary>
       <div class="tm-project-grid tm-detail-projects">            <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-6edb9c2837a2" href="./assets/img/gallery/naterydreva3.jpeg" data-glightbox="title: Nátěr dřeva 10" aria-label="Nátěr dřeva — prohlédnout 1 fotografií">
-                <img src="./assets/img/gallery/thumbs/naterydreva3-700w.webp" alt="Nátěr dřeva 10" loading="lazy">
+                <img data-src="./assets/img/gallery/thumbs/naterydreva3-700w.webp" alt="Nátěr dřeva 10" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="./assets/img/gallery/thumbs/naterydreva3-700w.webp" alt="Nátěr dřeva 10" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dřevo a kov</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><h3>Nátěr dřeva</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -140,7 +141,7 @@ $schema['@graph'][] = json_decode('{"@type": "FAQPage", "mainEntity": [{"@type":
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-17f7a44c8e3c" href="./assets/img/gallery/naterydreva12.jpeg" data-glightbox="title: Nátěr dřeva 11 - Brno - Jana Uhra" aria-label="Nátěr dřeva — Brno - Jana Uhra — prohlédnout 1 fotografií">
-                <img src="./assets/img/gallery/thumbs/naterydreva12-700w.webp" alt="Nátěr dřeva 11 - Brno - Jana Uhra" loading="lazy">
+                <img data-src="./assets/img/gallery/thumbs/naterydreva12-700w.webp" alt="Nátěr dřeva 11 - Brno - Jana Uhra" loading="lazy" width="700" height="1499" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="./assets/img/gallery/thumbs/naterydreva12-700w.webp" alt="Nátěr dřeva 11 - Brno - Jana Uhra" loading="lazy" width="700" height="1499" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dřevo a kov</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Brno - Jana Uhra</span><h3>Nátěr dřeva</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -148,7 +149,7 @@ $schema['@graph'][] = json_decode('{"@type": "FAQPage", "mainEntity": [{"@type":
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-24a3aabc620c" href="./assets/img/gallery/naterinterieru3.jpeg" data-glightbox="title: Nátěr kovu - Brno - Losova" aria-label="Nátěr kovu — Brno - Losova — prohlédnout 2 fotografií">
-                <img src="./assets/img/gallery/thumbs/naterinterieru3-700w.webp" alt="Nátěr kovu - Brno - Losova" loading="lazy">
+                <img data-src="./assets/img/gallery/thumbs/naterinterieru3-700w.webp" alt="Nátěr kovu - Brno - Losova" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="./assets/img/gallery/thumbs/naterinterieru3-700w.webp" alt="Nátěr kovu - Brno - Losova" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dřevo a kov</span><span class="tm-project-photo-total">2 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Brno - Losova</span><h3>Nátěr kovu</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>

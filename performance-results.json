@@ -1,0 +1,197 @@
+{
+  "date": "2026-10-12",
+  "baseline_commit": "2ef8fa3",
+  "cold_cache": true,
+  "throttling": "Lighthouse default simulated Slow 4G/mobile; desktop preset for desktop",
+  "runs": [
+    {
+      "run": "local-home-before",
+      "version": "13.5.0",
+      "form_factor": "mobile",
+      "gzip": false,
+      "score": 36,
+      "metrics": {
+        "first-contentful-paint": 11254.282026875819,
+        "largest-contentful-paint": 14182.136711459698,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.4416459693149761,
+        "speed-index": 11254.282026875819
+      }
+    },
+    {
+      "run": "local-service-before",
+      "version": "13.5.0",
+      "form_factor": "mobile",
+      "gzip": false,
+      "score": 71,
+      "metrics": {
+        "first-contentful-paint": 2552.9188,
+        "largest-contentful-paint": 3002.9188,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.4308741229667583,
+        "speed-index": 2552.9188
+      }
+    },
+    {
+      "run": "local-desktop-before",
+      "version": "13.5.0",
+      "form_factor": "desktop",
+      "gzip": false,
+      "score": 63,
+      "metrics": {
+        "first-contentful-paint": 1885.0057927395558,
+        "largest-contentful-paint": 2388.3429878992592,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.2839476344626886,
+        "speed-index": 1885.0057927395558
+      }
+    },
+    {
+      "run": "variant-stable-menu",
+      "version": "13.5.0",
+      "form_factor": "mobile",
+      "gzip": false,
+      "score": 69,
+      "metrics": {
+        "first-contentful-paint": 3751.998590380944,
+        "largest-contentful-paint": 6528.997180761888,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 3751.998590380944
+      }
+    },
+    {
+      "run": "variant-critical-path",
+      "version": "13.5.0",
+      "form_factor": "mobile",
+      "gzip": false,
+      "score": 75,
+      "metrics": {
+        "first-contentful-paint": 2558.388,
+        "largest-contentful-paint": 5633.388000000001,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 2558.388
+      }
+    },
+    {
+      "run": "gzip-home-before",
+      "version": "13.5.0",
+      "form_factor": "mobile",
+      "gzip": true,
+      "score": 36,
+      "metrics": {
+        "first-contentful-paint": 9608.66835,
+        "largest-contentful-paint": 12083.668350000004,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.4416459693149761,
+        "speed-index": 9608.66835
+      }
+    },
+    {
+      "run": "gzip-home-before-2",
+      "version": "13.5.0",
+      "form_factor": "mobile",
+      "gzip": true,
+      "score": 36,
+      "metrics": {
+        "first-contentful-paint": 9606.06405,
+        "largest-contentful-paint": 12081.064049999995,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.4416459693149761,
+        "speed-index": 9606.06405
+      }
+    },
+    {
+      "run": "gzip-home-after",
+      "version": "13.5.0",
+      "form_factor": "mobile",
+      "gzip": true,
+      "score": 87,
+      "metrics": {
+        "first-contentful-paint": 1509.6268499999999,
+        "largest-contentful-paint": 4056.4179,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1509.6268499999999
+      }
+    },
+    {
+      "run": "gzip-home-final",
+      "version": "13.5.0",
+      "form_factor": "mobile",
+      "gzip": true,
+      "score": 93,
+      "metrics": {
+        "first-contentful-paint": 1506.8694,
+        "largest-contentful-paint": 3154.5796,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1506.8694
+      }
+    },
+    {
+      "run": "gzip-home-final-2",
+      "version": "13.5.0",
+      "form_factor": "mobile",
+      "gzip": true,
+      "score": 93,
+      "metrics": {
+        "first-contentful-paint": 1505.81085,
+        "largest-contentful-paint": 3153.8738999999996,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1505.81085
+      }
+    },
+    {
+      "run": "gzip-service-before",
+      "version": "13.5.0",
+      "form_factor": "mobile",
+      "gzip": true,
+      "score": 80,
+      "metrics": {
+        "first-contentful-paint": 1353.2719000000002,
+        "largest-contentful-paint": 1654.9078499999996,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.4308741229667583,
+        "speed-index": 1353.2719000000002
+      }
+    },
+    {
+      "run": "gzip-service-after",
+      "version": "13.5.0",
+      "form_factor": "mobile",
+      "gzip": true,
+      "score": 97,
+      "metrics": {
+        "first-contentful-paint": 1505.3802,
+        "largest-contentful-paint": 2405.3802,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1505.3802
+      }
+    },
+    {
+      "run": "gzip-desktop-before",
+      "version": "13.5.0",
+      "form_factor": "desktop",
+      "gzip": true,
+      "score": 69,
+      "metrics": {
+        "first-contentful-paint": 1565.9188,
+        "largest-contentful-paint": 2025.9188000000006,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.2839476344626886,
+        "speed-index": 1565.9188
+      }
+    }
+  ],
+  "validation": {
+    "first_view_seconds": 0.072,
+    "cms_delay_seconds_per_request": 2,
+    "menu_works_before_dom_loaded": true,
+    "csrf_preserved": true,
+    "private_response": true
+  }
+}

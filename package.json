@@ -1,0 +1,10 @@
+{
+  "name": "trimistri-navrh",
+  "private": true,
+  "scripts": {
+    "build:performance": "python3 scripts/build-performance.py"
+  },
+  "devDependencies": {
+    "csso": "5.0.5"
+  }
+}

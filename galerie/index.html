@@ -4,11 +4,72 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Malířské práce v Brně a okolí: malování bytů, dekorativní a betonové stěrky, tapetování i nátěry. Prohlédněte si realizace a nezávazně poptejte práci.">
   <meta name="robots" content="noindex, nofollow"><title>Galerie realizací | Tři Mistři</title>
-  <link rel="stylesheet" href="/trimistri-navrh/assets/vendor/elaris-preview/inter.css">
-  <link rel="stylesheet" href="/trimistri-navrh/assets/vendor/elaris-preview/glightbox.min.css">
-  <link rel="stylesheet" href="/trimistri-navrh/navrhy/base.css"><link rel="stylesheet" href="/trimistri-navrh/navrhy/02.css"><link rel="stylesheet" href="/trimistri-navrh/navrhy/02-rest.css">
-  <link rel="stylesheet" href="/trimistri-navrh/navrhy/02-service-layout.css">
-  <link rel="stylesheet" href="/trimistri-navrh/navrhy/polish.css?v=20261011-5">
+
+
+
+
+
+<!-- performance:start -->
+<script>
+/* Initialize navigation before the first layout and during streamed responses. */
+(() => {
+  document.documentElement.classList.add('menu-js');
+  window.tmMenuReady = true;
+  const close = button => {
+    button.setAttribute('aria-expanded', 'false');
+    button.setAttribute('aria-label', 'Otevřít hlavní menu');
+    document.getElementById(button.getAttribute('aria-controls'))?.classList.remove('is-open');
+  };
+  document.addEventListener('click', event => {
+    const button = event.target.closest('[data-menu-toggle]');
+    if (button) {
+      const menu = document.getElementById(button.getAttribute('aria-controls'));
+      if (!menu) return;
+      const open = button.getAttribute('aria-expanded') !== 'true';
+      button.setAttribute('aria-expanded', String(open));
+      button.setAttribute('aria-label', open ? 'Zavřít hlavní menu' : 'Otevřít hlavní menu');
+      menu.classList.toggle('is-open', open);
+    } else if (event.target.closest('[data-menu] a') || !event.target.closest('.tm-nav-row')) {
+      document.querySelectorAll('[data-menu-toggle][aria-expanded="true"]').forEach(close);
+    }
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key !== 'Escape') return;
+    document.querySelectorAll('[data-menu-toggle][aria-expanded="true"]').forEach(button => {
+      close(button);
+      button.focus();
+    });
+  });
+})();
+
+/* Fetch lower-page photos shortly before they enter view; noscript keeps every photo. */
+(() => {
+  const reveal = image => {
+    if (image.dataset.srcset) image.srcset = image.dataset.srcset;
+    image.src = image.dataset.src;
+  };
+  const init = () => {
+    const images = document.querySelectorAll('img[data-src]');
+    if (!('IntersectionObserver' in window)) return images.forEach(reveal);
+    const observer = new IntersectionObserver(entries => {
+      for (const entry of entries) {
+        if (!entry.isIntersecting) continue;
+        reveal(entry.target);
+        observer.unobserve(entry.target);
+      }
+    }, { rootMargin: '200px' });
+    images.forEach(image => observer.observe(image));
+  };
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, { once: true });
+  else init();
+})();
+
+</script>
+<link rel="preload" href="/trimistri-navrh/assets/vendor/elaris-preview/inter-400.4c6a816fef33.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/trimistri-navrh/assets/vendor/elaris-preview/inter-600.2096ecbf141c.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/trimistri-navrh/assets/vendor/elaris-preview/inter-800.4ee07cf4ce39.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/trimistri-navrh/assets/css/site.43b4fcaa1caa.css">
+<!-- performance:end -->
 </head>
 <body class="night-gallery">
 <a class="tm-skip" href="#obsah">Přeskočit na obsah</a>
@@ -32,7 +93,7 @@
   <section class="tm-page-heading tm-container"><nav class="tm-breadcrumb" aria-label="Drobečková navigace"><a href="/trimistri-navrh/">Úvod</a><span aria-hidden="true">/</span><span>Realizace</span></nav><div class="tm-page-heading-grid"><div><p class="tm-eyebrow">Galerie / Tři Mistři</p><h1>Za každou fotkou<br>je kus <em>práce.</em></h1></div><div class="tm-page-note"><p>Interiéry, fasády i detaily, které dělají rozdíl. Skutečné zakázky, skutečné fotografie.</p><div class="tm-archive-stats"><span><strong>37</strong> realizací</span><span><strong>160</strong> fotografií</span></div></div></div></section>
   <section class="tm-container tm-archive"><h2 class="sr-only">Všechny realizace</h2><div class="tm-project-grid">            <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-5cb5a08812ed" href="/trimistri-navrh/assets/img/gallery/DekoracniSterky.jpeg" data-glightbox="title: Dekorativní stěrka 1 - Brno - Špitálka" aria-label="Dekorativní stěrka — Brno - Špitálka — prohlédnout 1 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/DekoracniSterky-700w.webp" alt="Dekorativní stěrka 1 - Brno - Špitálka" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/DekoracniSterky-700w.webp" alt="Dekorativní stěrka 1 - Brno - Špitálka" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/DekoracniSterky-700w.webp" alt="Dekorativní stěrka 1 - Brno - Špitálka" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dekorativní stěrky</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Brno - Špitálka</span><h3>Dekorativní stěrka</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -40,7 +101,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-9732b2ca0763" href="/trimistri-navrh/assets/img/gallery/dekoracnisterky2.jpeg" data-glightbox="title: Dekorativní stěrka 2 - Zlín - Ortodoncie" aria-label="Dekorativní stěrka — Zlín - Ortodoncie — prohlédnout 5 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky2-700w.webp" alt="Dekorativní stěrka 2 - Zlín - Ortodoncie" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky2-700w.webp" alt="Dekorativní stěrka 2 - Zlín - Ortodoncie" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky2-700w.webp" alt="Dekorativní stěrka 2 - Zlín - Ortodoncie" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dekorativní stěrky</span><span class="tm-project-photo-total">5 fotografií</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Zlín - Ortodoncie</span><h3>Dekorativní stěrka</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -48,7 +109,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-5882a7572435" href="/trimistri-navrh/assets/img/gallery/dekoracnisterky6.jpeg" data-glightbox="title: Dekorativní stěrka 4 - Brno - Kamechy" aria-label="Dekorativní stěrka — Brno - Kamechy — prohlédnout 1 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky6-700w.webp" alt="Dekorativní stěrka 4 - Brno - Kamechy" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky6-700w.webp" alt="Dekorativní stěrka 4 - Brno - Kamechy" loading="lazy" width="700" height="525" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky6-700w.webp" alt="Dekorativní stěrka 4 - Brno - Kamechy" loading="lazy" width="700" height="525" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dekorativní stěrky</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Brno - Kamechy</span><h3>Dekorativní stěrka</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -56,7 +117,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-dc6bb9734969" href="/trimistri-navrh/assets/img/gallery/dekoracnisterky8.jpeg" data-glightbox="title: Dekorativní stěrka 5 - Brno - Líšeň" aria-label="Dekorativní stěrka — Brno - Líšeň — prohlédnout 1 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky8-700w.webp" alt="Dekorativní stěrka 5 - Brno - Líšeň" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky8-700w.webp" alt="Dekorativní stěrka 5 - Brno - Líšeň" loading="lazy" width="700" height="525" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky8-700w.webp" alt="Dekorativní stěrka 5 - Brno - Líšeň" loading="lazy" width="700" height="525" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dekorativní stěrky</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Brno - Líšeň</span><h3>Dekorativní stěrka</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -64,7 +125,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-877c536d6192" href="/trimistri-navrh/assets/img/gallery/dekoracnisterky9.jpeg" data-glightbox="title: Dekorativní stěrka 6 - Brno - Kunzova" aria-label="Dekorativní stěrka — Brno - Kunzova — prohlédnout 1 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky9-700w.webp" alt="Dekorativní stěrka 6 - Brno - Kunzova" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky9-700w.webp" alt="Dekorativní stěrka 6 - Brno - Kunzova" loading="lazy" width="700" height="525" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky9-700w.webp" alt="Dekorativní stěrka 6 - Brno - Kunzova" loading="lazy" width="700" height="525" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dekorativní stěrky</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Brno - Kunzova</span><h3>Dekorativní stěrka</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -72,7 +133,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-d34a8fb6ccbc" href="/trimistri-navrh/assets/img/gallery/dekoracnisterky11.jpeg" data-glightbox="title: Dekorativní stěrka 7 - Brno - Líšeň" aria-label="Dekorativní stěrka — Brno - Líšeň — prohlédnout 1 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky11-700w.webp" alt="Dekorativní stěrka 7 - Brno - Líšeň" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky11-700w.webp" alt="Dekorativní stěrka 7 - Brno - Líšeň" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky11-700w.webp" alt="Dekorativní stěrka 7 - Brno - Líšeň" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dekorativní stěrky</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Brno - Líšeň</span><h3>Dekorativní stěrka</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -80,7 +141,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-49b01bf97be5" href="/trimistri-navrh/assets/img/gallery/dekoracnisterky14.jpeg" data-glightbox="title: Dekorativní stěrka 8 - Brno - Moravany" aria-label="Dekorativní stěrka — Brno - Moravany — prohlédnout 3 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky14-700w.webp" alt="Dekorativní stěrka 8 - Brno - Moravany" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky14-700w.webp" alt="Dekorativní stěrka 8 - Brno - Moravany" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky14-700w.webp" alt="Dekorativní stěrka 8 - Brno - Moravany" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dekorativní stěrky</span><span class="tm-project-photo-total">3 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Brno - Moravany</span><h3>Dekorativní stěrka</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -88,7 +149,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-b230efbddf77" href="/trimistri-navrh/assets/img/gallery/dekoracnisterky21.jpeg" data-glightbox="title: Dekorativní stěrka 9 - Brno - Bohunice" aria-label="Dekorativní stěrka — Brno - Bohunice — prohlédnout 1 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky21-530w.webp" alt="Dekorativní stěrka 9 - Brno - Bohunice" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky21-530w.webp" alt="Dekorativní stěrka 9 - Brno - Bohunice" loading="lazy" width="530" height="709" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky21-530w.webp" alt="Dekorativní stěrka 9 - Brno - Bohunice" loading="lazy" width="530" height="709" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dekorativní stěrky</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Brno - Bohunice</span><h3>Dekorativní stěrka</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -96,7 +157,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-7678508387dd" href="/trimistri-navrh/assets/img/gallery/dekoracnisterky22.jpeg" data-glightbox="title: Dekorativní stěrka 10 - Velká Bíteš" aria-label="Dekorativní stěrka — Velká Bíteš — prohlédnout 1 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky22-700w.webp" alt="Dekorativní stěrka 10 - Velká Bíteš" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky22-700w.webp" alt="Dekorativní stěrka 10 - Velká Bíteš" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky22-700w.webp" alt="Dekorativní stěrka 10 - Velká Bíteš" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dekorativní stěrky</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Velká Bíteš</span><h3>Dekorativní stěrka</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -104,7 +165,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-220f1ef3ab2c" href="/trimistri-navrh/assets/img/gallery/dekoracnisterky7.jpeg" data-glightbox="title: Dekorativní stěrka 11 - Rebešovice" aria-label="Dekorativní stěrka — Rebešovice — prohlédnout 2 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky7-700w.webp" alt="Dekorativní stěrka 11 - Rebešovice" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky7-700w.webp" alt="Dekorativní stěrka 11 - Rebešovice" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky7-700w.webp" alt="Dekorativní stěrka 11 - Rebešovice" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dekorativní stěrky</span><span class="tm-project-photo-total">2 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Rebešovice</span><h3>Dekorativní stěrka</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -112,7 +173,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-09e9fb169fb0" href="/trimistri-navrh/assets/img/gallery/dekoracnisterky12.jpeg" data-glightbox="title: Dekorativní stěrka 12 - Brno - Veselá" aria-label="Dekorativní stěrka — Brno - Veselá — prohlédnout 1 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky12-700w.webp" alt="Dekorativní stěrka 12 - Brno - Veselá" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky12-700w.webp" alt="Dekorativní stěrka 12 - Brno - Veselá" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky12-700w.webp" alt="Dekorativní stěrka 12 - Brno - Veselá" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dekorativní stěrky</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Brno - Veselá</span><h3>Dekorativní stěrka</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -120,7 +181,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-c34377aa8798" href="/trimistri-navrh/assets/img/gallery/dekoracnisterky15.jpeg" data-glightbox="title: Dekorativní stěrka 14 - Rajhrad" aria-label="Dekorativní stěrka — Rajhrad — prohlédnout 5 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky15-700w.webp" alt="Dekorativní stěrka 14 - Rajhrad" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky15-700w.webp" alt="Dekorativní stěrka 14 - Rajhrad" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky15-700w.webp" alt="Dekorativní stěrka 14 - Rajhrad" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dekorativní stěrky</span><span class="tm-project-photo-total">5 fotografií</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Rajhrad</span><h3>Dekorativní stěrka</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -128,7 +189,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-98d3bf45c41a" href="/trimistri-navrh/assets/img/gallery/dekoracnisterky5.jpeg" data-glightbox="title: Dekorativní stěrka 15" aria-label="Dekorativní stěrka — prohlédnout 1 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky5-700w.webp" alt="Dekorativní stěrka 15" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky5-700w.webp" alt="Dekorativní stěrka 15" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky5-700w.webp" alt="Dekorativní stěrka 15" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dekorativní stěrky</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><h3>Dekorativní stěrka</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -136,7 +197,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-fc2848fd8b86" href="/trimistri-navrh/assets/img/gallery/naterydreva6.jpeg" data-glightbox="title: Nátěr dřeva 1 - Blansko - Chata" aria-label="Nátěr dřeva — Blansko - Chata — prohlédnout 6 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/naterydreva6-700w.webp" alt="Nátěr dřeva 1 - Blansko - Chata" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/naterydreva6-700w.webp" alt="Nátěr dřeva 1 - Blansko - Chata" loading="lazy" width="700" height="1493" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/naterydreva6-700w.webp" alt="Nátěr dřeva 1 - Blansko - Chata" loading="lazy" width="700" height="1493" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dřevo a kov</span><span class="tm-project-photo-total">6 fotografií</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Blansko - Chata</span><h3>Nátěr dřeva</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -144,7 +205,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-373a6f350286" href="/trimistri-navrh/assets/img/gallery/naterydreva.jpeg" data-glightbox="title: Nátěr dřeva 8" aria-label="Nátěr dřeva — prohlédnout 1 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/naterydreva-700w.webp" alt="Nátěr dřeva 8" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/naterydreva-700w.webp" alt="Nátěr dřeva 8" loading="lazy" width="700" height="1244" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/naterydreva-700w.webp" alt="Nátěr dřeva 8" loading="lazy" width="700" height="1244" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dřevo a kov</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><h3>Nátěr dřeva</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -152,7 +213,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-484ae30daea2" href="/trimistri-navrh/assets/img/gallery/naterydreva4.jpeg" data-glightbox="title: Nátěr dřeva 12" aria-label="Nátěr dřeva — prohlédnout 1 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/naterydreva4-700w.webp" alt="Nátěr dřeva 12" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/naterydreva4-700w.webp" alt="Nátěr dřeva 12" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/naterydreva4-700w.webp" alt="Nátěr dřeva 12" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dřevo a kov</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><h3>Nátěr dřeva</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -160,7 +221,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-a49e1627b79e" href="/trimistri-navrh/assets/img/gallery/naterydreva2.jpeg" data-glightbox="title: Nátěr dřeva 9" aria-label="Nátěr dřeva — prohlédnout 1 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/naterydreva2-700w.webp" alt="Nátěr dřeva 9" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/naterydreva2-700w.webp" alt="Nátěr dřeva 9" loading="lazy" width="700" height="1244" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/naterydreva2-700w.webp" alt="Nátěr dřeva 9" loading="lazy" width="700" height="1244" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dřevo a kov</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><h3>Nátěr dřeva</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -168,7 +229,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-6edb9c2837a2" href="/trimistri-navrh/assets/img/gallery/naterydreva3.jpeg" data-glightbox="title: Nátěr dřeva 10" aria-label="Nátěr dřeva — prohlédnout 1 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/naterydreva3-700w.webp" alt="Nátěr dřeva 10" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/naterydreva3-700w.webp" alt="Nátěr dřeva 10" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/naterydreva3-700w.webp" alt="Nátěr dřeva 10" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dřevo a kov</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><h3>Nátěr dřeva</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -176,7 +237,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-17f7a44c8e3c" href="/trimistri-navrh/assets/img/gallery/naterydreva12.jpeg" data-glightbox="title: Nátěr dřeva 11 - Brno - Jana Uhra" aria-label="Nátěr dřeva — Brno - Jana Uhra — prohlédnout 1 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/naterydreva12-700w.webp" alt="Nátěr dřeva 11 - Brno - Jana Uhra" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/naterydreva12-700w.webp" alt="Nátěr dřeva 11 - Brno - Jana Uhra" loading="lazy" width="700" height="1499" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/naterydreva12-700w.webp" alt="Nátěr dřeva 11 - Brno - Jana Uhra" loading="lazy" width="700" height="1499" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dřevo a kov</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Brno - Jana Uhra</span><h3>Nátěr dřeva</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -184,7 +245,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-24a3aabc620c" href="/trimistri-navrh/assets/img/gallery/naterinterieru3.jpeg" data-glightbox="title: Nátěr kovu - Brno - Losova" aria-label="Nátěr kovu — Brno - Losova — prohlédnout 2 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/naterinterieru3-700w.webp" alt="Nátěr kovu - Brno - Losova" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/naterinterieru3-700w.webp" alt="Nátěr kovu - Brno - Losova" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/naterinterieru3-700w.webp" alt="Nátěr kovu - Brno - Losova" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Dřevo a kov</span><span class="tm-project-photo-total">2 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Brno - Losova</span><h3>Nátěr kovu</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -192,7 +253,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-55f276719017" href="/trimistri-navrh/assets/img/gallery/fasadynatery18.jpeg" data-glightbox="title: Nátěr fasády 3 - Starez Aréna Brno" aria-label="Nátěr fasády — Starez Aréna Brno — prohlédnout 2 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/fasadynatery18-700w.webp" alt="Nátěr fasády 3 - Starez Aréna Brno" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/fasadynatery18-700w.webp" alt="Nátěr fasády 3 - Starez Aréna Brno" loading="lazy" width="700" height="941" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/fasadynatery18-700w.webp" alt="Nátěr fasády 3 - Starez Aréna Brno" loading="lazy" width="700" height="941" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Fasády</span><span class="tm-project-photo-total">2 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Starez Aréna Brno</span><h3>Nátěr fasády</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -200,7 +261,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-b799aa2ecbee" href="/trimistri-navrh/assets/img/gallery/fasadynatery19.jpeg" data-glightbox="title: Nátěr fasády 5 - Brno - Krásného" aria-label="Nátěr fasády — Brno - Krásného — prohlédnout 3 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/fasadynatery19-700w.webp" alt="Nátěr fasády 5 - Brno - Krásného" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/fasadynatery19-700w.webp" alt="Nátěr fasády 5 - Brno - Krásného" loading="lazy" width="700" height="941" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/fasadynatery19-700w.webp" alt="Nátěr fasády 5 - Brno - Krásného" loading="lazy" width="700" height="941" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Fasády</span><span class="tm-project-photo-total">3 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Brno - Krásného</span><h3>Nátěr fasády</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -208,7 +269,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-6ab217f17943" href="/trimistri-navrh/assets/img/gallery/grafiti9.jpeg" data-glightbox="title: Nátěr fasády - Česká - před 1" aria-label="Nátěr fasády — Česká — prohlédnout 4 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/FasadyNatery2-700w.webp" alt="Nátěr fasády - Česká - po" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/FasadyNatery2-700w.webp" alt="Nátěr fasády - Česká - po" loading="lazy" width="700" height="323" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/FasadyNatery2-700w.webp" alt="Nátěr fasády - Česká - po" loading="lazy" width="700" height="323" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Fasády</span><span class="tm-project-photo-total">4 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Česká</span><h3>Nátěr fasády</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -216,7 +277,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-c0b206e4b367" href="/trimistri-navrh/assets/img/gallery/FasadyNatery.jpeg" data-glightbox="title: Nátěr fasády - Rozdrojovice Fasáda - před" aria-label="Nátěr fasády — Rozdrojovice Fasáda — prohlédnout 14 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/fasadynatery13-700w.webp" alt="Nátěr fasády - Rozdrojovice Fasáda - po" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/fasadynatery13-700w.webp" alt="Nátěr fasády - Rozdrojovice Fasáda - po" loading="lazy" width="700" height="1244" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/fasadynatery13-700w.webp" alt="Nátěr fasády - Rozdrojovice Fasáda - po" loading="lazy" width="700" height="1244" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Fasády</span><span class="tm-project-photo-total">14 fotografií</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Rozdrojovice Fasáda</span><h3>Nátěr fasády</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -224,7 +285,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-3d8ef65762de" href="/trimistri-navrh/assets/img/gallery/fasadynatery3.jpeg" data-glightbox="title: Nátěr fasády 8" aria-label="Nátěr fasády — prohlédnout 10 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/fasadynatery3-700w.webp" alt="Nátěr fasády 8" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/fasadynatery3-700w.webp" alt="Nátěr fasády 8" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/fasadynatery3-700w.webp" alt="Nátěr fasády 8" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Fasády</span><span class="tm-project-photo-total">10 fotografií</span>
                 <span class="tm-project-overlay"><h3>Nátěr fasády</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -232,7 +293,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-d3d9391efced" href="/trimistri-navrh/assets/img/gallery/naterinterieru.jpeg" data-glightbox="title: Nátěr interiéru - Před" aria-label="Nátěr interiéru — Lelekovice — prohlédnout 3 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/naterinterieru2-700w.webp" alt="Nátěr interiéru - Po" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/naterinterieru2-700w.webp" alt="Nátěr interiéru - Po" loading="lazy" width="700" height="525" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/naterinterieru2-700w.webp" alt="Nátěr interiéru - Po" loading="lazy" width="700" height="525" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Malování interiérů</span><span class="tm-project-photo-total">3 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Lelekovice</span><h3>Nátěr interiéru</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -240,7 +301,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-dab66b8c97c1" href="/trimistri-navrh/assets/img/gallery/renovace4.jpeg" data-glightbox="title: Renovace interiéru - Brno - Herčíkova - Ordinace" aria-label="Renovace interiéru — Brno - Herčíkova - Ordinace — prohlédnout 17 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/renovace4-700w.webp" alt="Renovace interiéru - Brno - Herčíkova - Ordinace" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/renovace4-700w.webp" alt="Renovace interiéru - Brno - Herčíkova - Ordinace" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/renovace4-700w.webp" alt="Renovace interiéru - Brno - Herčíkova - Ordinace" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Malování interiérů</span><span class="tm-project-photo-total">17 fotografií</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Brno - Herčíkova - Ordinace</span><h3>Renovace interiéru</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -248,7 +309,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-1b5ad8b08c86" href="/trimistri-navrh/assets/img/gallery/renovace22.jpeg" data-glightbox="title: Renovace interiéru - Brno - Řečkovice" aria-label="Renovace interiéru — Brno - Řečkovice — prohlédnout 22 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/renovace22-700w.webp" alt="Renovace interiéru - Brno - Řečkovice" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/renovace22-700w.webp" alt="Renovace interiéru - Brno - Řečkovice" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/renovace22-700w.webp" alt="Renovace interiéru - Brno - Řečkovice" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Malování interiérů</span><span class="tm-project-photo-total">22 fotografií</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Brno - Řečkovice</span><h3>Renovace interiéru</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -256,7 +317,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-0bfeb0a898c9" href="/trimistri-navrh/assets/img/gallery/bohunice1.jpeg" data-glightbox="title: Nátěr interiéru 1 - Brno - Bohunice" aria-label="Nátěr interiéru — Brno - Bohunice — prohlédnout 25 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/bohunice1-700w.webp" alt="Nátěr interiéru 1 - Brno - Bohunice" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/bohunice1-700w.webp" alt="Nátěr interiéru 1 - Brno - Bohunice" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/bohunice1-700w.webp" alt="Nátěr interiéru 1 - Brno - Bohunice" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Malování interiérů</span><span class="tm-project-photo-total">25 fotografií</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Brno - Bohunice</span><h3>Nátěr interiéru</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -264,7 +325,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-a20723a4951b" href="/trimistri-navrh/assets/img/gallery/grafiti1.jpeg" data-glightbox="title: Odstranění graffiti 1 - před" aria-label="Odstranění graffiti — prohlédnout 2 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/grafiti2-700w.webp" alt="Odstranění graffiti 1 - po" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/grafiti2-700w.webp" alt="Odstranění graffiti 1 - po" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/grafiti2-700w.webp" alt="Odstranění graffiti 1 - po" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Odstranění graffiti</span><span class="tm-project-photo-total">2 fotografie</span>
                 <span class="tm-project-overlay"><h3>Odstranění graffiti</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -272,7 +333,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-6f5854d03383" href="/trimistri-navrh/assets/img/gallery/grafiti3.jpeg" data-glightbox="title: Odstranění graffiti 2 - před" aria-label="Odstranění graffiti — prohlédnout 2 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/grafiti4-700w.webp" alt="Odstranění graffiti 2 - po" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/grafiti4-700w.webp" alt="Odstranění graffiti 2 - po" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/grafiti4-700w.webp" alt="Odstranění graffiti 2 - po" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Odstranění graffiti</span><span class="tm-project-photo-total">2 fotografie</span>
                 <span class="tm-project-overlay"><h3>Odstranění graffiti</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -280,7 +341,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-4e22a7f555ef" href="/trimistri-navrh/assets/img/gallery/pismomalirstvi.jpeg" data-glightbox="title: Písmomalířství 1 - Brno - Veveří" aria-label="Písmomalířství — Brno - Veveří — prohlédnout 1 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/pismomalirstvi-700w.webp" alt="Písmomalířství 1 - Brno - Veveří" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/pismomalirstvi-700w.webp" alt="Písmomalířství 1 - Brno - Veveří" loading="lazy" width="700" height="410" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/pismomalirstvi-700w.webp" alt="Písmomalířství 1 - Brno - Veveří" loading="lazy" width="700" height="410" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Písmomalířství</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Brno - Veveří</span><h3>Písmomalířství</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -288,7 +349,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-54b2641cb666" href="/trimistri-navrh/assets/img/gallery/pismomalirstvi2.jpeg" data-glightbox="title: Písmomalířství 2 - Obec Vrbovec" aria-label="Písmomalířství — Obec Vrbovec — prohlédnout 1 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/pismomalirstvi2-700w.webp" alt="Písmomalířství 2 - Obec Vrbovec" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/pismomalirstvi2-700w.webp" alt="Písmomalířství 2 - Obec Vrbovec" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/pismomalirstvi2-700w.webp" alt="Písmomalířství 2 - Obec Vrbovec" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Písmomalířství</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Obec Vrbovec</span><h3>Písmomalířství</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -296,7 +357,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-656e04ce219a" href="/trimistri-navrh/assets/img/gallery/prumyslovenatery12.jpeg" data-glightbox="title: Průmyslový nátěr 1 - Opatovice" aria-label="Průmyslový nátěr — Opatovice — prohlédnout 13 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/prumyslovenatery12-700w.webp" alt="Průmyslový nátěr 1 - Opatovice" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/prumyslovenatery12-700w.webp" alt="Průmyslový nátěr 1 - Opatovice" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/prumyslovenatery12-700w.webp" alt="Průmyslový nátěr 1 - Opatovice" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Průmyslové nátěry</span><span class="tm-project-photo-total">13 fotografií</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Opatovice</span><h3>Průmyslový nátěr</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -304,7 +365,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-cf871987d7ed" href="/trimistri-navrh/assets/img/gallery/tapetovani2j.jpeg" data-glightbox="title: Tapetování 1 - Brno - Bystrc" aria-label="Tapetování — Brno - Bystrc — prohlédnout 2 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/tapetovani2j-700w.webp" alt="Tapetování 1 - Brno - Bystrc" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/tapetovani2j-700w.webp" alt="Tapetování 1 - Brno - Bystrc" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/tapetovani2j-700w.webp" alt="Tapetování 1 - Brno - Bystrc" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Tapetování</span><span class="tm-project-photo-total">2 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Brno - Bystrc</span><h3>Tapetování</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -312,7 +373,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-8a14974b94bc" href="/trimistri-navrh/assets/img/gallery/tapetovani.jpeg" data-glightbox="title: Tapetování 2 - Brno - Rennenská" aria-label="Tapetování — Brno - Rennenská — prohlédnout 1 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/tapetovani-700w.webp" alt="Tapetování 2 - Brno - Rennenská" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/tapetovani-700w.webp" alt="Tapetování 2 - Brno - Rennenská" loading="lazy" width="700" height="525" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/tapetovani-700w.webp" alt="Tapetování 2 - Brno - Rennenská" loading="lazy" width="700" height="525" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Tapetování</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><span class="tm-project-place"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 6-7 13-7 13S5 15 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2.5"/></svg>Brno - Rennenská</span><h3>Tapetování</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -320,7 +381,7 @@
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-7b687c32f4e9" href="/trimistri-navrh/assets/img/gallery/dekoracnisterky20.jpeg" data-glightbox="title: Tapetování 4" aria-label="Tapetování — prohlédnout 1 fotografií">
-                <img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky20-700w.webp" alt="Tapetování 4" loading="lazy">
+                <img data-src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky20-700w.webp" alt="Tapetování 4" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="/trimistri-navrh/assets/img/gallery/thumbs/dekoracnisterky20-700w.webp" alt="Tapetování 4" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Tapetování</span><span class="tm-project-photo-total">1 fotografie</span>
                 <span class="tm-project-overlay"><h3>Tapetování</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -336,7 +397,7 @@
   <div class="tm-footer-contact"><span>Ozvěte se nám</span><a href="tel:+420774927182">+420 774 927 182</a><a href="mailto:info@trimistri.cz">info@trimistri.cz</a><p>Jakub Jaššo · IČO 23193620<br>Nová 315, Rájec-Jestřebí</p><p>Brno · Blansko · Olomouc · Zlín<br>a okolí</p></div></div>
   <div class="tm-footer-bottom"><span>© 2026 Tři Mistři</span><a href="https://trimistri.cz/ochrana-osobnich-udaju">Ochrana osobních údajů</a><a href="/trimistri-navrh/#obsah">Zpět na začátek ↑</a></div>
 </div></footer>
-<script src="/trimistri-navrh/navrhy/02-rest.js" defer></script><script src="/trimistri-navrh/navrhy/motion.js" defer></script><script src="/trimistri-navrh/assets/vendor/elaris-preview/glightbox.min.js" defer></script><script src="/trimistri-navrh/navrhy/gallery.js" defer></script>
-<script src="/trimistri-navrh/navrhy/pages-preview.js" defer></script>
-<script src="/trimistri-navrh/navrhy/polish.js?v=20261011-1" defer></script>
+<script src="/trimistri-navrh/navrhy/02-rest.js?v=d0a8fefe5ab7" defer></script><script src="/trimistri-navrh/navrhy/motion.js?v=7ba0da4c79ba" defer></script><script src="/trimistri-navrh/navrhy/gallery.js?v=f58906619eae" defer></script>
+<script src="/trimistri-navrh/navrhy/pages-preview.js?v=d95dd4e64e7d" defer></script>
+<script src="/trimistri-navrh/navrhy/polish.js?v=883574929080" defer></script>
 </body></html>

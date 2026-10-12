@@ -58,11 +58,12 @@ $schema['@graph'][] = json_decode('{"@type": "FAQPage", "mainEntity": [{"@type":
         </div>
       </div>
             <figure class="tm-detail-cover" data-tm-motion>
-        <div class="tm-detail-cover-image"><img src="./assets/img/gallery/thumbs/grafiti2-700w.webp" alt="Odstranění graffiti 1 - po" fetchpriority="high"></div>
+        <div class="tm-detail-cover-image"><img src="./assets/img/gallery/thumbs/grafiti2-700w.webp" alt="Odstranění graffiti 1 - po" width="700" height="933" decoding="async" fetchpriority="high"></div>
         <figcaption><span><i aria-hidden="true"></i> Z naší práce</span><strong>Odstranění graffiti</strong></figcaption>
       </figure>
           </div>
   </section>
+<?php navrh_flush_first_view(); ?>
 
   <section class="tm-detail-section tm-container tm-detail-service-info" id="rozsah" aria-labelledby="scope-title">
     <div class="tm-detail-info-surface">
@@ -97,7 +98,7 @@ $schema['@graph'][] = json_decode('{"@type": "FAQPage", "mainEntity": [{"@type":
     <span class="tm-anchor" id="galerie"></span><span class="tm-anchor" id="web-realizace"></span><div class="tm-detail-section-heading"><div><p class="tm-eyebrow">02 / Ukázky realizací</p><h2 id="showcase-title">Podívejte se na výsledek.</h2></div><p>2 realizace · 4 fotografií</p></div>
     <div class="tm-project-grid tm-detail-projects">            <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-a20723a4951b" href="./assets/img/gallery/grafiti1.jpeg" data-glightbox="title: Odstranění graffiti 1 - před" aria-label="Odstranění graffiti — prohlédnout 2 fotografií">
-                <img src="./assets/img/gallery/thumbs/grafiti2-700w.webp" alt="Odstranění graffiti 1 - po" loading="lazy">
+                <img data-src="./assets/img/gallery/thumbs/grafiti2-700w.webp" alt="Odstranění graffiti 1 - po" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="./assets/img/gallery/thumbs/grafiti2-700w.webp" alt="Odstranění graffiti 1 - po" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Odstranění graffiti</span><span class="tm-project-photo-total">2 fotografie</span>
                 <span class="tm-project-overlay"><h3>Odstranění graffiti</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>
@@ -105,7 +106,7 @@ $schema['@graph'][] = json_decode('{"@type": "FAQPage", "mainEntity": [{"@type":
             </article>
                         <article class="tm-project-card" data-reveal>
               <a class="photo-link tm-project-photo" data-gallery="tm-selected-6f5854d03383" href="./assets/img/gallery/grafiti3.jpeg" data-glightbox="title: Odstranění graffiti 2 - před" aria-label="Odstranění graffiti — prohlédnout 2 fotografií">
-                <img src="./assets/img/gallery/thumbs/grafiti4-700w.webp" alt="Odstranění graffiti 2 - po" loading="lazy">
+                <img data-src="./assets/img/gallery/thumbs/grafiti4-700w.webp" alt="Odstranění graffiti 2 - po" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="./assets/img/gallery/thumbs/grafiti4-700w.webp" alt="Odstranění graffiti 2 - po" loading="lazy" width="700" height="933" decoding="async" fetchpriority="low"></noscript>
                 <span class="tm-project-kind">Odstranění graffiti</span><span class="tm-project-photo-total">2 fotografie</span>
                 <span class="tm-project-overlay"><h3>Odstranění graffiti</h3><span class="tm-project-view">Prohlédnout realizaci <span aria-hidden="true"><svg class="tm-icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M3 3l6 6m6 6 6 6m0-18-6 6M9 15l-6 6"/></svg></span></span></span>
               </a>

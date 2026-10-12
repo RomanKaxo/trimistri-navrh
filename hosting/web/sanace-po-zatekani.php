@@ -65,6 +65,7 @@ $schema['@graph'][] = json_decode('{"@type": "FAQPage", "mainEntity": [{"@type":
       </aside>
           </div>
   </section>
+<?php navrh_flush_first_view(); ?>
 
   <section class="tm-detail-section tm-container tm-detail-service-info" id="rozsah" aria-labelledby="scope-title">
     <div class="tm-detail-info-surface">

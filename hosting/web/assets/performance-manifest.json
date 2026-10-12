@@ -1,0 +1,113 @@
+{
+  "fonts": {
+    "400": "assets/vendor/elaris-preview/inter-400.4c6a816fef33.woff2",
+    "500": "assets/vendor/elaris-preview/inter-500.6d0a4bcae81f.woff2",
+    "600": "assets/vendor/elaris-preview/inter-600.2096ecbf141c.woff2",
+    "700": "assets/vendor/elaris-preview/inter-700.4e64a3e6f745.woff2",
+    "800": "assets/vendor/elaris-preview/inter-800.4ee07cf4ce39.woff2"
+  },
+  "font_sizes": [
+    {
+      "weight": 400,
+      "before": 324820,
+      "after": 37400
+    },
+    {
+      "weight": 500,
+      "before": 325304,
+      "after": 38696
+    },
+    {
+      "weight": 600,
+      "before": 326048,
+      "after": 38740
+    },
+    {
+      "weight": 700,
+      "before": 326468,
+      "after": 38884
+    },
+    {
+      "weight": 800,
+      "before": 327324,
+      "after": 38888
+    }
+  ],
+  "hero": {
+    "avif": [
+      {
+        "path": "assets/img/hero/homepage-hero-1024.72bba5a9b9fd.avif",
+        "width": 1024,
+        "height": 768,
+        "bytes": 49446
+      },
+      {
+        "path": "assets/img/hero/homepage-hero-1440.c44b6d42d196.avif",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 83085
+      },
+      {
+        "path": "assets/img/hero/homepage-hero-1920.664839b0a8de.avif",
+        "width": 1920,
+        "height": 1440,
+        "bytes": 129632
+      }
+    ],
+    "webp": [
+      {
+        "path": "assets/img/hero/homepage-hero-1024.2ef9c75fed49.webp",
+        "width": 1024,
+        "height": 768,
+        "bytes": 78576
+      },
+      {
+        "path": "assets/img/hero/homepage-hero-1440.8fb91de9b46b.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 125646
+      },
+      {
+        "path": "assets/img/hero/homepage-hero-1920.e66b500d5485.webp",
+        "width": 1920,
+        "height": 1440,
+        "bytes": 189534
+      }
+    ]
+  },
+  "process": {
+    "webp": [
+      {
+        "path": "assets/img/hero/process-kitchen-640.3aa9b348e311.webp",
+        "width": 640,
+        "height": 853,
+        "bytes": 35940
+      },
+      {
+        "path": "assets/img/hero/process-kitchen-1280.b76cf611cbe7.webp",
+        "width": 1280,
+        "height": 1707,
+        "bytes": 121462
+      }
+    ]
+  },
+  "css": {
+    "common": "assets/css/site.43b4fcaa1caa.css",
+    "service": "assets/css/site-service.6c9c30691876.css",
+    "hosting": "assets/css/site-hosting.4a730b3fbc95.css"
+  },
+  "css_sizes": {
+    "common": {
+      "source": 170738,
+      "minified": 153319
+    },
+    "service": {
+      "source": 177259,
+      "minified": 159049
+    },
+    "hosting": {
+      "source": 178884,
+      "minified": 160369
+    }
+  }
+}
