@@ -1,0 +1,686 @@
+[
+  {
+    "url": "https://trimistri.cz/",
+    "status": 200,
+    "description": "Tři Mistři: malířské práce v Brně a okolí. Malování bytů a pokojů, dekorativní stěrky, tapetování a nátěry. Prohlédněte si realizace a poptejte práci.",
+    "canonical": [
+      "https://trimistri.cz/"
+    ],
+    "nosnippet": [
+      {
+        "tag": "section",
+        "id": "kontakt",
+        "class": "tm-contact"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": null
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "tm-container"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "consent-panel-copy"
+      }
+    ],
+    "forms": [
+      {
+        "action": "send",
+        "method": "post",
+        "enctype": "multipart/form-data"
+      }
+    ],
+    "csrf_lengths": [
+      64
+    ]
+  },
+  {
+    "url": "https://trimistri.cz/natery-interieru",
+    "status": 200,
+    "description": "Hledáte malíře pokojů v Brně nebo okolí? Vymalujeme byt, dům i kancelář. Nábytek zakryjeme, připravíme stěny a po malování uklidíme.",
+    "canonical": [
+      "https://trimistri.cz/natery-interieru"
+    ],
+    "nosnippet": [
+      {
+        "tag": "section",
+        "id": "kontakt",
+        "class": "tm-contact tm-detail-form-section"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": null
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "tm-container"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "consent-panel-copy"
+      }
+    ],
+    "forms": [
+      {
+        "action": "send",
+        "method": "post",
+        "enctype": "multipart/form-data"
+      }
+    ],
+    "csrf_lengths": [
+      64
+    ]
+  },
+  {
+    "url": "https://trimistri.cz/dekoracni-sterky",
+    "status": 200,
+    "description": "Dekorativní a betonové stěrky v Brně od Tři Mistři. Benátský štuk, marmorino a travertino. Od přípravy stěny po hotový povrch. Prohlédněte si realizace.",
+    "canonical": [
+      "https://trimistri.cz/dekoracni-sterky"
+    ],
+    "nosnippet": [
+      {
+        "tag": "section",
+        "id": "kontakt",
+        "class": "tm-contact tm-detail-form-section"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": null
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "tm-container"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "consent-panel-copy"
+      }
+    ],
+    "forms": [
+      {
+        "action": "send",
+        "method": "post",
+        "enctype": "multipart/form-data"
+      }
+    ],
+    "csrf_lengths": [
+      64
+    ]
+  },
+  {
+    "url": "https://trimistri.cz/natery-fasad",
+    "status": 200,
+    "description": "Obnovíme vzhled a nátěr fasády vašeho domu. V Brně a okolí řešíme přípravu povrchu, lokální opravy i sjednocení odstínu. Vhodný postup navrhneme podle stavu fasády.",
+    "canonical": [
+      "https://trimistri.cz/natery-fasad"
+    ],
+    "nosnippet": [
+      {
+        "tag": "section",
+        "id": "kontakt",
+        "class": "tm-contact tm-detail-form-section"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": null
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "tm-container"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "consent-panel-copy"
+      }
+    ],
+    "forms": [
+      {
+        "action": "send",
+        "method": "post",
+        "enctype": "multipart/form-data"
+      }
+    ],
+    "csrf_lengths": [
+      64
+    ]
+  },
+  {
+    "url": "https://trimistri.cz/natery-drevo-kovu",
+    "status": 200,
+    "description": "Dejte oknům, dveřím, pergole nebo plotu nový nátěr. V Brně a okolí obnovujeme dřevěné i kovové povrchy. Postup a ochranný nátěr zvolíme podle materiálu a jeho stavu.",
+    "canonical": [
+      "https://trimistri.cz/natery-drevo-kovu"
+    ],
+    "nosnippet": [
+      {
+        "tag": "section",
+        "id": "kontakt",
+        "class": "tm-contact tm-detail-form-section"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": null
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "tm-container"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "consent-panel-copy"
+      }
+    ],
+    "forms": [
+      {
+        "action": "send",
+        "method": "post",
+        "enctype": "multipart/form-data"
+      }
+    ],
+    "csrf_lengths": [
+      64
+    ]
+  },
+  {
+    "url": "https://trimistri.cz/prumyslove-natery",
+    "status": 200,
+    "description": "Nátěry ocelových konstrukcí, hal a namáhaných kovových prvků v Brně a okolí. Posoudíme stav povrchu i podmínky provozu a navrhneme přípravu a vhodný ochranný systém.",
+    "canonical": [
+      "https://trimistri.cz/prumyslove-natery"
+    ],
+    "nosnippet": [
+      {
+        "tag": "section",
+        "id": "kontakt",
+        "class": "tm-contact tm-detail-form-section"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": null
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "tm-container"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "consent-panel-copy"
+      }
+    ],
+    "forms": [
+      {
+        "action": "send",
+        "method": "post",
+        "enctype": "multipart/form-data"
+      }
+    ],
+    "csrf_lengths": [
+      64
+    ]
+  },
+  {
+    "url": "https://trimistri.cz/tapetovani",
+    "status": 200,
+    "description": "Hledáte tapetáře v Brně nebo okolí? Lepíme klasické, vliesové i vinylové tapety a fototapety. Připravíme stěnu, navážeme vzor a dokončíme rohy i okraje.",
+    "canonical": [
+      "https://trimistri.cz/tapetovani"
+    ],
+    "nosnippet": [
+      {
+        "tag": "section",
+        "id": "kontakt",
+        "class": "tm-contact tm-detail-form-section"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": null
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "tm-container"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "consent-panel-copy"
+      }
+    ],
+    "forms": [
+      {
+        "action": "send",
+        "method": "post",
+        "enctype": "multipart/form-data"
+      }
+    ],
+    "csrf_lengths": [
+      64
+    ]
+  },
+  {
+    "url": "https://trimistri.cz/odstraneni-grafiti",
+    "status": 200,
+    "description": "Graffiti na fasádě nebo jiném povrchu? V Brně a okolí navrhneme čištění, odstranění nebo překrytí podle materiálu a jeho stavu. Začít můžeme fotografií poškozeného místa.",
+    "canonical": [
+      "https://trimistri.cz/odstraneni-grafiti"
+    ],
+    "nosnippet": [
+      {
+        "tag": "section",
+        "id": "kontakt",
+        "class": "tm-contact tm-detail-form-section"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": null
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "tm-container"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "consent-panel-copy"
+      }
+    ],
+    "forms": [
+      {
+        "action": "send",
+        "method": "post",
+        "enctype": "multipart/form-data"
+      }
+    ],
+    "csrf_lengths": [
+      64
+    ]
+  },
+  {
+    "url": "https://trimistri.cz/pismomalirstvi",
+    "status": 200,
+    "description": "Ruční nápis, firemní logo na fasádu nebo malba na zeď. Provádíme písmomalířství v Brně a okolí. Pošlete motiv, rozměry a fotografii plochy — probereme provedení i přípravu podkladu.",
+    "canonical": [
+      "https://trimistri.cz/pismomalirstvi"
+    ],
+    "nosnippet": [
+      {
+        "tag": "section",
+        "id": "kontakt",
+        "class": "tm-contact tm-detail-form-section"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": null
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "tm-container"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "consent-panel-copy"
+      }
+    ],
+    "forms": [
+      {
+        "action": "send",
+        "method": "post",
+        "enctype": "multipart/form-data"
+      }
+    ],
+    "csrf_lengths": [
+      64
+    ]
+  },
+  {
+    "url": "https://trimistri.cz/sluzby",
+    "status": 200,
+    "description": "Malování interiérů, dekorativní stěrky, nátěry fasád a střech, okapů a svodů i čištění fasád v Brně a okolí. Prohlédněte si služby Tři Mistři.",
+    "canonical": [
+      "https://trimistri.cz/sluzby"
+    ],
+    "nosnippet": [
+      {
+        "tag": "section",
+        "id": "kontakt",
+        "class": "tm-contact"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": null
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "tm-container"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "consent-panel-copy"
+      }
+    ],
+    "forms": [
+      {
+        "action": "send",
+        "method": "post",
+        "enctype": "multipart/form-data"
+      }
+    ],
+    "csrf_lengths": [
+      64
+    ]
+  },
+  {
+    "url": "https://trimistri.cz/mikrocement",
+    "status": 200,
+    "description": "Vytváříme souvislé mikrocementové povrchy v koupelnách, kuchyních i obytných prostorech v Brně a okolí. Před realizací vždy ověříme soudržnost obkladu, spáry, vlhkost a vhodnost podkladu.",
+    "canonical": [
+      "https://trimistri.cz/mikrocement"
+    ],
+    "nosnippet": [
+      {
+        "tag": "section",
+        "id": "kontakt",
+        "class": "tm-contact tm-detail-form-section"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": null
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "tm-container"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "consent-panel-copy"
+      }
+    ],
+    "forms": [
+      {
+        "action": "send",
+        "method": "post",
+        "enctype": "multipart/form-data"
+      }
+    ],
+    "csrf_lengths": [
+      64
+    ]
+  },
+  {
+    "url": "https://trimistri.cz/specialni-natery",
+    "status": 200,
+    "description": "Provádíme protiplísňové, antibakteriální a termoizolační nátěry pro konkrétní problém a prostředí v Brně a okolí. Nejdříve rozlišíme stav podkladu, vlhkost, kondenzaci a způsob používání místnosti.",
+    "canonical": [
+      "https://trimistri.cz/specialni-natery"
+    ],
+    "nosnippet": [
+      {
+        "tag": "section",
+        "id": "kontakt",
+        "class": "tm-contact tm-detail-form-section"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": null
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "tm-container"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "consent-panel-copy"
+      }
+    ],
+    "forms": [
+      {
+        "action": "send",
+        "method": "post",
+        "enctype": "multipart/form-data"
+      }
+    ],
+    "csrf_lengths": [
+      64
+    ]
+  },
+  {
+    "url": "https://trimistri.cz/sanace-po-zatekani",
+    "status": 200,
+    "description": "Po odstranění zdroje vody opravíme v Brně a okolí poškozené stěny a stropy, izolujeme prostupující skvrny a obnovíme malbu tak, aby oprava navazovala na okolní povrch.",
+    "canonical": [
+      "https://trimistri.cz/sanace-po-zatekani"
+    ],
+    "nosnippet": [
+      {
+        "tag": "section",
+        "id": "kontakt",
+        "class": "tm-contact tm-detail-form-section"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": null
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "tm-container"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "consent-panel-copy"
+      }
+    ],
+    "forms": [
+      {
+        "action": "send",
+        "method": "post",
+        "enctype": "multipart/form-data"
+      }
+    ],
+    "csrf_lengths": [
+      64
+    ]
+  },
+  {
+    "url": "https://trimistri.cz/cisteni-fasad",
+    "status": 200,
+    "description": "Provádíme tlakové i šetrné čištění fasád, marmolitu, betonu, obkladů a dalších venkovních povrchů. Odstraňujeme běžné usazeniny, biologické znečištění a další nečistoty; tlak, chemii i teplotu volíme podle materiálu a jeho stavu.",
+    "canonical": [
+      "https://trimistri.cz/cisteni-fasad"
+    ],
+    "nosnippet": [
+      {
+        "tag": "section",
+        "id": "kontakt",
+        "class": "tm-contact tm-detail-form-section"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": null
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "tm-container"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "consent-panel-copy"
+      }
+    ],
+    "forms": [
+      {
+        "action": "send",
+        "method": "post",
+        "enctype": "multipart/form-data"
+      }
+    ],
+    "csrf_lengths": [
+      64
+    ]
+  },
+  {
+    "url": "https://trimistri.cz/natery-strech",
+    "status": 200,
+    "description": "Provádíme nátěry vhodných střešních krytin, okapů, svodů a dalších klempířských prvků v Brně a okolí. Rozsah prací a systém nátěru volíme podle materiálu, stáří a stavu střechy.",
+    "canonical": [
+      "https://trimistri.cz/natery-strech"
+    ],
+    "nosnippet": [
+      {
+        "tag": "section",
+        "id": "kontakt",
+        "class": "tm-contact tm-detail-form-section"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": null
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "tm-container"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "consent-panel-copy"
+      }
+    ],
+    "forms": [
+      {
+        "action": "send",
+        "method": "post",
+        "enctype": "multipart/form-data"
+      }
+    ],
+    "csrf_lengths": [
+      64
+    ]
+  },
+  {
+    "url": "https://trimistri.cz/ochrana-osobnich-udaju",
+    "status": 200,
+    "description": "Zásady zpracování osobních údajů společnosti Tři Mistři - jaké údaje shromažďujeme, proč, jak dlouho je uchováváme a jaká máte práva.",
+    "canonical": [
+      "https://trimistri.cz/ochrana-osobnich-udaju"
+    ],
+    "nosnippet": [
+      {
+        "tag": "div",
+        "id": null,
+        "class": "tm-container"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "consent-panel-copy"
+      }
+    ],
+    "forms": [],
+    "csrf_lengths": []
+  },
+  {
+    "url": "https://trimistri.cz/epoxidove-podlahy",
+    "status": 200,
+    "description": "Realizujeme epoxidové podlahy pro garáže, dílny a další interiérové prostory. Navrhneme vhodný postup podle stavu podkladu, velikosti plochy a způsobu používání.",
+    "canonical": [
+      "https://trimistri.cz/epoxidove-podlahy"
+    ],
+    "nosnippet": [
+      {
+        "tag": "section",
+        "id": "kontakt",
+        "class": "tm-contact tm-detail-form-section"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": null
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "tm-container"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "consent-panel-copy"
+      }
+    ],
+    "forms": [
+      {
+        "action": "send",
+        "method": "post",
+        "enctype": "multipart/form-data"
+      }
+    ],
+    "csrf_lengths": [
+      64
+    ]
+  },
+  {
+    "url": "https://trimistri.cz/galerie",
+    "status": 200,
+    "description": "Prohlédněte si realizace Tři Mistři: malování interiérů, dekorativní stěrky, tapetování, fasády a nátěry dřeva i kovů. Fotografie před a po práci.",
+    "canonical": [
+      "https://trimistri.cz/galerie"
+    ],
+    "nosnippet": [
+      {
+        "tag": "div",
+        "id": null,
+        "class": "tm-container"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "consent-panel-copy"
+      }
+    ],
+    "forms": [],
+    "csrf_lengths": []
+  }
+]
