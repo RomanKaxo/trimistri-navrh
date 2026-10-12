@@ -466,6 +466,78 @@
         "TBT": 5,
         "SI": 1304
       }
+    },
+    {
+      "report": "https://pagespeed.web.dev/analysis/https-trimistri-cz/vmhex2uq65?form_factor=mobile",
+      "phase": "gallery-size-regression-check",
+      "source_commit": "0fd1361d03060753cc48d9abe3ed470c491edb24",
+      "code_unchanged_between_runs": true,
+      "form_factor": "mobile",
+      "score": 91,
+      "accessibility": 97,
+      "best_practices": 100,
+      "seo": 100,
+      "metrics_ui": {
+        "FCP": "1.2 s",
+        "LCP": "3.3 s",
+        "TBT": "60 ms",
+        "CLS": "0.001",
+        "SI": "3.5 s"
+      },
+      "calculator_ms": {
+        "FCP": 1207,
+        "LCP": 3273,
+        "TBT": 62,
+        "SI": 3478
+      }
+    },
+    {
+      "report": "https://pagespeed.web.dev/analysis/https-trimistri-cz/9fhsmkab2u?form_factor=mobile",
+      "phase": "gallery-size-regression-check",
+      "source_commit": "0fd1361d03060753cc48d9abe3ed470c491edb24",
+      "code_unchanged_between_runs": true,
+      "form_factor": "mobile",
+      "score": 93,
+      "accessibility": 97,
+      "best_practices": 100,
+      "seo": 100,
+      "metrics_ui": {
+        "FCP": "1.2 s",
+        "LCP": "2.1 s",
+        "TBT": "230 ms",
+        "CLS": "0",
+        "SI": "4.1 s"
+      },
+      "calculator_ms": {
+        "FCP": 1207,
+        "LCP": 2074,
+        "TBT": 230,
+        "SI": 4149
+      }
+    },
+    {
+      "report": "https://pagespeed.web.dev/analysis/https-trimistri-cz/q1i8oj44s7?form_factor=mobile",
+      "phase": "gallery-size-regression-check",
+      "source_commit": "0fd1361d03060753cc48d9abe3ed470c491edb24",
+      "code_unchanged_between_runs": true,
+      "form_factor": "mobile",
+      "score": 98,
+      "accessibility": 97,
+      "best_practices": 100,
+      "seo": 100,
+      "metrics_ui": {
+        "FCP": "1.2 s",
+        "LCP": "2.0 s",
+        "TBT": "70 ms",
+        "CLS": "0",
+        "SI": "3.5 s"
+      },
+      "calculator_ms": {
+        "FCP": 1209,
+        "LCP": 1971,
+        "TBT": 74,
+        "SI": 3509
+      }
     }
   ],
   "google_real_user_data": "unavailable; laboratory results only"

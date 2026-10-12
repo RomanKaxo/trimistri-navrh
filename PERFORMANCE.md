@@ -2,7 +2,17 @@
 
 Výchozí PageSpeed Insights na živém `https://trimistri.cz/`: mobil **37/100**, FCP **9,2 s**, LCP **10,4 s**, CLS **0,43**, TBT **0 ms**. [Původní report Googlu](https://pagespeed.web.dev/analysis/https-trimistri-cz/bas17qz5xl?form_factor=mobile).
 
-Poslední živé měření Googlu: **97/100 na mobilu**, **99/100 na desktopu**. Mobil: FCP **1,2 s**, LCP **2,0 s**, CLS **0,001**, TBT **70 ms**. Desktop: FCP **0,3 s**, LCP **0,5 s**. [Finální report Googlu](https://pagespeed.web.dev/analysis/https-trimistri-cz/w81iim8y2t?form_factor=mobile). Jde o laboratorní měření; další běhy se mohou mírně lišit.
+Po optimalizaci živé měření Googlu dosáhlo **97/100 na mobilu**, **99/100 na desktopu**. Mobil: FCP **1,2 s**, LCP **2,0 s**, CLS **0,001**, TBT **70 ms**. Desktop: FCP **0,3 s**, LCP **0,5 s**. [Report optimalizace](https://pagespeed.web.dev/analysis/https-trimistri-cz/w81iim8y2t?form_factor=mobile). Jde o laboratorní měření, nikoli zaručené skóre všech dalších běhů.
+
+Kontrola po zmenšení nových galerií (verze `0fd1361`, 12. 10. 2026): hlášený mobilní výsledek **91** a dvě opakování **93 a 98**. Mezi těmito měřeními se kód ani produkční soubory nezměnily. Poslední běh měl FCP **1,2 s**, LCP **2,0 s**, TBT **70 ms** a CLS **0**. Záznam uchovává všechny tři výsledky:
+
+| Mobilní měření stejné verze | Výkon | LCP | TBT |
+|---|---:|---:|---:|
+| [Hlášený výsledek](https://pagespeed.web.dev/analysis/https-trimistri-cz/vmhex2uq65?form_factor=mobile) | 91 | 3,3 s | 60 ms |
+| [První opakování](https://pagespeed.web.dev/analysis/https-trimistri-cz/9fhsmkab2u?form_factor=mobile) | 93 | 2,1 s | 230 ms |
+| [Druhé opakování](https://pagespeed.web.dev/analysis/https-trimistri-cz/q1i8oj44s7?form_factor=mobile) | 98 | 2,0 s | 70 ms |
+
+U běhu s výsledkem 93 audit připsal Google Tag skriptu 426 ms dlouhých úloh; to není stejná metrika jako TBT. Rozdílné LCP a TBT na stejné verzi ukazují rozptyl jednotlivých laboratorních běhů. Nepředstavují důkaz trvalého zpomalení novými kartičkami. Pro reprodukci vložte do PageSpeed Insights přesně `https://trimistri.cz/`, spusťte **Analyze**, vyberte **Mobile** a postup dvakrát zopakujte bez změn kódu. Porovnávejte všechny výsledky a metriky, ne pouze nejlepší skóre. [Vysvětlení kolísání od Googlu](https://developer.chrome.com/docs/lighthouse/performance/performance-scoring#why-your-score-fluctuates).
 
 Živé měření po první optimalizaci: **92/100 na mobilu**, **97/100 na desktopu**. Mobil: FCP **1,7 s**, LCP **2,9 s**, CLS **0,001**, TBT **140 ms**. [Report Googlu před posledním mobilním výřezem](https://pagespeed.web.dev/analysis/https-trimistri-cz/nd4dlh236w?form_factor=mobile). V tomto reportu nejsou data skutečných uživatelů; jde o laboratorní test.
 
