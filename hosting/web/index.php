@@ -16,11 +16,11 @@ $defaultService = '';
 <meta property="og:title" content="Malířské práce Brno | Malby, stěrky a nátěry | Tři Mistři"><meta property="og:description" content="Malířské práce v Brně a okolí: malování bytů, dekorativní a betonové stěrky, tapetování i nátěry. Prohlédněte si realizace a nezávazně poptejte práci.">
 <meta property="og:url" content="https://trimistri.cz/"><meta property="og:image" content="https://trimistri.cz/assets/img/about.JPEG">
 <meta name="twitter:card" content="summary_large_image"><link rel="icon" href="favicon.ico"><meta name="theme-color" content="#151719">
+<link rel="preload" as="image" type="image/avif" href="./assets/img/hero/homepage-hero-1920.664839b0a8de.avif" imagesrcset="./assets/img/hero/homepage-hero-1024.72bba5a9b9fd.avif 1024w, ./assets/img/hero/homepage-hero-1440.c44b6d42d196.avif 1440w, ./assets/img/hero/homepage-hero-1920.664839b0a8de.avif 1920w" imagesizes="(max-width: 700px) 133.33svh, 100vw" fetchpriority="high">
 <?php require __DIR__ . '/includes/navrh-styles.php'; ?>
 <?php require __DIR__ . '/includes/consent-head.php'; ?>
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18282958447"></script>
 <script>gtag('js',new Date());gtag('config','AW-18282958447');</script>
-<link rel="preload" as="image" type="image/avif" href="./assets/img/hero/homepage-hero-1920.664839b0a8de.avif" imagesrcset="./assets/img/hero/homepage-hero-1024.72bba5a9b9fd.avif 1024w, ./assets/img/hero/homepage-hero-1440.c44b6d42d196.avif 1440w, ./assets/img/hero/homepage-hero-1920.664839b0a8de.avif 1920w" imagesizes="(max-width: 700px) 133.33svh, 100vw" fetchpriority="high">
 <?php
 $business = require __DIR__ . '/includes/business-data.php';
 $schema = ['@context' => 'https://schema.org', '@graph' => [$business]];

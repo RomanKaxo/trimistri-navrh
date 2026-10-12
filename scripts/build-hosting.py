@@ -179,7 +179,9 @@ function navrh_flush_first_view(): void {
             # Copy the responsive preload from the source, preserving the PHP URL base.
             preload = re.search(r'<link rel="preload" as="image"[^>]*>', content)
             if preload:
-                head += preload[0] + '\n'
+                # Discover the LCP image before styles and classic inline tracking scripts.
+                styles_include = "<?php require __DIR__ . '/includes/navrh-styles.php'; ?>"
+                head = head.replace(styles_include, preload[0] + '\n' + styles_include, 1)
         faqs = []
         for faq in re.finditer(r'<details[^>]*><summary>.*?<span class="tm-faq-question">(.*?)</span>.*?</summary><div class="tm-faq-answer">(.*?)</div></details>', content, re.S):
             faqs.append({'@type': 'Question', 'name': plain(faq[1]), 'acceptedAnswer': {'@type': 'Answer', 'text': plain(faq[2])}})

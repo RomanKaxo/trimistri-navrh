@@ -101,7 +101,7 @@ def head(css, font_files, hero=None):
     for weight in ['400', '600', '800']:
         tags.append(f'<link rel="preload" href="{PREFIX}{font_files[weight]}" as="font" type="font/woff2" crossorigin>')
     if hero:
-        tags.append(f'<link rel="preload" as="image" type="image/avif" href="{PREFIX}{hero["avif"][-1]["path"]}" '
+        tags.insert(1, f'<link rel="preload" as="image" type="image/avif" href="{PREFIX}{hero["avif"][-1]["path"]}" '
                     f'imagesrcset="{srcset(hero["avif"])}" imagesizes="(max-width: 700px) 133.33svh, 100vw" fetchpriority="high">')
     tags.append(f'<link rel="stylesheet" href="{PREFIX}{css}">')
     return '<!-- performance:start -->\n' + '\n'.join(tags) + '\n<!-- performance:end -->'
