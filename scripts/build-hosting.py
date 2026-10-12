@@ -232,7 +232,8 @@ $schema = ['@context' => 'https://schema.org', '@graph' => [$business]];
             gallery = element(content, r'<section class="tm-container tm-archive"', 'section')
             content = content.replace(gallery, '<?php if (!navrh_cms_gallery(null)): ?>\n' + gallery + '\n<?php endif; ?>')
         elif slug == 'index':
-            content = content.replace('<div class="tm-category-grid">', '<?php navrh_cms_featured(); ?>\n<div class="tm-category-grid">', 1)
+            categories = element(content, r'<div class="tm-category-grid"', 'div')
+            content = content.replace(categories, categories + '\n<?php navrh_cms_featured(); ?>', 1)
             for old_id, new_id in [('hero', 'top'), ('galerie', 'realizace'), ('co-umime', 'sluzby'), ('specialni-sluzby', 'sluzby')]:
                 if f'id="{old_id}"' not in content:
                     content = re.sub(r'(<section\b[^>]*\bid="' + new_id + r'"[^>]*>)', r'\1<span class="tm-anchor" id="' + old_id + '"></span>', content, count=1)

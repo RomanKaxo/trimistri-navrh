@@ -17,4 +17,5 @@
 .tm-legacy .tm-detail-contact-card { color: #fff; }
 .tm-legacy .tm-header .tm-menu-toggle { color: #151719; }
 .service-gallery-pagination { display: flex; gap: 24px; padding: 24px 0; }
+.tm-home-gallery .tm-category-grid + .tm-project-grid { margin-top: 24px; }
 @media (max-width: 500px) { .consent-panel { left: 10px; right: 10px; bottom: 10px; padding: 18px; } }

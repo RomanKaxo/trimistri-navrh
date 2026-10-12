@@ -37,8 +37,7 @@ $schema = ['@context' => 'https://schema.org', '@graph' => [$business]];
 <section class="tm-home-gallery tm-paper" id="realizace"><span class="tm-anchor" id="galerie"></span>
   <div class="tm-container"><div class="tm-section-heading" data-reveal><div><p class="tm-eyebrow tm-numbered"><span class="tm-section-number" aria-hidden="true">01</span><span>Naše realizace</span></p><h2>Řemeslo, které<br>je <em>vidět.</em></h2></div><div class="tm-heading-aside"><p>Každý prostor má svůj příběh.<br>Prohlédněte si ty, na kterých jsme pracovali.</p><a class="tm-underlink" href="./galerie">Všech 37 realizací <span aria-hidden="true">↗</span></a></div></div>
 
-  <?php navrh_cms_featured(); ?>
-<div class="tm-category-grid">        <article class="tm-category" data-reveal>
+  <div class="tm-category-grid">        <article class="tm-category" data-reveal>
           <a class="tm-category-link" href="./dekoracni-sterky">
             <div class="tm-category-image"><img data-src="./assets/img/gallery/thumbs/dekoracnisterky25-700w.webp" alt="Dekorativní stěrka - Zlín - Ortodoncie" loading="lazy" width="700" height="468" decoding="async" fetchpriority="low" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E"><noscript><img src="./assets/img/gallery/thumbs/dekoracnisterky25-700w.webp" alt="Dekorativní stěrka - Zlín - Ortodoncie" loading="lazy" width="700" height="468" decoding="async" fetchpriority="low"></noscript><span class="tm-round-arrow" aria-hidden="true">↗</span></div>
             <div class="tm-category-caption"><h3>Dekorativní stěrky</h3><span>13 realizací</span></div>
@@ -86,7 +85,8 @@ $schema = ['@context' => 'https://schema.org', '@graph' => [$business]];
             <div class="tm-category-caption"><h3>Tapetování</h3><span>3 realizace</span></div>
           </a>
         </article>
-        </div></div>
+        </div>
+<?php navrh_cms_featured(); ?></div>
 </section>
 <section class="tm-services tm-offer" id="sluzby"><span class="tm-anchor" id="specialni-sluzby"></span><span class="tm-anchor" id="co-umime"></span><div class="tm-container">
   <div class="tm-offer-heading" data-reveal><div><p class="tm-eyebrow tm-numbered"><span class="tm-section-number" aria-hidden="true">02</span><span>Naše služby</span></p><h2>Malířské a natěračské práce <em>v Brně</em></h2><p class="tm-offer-intro">Malování bytů a pokojů, dekorativní a betonové stěrky i nátěry. Pro domácnosti a firmy v Brně a okolí.</p></div><div><strong>Interiér, fasáda, dřevo i kov.</strong><p>Vyberte práci, kterou právě řešíte.</p></div></div>

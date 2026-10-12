@@ -124,9 +124,9 @@
   "css": {
     "common": "assets/css/site.8bd2c3015241.css",
     "service": "assets/css/site-service.b2b407932c6c.css",
-    "hosting": "assets/css/site-hosting.81e79f450682.css",
+    "hosting": "assets/css/site-hosting.6bf8b43d9c33.css",
     "home": "assets/css/site-home.63b29e82ed43.css",
-    "hosting_home": "assets/css/site-hosting-home.6c06e851b273.css"
+    "hosting_home": "assets/css/site-hosting-home.504dcc8dbf08.css"
   },
   "css_sizes": {
     "common": {
@@ -138,16 +138,16 @@
       "minified": 161974
     },
     "hosting": {
-      "source": 181829,
-      "minified": 163294
+      "source": 181905,
+      "minified": 163362
     },
     "home": {
       "source": 173683,
       "minified": 81837
     },
     "hosting_home": {
-      "source": 181829,
-      "minified": 83187
+      "source": 181905,
+      "minified": 83255
     }
   }
 }

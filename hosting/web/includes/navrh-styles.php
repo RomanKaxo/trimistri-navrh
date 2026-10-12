@@ -57,7 +57,7 @@
 <link rel="preload" href="assets/vendor/elaris-preview/inter-600.915dba52ffed.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/vendor/elaris-preview/inter-800.5570877bfe4f.woff2" as="font" type="font/woff2" crossorigin>
 <?php if (!empty($isHome)): ?>
-<link rel="stylesheet" href="assets/css/site-hosting-home.6c06e851b273.css">
+<link rel="stylesheet" href="assets/css/site-hosting-home.504dcc8dbf08.css">
 <?php else: ?>
-<link rel="stylesheet" href="assets/css/site-hosting.81e79f450682.css">
+<link rel="stylesheet" href="assets/css/site-hosting.6bf8b43d9c33.css">
 <?php endif; ?>
