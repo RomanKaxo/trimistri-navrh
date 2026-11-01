@@ -1,0 +1,548 @@
+{
+  "checkedAt": "2026-11-01T09:58:42.492Z",
+  "browser": "Playwright Chromium (createRequire from /home/roman/Projects/prezentace/package.json)",
+  "viewports": [
+    "1440x900",
+    "390x844"
+  ],
+  "results": [
+    {
+      "id": "00",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "01",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "02",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "03",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "04",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "05",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "06",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "07",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "08",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "09",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "10",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "11",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "12",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "13",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "14",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "15",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "16",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "17",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "18",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "19",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "20",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "00",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "01",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "02",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "03",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "04",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "05",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "06",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "07",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "08",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "09",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "10",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "11",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "12",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "13",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "14",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "15",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "16",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "17",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "18",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "19",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    },
+    {
+      "id": "20",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "badResponses": [],
+      "overflowing": [],
+      "broken": [],
+      "noindex": "noindex, nofollow",
+      "outsideHeroUnchanged": true
+    }
+  ],
+  "interactions": {
+    "slider20": "20%",
+    "sliderKeyboard": "21",
+    "fadePhases": [
+      {
+        "time": 0,
+        "opacity": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 7000,
+        "opacity": [
+          0.197597,
+          0.802403,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 8000,
+        "opacity": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "time": 16000,
+        "opacity": [
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "time": 24000,
+        "opacity": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "reducedMotion": [
+      {
+        "display": "block",
+        "animation": "none"
+      },
+      {
+        "display": "none",
+        "animation": "none"
+      },
+      {
+        "display": "none",
+        "animation": "none"
+      },
+      {
+        "display": "none",
+        "animation": "none"
+      }
+    ],
+    "arrowAndOverviewNavigation": true
+  },
+  "overview": {
+    "cards": 21,
+    "errors": [],
+    "overflow": false,
+    "noindex": "noindex, nofollow"
+  }
+}

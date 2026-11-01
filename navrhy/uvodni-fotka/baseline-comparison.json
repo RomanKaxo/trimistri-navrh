@@ -1,0 +1,21 @@
+{
+  "reference": "PHP mirror rendered at 127.0.0.1:8731; initial viewport excluding review panel; animations disabled",
+  "results": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "differentPixels": 0,
+      "totalPixels": 1296000
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "differentPixels": 0,
+      "totalPixels": 329160
+    }
+  ]
+}

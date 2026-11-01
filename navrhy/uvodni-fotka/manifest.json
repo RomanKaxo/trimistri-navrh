@@ -1,0 +1,710 @@
+[
+  {
+    "id": "01",
+    "title": "Nasvícená ložnice",
+    "why": "Oblouková stěna a světlo ukazují hotovou práci v zabydleném prostoru.",
+    "photos": [
+      327
+    ],
+    "kind": "photo",
+    "positions": [
+      "50% 42%"
+    ],
+    "note": "",
+    "sources": [
+      {
+        "soubor": "knihovna/fotky/107e8caf-debe-5ba8-b090-d791bca3d631.webp",
+        "sluzba": "Tapetování",
+        "sluzbaSlug": "tapetovani",
+        "realizace": "Tapetování",
+        "realizaceId": "7149d09f-a30c-5efb-af73-10ce331d2487",
+        "lokalita": "Brno · Bystrc",
+        "stitek": "",
+        "popis": "Tapetování 1 - Brno - Bystrc",
+        "doporucena": false,
+        "n": 327
+      }
+    ]
+  },
+  {
+    "id": "02",
+    "title": "Ložnice v širším záběru",
+    "why": "Druhý pohled propojuje hotovou stěnu, okno a nábytek.",
+    "photos": [
+      328
+    ],
+    "kind": "photo",
+    "positions": [
+      "58% 43%"
+    ],
+    "note": "",
+    "sources": [
+      {
+        "soubor": "knihovna/fotky/32049fa4-80b4-516d-ba18-758cde5cf1a4.webp",
+        "sluzba": "Tapetování",
+        "sluzbaSlug": "tapetovani",
+        "realizace": "Tapetování",
+        "realizaceId": "7149d09f-a30c-5efb-af73-10ce331d2487",
+        "lokalita": "Brno · Bystrc",
+        "stitek": "",
+        "popis": "Tapetování 3 - Brno - Bystrc",
+        "doporucena": false,
+        "n": 328
+      }
+    ]
+  },
+  {
+    "id": "03",
+    "title": "Světlý interiér",
+    "why": "Denní světlo a široký záběr dávají vyniknout skutečnému povrchu.",
+    "photos": [
+      159
+    ],
+    "kind": "photo",
+    "positions": [
+      "50% 45%"
+    ],
+    "note": "331 → 159: volné kabely a nedokončené instalace; náhrada ukazuje dokončený interiér stejné služby.",
+    "sources": [
+      {
+        "soubor": "knihovna/fotky/ad9ae5b0-bbae-57b0-9697-9caba64e9a1c.webp",
+        "sluzba": "Dekorativní stěrky",
+        "sluzbaSlug": "dekoracni-sterky",
+        "realizace": "Dekorativní stěrka",
+        "realizaceId": "82601e37-9e31-5b04-a6cb-c23045cd746f",
+        "lokalita": "Zlín",
+        "stitek": "po",
+        "popis": "Dekorativní stěrka - Zlín - Ortodoncie",
+        "doporucena": false,
+        "n": 159
+      }
+    ]
+  },
+  {
+    "id": "04",
+    "title": "Stěna v denním světle",
+    "why": "Boční světlo nechává čitelnou kresbu povrchu bez zakrytého nábytku.",
+    "photos": [
+      332
+    ],
+    "kind": "photo",
+    "positions": [
+      "48% 30%"
+    ],
+    "note": "316 → 332: zakrytý a neuspořádaný nábytek v ložnici; náhrada ukazuje čistou dokončenou stěnu stejné služby.",
+    "sources": [
+      {
+        "soubor": "knihovna/fotky/fcdc34e7-bf44-5e99-862e-5dea5f86f7e8.webp",
+        "sluzba": "Dekorativní stěrky",
+        "sluzbaSlug": "dekoracni-sterky",
+        "realizace": "Dekorativní stěrka",
+        "realizaceId": "ab921f38-a2a5-5ad4-84ea-d8142ef81552",
+        "lokalita": "",
+        "stitek": "",
+        "popis": "Dekorativní stěrka 15",
+        "doporucena": false,
+        "n": 332
+      }
+    ]
+  },
+  {
+    "id": "05",
+    "title": "Barevný obývák",
+    "why": "Modrozelená stěna v běžném obýváku působí osobně a uvěřitelně.",
+    "photos": [
+      343
+    ],
+    "kind": "photo",
+    "positions": [
+      "56% 47%"
+    ],
+    "note": "",
+    "sources": [
+      {
+        "soubor": "knihovna/fotky/d3e8ad4f-8699-5143-8e82-4345a699cb62.webp",
+        "sluzba": "Dekorativní stěrky",
+        "sluzbaSlug": "dekoracni-sterky",
+        "realizace": "Dekorativní stěrka",
+        "realizaceId": "f1fc1380-5225-5d69-a88c-09e784ed1655",
+        "lokalita": "Brno · Líšeň",
+        "stitek": "",
+        "popis": "Dekorativní stěrka 5 - Brno - Líšeň",
+        "doporucena": false,
+        "n": 343
+      }
+    ]
+  },
+  {
+    "id": "06",
+    "title": "Šedá stěna v obýváku",
+    "why": "Kontrast povrchu a dřeva ukazuje výsledek v každodenním použití.",
+    "photos": [
+      162
+    ],
+    "kind": "photo",
+    "positions": [
+      "45% 42%"
+    ],
+    "note": "",
+    "sources": [
+      {
+        "soubor": "knihovna/fotky/52c0c847-f245-42d0-b0b7-ba8f86cdc18a.webp",
+        "sluzba": "Dekorativní stěrky",
+        "sluzbaSlug": "dekoracni-sterky",
+        "realizace": "Dekorativní stěrka",
+        "realizaceId": "fcb339b8-eb88-5540-bb73-8474d4cd009e",
+        "lokalita": "Brno · Medlánky",
+        "stitek": "po",
+        "popis": "",
+        "doporucena": false,
+        "n": 162
+      }
+    ]
+  },
+  {
+    "id": "07",
+    "title": "Cukrárna",
+    "why": "Hotový veřejný prostor rozšiřuje představu o tom, pro koho mistři pracují.",
+    "photos": [
+      35
+    ],
+    "kind": "photo",
+    "positions": [
+      "52% 46%"
+    ],
+    "note": "55 → 35: původnímu záběru dominuje stůl s občerstvením; alternativa ze stejné realizace ukazuje celou místnost.",
+    "sources": [
+      {
+        "soubor": "knihovna/fotky/4b96f520-ff6b-4e77-8342-59d3b6956b7d.webp",
+        "sluzba": "Malování bytů a interiérů",
+        "sluzbaSlug": "natery-interieru",
+        "realizace": "Výmalba Cukrárny",
+        "realizaceId": "2d383bb8-480a-4410-9374-68fa3354b510",
+        "lokalita": "Střelice",
+        "stitek": "po",
+        "popis": "",
+        "doporucena": false,
+        "n": 35
+      }
+    ]
+  },
+  {
+    "id": "08",
+    "title": "Žluté schodiště",
+    "why": "Výrazná diagonála a žlutá plocha okamžitě přitáhnou pozornost.",
+    "photos": [
+      272
+    ],
+    "kind": "photo",
+    "positions": [
+      "45% 39%"
+    ],
+    "note": "",
+    "sources": [
+      {
+        "soubor": "knihovna/fotky/5e96df45-cb0c-5be6-93d3-b956e9ba9b08.webp",
+        "sluzba": "Průmyslové a antikorozní nátěry",
+        "sluzbaSlug": "prumyslove-natery",
+        "realizace": "Průmyslový nátěr",
+        "realizaceId": "74b7142b-c8be-5fb5-9975-6cf27238ab77",
+        "lokalita": "Opatovice",
+        "stitek": "",
+        "popis": "Průmyslový nátěr 11 - Opatovice",
+        "doporucena": false,
+        "n": 272
+      }
+    ]
+  },
+  {
+    "id": "09",
+    "title": "Rytmus zábradlí",
+    "why": "Druhý pohled na schodiště staví na barvě a opakování svislic.",
+    "photos": [
+      274
+    ],
+    "kind": "photo",
+    "positions": [
+      "50% 12%"
+    ],
+    "note": "274 ponechána, ořez zvýrazňuje zábradlí a omezuje zaprášené schody v popředí.",
+    "sources": [
+      {
+        "soubor": "knihovna/fotky/239fa890-d7b6-5692-9d5c-d8e731402eda.webp",
+        "sluzba": "Průmyslové a antikorozní nátěry",
+        "sluzbaSlug": "prumyslove-natery",
+        "realizace": "Průmyslový nátěr",
+        "realizaceId": "74b7142b-c8be-5fb5-9975-6cf27238ab77",
+        "lokalita": "Opatovice",
+        "stitek": "",
+        "popis": "Průmyslový nátěr 2 - Opatovice",
+        "doporucena": false,
+        "n": 274
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Světlý obývák",
+    "why": "Klidný zabydlený pokoj osloví návštěvníka, který řeší vlastní byt.",
+    "photos": [
+      250
+    ],
+    "kind": "photo",
+    "positions": [
+      "53% 42%"
+    ],
+    "note": "",
+    "sources": [
+      {
+        "soubor": "knihovna/fotky/06407d49-3d2e-468d-899b-1deec3197f09.webp",
+        "sluzba": "Malování bytů a interiérů",
+        "sluzbaSlug": "natery-interieru",
+        "realizace": "Výmalba bytů",
+        "realizaceId": "99b96efe-65e8-4305-9693-c15dbdc5a2a8",
+        "lokalita": "Modřice",
+        "stitek": "po",
+        "popis": "",
+        "doporucena": false,
+        "n": 250
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Dětský pokoj",
+    "why": "Jemný vzor a barevná plocha ukazují další podobu hotového interiéru.",
+    "photos": [
+      285
+    ],
+    "kind": "photo",
+    "positions": [
+      "70% 28%"
+    ],
+    "note": "285 ponechána, horní ořez zvýrazňuje stěnu a omezuje prázdnou podlahu.",
+    "sources": [
+      {
+        "soubor": "knihovna/fotky/d7d155e2-ee0e-4038-bbd3-a5668d458310.webp",
+        "sluzba": "Tapetování",
+        "sluzbaSlug": "tapetovani",
+        "realizace": "Tapetování • Dětský pokoj",
+        "realizaceId": "5e63393e-7490-448d-bf89-caf9ae9f7869",
+        "lokalita": "Brno · Jundrov",
+        "stitek": "",
+        "popis": "",
+        "doporucena": false,
+        "n": 285
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "title": "Dům pod modrou oblohou",
+    "why": "Celý dům a jasná obloha dávají úvodu konkrétní měřítko.",
+    "photos": [
+      143
+    ],
+    "kind": "photo",
+    "positions": [
+      "50% 32%"
+    ],
+    "note": "145 → 143: 145 má štítek průběh, 143 má štítek po a ukazuje stejný dům bez pracovního popředí.",
+    "sources": [
+      {
+        "soubor": "knihovna/fotky/7973d3cb-e6b8-5d22-8880-c3cc434e90d4.webp",
+        "sluzba": "Nátěry a renovace fasád",
+        "sluzbaSlug": "natery-fasad",
+        "realizace": "Nátěr fasády",
+        "realizaceId": "5c5b83bd-50b5-55b9-8920-91c936919370",
+        "lokalita": "Rozdrojovice",
+        "stitek": "po",
+        "popis": "Nátěr fasády - Rozdrojovice Fasáda - po",
+        "doporucena": false,
+        "n": 143
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "title": "Povrch zblízka",
+    "why": "Detail se zlatavými akcenty mění skutečnou práci v texturové pozadí.",
+    "photos": [
+      314
+    ],
+    "kind": "photo",
+    "positions": [
+      "32% 48%"
+    ],
+    "note": "",
+    "sources": [
+      {
+        "soubor": "knihovna/fotky/9193051f-3c26-5f77-8867-0dcde51540ea.webp",
+        "sluzba": "Dekorativní stěrky",
+        "sluzbaSlug": "dekoracni-sterky",
+        "realizace": "Dekorativní stěrka",
+        "realizaceId": "3f2638be-e9c7-5bd7-971e-9b40d033c2e2",
+        "lokalita": "Brno · Špitálka",
+        "stitek": "",
+        "popis": "Dekorativní stěrka 1 - Brno - Špitálka",
+        "doporucena": false,
+        "n": 314
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "title": "Papír a vysoký záběr",
+    "why": "Text na krémovém podkladu nechává vysoké fotografii vlastní prostor.",
+    "photos": [
+      315
+    ],
+    "kind": "split",
+    "positions": [
+      "50% 43%"
+    ],
+    "note": "",
+    "sources": [
+      {
+        "soubor": "knihovna/fotky/956187d5-98e6-55ce-986b-61d030bb1c7c.webp",
+        "sluzba": "Dekorativní stěrky",
+        "sluzbaSlug": "dekoracni-sterky",
+        "realizace": "Dekorativní stěrka",
+        "realizaceId": "5112310b-9665-5f8a-8369-fbe4dfaab397",
+        "lokalita": "Velká Bíteš",
+        "stitek": "",
+        "popis": "Dekorativní stěrka 10 - Velká Bíteš",
+        "doporucena": false,
+        "n": 315
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "title": "Ložnice vlevo",
+    "why": "Zrcadlové rozložení staví dokončený pokoj před samotné sdělení.",
+    "photos": [
+      327
+    ],
+    "kind": "mirror",
+    "positions": [
+      "50% 45%"
+    ],
+    "note": "",
+    "sources": [
+      {
+        "soubor": "knihovna/fotky/107e8caf-debe-5ba8-b090-d791bca3d631.webp",
+        "sluzba": "Tapetování",
+        "sluzbaSlug": "tapetovani",
+        "realizace": "Tapetování",
+        "realizaceId": "7149d09f-a30c-5efb-af73-10ce331d2487",
+        "lokalita": "Brno · Bystrc",
+        "stitek": "",
+        "popis": "Tapetování 1 - Brno - Bystrc",
+        "doporucena": false,
+        "n": 327
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "title": "Tři pohledy na řemeslo",
+    "why": "Interiér, schodiště a fasáda ukazují šíři práce v jednom obrazu.",
+    "photos": [
+      159,
+      272,
+      143
+    ],
+    "kind": "triptych",
+    "positions": [
+      "55% 45%",
+      "45% 35%",
+      "50% 30%"
+    ],
+    "note": "Stejné náhrady 331 → 159 a 145 → 143 jako u návrhů 03 a 12.",
+    "sources": [
+      {
+        "soubor": "knihovna/fotky/ad9ae5b0-bbae-57b0-9697-9caba64e9a1c.webp",
+        "sluzba": "Dekorativní stěrky",
+        "sluzbaSlug": "dekoracni-sterky",
+        "realizace": "Dekorativní stěrka",
+        "realizaceId": "82601e37-9e31-5b04-a6cb-c23045cd746f",
+        "lokalita": "Zlín",
+        "stitek": "po",
+        "popis": "Dekorativní stěrka - Zlín - Ortodoncie",
+        "doporucena": false,
+        "n": 159
+      },
+      {
+        "soubor": "knihovna/fotky/5e96df45-cb0c-5be6-93d3-b956e9ba9b08.webp",
+        "sluzba": "Průmyslové a antikorozní nátěry",
+        "sluzbaSlug": "prumyslove-natery",
+        "realizace": "Průmyslový nátěr",
+        "realizaceId": "74b7142b-c8be-5fb5-9975-6cf27238ab77",
+        "lokalita": "Opatovice",
+        "stitek": "",
+        "popis": "Průmyslový nátěr 11 - Opatovice",
+        "doporucena": false,
+        "n": 272
+      },
+      {
+        "soubor": "knihovna/fotky/7973d3cb-e6b8-5d22-8880-c3cc434e90d4.webp",
+        "sluzba": "Nátěry a renovace fasád",
+        "sluzbaSlug": "natery-fasad",
+        "realizace": "Nátěr fasády",
+        "realizaceId": "5c5b83bd-50b5-55b9-8920-91c936919370",
+        "lokalita": "Rozdrojovice",
+        "stitek": "po",
+        "popis": "Nátěr fasády - Rozdrojovice Fasáda - po",
+        "doporucena": false,
+        "n": 143
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "title": "Mozaika realizací",
+    "why": "Šest záběrů šesti služeb ukazuje různorodou skutečnou práci.",
+    "photos": [
+      327,
+      35,
+      272,
+      143,
+      19,
+      343
+    ],
+    "kind": "mosaic",
+    "positions": [
+      "50% 40%",
+      "50% 40%",
+      "45% 35%",
+      "50% 30%",
+      "50% 45%",
+      "55% 45%"
+    ],
+    "note": "",
+    "sources": [
+      {
+        "soubor": "knihovna/fotky/107e8caf-debe-5ba8-b090-d791bca3d631.webp",
+        "sluzba": "Tapetování",
+        "sluzbaSlug": "tapetovani",
+        "realizace": "Tapetování",
+        "realizaceId": "7149d09f-a30c-5efb-af73-10ce331d2487",
+        "lokalita": "Brno · Bystrc",
+        "stitek": "",
+        "popis": "Tapetování 1 - Brno - Bystrc",
+        "doporucena": false,
+        "n": 327
+      },
+      {
+        "soubor": "knihovna/fotky/4b96f520-ff6b-4e77-8342-59d3b6956b7d.webp",
+        "sluzba": "Malování bytů a interiérů",
+        "sluzbaSlug": "natery-interieru",
+        "realizace": "Výmalba Cukrárny",
+        "realizaceId": "2d383bb8-480a-4410-9374-68fa3354b510",
+        "lokalita": "Střelice",
+        "stitek": "po",
+        "popis": "",
+        "doporucena": false,
+        "n": 35
+      },
+      {
+        "soubor": "knihovna/fotky/5e96df45-cb0c-5be6-93d3-b956e9ba9b08.webp",
+        "sluzba": "Průmyslové a antikorozní nátěry",
+        "sluzbaSlug": "prumyslove-natery",
+        "realizace": "Průmyslový nátěr",
+        "realizaceId": "74b7142b-c8be-5fb5-9975-6cf27238ab77",
+        "lokalita": "Opatovice",
+        "stitek": "",
+        "popis": "Průmyslový nátěr 11 - Opatovice",
+        "doporucena": false,
+        "n": 272
+      },
+      {
+        "soubor": "knihovna/fotky/7973d3cb-e6b8-5d22-8880-c3cc434e90d4.webp",
+        "sluzba": "Nátěry a renovace fasád",
+        "sluzbaSlug": "natery-fasad",
+        "realizace": "Nátěr fasády",
+        "realizaceId": "5c5b83bd-50b5-55b9-8920-91c936919370",
+        "lokalita": "Rozdrojovice",
+        "stitek": "po",
+        "popis": "Nátěr fasády - Rozdrojovice Fasáda - po",
+        "doporucena": false,
+        "n": 143
+      },
+      {
+        "soubor": "knihovna/fotky/d048159b-efe4-4633-88b7-071f1b39ae24.webp",
+        "sluzba": "Nátěry oken, dřeva a kovů",
+        "sluzbaSlug": "natery-drevo-kovu",
+        "realizace": "Renovace dveří a oken",
+        "realizaceId": "0b80d25e-603b-440d-904f-d9e0b15c6ac5",
+        "lokalita": "Příbram na Moravě",
+        "stitek": "po",
+        "popis": "",
+        "doporucena": false,
+        "n": 19
+      },
+      {
+        "soubor": "knihovna/fotky/d3e8ad4f-8699-5143-8e82-4345a699cb62.webp",
+        "sluzba": "Dekorativní stěrky",
+        "sluzbaSlug": "dekoracni-sterky",
+        "realizace": "Dekorativní stěrka",
+        "realizaceId": "f1fc1380-5225-5d69-a88c-09e784ed1655",
+        "lokalita": "Brno · Líšeň",
+        "stitek": "",
+        "popis": "Dekorativní stěrka 5 - Brno - Líšeň",
+        "doporucena": false,
+        "n": 343
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "title": "Proměna fasády",
+    "why": "Posuvník odhaluje změnu stejného domu a umožňuje výsledek prozkoumat.",
+    "photos": [
+      308,
+      310
+    ],
+    "kind": "compare",
+    "positions": [
+      "50% 50%",
+      "50% 50%"
+    ],
+    "note": "308 před / 310 po, shodné realizaceId 3894a545-5c53-547d-aa21-a03d6b5396ea, Česká. Vizuálně ověřena stejná okna, vchod a garáž; snímky mají jiný úhel a nejsou geometricky registrované.",
+    "sources": [
+      {
+        "soubor": "knihovna/fotky/6d0e201b-de98-5458-aa83-db97e6870762.webp",
+        "sluzba": "Nátěry a renovace fasád",
+        "sluzbaSlug": "natery-fasad",
+        "realizace": "Nátěr fasády",
+        "realizaceId": "3894a545-5c53-547d-aa21-a03d6b5396ea",
+        "lokalita": "Česká",
+        "stitek": "před",
+        "popis": "Nátěr fasády - Česká - před 2",
+        "doporucena": false,
+        "n": 308
+      },
+      {
+        "soubor": "knihovna/fotky/c08c18dc-702f-5da0-be9f-0a4031ac6da7.webp",
+        "sluzba": "Nátěry a renovace fasád",
+        "sluzbaSlug": "natery-fasad",
+        "realizace": "Nátěr fasády",
+        "realizaceId": "3894a545-5c53-547d-aa21-a03d6b5396ea",
+        "lokalita": "Česká",
+        "stitek": "po",
+        "popis": "Nátěr fasády - Česká - po",
+        "doporucena": false,
+        "n": 310
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "title": "Čtyři realizace v pohybu",
+    "why": "Pomalé prolínání střídá čtyři hotové prostory bez dalšího klikání.",
+    "photos": [
+      327,
+      343,
+      35,
+      162
+    ],
+    "kind": "slideshow",
+    "positions": [
+      "50% 42%",
+      "55% 45%",
+      "50% 45%",
+      "45% 42%"
+    ],
+    "note": "",
+    "sources": [
+      {
+        "soubor": "knihovna/fotky/107e8caf-debe-5ba8-b090-d791bca3d631.webp",
+        "sluzba": "Tapetování",
+        "sluzbaSlug": "tapetovani",
+        "realizace": "Tapetování",
+        "realizaceId": "7149d09f-a30c-5efb-af73-10ce331d2487",
+        "lokalita": "Brno · Bystrc",
+        "stitek": "",
+        "popis": "Tapetování 1 - Brno - Bystrc",
+        "doporucena": false,
+        "n": 327
+      },
+      {
+        "soubor": "knihovna/fotky/d3e8ad4f-8699-5143-8e82-4345a699cb62.webp",
+        "sluzba": "Dekorativní stěrky",
+        "sluzbaSlug": "dekoracni-sterky",
+        "realizace": "Dekorativní stěrka",
+        "realizaceId": "f1fc1380-5225-5d69-a88c-09e784ed1655",
+        "lokalita": "Brno · Líšeň",
+        "stitek": "",
+        "popis": "Dekorativní stěrka 5 - Brno - Líšeň",
+        "doporucena": false,
+        "n": 343
+      },
+      {
+        "soubor": "knihovna/fotky/4b96f520-ff6b-4e77-8342-59d3b6956b7d.webp",
+        "sluzba": "Malování bytů a interiérů",
+        "sluzbaSlug": "natery-interieru",
+        "realizace": "Výmalba Cukrárny",
+        "realizaceId": "2d383bb8-480a-4410-9374-68fa3354b510",
+        "lokalita": "Střelice",
+        "stitek": "po",
+        "popis": "",
+        "doporucena": false,
+        "n": 35
+      },
+      {
+        "soubor": "knihovna/fotky/52c0c847-f245-42d0-b0b7-ba8f86cdc18a.webp",
+        "sluzba": "Dekorativní stěrky",
+        "sluzbaSlug": "dekoracni-sterky",
+        "realizace": "Dekorativní stěrka",
+        "realizaceId": "fcb339b8-eb88-5540-bb73-8474d4cd009e",
+        "lokalita": "Brno · Medlánky",
+        "stitek": "po",
+        "popis": "",
+        "doporucena": false,
+        "n": 162
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "title": "Celek i detail",
+    "why": "Hotová ložnice a detail jiné realizace propojují prostor s řemeslem.",
+    "photos": [
+      327,
+      314
+    ],
+    "kind": "detail",
+    "positions": [
+      "50% 42%",
+      "50% 50%"
+    ],
+    "note": "Dva různé projekty: ložnice 327 je Tapetování, detail 314 jsou Dekorativní stěrky; nejde o detail stejné stěny.",
+    "sources": [
+      {
+        "soubor": "knihovna/fotky/107e8caf-debe-5ba8-b090-d791bca3d631.webp",
+        "sluzba": "Tapetování",
+        "sluzbaSlug": "tapetovani",
+        "realizace": "Tapetování",
+        "realizaceId": "7149d09f-a30c-5efb-af73-10ce331d2487",
+        "lokalita": "Brno · Bystrc",
+        "stitek": "",
+        "popis": "Tapetování 1 - Brno - Bystrc",
+        "doporucena": false,
+        "n": 327
+      },
+      {
+        "soubor": "knihovna/fotky/9193051f-3c26-5f77-8867-0dcde51540ea.webp",
+        "sluzba": "Dekorativní stěrky",
+        "sluzbaSlug": "dekoracni-sterky",
+        "realizace": "Dekorativní stěrka",
+        "realizaceId": "3f2638be-e9c7-5bd7-971e-9b40d033c2e2",
+        "lokalita": "Brno · Špitálka",
+        "stitek": "",
+        "popis": "Dekorativní stěrka 1 - Brno - Špitálka",
+        "doporucena": false,
+        "n": 314
+      }
+    ]
+  }
+]

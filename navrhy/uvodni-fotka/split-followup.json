@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-01T09:59:03.877Z",
+  "reason": "Remove the original mobile white-text shadow from graphite text on cream; fresh screenshots and scoped checks after the final CSS correction.",
+  "results": [
+    {
+      "id": "14",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "shadow": "none"
+    },
+    {
+      "id": "15",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "shadow": "none"
+    },
+    {
+      "id": "18",
+      "device": "desktop",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "shadow": "none"
+    },
+    {
+      "id": "14",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "shadow": "none"
+    },
+    {
+      "id": "15",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "shadow": "none"
+    },
+    {
+      "id": "18",
+      "device": "mobile",
+      "status": 200,
+      "errors": [],
+      "overflow": false,
+      "shadow": "none"
+    }
+  ]
+}

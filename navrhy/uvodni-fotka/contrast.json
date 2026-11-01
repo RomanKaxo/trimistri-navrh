@@ -1,0 +1,3365 @@
+{
+  "method": "Photo-background samples at non-space character centers, or the immediate graphite halo where a 2px centered stroke is painted behind the unchanged fill. Alpha-composited computed text color; decorative aria-hidden arrows excluded. Normal text 4.5:1, large/bold text 3:1. Not a full accessibility audit.",
+  "results": [
+    {
+      "id": "00",
+      "device": "desktop",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 4.8,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 272,
+          "y": 195
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 6.17,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 394,
+          "y": 195
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 6.23,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 447,
+          "y": 234
+        },
+        {
+          "text": "Práce,",
+          "ratio": 15.4,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 312,
+          "y": 320
+        },
+        {
+          "text": "která",
+          "ratio": 15.4,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 274,
+          "y": 433
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 3.71,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 464,
+          "y": 546
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 9.91,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 211,
+          "y": 669
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 97,
+          "y": 737
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 11.78,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 425,
+          "y": 737
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "01",
+      "device": "desktop",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 5.83,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 53,
+          "y": 195
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 7.59,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 394,
+          "y": 195
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 447,
+          "y": 234
+        },
+        {
+          "text": "Práce,",
+          "ratio": 13.13,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 359,
+          "y": 320
+        },
+        {
+          "text": "která",
+          "ratio": 11.35,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 274,
+          "y": 433
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 78,
+          "y": 546
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 7.56,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 472,
+          "y": 642
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 97,
+          "y": 737
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 11.33,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 529,
+          "y": 737
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "02",
+      "device": "desktop",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 5.83,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 53,
+          "y": 195
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 7.59,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 394,
+          "y": 195
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 447,
+          "y": 234
+        },
+        {
+          "text": "Práce,",
+          "ratio": 12.8,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 359,
+          "y": 320
+        },
+        {
+          "text": "která",
+          "ratio": 13.26,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 274,
+          "y": 433
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 78,
+          "y": 546
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 10.19,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 173,
+          "y": 642
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 97,
+          "y": 737
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 13.68,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 500,
+          "y": 737
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "03",
+      "device": "desktop",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 5.83,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 53,
+          "y": 195
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 7.59,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 394,
+          "y": 195
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 447,
+          "y": 234
+        },
+        {
+          "text": "Práce,",
+          "ratio": 8.27,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 312,
+          "y": 320
+        },
+        {
+          "text": "která",
+          "ratio": 10.6,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 125,
+          "y": 433
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 78,
+          "y": 546
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 5.54,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 472,
+          "y": 642
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 97,
+          "y": 737
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 10.14,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 529,
+          "y": 737
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "04",
+      "device": "desktop",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 5.83,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 53,
+          "y": 195
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 7.59,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 394,
+          "y": 195
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 447,
+          "y": 234
+        },
+        {
+          "text": "Práce,",
+          "ratio": 9.36,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 312,
+          "y": 320
+        },
+        {
+          "text": "která",
+          "ratio": 11.23,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 274,
+          "y": 433
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 78,
+          "y": 546
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 7.97,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 472,
+          "y": 642
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 97,
+          "y": 737
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 11.55,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 509,
+          "y": 737
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "05",
+      "device": "desktop",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 5.83,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 53,
+          "y": 195
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 7.59,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 394,
+          "y": 195
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 447,
+          "y": 234
+        },
+        {
+          "text": "Práce,",
+          "ratio": 12.81,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 249,
+          "y": 320
+        },
+        {
+          "text": "která",
+          "ratio": 12.28,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 173,
+          "y": 433
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 78,
+          "y": 546
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 9.3,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 286,
+          "y": 642
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 97,
+          "y": 737
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 10.11,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 519,
+          "y": 737
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "06",
+      "device": "desktop",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 5.83,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 53,
+          "y": 195
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 7.59,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 394,
+          "y": 195
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 447,
+          "y": 234
+        },
+        {
+          "text": "Práce,",
+          "ratio": 8.05,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 359,
+          "y": 320
+        },
+        {
+          "text": "která",
+          "ratio": 11.44,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 274,
+          "y": 433
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 78,
+          "y": 546
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 11.12,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 125,
+          "y": 642
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 97,
+          "y": 737
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 13.58,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 415,
+          "y": 737
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "07",
+      "device": "desktop",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 5.83,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 53,
+          "y": 195
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 7.59,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 394,
+          "y": 195
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 447,
+          "y": 234
+        },
+        {
+          "text": "Práce,",
+          "ratio": 9.71,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 359,
+          "y": 320
+        },
+        {
+          "text": "která",
+          "ratio": 16.12,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 125,
+          "y": 433
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 78,
+          "y": 546
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 5.88,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 391,
+          "y": 642
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 97,
+          "y": 737
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 11.37,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 363,
+          "y": 737
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "08",
+      "device": "desktop",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 5.83,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 53,
+          "y": 195
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 7.59,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 394,
+          "y": 195
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 447,
+          "y": 234
+        },
+        {
+          "text": "Práce,",
+          "ratio": 9.05,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 359,
+          "y": 320
+        },
+        {
+          "text": "která",
+          "ratio": 13.67,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 274,
+          "y": 433
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 78,
+          "y": 546
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 7.03,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 472,
+          "y": 642
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 97,
+          "y": 737
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 10.55,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 397,
+          "y": 737
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "09",
+      "device": "desktop",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 5.83,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 53,
+          "y": 195
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 7.59,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 394,
+          "y": 195
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 447,
+          "y": 234
+        },
+        {
+          "text": "Práce,",
+          "ratio": 7.95,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 359,
+          "y": 320
+        },
+        {
+          "text": "která",
+          "ratio": 9.2,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 274,
+          "y": 433
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 78,
+          "y": 546
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 9.41,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 117,
+          "y": 642
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 97,
+          "y": 737
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 13.89,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 519,
+          "y": 737
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "10",
+      "device": "desktop",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 5.83,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 53,
+          "y": 195
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 7.59,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 394,
+          "y": 195
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 447,
+          "y": 234
+        },
+        {
+          "text": "Práce,",
+          "ratio": 10.19,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 359,
+          "y": 320
+        },
+        {
+          "text": "která",
+          "ratio": 10.56,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 274,
+          "y": 433
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 78,
+          "y": 546
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 8.43,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 188,
+          "y": 669
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 97,
+          "y": 737
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 11.2,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 405,
+          "y": 737
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "11",
+      "device": "desktop",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 5.83,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 53,
+          "y": 195
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 7.59,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 394,
+          "y": 195
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 447,
+          "y": 234
+        },
+        {
+          "text": "Práce,",
+          "ratio": 8.49,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 359,
+          "y": 320
+        },
+        {
+          "text": "která",
+          "ratio": 9.1,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 274,
+          "y": 433
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 78,
+          "y": 546
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 6.48,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 305,
+          "y": 642
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 97,
+          "y": 737
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 10.89,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 363,
+          "y": 737
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "12",
+      "device": "desktop",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 5.83,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 53,
+          "y": 195
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 7.59,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 394,
+          "y": 195
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 447,
+          "y": 234
+        },
+        {
+          "text": "Práce,",
+          "ratio": 10.06,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 249,
+          "y": 320
+        },
+        {
+          "text": "která",
+          "ratio": 10.13,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 225,
+          "y": 433
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 78,
+          "y": 546
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 5.29,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 449,
+          "y": 642
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 97,
+          "y": 737
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 8.96,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 415,
+          "y": 737
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "13",
+      "device": "desktop",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 5.83,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 53,
+          "y": 195
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 7.59,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 394,
+          "y": 195
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 447,
+          "y": 234
+        },
+        {
+          "text": "Práce,",
+          "ratio": 9.81,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 359,
+          "y": 320
+        },
+        {
+          "text": "která",
+          "ratio": 11.97,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 173,
+          "y": 433
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 78,
+          "y": 546
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 7.13,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 460,
+          "y": 642
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 97,
+          "y": 737
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 9.94,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 453,
+          "y": 737
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "14",
+      "device": "desktop",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 15.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 53,
+          "y": 408
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 10.03,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 394,
+          "y": 408
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 15.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 57,
+          "y": 447
+        },
+        {
+          "text": "Práce,",
+          "ratio": 15.21,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 75,
+          "y": 520
+        },
+        {
+          "text": "která",
+          "ratio": 15.21,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 71,
+          "y": 608
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 4.41,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 288,
+          "y": 608
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 10.03,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 211,
+          "y": 717
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 97,
+          "y": 785
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 15.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 363,
+          "y": 785
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "15",
+      "device": "desktop",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 15.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 783,
+          "y": 408
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 10.03,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 1123,
+          "y": 408
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 15.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 786,
+          "y": 447
+        },
+        {
+          "text": "Práce,",
+          "ratio": 15.21,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 804,
+          "y": 520
+        },
+        {
+          "text": "která",
+          "ratio": 15.21,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 801,
+          "y": 608
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 4.41,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 1018,
+          "y": 608
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 10.03,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 941,
+          "y": 717
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 826,
+          "y": 785
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 15.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 1092,
+          "y": 785
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "16",
+      "device": "desktop",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 5.83,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 53,
+          "y": 195
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 7.59,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 394,
+          "y": 195
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 447,
+          "y": 234
+        },
+        {
+          "text": "Práce,",
+          "ratio": 8.92,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 312,
+          "y": 320
+        },
+        {
+          "text": "která",
+          "ratio": 8.57,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 225,
+          "y": 433
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 78,
+          "y": 546
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 6.15,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 472,
+          "y": 642
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 97,
+          "y": 737
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 10.03,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 472,
+          "y": 737
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "17",
+      "device": "desktop",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 5.83,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 53,
+          "y": 195
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 7.59,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 394,
+          "y": 195
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 447,
+          "y": 234
+        },
+        {
+          "text": "Práce,",
+          "ratio": 10.46,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 359,
+          "y": 319
+        },
+        {
+          "text": "která",
+          "ratio": 8.91,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 274,
+          "y": 433
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 78,
+          "y": 546
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 8.72,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 391,
+          "y": 642
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 97,
+          "y": 737
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 8.26,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 481,
+          "y": 737
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "18",
+      "device": "desktop",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 15.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 53,
+          "y": 408
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 10.03,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 394,
+          "y": 408
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 15.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 57,
+          "y": 447
+        },
+        {
+          "text": "Práce,",
+          "ratio": 15.21,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 75,
+          "y": 520
+        },
+        {
+          "text": "která",
+          "ratio": 15.21,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 71,
+          "y": 608
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 4.41,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 288,
+          "y": 608
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 10.03,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 211,
+          "y": 717
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 97,
+          "y": 785
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 15.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 363,
+          "y": 785
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "19",
+      "device": "desktop",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 5.83,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 53,
+          "y": 195
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 7.59,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 394,
+          "y": 195
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 447,
+          "y": 234
+        },
+        {
+          "text": "Práce,",
+          "ratio": 13.3,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 359,
+          "y": 320
+        },
+        {
+          "text": "která",
+          "ratio": 11.22,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 274,
+          "y": 433
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 78,
+          "y": 546
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 7.56,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 472,
+          "y": 642
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 97,
+          "y": 737
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 11.17,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 529,
+          "y": 737
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "20",
+      "device": "desktop",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 5.83,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 53,
+          "y": 195
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 7.59,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 394,
+          "y": 195
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 447,
+          "y": 234
+        },
+        {
+          "text": "Práce,",
+          "ratio": 13.13,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 359,
+          "y": 320
+        },
+        {
+          "text": "která",
+          "ratio": 11.35,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 274,
+          "y": 433
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 78,
+          "y": 546
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 7.56,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 472,
+          "y": 642
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 97,
+          "y": 737
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 11.33,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 529,
+          "y": 737
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "00",
+      "device": "mobile",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 6.53,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 161,
+          "y": 236
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 9.86,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 33,
+          "y": 257
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 4.99,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 354,
+          "y": 294
+        },
+        {
+          "text": "Práce,",
+          "ratio": 11.6,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 89,
+          "y": 347
+        },
+        {
+          "text": "která",
+          "ratio": 11.55,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 134,
+          "y": 404
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 4.4,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 67,
+          "y": 462
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 9.71,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 174,
+          "y": 551
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 51,
+          "y": 617
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 14.34,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 67,
+          "y": 681
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "01",
+      "device": "mobile",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 10.84,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 25,
+          "y": 236
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 15.91,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 24,
+          "y": 257
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 354,
+          "y": 294
+        },
+        {
+          "text": "Práce,",
+          "ratio": 11.73,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 121,
+          "y": 347
+        },
+        {
+          "text": "která",
+          "ratio": 11.24,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 108,
+          "y": 404
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 35,
+          "y": 462
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 9.54,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 141,
+          "y": 526
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 51,
+          "y": 617
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 15.48,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 191,
+          "y": 681
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "02",
+      "device": "mobile",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 10.84,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 25,
+          "y": 236
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 15.91,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 24,
+          "y": 257
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 354,
+          "y": 294
+        },
+        {
+          "text": "Práce,",
+          "ratio": 10.14,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 121,
+          "y": 347
+        },
+        {
+          "text": "která",
+          "ratio": 11.28,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 134,
+          "y": 404
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 35,
+          "y": 462
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 9.74,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 165,
+          "y": 526
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 51,
+          "y": 617
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 14.43,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 181,
+          "y": 681
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "03",
+      "device": "mobile",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 10.84,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 25,
+          "y": 236
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 15.91,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 24,
+          "y": 257
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 354,
+          "y": 294
+        },
+        {
+          "text": "Práce,",
+          "ratio": 5.94,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 177,
+          "y": 347
+        },
+        {
+          "text": "která",
+          "ratio": 7.53,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 134,
+          "y": 404
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 35,
+          "y": 462
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 7.81,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 221,
+          "y": 526
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 51,
+          "y": 617
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 12.59,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 134,
+          "y": 681
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "04",
+      "device": "mobile",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 10.84,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 25,
+          "y": 236
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 15.91,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 24,
+          "y": 257
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 354,
+          "y": 294
+        },
+        {
+          "text": "Práce,",
+          "ratio": 10.07,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 177,
+          "y": 347
+        },
+        {
+          "text": "která",
+          "ratio": 10.91,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 35,
+          "y": 404
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 35,
+          "y": 462
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 10.11,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 101,
+          "y": 526
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 51,
+          "y": 617
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 15.76,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 33,
+          "y": 681
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "05",
+      "device": "mobile",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 10.84,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 25,
+          "y": 236
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 15.91,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 24,
+          "y": 257
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 354,
+          "y": 294
+        },
+        {
+          "text": "Práce,",
+          "ratio": 11.7,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 177,
+          "y": 347
+        },
+        {
+          "text": "která",
+          "ratio": 16.62,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 134,
+          "y": 404
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 35,
+          "y": 462
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 9.82,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 258,
+          "y": 526
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 51,
+          "y": 617
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 13.81,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 150,
+          "y": 681
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "06",
+      "device": "mobile",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 10.84,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 25,
+          "y": 236
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 15.91,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 24,
+          "y": 257
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 354,
+          "y": 294
+        },
+        {
+          "text": "Práce,",
+          "ratio": 6.58,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 153,
+          "y": 347
+        },
+        {
+          "text": "která",
+          "ratio": 17.34,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 83,
+          "y": 404
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 35,
+          "y": 462
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 8.69,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 55,
+          "y": 551
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 51,
+          "y": 617
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 15.44,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 191,
+          "y": 681
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "07",
+      "device": "mobile",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 10.84,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 25,
+          "y": 236
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 15.91,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 24,
+          "y": 257
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 354,
+          "y": 294
+        },
+        {
+          "text": "Práce,",
+          "ratio": 6.82,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 89,
+          "y": 347
+        },
+        {
+          "text": "která",
+          "ratio": 7.83,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 108,
+          "y": 404
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 35,
+          "y": 462
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 7.88,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 201,
+          "y": 551
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 51,
+          "y": 617
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 14.71,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 115,
+          "y": 681
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "08",
+      "device": "mobile",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 10.84,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 25,
+          "y": 236
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 15.91,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 24,
+          "y": 257
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 354,
+          "y": 294
+        },
+        {
+          "text": "Práce,",
+          "ratio": 6.57,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 64,
+          "y": 347
+        },
+        {
+          "text": "která",
+          "ratio": 7.41,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 58,
+          "y": 404
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 35,
+          "y": 462
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 8.72,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 82,
+          "y": 526
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 51,
+          "y": 617
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 13.81,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 150,
+          "y": 681
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "09",
+      "device": "mobile",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 10.84,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 25,
+          "y": 236
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 15.91,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 24,
+          "y": 257
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 354,
+          "y": 294
+        },
+        {
+          "text": "Práce,",
+          "ratio": 10.54,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 177,
+          "y": 347
+        },
+        {
+          "text": "která",
+          "ratio": 13.58,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 134,
+          "y": 404
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 35,
+          "y": 462
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 10.4,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 335,
+          "y": 526
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 51,
+          "y": 617
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 16.37,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 191,
+          "y": 681
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "10",
+      "device": "mobile",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 10.84,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 25,
+          "y": 236
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 15.91,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 24,
+          "y": 257
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 354,
+          "y": 294
+        },
+        {
+          "text": "Práce,",
+          "ratio": 9.64,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 37,
+          "y": 347
+        },
+        {
+          "text": "která",
+          "ratio": 10.42,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 35,
+          "y": 404
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 35,
+          "y": 462
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 7.92,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 313,
+          "y": 526
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 51,
+          "y": 617
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 13.27,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 143,
+          "y": 681
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "11",
+      "device": "mobile",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 10.84,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 25,
+          "y": 236
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 15.91,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 24,
+          "y": 257
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 354,
+          "y": 294
+        },
+        {
+          "text": "Práce,",
+          "ratio": 7.26,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 89,
+          "y": 347
+        },
+        {
+          "text": "která",
+          "ratio": 8.38,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 83,
+          "y": 404
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 35,
+          "y": 462
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 7.89,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 165,
+          "y": 526
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 51,
+          "y": 617
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 14.44,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 134,
+          "y": 681
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "12",
+      "device": "mobile",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 10.84,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 25,
+          "y": 236
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 15.91,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 24,
+          "y": 257
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 354,
+          "y": 294
+        },
+        {
+          "text": "Práce,",
+          "ratio": 9.4,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 153,
+          "y": 347
+        },
+        {
+          "text": "která",
+          "ratio": 11.3,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 83,
+          "y": 404
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 35,
+          "y": 462
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 8.08,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 24,
+          "y": 551
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 51,
+          "y": 617
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 14.15,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 33,
+          "y": 681
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "13",
+      "device": "mobile",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 10.84,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 25,
+          "y": 236
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 15.91,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 24,
+          "y": 257
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 354,
+          "y": 294
+        },
+        {
+          "text": "Práce,",
+          "ratio": 9.23,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 121,
+          "y": 347
+        },
+        {
+          "text": "která",
+          "ratio": 10.3,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 108,
+          "y": 404
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 35,
+          "y": 462
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 8.13,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 33,
+          "y": 551
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 51,
+          "y": 617
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 12.23,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 59,
+          "y": 681
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "14",
+      "device": "mobile",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 15.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 25,
+          "y": 309
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 10.03,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 120,
+          "y": 329
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 15.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 27,
+          "y": 366
+        },
+        {
+          "text": "Práce,",
+          "ratio": 15.21,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 36,
+          "y": 416
+        },
+        {
+          "text": "která",
+          "ratio": 15.21,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 34,
+          "y": 468
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 4.41,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 163,
+          "y": 468
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 10.03,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 231,
+          "y": 555
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 51,
+          "y": 622
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 15.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 25,
+          "y": 686
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "15",
+      "device": "mobile",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 15.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 25,
+          "y": 309
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 10.03,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 120,
+          "y": 329
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 15.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 27,
+          "y": 366
+        },
+        {
+          "text": "Práce,",
+          "ratio": 15.21,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 36,
+          "y": 416
+        },
+        {
+          "text": "která",
+          "ratio": 15.21,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 34,
+          "y": 468
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 4.41,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 163,
+          "y": 468
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 10.03,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 231,
+          "y": 555
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 51,
+          "y": 622
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 15.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 25,
+          "y": 686
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "16",
+      "device": "mobile",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 10.84,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 25,
+          "y": 236
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 15.91,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 24,
+          "y": 257
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 354,
+          "y": 294
+        },
+        {
+          "text": "Práce,",
+          "ratio": 5.85,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 37,
+          "y": 347
+        },
+        {
+          "text": "která",
+          "ratio": 7.34,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 35,
+          "y": 404
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 35,
+          "y": 462
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 7.8,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 69,
+          "y": 526
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 51,
+          "y": 617
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 12.97,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 25,
+          "y": 681
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "17",
+      "device": "mobile",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 10.84,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 25,
+          "y": 236
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 15.91,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 24,
+          "y": 257
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 354,
+          "y": 294
+        },
+        {
+          "text": "Práce,",
+          "ratio": 7.37,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 37,
+          "y": 347
+        },
+        {
+          "text": "která",
+          "ratio": 10.53,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 83,
+          "y": 404
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 35,
+          "y": 462
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 7.91,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 195,
+          "y": 551
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 51,
+          "y": 617
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 12.13,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 191,
+          "y": 681
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "18",
+      "device": "mobile",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 15.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 25,
+          "y": 309
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 10.03,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 120,
+          "y": 329
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 15.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 27,
+          "y": 366
+        },
+        {
+          "text": "Práce,",
+          "ratio": 15.21,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 36,
+          "y": 416
+        },
+        {
+          "text": "která",
+          "ratio": 15.21,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 34,
+          "y": 468
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 4.41,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 163,
+          "y": 468
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 10.03,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 231,
+          "y": 555
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 51,
+          "y": 622
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 15.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 25,
+          "y": 686
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "19",
+      "device": "mobile",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 10.84,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 25,
+          "y": 236
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 15.91,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 24,
+          "y": 257
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 354,
+          "y": 294
+        },
+        {
+          "text": "Práce,",
+          "ratio": 11.73,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 121,
+          "y": 347
+        },
+        {
+          "text": "která",
+          "ratio": 11.12,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 108,
+          "y": 404
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 35,
+          "y": 462
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 9.54,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 141,
+          "y": 526
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 51,
+          "y": 617
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 15.45,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 191,
+          "y": 681
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "20",
+      "device": "mobile",
+      "samples": 183,
+      "groups": [
+        {
+          "text": "Malířství · nátěry · povrchy",
+          "ratio": 10.84,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 25,
+          "y": 236
+        },
+        {
+          "text": "Brno a okolí",
+          "ratio": 15.91,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 24,
+          "y": 257
+        },
+        {
+          "text": "Malíři v Brně a dekorativní stěrky",
+          "ratio": 9.37,
+          "threshold": 4.5,
+          "background": "1px external graphite halo",
+          "x": 354,
+          "y": 294
+        },
+        {
+          "text": "Práce,",
+          "ratio": 11.73,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 121,
+          "y": 347
+        },
+        {
+          "text": "která",
+          "ratio": 11.24,
+          "threshold": 3,
+          "background": "photo sample",
+          "x": 108,
+          "y": 404
+        },
+        {
+          "text": "zůstává.",
+          "ratio": 5.83,
+          "threshold": 3,
+          "background": "1px external graphite halo",
+          "x": 35,
+          "y": 462
+        },
+        {
+          "text": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každoden",
+          "ratio": 9.54,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 141,
+          "y": 526
+        },
+        {
+          "text": "Nezávazně poptat",
+          "ratio": 5.21,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 51,
+          "y": 617
+        },
+        {
+          "text": "Prohlédnout realizace",
+          "ratio": 15.48,
+          "threshold": 4.5,
+          "background": "photo sample",
+          "x": 191,
+          "y": 681
+        }
+      ],
+      "failures": []
+    }
+  ]
+}
