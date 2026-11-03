@@ -51,3 +51,15 @@ rtk proxy python3 -m http.server 8732 --bind 127.0.0.1
 rtk proxy node navrhy/uvodni-fotka/tools/verify.mjs
 rtk proxy node navrhy/uvodni-fotka/tools/contrast.mjs
 ```
+
+## Návrh 21: mozaika podle Jakuba a Honzy (3. 11. 2026)
+
+Samostatná stránka `21/`, ostatní návrhy se nemění a v přehledu není. Vlevo textový sloupec na zlaté stěrce (314), vpravo schodiště (272 s retuší), ordinace (159), béžová stěrka (95), cukrárna (35) a dveře (20). Vynecháno: 327 (podle Jakuba není jejich realizace), 143 a 343 kvůli „té modré“ a fasáda.
+
+272r je jediný upravený snímek: `tools/retouch-272.mjs` odstraňuje na přání Jakuba tmavou perforaci stropu, schodiště ani stěny nemění.
+
+```sh
+rtk proxy node navrhy/uvodni-fotka/tools/retouch-272.mjs <foto-272.webp> <272r.webp>
+rtk proxy node navrhy/uvodni-fotka/tools/images-21.mjs <272r.webp>
+rtk proxy python3 navrhy/uvodni-fotka/tools/build-21.py
+```
