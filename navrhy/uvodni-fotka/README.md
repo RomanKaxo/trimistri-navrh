@@ -63,3 +63,7 @@ rtk proxy node navrhy/uvodni-fotka/tools/retouch-272.mjs <foto-272.webp> <272r.w
 rtk proxy node navrhy/uvodni-fotka/tools/images-21.mjs <272r.webp>
 rtk proxy python3 navrhy/uvodni-fotka/tools/build-21.py
 ```
+
+## Návrh 22: střídání fotek (3. 11. 2026)
+
+Roman: fotky se mají měnit, ne být všechny najednou. Samostatná stránka `22/`, vlevo text na stálé zlaté stěrce (314), vpravo po jedné 159, 35, 272r, 20 a 95. Každá 6 s s prolínáním 1 s, čistě v CSS. Při `prefers-reduced-motion` zůstává první fotka. Sestavení: `rtk proxy python3 navrhy/uvodni-fotka/tools/build-22.py`.

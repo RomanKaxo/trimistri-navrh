@@ -1,0 +1,35 @@
+/* Proposal 22: text column on the left, one large real job at a time on the right.
+   Five photos, 6 s each with a 1 s crossfade, 30 s cycle. */
+.proposal-rotace .proposal-media{display:grid;gap:4px;background:#151719;grid-template-columns:minmax(640px,40fr) 60fr}
+.proposal-rotace .tile-text{position:relative;inset:auto;min-width:0;min-height:0}
+.proposal-rotace .tile-text::after{content:"";position:absolute;inset:0;background:rgba(21,23,25,.82)}
+.proposal-rotace .stage{position:relative;overflow:hidden;min-width:0;min-height:0}
+.proposal-rotace .stage .shot{opacity:0;animation:tm-rotace 30s linear infinite;animation-delay:calc(var(--slide)*6s)}
+.proposal-rotace .stage .slide-1{opacity:1}
+.proposal-rotace .stage .shot img{animation:tm-rotace-zoom 30s ease-out infinite;animation-delay:calc(var(--slide)*6s)}
+@keyframes tm-rotace{0%{opacity:0}3.33%{opacity:1}20%{opacity:1}23.33%{opacity:0}100%{opacity:0}}
+@keyframes tm-rotace-zoom{0%{transform:scale(1)}23.33%{transform:scale(1.04)}100%{transform:scale(1.04)}}
+/* The site shade darkens two thirds of the hero; here only the menu strip needs it. */
+.proposal-rotace .hero-shade{background:linear-gradient(180deg,rgba(21,23,25,.72) 0,rgba(21,23,25,0) 130px)!important}
+.proposal-rotace .hero-index{display:none}
+@media(max-width:900px){
+ .proposal-rotace .proposal-media{grid-template-columns:590px 1fr}
+}
+@media(max-width:700px){
+ .proposal-rotace .proposal-media{grid-template-columns:1fr;grid-template-rows:200px 1fr}
+ .proposal-rotace .stage .slide-4 img{object-position:58% 62%}
+ .proposal-rotace .stage{grid-row:1}.proposal-rotace .tile-text{grid-row:2}
+ .proposal-rotace .hero-shade{background:linear-gradient(180deg,rgba(21,23,25,.7) 0,rgba(21,23,25,0) 90px)!important}
+}
+@media(max-width:700px) and (max-height:720px){
+ .proposal-rotace .proposal-media{grid-template-rows:160px 1fr}
+}
+/* Taller phones have spare room under the buttons: give it to the photo. */
+@media(max-width:700px) and (min-height:780px){
+ .proposal-rotace .proposal-media{grid-template-rows:260px 1fr}
+ .proposal-rotace .hero-copy{translate:0 62px}
+}
+/* Without motion only the first photo stays. */
+@media(prefers-reduced-motion:reduce){
+ .proposal-rotace .stage .shot,.proposal-rotace .stage .shot img{animation:none}
+}
