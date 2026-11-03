@@ -1,14 +1,14 @@
-"""Proposal 22: text column and one large photo at a time, slowly changing (Roman, 3. 11. 2026). Touches only 22/."""
+"""Proposal 22: one photo across the whole hero at a time, slowly changing (Roman, 3. 11. 2026). Touches only 22/."""
 import json,re
 from pathlib import Path
 R=Path(__file__).resolve().parents[1]
 meta=json.loads((R/'tools/image-meta-21.json').read_text())
-# Honza's order: Zlín, cukrárna, schodiště, dveře; then Jakub's béžová.
-S=[('159','28% 50%','Dekorativní stěrka v ordinaci, Zlín'),
+# Honza's order: Zlín, cukrárna, schodiště; then Jakub's zlatá and béžová. The door photo (20) is too weak enlarged.
+S=[('159','50% 45%','Dekorativní stěrka v ordinaci, Zlín'),
  ('35','52% 46%','Výmalba cukrárny, Střelice'),
- ('272r','42% 40%','Průmyslový nátěr schodiště, Opatovice'),
- ('20','58% 12%','Renovace dveří, Příbram na Moravě'),
- ('95','42% 36%','Béžová dekorativní stěrka, Kupařovice')]
+ ('272r','40% 66%','Průmyslový nátěr schodiště, Opatovice'),
+ ('314','32% 48%','Dekorativní stěrka se zlatými akcenty, Brno'),
+ ('95','50% 42%','Béžová dekorativní stěrka, Kupařovice')]
 def large(n):
  xs=[int(p.stem.split('-')[1]) for p in (R/'photos').glob(f'{n}-*.webp') if p.stem.split('-')[1].isdigit()]
  return max(xs)

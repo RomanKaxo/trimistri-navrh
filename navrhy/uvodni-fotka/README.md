@@ -66,4 +66,4 @@ rtk proxy python3 navrhy/uvodni-fotka/tools/build-21.py
 
 ## Návrh 22: střídání fotek (3. 11. 2026)
 
-Roman: fotky se mají měnit, ne být všechny najednou. Samostatná stránka `22/`, vlevo text na grafitovém podkladu, vpravo po jedné 159, 35, 272r, 20 a 95. Každá 6 s s prolínáním 1 s, čistě v CSS. Při `prefers-reduced-motion` zůstává první fotka. Sestavení: `rtk proxy python3 navrhy/uvodni-fotka/tools/build-22.py`.
+Roman: fotky se mají měnit, ne být všechny najednou. Samostatná stránka `22/`, po jedné přes celé hero 159, 35, 272r, 314 a 95, tmavý přechod jen pod textem. Každá 6 s s prolínáním 1 s, čistě v CSS. Při `prefers-reduced-motion` zůstává první fotka. Sestavení: `rtk proxy python3 navrhy/uvodni-fotka/tools/build-22.py`.
