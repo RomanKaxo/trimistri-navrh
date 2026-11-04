@@ -67,3 +67,7 @@ rtk proxy python3 navrhy/uvodni-fotka/tools/build-21.py
 ## Návrh 22: střídání fotek (3. 11. 2026)
 
 Roman: fotky se mají měnit, ne být všechny najednou. Samostatná stránka `22/`, po jedné přes celé hero 159, 35, 272r, 314 a 95, tmavý přechod jen pod textem. Každá 6 s s prolínáním 1 s, čistě v CSS. Při `prefers-reduced-motion` zůstává první fotka. Sestavení: `rtk proxy python3 navrhy/uvodni-fotka/tools/build-22.py`.
+
+## Návrh 23 (4. 11. 2026)
+
+Mozaika ze 17 podle výběru majitelů: 314, 159, 272r, 20, 35, 95. Vyřazené 327 (není jejich realizace), 143 (fasáda bez efektu) a 343 (Honzova poznámka o modré, není jisté, že myslel tuto fotku). Telefon má vlastní rozložení: fotky nahoře, text pod nimi na grafitu. Sestavení `tools/build-23.py`, styly `23/mozaika.css`. Živý web se nemění.
