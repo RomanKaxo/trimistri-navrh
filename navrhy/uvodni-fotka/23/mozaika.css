@@ -20,20 +20,19 @@
 }
 @media(max-width:700px){
  .hero-scene.proposal-mosaic{display:flex;flex-direction:column;justify-content:flex-start;min-height:100svh;height:auto;background:#151719;padding-top:0}
- .proposal-mosaic .proposal-media{position:relative;inset:auto;z-index:0;flex:0 0 auto;height:min(52svh,440px);padding-top:0;margin-top:78px;box-sizing:border-box;
-  grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(3,1fr);gap:.5px;background:#000}
- /* Telefon: šest stejných dlaždic, žádné úzké proužky. Zlatý beton zůstává vpravo dole. */
- .proposal-mosaic .shot-2{grid-column:1;grid-row:1}
- .proposal-mosaic .shot-3{grid-column:2;grid-row:1}
- .proposal-mosaic .shot-5{grid-column:1;grid-row:2}
+ .proposal-mosaic .proposal-media{position:relative;inset:auto;z-index:0;flex:0 0 auto;height:min(50svh,440px);padding-top:0;margin-top:78px;box-sizing:border-box;
+  grid-template-columns:1.25fr 1fr;grid-template-rows:repeat(3,1fr);gap:1px;background:#000}
+ /* Telefon: vysoké schody vlevo, vpravo ordinace, dveře a zlatý beton. Cukrárna a fasáda jsou jen na počítači. */
+ .proposal-mosaic .shot-3{grid-column:1;grid-row:1/4}
+ .proposal-mosaic .shot-2{grid-column:2;grid-row:1}
  .proposal-mosaic .shot-4{grid-column:2;grid-row:2}
- .proposal-mosaic .shot-6{grid-column:1;grid-row:3}
  .proposal-mosaic .shot-1{grid-column:2;grid-row:3}
+ .proposal-mosaic .shot-5,.proposal-mosaic .shot-6{display:none}
  .hero-scene.proposal-mosaic .hero-shade,.hero-scene.proposal-mosaic .hero-index{display:none}
  .hero-scene.proposal-mosaic .hero-copy{position:relative;inset:auto;width:auto;height:auto;max-width:none;margin:0 var(--tm-page-gutter,20px);padding:18px 0 14px;display:block;transform:none}
  .hero-scene.proposal-mosaic .hero-copy *{text-shadow:none!important;-webkit-text-stroke:0!important}
  .hero-scene.proposal-mosaic .hero-copy .kicker{display:none}
- .hero-scene.proposal-mosaic .hero-copy h1{font-size:clamp(2.35rem,7svh,3.3rem);line-height:.98;margin:0 0 10px}
+ .hero-scene.proposal-mosaic .hero-copy h1{font-size:clamp(2.35rem,11.5vw,2.75rem);line-height:.98;margin:0 0 10px}
  .hero-scene.proposal-mosaic .hero-copy>p{font-size:.97rem;line-height:1.45;margin:0 0 14px}
  .hero-scene.proposal-mosaic .hero-foot{display:none}
  @media(max-height:680px){.hero-scene.proposal-mosaic .hero-copy .tm-h1-kicker{display:none}.hero-scene.proposal-mosaic .hero-copy{padding-top:12px}.proposal-mosaic .proposal-media{height:46svh}}
