@@ -23,8 +23,8 @@
  .proposal-mosaic .proposal-media{position:absolute;inset:0;z-index:0;display:block;height:auto;margin:0;padding:0;background:#000}
  .hero-scene.proposal-mosaic .hero-index{display:none}
  .hero-scene.proposal-mosaic .hero-shade,.hero-scene.proposal-mosaic .hero-shade::before,.hero-scene.proposal-mosaic .hero-shade::after{background:none!important;opacity:1!important;filter:none!important;backdrop-filter:none!important;mix-blend-mode:normal!important}
- .hero-scene.proposal-mosaic .hero-shade{display:block;position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(180deg,rgba(8,8,9,.5) 0,rgba(8,8,9,0) 96px),linear-gradient(0deg,rgba(8,8,9,.82) 0,rgba(8,8,9,.68) 30%,rgba(8,8,9,.18) 48%,rgba(8,8,9,0) 58%)!important}
- .hero-scene.proposal-mosaic .hero-copy{position:absolute;z-index:2;inset:auto var(--tm-page-gutter,20px) 18px;width:auto;height:auto;max-width:none;margin:0;padding:0;display:block;transform:none}
+ .hero-scene.proposal-mosaic .hero-shade{display:block;position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(180deg,rgba(8,8,9,.5) 0,rgba(8,8,9,0) 96px),linear-gradient(0deg,rgba(8,8,9,.82) 0,rgba(8,8,9,.68) 40%,rgba(8,8,9,.18) 60%,rgba(8,8,9,0) 70%)!important}
+ .hero-scene.proposal-mosaic .hero-copy{position:absolute;z-index:2;inset:auto var(--tm-page-gutter,20px) 13svh;width:auto;height:auto;max-width:none;margin:0;padding:0;display:block;transform:none}
  .hero-scene.proposal-mosaic .hero-copy *{-webkit-text-stroke:0!important;paint-order:normal!important;text-shadow:0 1px 10px rgba(0,0,0,.5)!important}
  .hero-scene.proposal-mosaic .hero-copy .kicker{display:none}
  .hero-scene.proposal-mosaic .hero-copy h1{font-size:clamp(2.35rem,11.5vw,2.75rem);line-height:.98;margin:0 0 10px}
