@@ -7,6 +7,11 @@
  .proposal-mosaic .shot-4{grid-column:1;grid-row:2}
  .proposal-mosaic .shot-5{grid-column:2;grid-row:2}
  .proposal-mosaic .shot-1{grid-column:3;grid-row:2}
+ /* Fotky zůstávají čisté: tmavší je jen levý sloupec pod textem a tenký pruh pod hlavičkou. */
+ .hero-scene.proposal-mosaic .hero-shade,.hero-scene.proposal-mosaic .hero-shade::before,.hero-scene.proposal-mosaic .hero-shade::after{background:none!important;opacity:1!important;filter:none!important;backdrop-filter:none!important;mix-blend-mode:normal!important}
+ .hero-scene.proposal-mosaic .hero-shade{background:linear-gradient(180deg,rgba(12,13,14,.62) 0,rgba(12,13,14,0) 92px),linear-gradient(90deg,rgba(12,13,14,.66) 0,rgba(12,13,14,.58) 30%,rgba(12,13,14,.22) 38%,rgba(12,13,14,0) 46%),linear-gradient(0deg,rgba(12,13,14,.5) 0,rgba(12,13,14,0) 64px)!important}
+ .hero-scene.proposal-mosaic .hero-copy a[href*="realizace"],.hero-scene.proposal-mosaic .hero-copy a[href*="galerie"]{background:rgba(12,13,14,.72);padding-inline:16px}
+ .hero-scene.proposal-mosaic .shot img,.hero-scene.proposal-mosaic .shot{filter:none!important;opacity:1!important}
 }
 @media(max-width:700px){
  .hero-scene.proposal-mosaic{display:flex;flex-direction:column;justify-content:flex-start;min-height:100svh;height:auto;background:#151719;padding-top:0}
