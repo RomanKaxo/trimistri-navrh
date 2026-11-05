@@ -19,20 +19,20 @@
  .hero-scene.proposal-mosaic .hero-copy,.hero-scene.proposal-mosaic .hero-copy *{-webkit-text-stroke:0!important;paint-order:normal!important;text-shadow:0 1px 14px rgba(0,0,0,.45)!important}
 }
 @media(max-width:700px){
- /* Telefon: všech šest fotek přes celou obrazovku, text leží přímo na nich. Tmavší je jen spodek pod textem. */
+ /* Telefon: jedna velká fotka přes celou obrazovku, všech šest se plynule střídá. Text leží přímo na ní. */
  .hero-scene.proposal-mosaic{position:relative;display:block;min-height:100svh;height:100svh;background:#000;padding:0;overflow:hidden}
- .proposal-mosaic .proposal-media{position:absolute;inset:78px 0 0;z-index:0;height:auto;margin:0;padding:0;box-sizing:border-box;
-  grid-template-columns:1.25fr 1fr;grid-template-rows:repeat(4,1fr);gap:1px;background:#000}
- .proposal-mosaic .shot-3{grid-column:1;grid-row:1/3}
- .proposal-mosaic .shot-2{grid-column:2;grid-row:1}
- .proposal-mosaic .shot-4{grid-column:2;grid-row:2}
- .proposal-mosaic .shot-5{grid-column:1;grid-row:3}
- .proposal-mosaic .shot-6{grid-column:1;grid-row:4}
- .proposal-mosaic .shot-1{grid-column:2;grid-row:3/5}
+ .proposal-mosaic .proposal-media{position:absolute;inset:0;z-index:0;display:block;height:auto;margin:0;padding:0;background:#000}
+ .proposal-mosaic .shot{position:absolute;inset:0;display:block;opacity:0;animation:tm-mozaika-strida 36s infinite}
+ .proposal-mosaic .shot img{width:100%;height:100%;object-fit:cover;filter:none!important}
+ .proposal-mosaic .shot-3{animation-delay:0s}
+ .proposal-mosaic .shot-2{animation-delay:6s}
+ .proposal-mosaic .shot-1{animation-delay:12s}
+ .proposal-mosaic .shot-4{animation-delay:18s}
+ .proposal-mosaic .shot-5{animation-delay:24s}
+ .proposal-mosaic .shot-6{animation-delay:30s}
  .hero-scene.proposal-mosaic .hero-index{display:none}
  .hero-scene.proposal-mosaic .hero-shade,.hero-scene.proposal-mosaic .hero-shade::before,.hero-scene.proposal-mosaic .hero-shade::after{background:none!important;opacity:1!important;filter:none!important;backdrop-filter:none!important;mix-blend-mode:normal!important}
- .hero-scene.proposal-mosaic .hero-shade{display:block;position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(0deg,rgba(10,11,12,.72) 0,rgba(10,11,12,.62) 36%,rgba(10,11,12,.3) 46%,rgba(10,11,12,0) 53%)!important}
- .hero-scene.proposal-mosaic .shot img,.hero-scene.proposal-mosaic .shot{filter:none!important;opacity:1!important}
+ .hero-scene.proposal-mosaic .hero-shade{display:block;position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(180deg,rgba(8,8,9,.5) 0,rgba(8,8,9,0) 96px),linear-gradient(0deg,rgba(8,8,9,.82) 0,rgba(8,8,9,.68) 30%,rgba(8,8,9,.18) 48%,rgba(8,8,9,0) 58%)!important}
  .hero-scene.proposal-mosaic .hero-copy{position:absolute;z-index:2;inset:auto var(--tm-page-gutter,20px) 18px;width:auto;height:auto;max-width:none;margin:0;padding:0;display:block;transform:none}
  .hero-scene.proposal-mosaic .hero-copy *{-webkit-text-stroke:0!important;paint-order:normal!important;text-shadow:0 1px 10px rgba(0,0,0,.5)!important}
  .hero-scene.proposal-mosaic .hero-copy .kicker{display:none}
@@ -41,4 +41,6 @@
  .hero-scene.proposal-mosaic .hero-copy>p{font-size:.97rem;line-height:1.45;margin:0 0 14px}
  .hero-scene.proposal-mosaic .hero-foot{display:none}
  @media(max-height:680px){.hero-scene.proposal-mosaic .hero-copy .tm-h1-kicker{display:none}}
+ @media(prefers-reduced-motion:reduce){.proposal-mosaic .shot{animation:none}.proposal-mosaic .shot-3{opacity:1}}
 }
+@keyframes tm-mozaika-strida{0%{opacity:1}14%{opacity:1}17%{opacity:0}97%{opacity:0}100%{opacity:1}}
