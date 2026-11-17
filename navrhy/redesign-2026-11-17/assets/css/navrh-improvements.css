@@ -1,0 +1,93 @@
+/* Shared refinements: original photographs, native navigation and compact mobile contact. */
+.tm-category-image::after,
+body.night-gallery :is(#ukazky, #realizace) .tm-project-card .tm-project-photo::after { content: none; }
+.tm-category-image img,
+body.night-gallery :is(#ukazky, #realizace) .tm-project-card .tm-project-photo img { filter: none; opacity: 1; mix-blend-mode: normal; }
+body.night-gallery :is(#ukazky, #realizace) .tm-project-card { background: #f8f5ef; }
+body.night-gallery :is(#ukazky, #realizace) .tm-project-card .tm-project-photo {
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: auto;
+  height: auto;
+  background: #f8f5ef;
+  color: #151719;
+  text-decoration: none;
+}
+body.night-gallery :is(#ukazky, #realizace) .tm-project-card .tm-project-photo > img {
+  position: static;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1.5;
+  object-fit: cover;
+}
+body.night-gallery :is(#ukazky, #realizace) .tm-project-card .tm-project-overlay {
+  position: static;
+  display: block;
+  padding: 22px;
+  background: #f8f5ef;
+  flex: 1;
+}
+body.night-gallery :is(#ukazky, #realizace) .tm-project-card .tm-project-place { color: #45484d; white-space: normal; text-shadow: none; }
+body.night-gallery :is(#ukazky, #realizace) .tm-project-card .tm-project-overlay h3 { color: #151719; display: block; -webkit-line-clamp: unset; text-shadow: none; font-size: 1.35rem; margin-bottom: 18px; }
+body.night-gallery :is(#ukazky, #realizace) .tm-project-card .tm-project-view { display: flex; color: #151719; border-color: #c9c1b3; }
+body.night-gallery :is(#ukazky, #realizace) .tm-project-card .tm-category-caption {
+  position: static;
+  padding: 20px;
+  display: block;
+  color: #151719;
+}
+body.night-gallery :is(#ukazky, #realizace) .tm-project-card .tm-category-caption h3 { color: #151719; }
+body.night-gallery :is(#ukazky, #realizace) .tm-project-card .tm-category-caption > span { color: #45484d; display: block; margin-top: 7px; white-space: normal; }
+body.night-gallery #ukazky .tm-detail-projects:has(> .tm-project-card:only-child) { grid-template-columns: minmax(0, 760px); justify-content: center; }
+body.night-gallery :is(#ukazky, #realizace) .tm-project-overlay::before { content: none; }
+.tm-detail-jump { display: flex; flex-wrap: wrap; gap: 10px; padding-block: 12px 26px; }
+.tm-detail-jump a { color: #151719; background: #f8f5ef; border-bottom: 2px solid #8b6627; padding: 12px 16px; font-size: .9rem; font-weight: 600; text-decoration: none; }
+.tm-detail-jump a:hover, .tm-detail-jump a:focus-visible { background: #e5ddcf; }
+#rozsah, #ukazky, #realizace-postup, #otazky, #cena, #poptavka { scroll-margin-top: 120px; }
+.tm-service-directory { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 48px; margin-top: 32px; }
+.tm-directory-group { min-width: 0; }
+.tm-directory-group h3 { font-size: 1.2rem; font-weight: 700; margin: 0 0 12px; }
+.tm-directory-group ul { list-style: none; margin: 0; padding: 0; }
+.tm-directory-group a { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 48px; padding: 12px 0; border-bottom: 1px solid #c9c1b3; color: #151719; text-decoration: none; font-size: .95rem; line-height: 1.5; }
+.tm-directory-group a:hover, .tm-directory-group a:focus-visible { color: #745523; }
+.tm-directory-group a > span { flex: none; color: #745523; }
+.tm-quick-quote:not([hidden]) + .tm-directory-help { display: none; }
+@media (max-width: 700px) {
+  body.night-gallery :is(#ukazky, #realizace) .tm-project-card .tm-project-photo > img { aspect-ratio: 1.2; }
+  body.night-gallery :is(#ukazky, #realizace) .tm-project-card .tm-project-overlay { padding: 16px; }
+  body.night-gallery :is(#ukazky, #realizace) .tm-project-card .tm-project-overlay h3 { font-size: 1.15rem; margin-bottom: 12px; }
+  body.night-gallery :is(#ukazky, #realizace) .tm-project-card .tm-category-caption { padding: 14px; }
+  body.night-gallery #ukazky .tm-project-grid { gap: 14px; }
+  .tm-detail-jump { gap: 8px; padding-bottom: 18px; }
+  .tm-detail-jump a { padding: 11px 12px; font-size: .85rem; }
+  .tm-service-directory { grid-template-columns: 1fr; gap: 26px; margin-top: 26px; }
+  .tm-directory-group h3 { font-size: 1.1rem; margin-bottom: 6px; }
+  .tm-directory-group a { padding-block: 11px; }
+  .tm-contact .tm-contact-copy h2 { font-size: 2.25rem; line-height: 1.12; }
+  .tm-contact .tm-contact-copy > .tm-eyebrow { margin-bottom: 10px; }
+  .tm-contact-heading > .tm-direct-contact { display: none; }
+  .tm-contact-heading { gap: 14px; margin-bottom: 20px; }
+  .tm-contact .tm-contact-copy > p:not(.tm-eyebrow) { margin-top: 12px; }
+  .tm-contact .tm-inquiry-aside { display: block; padding: 16px 20px; border-top: 2px solid #8b6627; background: #f8f5ef; color: #151719; }
+  .tm-inquiry-aside > .tm-eyebrow,
+  .tm-inquiry-aside > h3,
+  .tm-inquiry-aside > p,
+  .tm-inquiry-aside > .tm-inquiry-direct,
+  .tm-inquiry-aside > .tm-inquiry-area { display: none; }
+  .tm-inquiry-aside .tm-inquiry-service { margin: 0; padding: 0; border: 0; gap: 4px; }
+  .tm-inquiry-aside .tm-inquiry-service > span { color: #45484d; font-size: .78rem; }
+  .tm-inquiry-aside .tm-inquiry-service > strong { color: #151719; font-size: .95rem; }
+  .tm-inquiry-fields { padding: 22px 20px; }
+  #rozsah, #ukazky, #realizace-postup, #otazky, #cena, #poptavka { scroll-margin-top: 112px; }
+}
+
+/* Úvod #realizace: popisek pod fotkou místo přes ni (fotka bez ztmavení musí zůstat čitelná). */
+#realizace .tm-category-link { display: flex; flex-direction: column; height: 100%; background: #f8f5ef; color: #151719; }
+#realizace .tm-category-image { position: relative; flex: 1 1 auto; min-height: 0; }
+#realizace .tm-category-caption { position: static; inset: auto; transform: none; padding: 16px 20px 18px; background: #f8f5ef; color: #151719; text-shadow: none; }
+#realizace .tm-category-caption h3 { color: #151719; text-shadow: none; }
+#realizace .tm-category-caption > span { color: #45484d; text-shadow: none; }
+#realizace .tm-round-arrow { background: #151719; color: #fff; border-color: #151719; }
+@media (max-width: 600px) {
+  #realizace .tm-category-caption { padding: 12px 14px 14px; }
+}

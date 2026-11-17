@@ -1,0 +1,131 @@
+/* Tři Mistři · návrh 17. 11. 2026
+   Vrstva vzhledu nad dnešním webem. HTML, texty, pořadí sekcí a logo jsou beze změny;
+   tento soubor mění jen typografii, rytmus, práci s fotkami a detaily ovládání. */
+:root{
+  --r-ink:#151719; --r-ink-2:#23262a; --r-gold:#8b6627; --r-gold-2:#b98b38; --r-gold-soft:#efe4cf;
+  --r-paper:#f8f5ef; --r-stone:#eeece6; --r-white:#fffdf9; --r-line:#ddd6c8; --r-muted:#5b5a55;
+  --r-shadow:0 1px 2px rgba(21,23,25,.06),0 12px 32px -18px rgba(21,23,25,.28);
+  --r-ease:cubic-bezier(.2,.7,.2,1);
+}
+body.night-gallery{font-feature-settings:"ss01","cv11";-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+body.night-gallery h1,body.night-gallery h2{letter-spacing:-.036em;text-wrap:balance}
+body.night-gallery h3{letter-spacing:-.015em}
+body.night-gallery p{text-wrap:pretty}
+body.night-gallery :focus-visible{outline:2px solid var(--r-gold-2);outline-offset:3px}
+
+/* ---------- Tlačítka: stejný tvar, klidnější odezva ---------- */
+body.night-gallery .tm-btn,body.night-gallery .button,body.night-gallery .tm-call-btn,body.night-gallery .tm-header-phone{
+  transition:transform .25s var(--r-ease),box-shadow .25s var(--r-ease),background-color .2s,color .2s,border-color .2s}
+body.night-gallery .tm-btn:hover,body.night-gallery .button:hover{transform:translateY(-2px);box-shadow:0 14px 26px -14px rgba(139,102,39,.7)}
+body.night-gallery .tm-btn:active,body.night-gallery .button:active{transform:translateY(0)}
+
+/* ---------- Úvod: text drží v levém sloupci, fotky zůstávají čisté ---------- */
+@media(min-width:701px){
+  .hero-scene.proposal-mosaic .proposal-media{gap:6px!important;background:var(--r-ink)!important}
+  .hero-scene.proposal-mosaic .hero-shade{
+    background:linear-gradient(180deg,rgba(12,13,14,.6) 0,rgba(12,13,14,0) 96px),
+      linear-gradient(90deg,rgba(15,16,18,.84) 0,rgba(15,16,18,.84) calc(33.333% - 3px),rgba(15,16,18,0) calc(33.333% - 3px))!important}
+  .hero-scene.proposal-mosaic .hero-copy{max-width:calc(33.333vw - var(--tm-page-gutter,48px) - 28px)!important;display:flex!important;flex-direction:column;justify-content:center;top:96px!important;bottom:72px!important}
+  .hero-scene.proposal-mosaic .hero-copy .kicker{font-size:.66rem!important;letter-spacing:.14em!important;white-space:nowrap;margin-bottom:14px!important}
+  .hero-scene.proposal-mosaic .hero-copy .kicker *{font-size:inherit!important;letter-spacing:inherit!important}
+  .hero-scene.proposal-mosaic .hero-copy h1 .tm-h1-kicker{white-space:nowrap;font-size:.8rem!important;letter-spacing:.1em!important}
+  .hero-scene.proposal-mosaic .hero-copy h1{font-size:clamp(3rem,5.9vw,5.6rem)!important;line-height:.94!important;letter-spacing:-.045em!important;margin-bottom:.32em!important}
+  .hero-scene.proposal-mosaic .hero-copy>p{max-width:30ch;font-size:1.06rem;line-height:1.55}
+  .hero-scene.proposal-mosaic .hero-actions{display:flex;flex-direction:column;align-items:flex-start;gap:12px}
+  .hero-scene.proposal-mosaic .hero-actions .button{min-width:260px;justify-content:space-between}
+  .hero-scene.proposal-mosaic .hero-copy a[href*="realizace"]{background:none!important;padding-inline:0!important;margin-left:0!important;justify-content:flex-start!important;gap:12px;border-bottom:1px solid rgba(255,255,255,.35);padding-block:10px!important}
+  .hero-scene.proposal-mosaic .shot img{transition:transform 1.2s var(--r-ease)}
+  .hero-scene.proposal-mosaic .shot:hover img{transform:scale(1.035)}
+}
+.r-hero-trust{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin-top:22px;padding-top:18px;border-top:1px solid rgba(255,255,255,.2);color:#f4efe4;font-size:.9rem;font-weight:600;text-decoration:none}
+.r-hero-trust .r-stars{color:#e3b55a;letter-spacing:.14em;font-size:1rem}
+.r-hero-trust small{font-weight:500;font-size:.82rem;opacity:.86}
+@media(max-width:700px){.r-hero-trust{margin-top:14px;padding-top:12px;font-size:.84rem}}
+
+/* ---------- Nadpisy sekcí: jedna linka, stejný rytmus ---------- */
+.tm-home-gallery>.tm-container,.tm-services>.tm-container,.tm-process>.tm-container,.tm-reviews>.tm-container{position:relative}
+.tm-eyebrow.tm-numbered{display:flex;align-items:center;gap:14px}
+.tm-eyebrow.tm-numbered::after{content:"";flex:0 0 56px;height:1px;background:var(--r-gold-2);opacity:.7}
+.tm-review-heading .tm-eyebrow.tm-numbered{justify-content:center}
+.tm-review-heading .tm-eyebrow.tm-numbered::before{content:"";flex:0 0 56px;height:1px;background:var(--r-gold-2);opacity:.7;order:-1}
+.tm-section-number{font-variant-numeric:tabular-nums}
+
+/* ---------- Realizace: fotka nese kartu, popisek jako štítek ---------- */
+.tm-category{overflow:visible}
+.tm-category-link{display:block;position:relative;background:none!important;box-shadow:none}
+.tm-category-image{overflow:hidden;background:var(--r-stone)}
+.tm-category-image img{transition:transform .9s var(--r-ease),filter .4s}
+.tm-category-link:hover .tm-category-image img{transform:scale(1.045)}
+.tm-category-caption{position:relative;z-index:2;width:fit-content;min-width:min(62%,300px);margin:-34px 0 0 0;padding:16px 26px 14px 20px!important;background:var(--r-white)!important;border-top:3px solid var(--r-gold);box-shadow:var(--r-shadow)}
+.tm-category-caption :is(h3,strong,b){letter-spacing:-.02em}
+.tm-round-arrow{transition:transform .3s var(--r-ease),background-color .2s}
+.tm-category-link:hover .tm-round-arrow{transform:translate(3px,-3px);background:var(--r-gold)!important}
+
+/* ---------- Služby: karty bez rámečků, zlatá hrana při najetí ---------- */
+.tm-offer-card{position:relative;background:var(--r-white)!important;border:0!important;box-shadow:inset 0 0 0 1px var(--r-line);transition:box-shadow .3s var(--r-ease),transform .3s var(--r-ease)}
+.tm-offer-card::before{content:"";position:absolute;left:0;top:0;width:100%;height:3px;background:var(--r-gold);transform:scaleX(0);transform-origin:left;transition:transform .45s var(--r-ease)}
+.tm-offer-card:hover{transform:translateY(-3px);box-shadow:inset 0 0 0 1px var(--r-line),var(--r-shadow)}
+.tm-offer-card:hover::before{transform:scaleX(1)}
+.tm-offer-icon{background:var(--r-gold-soft)!important;border-color:transparent!important;color:var(--r-gold)}
+.tm-offer-more-grid a{background:var(--r-white)!important;border:0!important;box-shadow:inset 0 0 0 1px var(--r-line);transition:box-shadow .2s,color .2s,transform .25s var(--r-ease)}
+.tm-offer-more-grid a:hover{box-shadow:inset 0 0 0 1px var(--r-gold);transform:translateX(3px)}
+.tm-quick-quote select{min-height:54px}
+.tm-offer-help{background:var(--r-ink)!important;color:#f4efe4!important;border:0!important}
+.tm-offer-help :is(strong,p,span){color:inherit!important}
+.tm-offer-help p{opacity:.82}
+
+/* ---------- Postup ---------- */
+.tm-process-image{box-shadow:18px 18px 0 var(--r-gold-soft)}
+@media(max-width:900px){.tm-process-image{box-shadow:none}}
+.tm-process-copy :is(ol,ul)>li,.tm-process-copy .tm-step{transition:background-color .25s}
+.tm-process-copy :is(ol,ul)>li:hover{background:rgba(255,253,249,.6)}
+
+/* ---------- Recenze ---------- */
+.tm-review-bands{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 7%,#000 93%,transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 7%,#000 93%,transparent 100%)}
+.review-card{background:var(--r-white)!important;border:0!important;box-shadow:inset 0 0 0 1px var(--r-line);transition:box-shadow .3s var(--r-ease),transform .3s var(--r-ease)}
+.review-card:hover{transform:translateY(-3px);box-shadow:inset 0 0 0 1px var(--r-line),var(--r-shadow)}
+.review-stars,.tm-google-stars{letter-spacing:.12em}
+.tm-google-summary{padding:10px 18px;background:var(--r-white);box-shadow:inset 0 0 0 1px var(--r-line);transition:box-shadow .2s}
+.tm-google-summary:hover{box-shadow:inset 0 0 0 1px var(--r-gold)}
+
+/* ---------- Poptávka ---------- */
+.quote-form .form-control,.quote-form .form-select,.quote-form select,.quote-form .tm-select-button{background-color:var(--r-white)!important;min-height:54px;border-color:var(--r-line)!important;transition:border-color .2s,box-shadow .2s}
+.quote-form textarea.form-control{min-height:132px;background-color:var(--r-white)!important}
+.quote-form .form-control:focus,.quote-form .form-select:focus,.quote-form select:focus{border-color:var(--r-gold)!important;box-shadow:0 0 0 3px rgba(185,139,56,.22)!important;outline:0}
+.tm-upload-zone{transition:background-color .2s,border-color .2s}
+.tm-upload-zone:hover{background:var(--r-gold-soft)!important;border-color:var(--r-gold)!important}
+.tm-inquiry-layout{box-shadow:var(--r-shadow)}
+
+/* ---------- Stránky služeb ---------- */
+.tm-detail-cover-image{box-shadow:12px 12px 0 var(--r-gold-soft)}
+@media(max-width:900px){.tm-detail-cover-image{box-shadow:none}}
+.tm-detail-trust{padding:16px 20px;background:var(--r-white);box-shadow:inset 0 0 0 1px var(--r-line);width:fit-content;max-width:100%}
+.tm-detail-jump a{background:var(--r-white)!important;transition:box-shadow .2s,transform .25s var(--r-ease)}
+.tm-detail-jump a:hover{transform:translateY(-2px);box-shadow:var(--r-shadow)}
+.tm-project-card{background:var(--r-white)!important;box-shadow:inset 0 0 0 1px var(--r-line);transition:box-shadow .3s var(--r-ease),transform .3s var(--r-ease)}
+.tm-project-card:hover{transform:translateY(-4px);box-shadow:inset 0 0 0 1px var(--r-line),var(--r-shadow)}
+.tm-project-photo{overflow:hidden;display:block}
+.tm-project-photo img{transition:transform .9s var(--r-ease)}
+.tm-project-card:hover .tm-project-photo img{transform:scale(1.045)}
+.tm-detail-info-surface,.tm-price-main,.tm-price-area{background:var(--r-white)!important;border:0!important;box-shadow:inset 0 0 0 1px var(--r-line)}
+.tm-detail-benefit-icon{color:var(--r-gold)}
+.tm-detail-faq details,.tm-detail-faq .tm-faq-item{transition:background-color .2s}
+.tm-price-card{box-shadow:var(--r-shadow)}
+.tm-price-places li,.tm-price-places a{background:var(--r-white)!important;transition:box-shadow .2s}
+.tm-price-places li:hover{box-shadow:inset 0 0 0 1px var(--r-gold)}
+
+/* ---------- Telefon: lišta Zavolat / Poptat i na úvodní stránce ---------- */
+.r-mobile-bar{display:none}
+@media(max-width:700px){
+  .r-mobile-bar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:grid;grid-template-columns:1fr 1.25fr;gap:1px;background:var(--r-ink);padding-bottom:env(safe-area-inset-bottom);box-shadow:0 -10px 30px -12px rgba(0,0,0,.45);transform:translateY(110%);transition:transform .35s var(--r-ease)}
+  .r-mobile-bar.is-on{transform:none}
+  .r-mobile-bar a{display:flex;align-items:center;justify-content:center;gap:8px;min-height:56px;font-weight:700;font-size:.95rem;text-decoration:none;color:#fff;background:var(--r-ink-2)}
+  .r-mobile-bar a+a{background:var(--r-gold)}
+  body.r-has-bar .tm-footer{padding-bottom:72px}
+  .tm-category-caption{min-width:70%;margin-top:-26px}
+}
+
+@media(prefers-reduced-motion:reduce){*{transition-duration:.01ms!important;animation-duration:.01ms!important}}
+
+/* Stránky služeb: nadpis drží původní zalomení. */
+body.night-gallery .tm-detail-hero h1{text-wrap:wrap;letter-spacing:-.058em}
