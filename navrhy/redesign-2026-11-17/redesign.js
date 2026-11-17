@@ -25,7 +25,7 @@
   const phone = document.querySelector('.tm-header-phone'), quote = document.querySelector('.tm-header-quote');
   if (phone && quote && !document.querySelector('.tm-service-mobile-contact')) {
     const bar = document.createElement('div'); bar.className = 'r-mobile-bar';
-    const a1 = document.createElement('a'); a1.href = phone.getAttribute('href'); a1.textContent = 'Zavolat';
+    const a1 = document.createElement('a'); a1.href = phone.getAttribute('href'); { const ic = phone.querySelector('svg'); if (ic) a1.append(ic.cloneNode(true)); a1.append('Zavolat'); }
     const a2 = document.createElement('a'); a2.href = '#poptavka'; a2.textContent = (quote.querySelector('.tm-cta-label') || quote).textContent.trim();
     bar.append(a1, a2); document.body.append(bar); document.body.classList.add('r-has-bar');
     const form = document.getElementById('poptavka');

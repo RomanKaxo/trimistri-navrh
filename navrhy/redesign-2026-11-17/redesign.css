@@ -117,10 +117,11 @@ body.night-gallery .tm-btn:active,body.night-gallery .button:active{transform:tr
 /* ---------- Telefon: lišta Zavolat / Poptat i na úvodní stránce ---------- */
 .r-mobile-bar{display:none}
 @media(max-width:700px){
-  .r-mobile-bar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:grid;grid-template-columns:1fr 1.25fr;gap:1px;background:var(--r-ink);padding-bottom:env(safe-area-inset-bottom);box-shadow:0 -10px 30px -12px rgba(0,0,0,.45);transform:translateY(110%);transition:transform .35s var(--r-ease)}
+  .r-mobile-bar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:grid;grid-template-columns:1fr 1.35fr;gap:8px;background:var(--r-ink);padding:8px 12px calc(8px + env(safe-area-inset-bottom));box-shadow:0 -10px 30px -12px rgba(0,0,0,.45);transform:translateY(110%);transition:transform .35s var(--r-ease)}
   .r-mobile-bar.is-on{transform:none}
-  .r-mobile-bar a{display:flex;align-items:center;justify-content:center;gap:8px;min-height:56px;font-weight:700;font-size:.95rem;text-decoration:none;color:#fff;background:var(--r-ink-2)}
-  .r-mobile-bar a+a{background:var(--r-gold)}
+  .r-mobile-bar a{display:flex;align-items:center;justify-content:center;gap:9px;min-height:52px;font-weight:700;font-size:.95rem;text-decoration:none;color:#fff;background:var(--r-ink-2);box-shadow:inset 0 0 0 1px rgba(255,255,255,.28)}
+  .r-mobile-bar a svg{width:20px;height:20px;color:#e3b55a}
+  .r-mobile-bar a+a{background:var(--r-gold);box-shadow:none}
   body.r-has-bar .tm-footer{padding-bottom:72px}
   .tm-category-caption{min-width:70%;margin-top:-26px}
 }
@@ -129,3 +130,13 @@ body.night-gallery .tm-btn:active,body.night-gallery .button:active{transform:tr
 
 /* Stránky služeb: nadpis drží původní zalomení. */
 body.night-gallery .tm-detail-hero h1{text-wrap:wrap;letter-spacing:-.058em}
+
+/* Telefon, stránky služeb: lišta jako dvě rovnocenná tlačítka (dřív „Zavolat“ jen jako drobný text). */
+@media(max-width:900px){
+  body.night-gallery .tm-service-mobile-contact{display:grid!important;grid-template-columns:1fr 1.35fr;gap:8px;align-items:stretch;padding:8px 12px calc(8px + env(safe-area-inset-bottom))!important;background:var(--r-ink)!important;border-top:0!important;box-shadow:0 -10px 30px -12px rgba(0,0,0,.45)!important}
+  body.night-gallery .tm-service-mobile-contact>a{display:flex!important;align-items:center;justify-content:center;gap:9px;min-height:52px!important;height:auto!important;padding:10px 12px!important;font-size:.95rem!important;font-weight:700;text-decoration:none;letter-spacing:0}
+  body.night-gallery .tm-service-mobile-contact>a:first-child{color:#fff!important;background:var(--r-ink-2);box-shadow:inset 0 0 0 1px rgba(255,255,255,.28)}
+  body.night-gallery .tm-service-mobile-contact>a:first-child :is(svg,.tm-icon){width:20px;height:20px;color:#e3b55a!important}
+  body.night-gallery .tm-service-mobile-contact .tm-btn{background:var(--r-gold)!important;color:#fff!important;box-shadow:none!important;transform:none!important}
+  body.night-gallery .tm-service-mobile-contact .tm-btn>span[aria-hidden]{position:static!important;right:auto!important}
+}
