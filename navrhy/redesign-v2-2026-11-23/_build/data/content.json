@@ -1,0 +1,3408 @@
+{
+ "404": {
+  "title": "Stránka nenalezena | Tři Mistři",
+  "html": "\n    <section class=\"notfound-section\">\n      <div class=\"container-xl\">\n        <div class=\"row justify-content-center text-center\">\n          <div class=\"col-lg-8\">\n            <div class=\"notfound-code\">404</div>\n\n            <p class=\"eyebrow centered\"><span></span> Stránka nenalezena</p>\n            <h1>Tuhle stránku jsme bohužel nenamalovali</h1>\n            <p class=\"lead mx-auto\">Odkaz může být zastaralý nebo jste zadali chybnou adresu. Zkuste se vrátit na\n              úvodní stránku, nebo přejděte přímo na některou z našich služeb.</p>\n\n            <div class=\"notfound-actions d-flex flex-wrap justify-content-center gap-3\">\n              <a class=\"btn btn-gold btn-lg\" href=\"./\"><i class=\"bi bi-house\"></i> Zpět na úvodní stránku</a>\n              <a class=\"btn btn-outline-dark btn-lg\" href=\"tel:+420774927182\"><i class=\"bi bi-telephone\"></i> Zavolat\n                nám</a>\n            </div>\n\n            <div class=\"notfound-links\">\n              <a href=\"natery-interieru\">Malby interiéru</a>\n              <a href=\"dekoracni-sterky\">Dekorativní stěrky</a>\n              <a href=\"natery-drevo-kovu\">Nátěry dřeva a kovů</a>\n              <a href=\"prumyslove-natery\">Ocelové konstrukce</a>\n              <a href=\"tapetovani\">Tapetování</a>\n              <a href=\"natery-fasad\">Nátěry fasád</a>\n              <a href=\"odstraneni-grafiti\">Odstranění graffiti</a>\n              <a href=\"pismomalirstvi\">Písmomalířství</a>\n            </div>\n          </div>\n        </div>\n      </div>\n    </section>\n  ",
+  "text": "404\n\nSTRÁNKA NENALEZENA\n\nTuhle stránku jsme bohužel nenamalovali\n\nOdkaz může být zastaralý nebo jste zadali chybnou adresu. Zkuste se vrátit na úvodní stránku, nebo přejděte přímo na některou z našich služeb.\n\n ZPĚT NA ÚVODNÍ STRÁNKU\n ZAVOLAT NÁM\nMalby interiéru\nDekorativní stěrky\nNátěry dřeva a kovů\nOcelové konstrukce\nTapetování\nNátěry fasád\nOdstranění graffiti\nPísmomalířství"
+ },
+ "services": {
+  "natery-interieru": {
+   "title": "Malíř Brno – malování bytů, uklidíme po sobě | Tři Mistři",
+   "description": "Malíř pokojů v Brně a okolí. Vymalujeme byt, dům i kancelář v domluvený termín, zakryjeme nábytek a po sobě uklidíme. Pokaždé stejní lidé. Nacenění zdarma.",
+   "breadcrumb": [
+    "Úvod",
+    "Služby",
+    "Malování bytů a interiérů"
+   ],
+   "eyebrow": "Tři Mistři / Brno a okolí",
+   "h1": "Malíř v Brně: malování bytů a pokojů.",
+   "lead": "Malíř, po kterém nemusíte uklízet. Vymalujeme byt, dům i kancelář v domluvený termín. Přijdou pokaždé stejní lidé, nábytek a podlahy zakryjeme a předáme vám čistý byt.",
+   "cta": "Chci cenu malování",
+   "note": "Pošlete fotky místností a do 24 hodin se vám ozveme. Nacenění je zdarma a nezávazné. Termín, který domluvíme, dodržíme.",
+   "trust": [
+    "★★★★★ 5,0 / 529 recenzí na Google ↗",
+    "Náš tým má přes 15 let praxe v oboru"
+   ],
+   "cover": {
+    "src": "./assets/img/gallery/thumbs/bohunice25-700w.webp",
+    "alt": "Nátěr interiéru 25 - Brno - Bohunice",
+    "w": "700",
+    "h": "933",
+    "label": "Z naší práce",
+    "place": "Brno - Bohunice"
+   },
+   "jump": [
+    [
+     "O službě",
+     "#rozsah"
+    ],
+    [
+     "Ukázky",
+     "#ukazky"
+    ],
+    [
+     "Postup",
+     "#realizace-postup"
+    ],
+    [
+     "Otázky",
+     "#otazky"
+    ],
+    [
+     "Cena",
+     "#cena"
+    ],
+    [
+     "Poptávka ↗",
+     "#poptavka"
+    ]
+   ],
+   "showcase": {
+    "eyebrow": "Ukázky realizací",
+    "h2": "Podívejte se na výsledek.",
+    "visible": 6,
+    "more": "Zobrazit další realizace ↓",
+    "other": [],
+    "extraText": []
+   },
+   "rozsah": {
+    "eyebrow": "01 / O službě",
+    "h2": "Proč si lidé vybírají Tři Mistry",
+    "intro": [
+     "Malování by mělo být starost na pár dní, ne na pár týdnů. Proto držíme termíny, posíláme pořád stejnou partu a po sobě uklidíme tak, abyste mohli večer normálně bydlet."
+    ],
+    "benefits": [
+     [
+      "Termín, který platí",
+      "Den nástupu i dokončení domluvíme předem a dodržíme ho. Nemusíte si brát dovolenou navíc."
+     ],
+     [
+      "Pokaždé stejní lidé",
+      "Kdo si s vámi práci domluví, ten ji i udělá. Žádné střídání part ani subdodavatelé."
+     ],
+     [
+      "Čistý byt po práci",
+      "Zakryjeme nábytek a podlahy, opravíme praskliny a po malování uklidíme. Hotové místnosti spolu projdeme."
+     ]
+    ],
+    "processTitle": "Jak probíhá realizace",
+    "steps": [
+     [
+      "Projdeme váš prostor",
+      "Zajímá nás plocha, stav stěn, vybavení a představa o odstínu."
+     ],
+     [
+      "Zakryjeme a opravíme",
+      "Ochráníme nábytek a podlahy, připravíme praskliny a nerovnosti."
+     ],
+     [
+      "Vymalujeme stěny a stropy",
+      "Postup a počet vrstev přizpůsobíme podkladu a zvolené barvě."
+     ],
+     [
+      "Uklidíme a předáme",
+      "Společně projdeme dokončené místnosti a detaily."
+     ]
+    ],
+    "faqTitle": "Cena malování a časté otázky",
+    "faqs": [
+     [
+      "Kolik stojí malování bytu?",
+      "<p>Cena malování za m² závisí na stavu stěn, potřebných opravách, počtu vrstev, výšce stropů a zvolené barvě. Celkovou cenu určuje plocha stěn a stropů. Pošlete fotografie a přibližné rozměry místností a připravíme nezávaznou cenu podle konkrétního rozsahu.</p>"
+     ],
+     [
+      "Jak rychle se dozvím cenu?",
+      "<p>Stačí poslat fotky místností a přibližné rozměry přes formulář nebo zavolat. U větších zakázek se přijedeme podívat a cenu potvrdíme po prohlídce.</p>"
+     ],
+     [
+      "Jak dlouho malování bytu trvá?",
+      "<p>Záleží na velikosti bytu a stavu stěn. Pokoj obvykle zvládneme během jednoho dne, u celého bytu termín a délku práce domluvíme předem.</p>"
+     ],
+     [
+      "Musíme před malováním vyklidit celý byt?",
+      "<p>Ne. Nábytek a podlahy zakryjeme podle prostoru a přístupu ke stěnám. Rozsah domluvíme předem.</p>"
+     ],
+     [
+      "Opravíte praskliny a díry ve stěnách?",
+      "<p>Ano. Před malováním opravíme praskliny, díry po hmoždinkách a nerovnosti, aby výsledek vydržel.</p>"
+     ],
+     [
+      "Kde malujete?",
+      "<p>Malujeme v celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna.</p>"
+     ],
+     [
+      "Malujete i kanceláře a provozovny?",
+      "<p>Ano. Rozsah a termín probereme s ohledem na provoz, aby práce co nejméně omezila váš chod.</p>"
+     ]
+    ],
+    "allText": "01 / O služběProč si lidé vybírají Tři Mistry Malování by mělo být starost na pár dní, ne na pár týdnů. Proto držíme termíny, posíláme pořád stejnou partu a po sobě uklidíme tak, abyste mohli večer normálně bydlet. Termín, který platíDen nástupu i dokončení domluvíme předem a dodržíme ho. Nemusíte si brát dovolenou navíc. Pokaždé stejní lidéKdo si s vámi práci domluví, ten ji i udělá. Žádné střídání part ani subdodavatelé. Čistý byt po práciZakryjeme nábytek a podlahy, opravíme praskliny a po malování uklidíme. Hotové místnosti spolu projdeme. Jak probíhá realizace 01Projdeme váš prostorZajímá nás plocha, stav stěn, vybavení a představa o odstínu.02Zakryjeme a opravímeOchráníme nábytek a podlahy, připravíme praskliny a nerovnosti.03Vymalujeme stěny a stropyPostup a počet vrstev přizpůsobíme podkladu a zvolené barvě.04Uklidíme a předámeSpolečně projdeme dokončené místnosti a detaily. Cena malování a časté otázky Kolik stojí malování bytu?+Cena malování za m² závisí na stavu stěn, potřebných opravách, počtu vrstev, výšce stropů a zvolené barvě. Celkovou cenu určuje plocha stěn a stropů. Pošlete fotografie a přibližné rozměry místností a připravíme nezávaznou cenu podle konkrétního rozsahu. Jak rychle se dozvím cenu?+Stačí poslat fotky místností a přibližné rozměry přes formulář nebo zavolat. U větších zakázek se přijedeme podívat a cenu potvrdíme po prohlídce. Jak dlouho malování bytu trvá?+Záleží na velikosti bytu a stavu stěn. Pokoj obvykle zvládneme během jednoho dne, u celého bytu termín a délku práce domluvíme předem. Musíme před malováním vyklidit celý byt?+Ne. Nábytek a podlahy zakryjeme podle prostoru a přístupu ke stěnám. Rozsah domluvíme předem. Opravíte praskliny a díry ve stěnách?+Ano. Před malováním opravíme praskliny, díry po hmoždinkách a nerovnosti, aby výsledek vydržel. Kde malujete?+Malujeme v celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna. Malujete i kanceláře a provozovny?+Ano. Rozsah a termín probereme s ohledem na provoz, aby práce co nejméně omezila váš chod."
+   },
+   "hasReviews": false,
+   "cena": {
+    "eyebrow": "Cena malování",
+    "h2": "Kolik stojí malování bytu v Brně?",
+    "lead": "Každý byt je jiný, proto cenu počítáme podle skutečného rozsahu. Zakrytí, opravy i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky.",
+    "factors": [
+     [
+      "Plocha stěn a stropů",
+      "Kolik metrů čtverečních se maluje."
+     ],
+     [
+      "Stav podkladu",
+      "Praskliny, díry a nerovnosti, které je potřeba opravit."
+     ],
+     [
+      "Počet vrstev",
+      "Podle podkladu a toho, jak moc se mění odstín."
+     ],
+     [
+      "Barva a výška stropů",
+      "Zvolená barva a jak vysoko se pracuje."
+     ]
+    ],
+    "howEyebrow": "Jak získat cenu",
+    "how": [
+     [
+      "Pošlete fotky",
+      "Stačí pár fotek a přibližné rozměry, přes formulář nebo telefon."
+     ],
+     [
+      "Ozveme se s cenou",
+      "Připravíme nezávaznou cenu zdarma. U větší zakázky se přijedeme podívat."
+     ],
+     [
+      "Domluvíme termín",
+      "Den nástupu i dokončení potvrdíme předem a dodržíme ho."
+     ]
+    ],
+    "cta": "Chci nezávaznou cenu",
+    "phone": "nebo zavolejte +420 774 927 182",
+    "areaEyebrow": "Kde pracujeme",
+    "areaH2": "Malíř pro Brno a okolí do 20 km",
+    "places": [
+     "Žabovřesky",
+     "Královo Pole",
+     "Líšeň",
+     "Bystrc",
+     "Bohunice",
+     "Židenice",
+     "Komín",
+     "Starý Lískovec",
+     "Střed",
+     "Modřice",
+     "Šlapanice",
+     "Kuřim",
+     "Rosice",
+     "Slavkov u Brna"
+    ],
+    "allText": "Cena malování Kolik stojí malování bytu v Brně? Každý byt je jiný, proto cenu počítáme podle skutečného rozsahu. Zakrytí, opravy i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky. Plocha stěn a stropůKolik metrů čtverečních se maluje.Stav podkladuPraskliny, díry a nerovnosti, které je potřeba opravit.Počet vrstevPodle podkladu a toho, jak moc se mění odstín.Barva a výška stropůZvolená barva a jak vysoko se pracuje. Jak získat cenu 01Pošlete fotkyStačí pár fotek a přibližné rozměry, přes formulář nebo telefon.02Ozveme se s cenouPřipravíme nezávaznou cenu zdarma. U větší zakázky se přijedeme podívat.03Domluvíme termínDen nástupu i dokončení potvrdíme předem a dodržíme ho. Chci nezávaznou cenu↗ nebo zavolejte +420 774 927 182 Kde pracujemeMalíř pro Brno a okolí do 20 km ŽabovřeskyKrálovo PoleLíšeňBystrcBohuniceŽideniceKomínStarý LískovecStředModřiceŠlapaniceKuřimRosiceSlavkov u Brna"
+   },
+   "kontakt": {
+    "eyebrow": "02 / Nezávazná poptávka",
+    "h2": "Pojďme se domluvit.",
+    "p": "Pošlete nám stručné zadání. Probereme možnosti a připravíme nabídku podle skutečného rozsahu práce.",
+    "asideTitle": "Pro první domluvu stačí:",
+    "aside": "přibližná plocha místností, fotografie stěn a případných prasklin, představa o odstínu a termínu.",
+    "formService": "Malby interiéru",
+    "selected": "Malby interiéru",
+    "hint": "Uveďte přibližnou plochu stěn a stropů, stav podkladu a požadovaný termín. Bude prostor během malování obývaný?"
+   },
+   "mobileBar": [
+    "Zavolat",
+    "Nezávazně poptat↗"
+   ]
+  },
+  "dekoracni-sterky": {
+   "title": "Betonová stěrka Brno – ručně, 15 let praxe | Tři Mistři",
+   "description": "Betonová stěrka, benátský štuk i marmorino v Brně a okolí. Poradíme s technikou, stěrku naneseme ručně a po práci uklidíme. Ozveme se do 24 hodin.",
+   "breadcrumb": [
+    "Úvod",
+    "Služby",
+    "Dekorativní stěrky"
+   ],
+   "eyebrow": "Tři Mistři / Brno a okolí",
+   "h1": "Betonové a dekorativní stěrky v Brně.",
+   "lead": "Stěna, která vypadá jako beton, kámen nebo štuk. Poradíme s výběrem techniky, připravíme podklad a stěrku naneseme ručně. Přijdou pokaždé stejní lidé a po práci uklidíme.",
+   "cta": "Chci cenu stěrky",
+   "note": "Pošlete fotku stěny a svou představu a do 24 hodin se vám ozveme. Nacenění je zdarma a nezávazné. Termín, který domluvíme, dodržíme.",
+   "trust": [
+    "★★★★★ 5,0 / 529 recenzí na Google ↗",
+    "Náš tým má přes 15 let praxe v oboru"
+   ],
+   "cover": {
+    "src": "./assets/img/gallery/thumbs/dekoracnisterky25-700w.webp",
+    "alt": "Dekorativní stěrka - Zlín - Ortodoncie",
+    "w": "700",
+    "h": "468",
+    "label": "Z naší práce",
+    "place": "Zlín - Ortodoncie"
+   },
+   "jump": [
+    [
+     "O službě",
+     "#rozsah"
+    ],
+    [
+     "Ukázky",
+     "#ukazky"
+    ],
+    [
+     "Postup",
+     "#realizace-postup"
+    ],
+    [
+     "Otázky",
+     "#otazky"
+    ],
+    [
+     "Cena",
+     "#cena"
+    ],
+    [
+     "Poptávka ↗",
+     "#poptavka"
+    ]
+   ],
+   "showcase": {
+    "eyebrow": "Ukázky realizací",
+    "h2": "Podívejte se na výsledek.",
+    "visible": 6,
+    "more": "Zobrazit další realizace ↓",
+    "other": [
+     "Starší realizace →"
+    ],
+    "extraText": []
+   },
+   "rozsah": {
+    "eyebrow": "01 / O službě",
+    "h2": "Proč stěrku s Tři Mistry",
+    "intro": [
+     "Dekorativní stěrka je ruční práce a výsledek dělá zkušenost. Pomůžeme vybrat techniku, která se hodí do vašeho prostoru, a stěrku uděláme tak, aby dlouho vypadala dobře."
+    ],
+    "benefits": [
+     [
+      "Poradíme s výběrem",
+      "Betonová stěrka, benátský štuk, marmorino nebo travertino. Pomůžeme vybrat techniku, barvu i kresbu, která sedne k vašemu interiéru."
+     ],
+     [
+      "Stěrka i do koupelny",
+      "Betonovou stěrku děláme i do koupelen. Vhodnost ověříme podle podkladu a zatížení vodou, přes obklady nabízíme mikrocement."
+     ],
+     [
+      "Stejní lidé, čistá práce",
+      "Kdo si s vámi stěrku domluví, ten ji i udělá. Okolí zakryjeme a po práci uklidíme."
+     ]
+    ],
+    "processTitle": "Jak probíhá realizace",
+    "steps": [
+     [
+      "Společně vybereme vzhled",
+      "Probereme barvu, strukturu a techniku, která se hodí do vašeho prostoru."
+     ],
+     [
+      "Zkontrolujeme stěnu",
+      "Ověříme rovinnost a soudržnost podkladu. Určíme, jakou přípravu potřebuje."
+     ],
+     [
+      "Naneseme stěrku",
+      "Stěrku naneseme ve vrstvách a ručně vytvoříme požadovanou kresbu."
+     ],
+     [
+      "Dokončíme detaily",
+      "Dokončíme rohy a napojení. Probereme, jak o hotový povrch pečovat."
+     ]
+    ],
+    "faqTitle": "Cena a časté otázky",
+    "faqs": [
+     [
+      "Kolik stojí dekorativní nebo betonová stěrka?",
+      "<p>Cena závisí na ploše, stavu a rovinnosti podkladu, zvolené technice a prostředí. Benátský štuk je pracnější než betonová stěrka. Pošlete fotku stěny a přibližné rozměry a připravíme nezávaznou cenu.</p>"
+     ],
+     [
+      "Jak vybrat betonovou stěrku nebo benátský štuk?",
+      "<p>Betonový efekt, benátský štuk, marmorino a travertino mají rozdílnou kresbu a strukturu. Projdeme s vámi inspiraci a vybereme techniku podle světla, okolních materiálů a využití místnosti. Každý ručně zpracovaný povrch má vlastní kresbu.</p>"
+     ],
+     [
+      "Hodí se betonová stěrka do koupelny?",
+      "<p>Záleží na podkladu a kontaktu s vodou. Vhodnost pro sprchový kout a další mokré zóny posoudíme individuálně. Pro stěrku přes vhodné obklady nabízíme také <a href=\"./mikrocement\">mikrocement</a>.</p>"
+     ],
+     [
+      "Jde stěrka udělat přes obklady?",
+      "<p>Přes vhodné obklady nabízíme <a href=\"./mikrocement\">mikrocement</a>. Jestli je podklad vhodný, posoudíme podle fotek nebo na místě.</p>"
+     ],
+     [
+      "Jak dlouho stěrka trvá?",
+      "<p>Stěrka se nanáší ve více vrstvách a každá musí zaschnout. Přesnou délku práce potvrdíme spolu s cenou podle plochy a techniky.</p>"
+     ],
+     [
+      "Jak se o stěrku starat?",
+      "<p>Při předání vysvětlíme, jak hotový povrch čistit a čemu se vyhnout, aby dlouho vypadal dobře.</p>"
+     ],
+     [
+      "Kde stěrky děláte?",
+      "<p>V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna.</p>"
+     ]
+    ],
+    "allText": "01 / O služběProč stěrku s Tři Mistry Dekorativní stěrka je ruční práce a výsledek dělá zkušenost. Pomůžeme vybrat techniku, která se hodí do vašeho prostoru, a stěrku uděláme tak, aby dlouho vypadala dobře. Poradíme s výběremBetonová stěrka, benátský štuk, marmorino nebo travertino. Pomůžeme vybrat techniku, barvu i kresbu, která sedne k vašemu interiéru. Stěrka i do koupelnyBetonovou stěrku děláme i do koupelen. Vhodnost ověříme podle podkladu a zatížení vodou, přes obklady nabízíme mikrocement. Stejní lidé, čistá práceKdo si s vámi stěrku domluví, ten ji i udělá. Okolí zakryjeme a po práci uklidíme. Jak probíhá realizace 01Společně vybereme vzhledProbereme barvu, strukturu a techniku, která se hodí do vašeho prostoru.02Zkontrolujeme stěnuOvěříme rovinnost a soudržnost podkladu. Určíme, jakou přípravu potřebuje.03Naneseme stěrkuStěrku naneseme ve vrstvách a ručně vytvoříme požadovanou kresbu.04Dokončíme detailyDokončíme rohy a napojení. Probereme, jak o hotový povrch pečovat. Cena a časté otázky Kolik stojí dekorativní nebo betonová stěrka?+Cena závisí na ploše, stavu a rovinnosti podkladu, zvolené technice a prostředí. Benátský štuk je pracnější než betonová stěrka. Pošlete fotku stěny a přibližné rozměry a připravíme nezávaznou cenu. Jak vybrat betonovou stěrku nebo benátský štuk?+Betonový efekt, benátský štuk, marmorino a travertino mají rozdílnou kresbu a strukturu. Projdeme s vámi inspiraci a vybereme techniku podle světla, okolních materiálů a využití místnosti. Každý ručně zpracovaný povrch má vlastní kresbu. Hodí se betonová stěrka do koupelny?+Záleží na podkladu a kontaktu s vodou. Vhodnost pro sprchový kout a další mokré zóny posoudíme individuálně. Pro stěrku přes vhodné obklady nabízíme také mikrocement. Jde stěrka udělat přes obklady?+Přes vhodné obklady nabízíme mikrocement. Jestli je podklad vhodný, posoudíme podle fotek nebo na místě. Jak dlouho stěrka trvá?+Stěrka se nanáší ve více vrstvách a každá musí zaschnout. Přesnou délku práce potvrdíme spolu s cenou podle plochy a techniky. Jak se o stěrku starat?+Při předání vysvětlíme, jak hotový povrch čistit a čemu se vyhnout, aby dlouho vypadal dobře. Kde stěrky děláte?+V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna."
+   },
+   "hasReviews": false,
+   "cena": {
+    "eyebrow": "Cena stěrky",
+    "h2": "Kolik stojí betonová nebo dekorativní stěrka?",
+    "lead": "Cenu počítáme podle skutečné plochy a zvolené techniky. Zakrytí, příprava podkladu i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky.",
+    "factors": [
+     [
+      "Plocha a tvar stěny",
+      "Kolik metrů čtverečních a kolik rohů a detailů."
+     ],
+     [
+      "Stav podkladu",
+      "Rovinnost a soudržnost stěny, případné opravy."
+     ],
+     [
+      "Technika a efekt",
+      "Betonová stěrka, benátský štuk, marmorino nebo travertino."
+     ],
+     [
+      "Prostředí",
+      "Obývák, kuchyň nebo koupelna se zatížením vodou."
+     ]
+    ],
+    "howEyebrow": "Jak získat cenu",
+    "how": [
+     [
+      "Pošlete fotku stěny",
+      "Stačí fotka, přibližné rozměry a inspirace, jak má stěna vypadat."
+     ],
+     [
+      "Ozveme se s cenou",
+      "Připravíme nezávaznou cenu zdarma. U větší zakázky se přijedeme podívat."
+     ],
+     [
+      "Domluvíme termín",
+      "Den nástupu i dokončení potvrdíme předem a dodržíme ho."
+     ]
+    ],
+    "cta": "Chci cenu stěrky",
+    "phone": "nebo zavolejte +420 774 927 182",
+    "areaEyebrow": "Kde pracujeme",
+    "areaH2": "Stěrky v Brně a okolí do 20 km",
+    "places": [
+     "Žabovřesky",
+     "Královo Pole",
+     "Líšeň",
+     "Bystrc",
+     "Bohunice",
+     "Židenice",
+     "Komín",
+     "Starý Lískovec",
+     "Střed",
+     "Modřice",
+     "Šlapanice",
+     "Kuřim",
+     "Rosice",
+     "Slavkov u Brna"
+    ],
+    "allText": "Cena stěrky Kolik stojí betonová nebo dekorativní stěrka? Cenu počítáme podle skutečné plochy a zvolené techniky. Zakrytí, příprava podkladu i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky. Plocha a tvar stěnyKolik metrů čtverečních a kolik rohů a detailů.Stav podkladuRovinnost a soudržnost stěny, případné opravy.Technika a efektBetonová stěrka, benátský štuk, marmorino nebo travertino.ProstředíObývák, kuchyň nebo koupelna se zatížením vodou. Jak získat cenu 01Pošlete fotku stěnyStačí fotka, přibližné rozměry a inspirace, jak má stěna vypadat.02Ozveme se s cenouPřipravíme nezávaznou cenu zdarma. U větší zakázky se přijedeme podívat.03Domluvíme termínDen nástupu i dokončení potvrdíme předem a dodržíme ho. Chci cenu stěrky↗ nebo zavolejte +420 774 927 182 Kde pracujemeStěrky v Brně a okolí do 20 km ŽabovřeskyKrálovo PoleLíšeňBystrcBohuniceŽideniceKomínStarý LískovecStředModřiceŠlapaniceKuřimRosiceSlavkov u Brna"
+   },
+   "kontakt": {
+    "eyebrow": "02 / Nezávazná poptávka",
+    "h2": "Pojďme se domluvit.",
+    "p": "Pošlete nám stručné zadání. Probereme možnosti a připravíme nabídku podle skutečného rozsahu práce.",
+    "asideTitle": "Pro první domluvu stačí:",
+    "aside": "fotografie stěny nebo prostoru, přibližná plocha v m², inspirace, struktura a barevnost.",
+    "formService": "Dekorativní stěrky",
+    "selected": "Dekorativní stěrky",
+    "hint": "Uveďte místnost, přibližnou plochu a požadovaný vzhled. U koupelny napište, zda jde o sprchový kout. Přiložte fotku podkladu nebo inspiraci."
+   },
+   "mobileBar": [
+    "Zavolat",
+    "Nezávazně poptat↗"
+   ]
+  },
+  "natery-fasad": {
+   "title": "Nátěry fasád Brno – přes 15 let praxe | Tři Mistři",
+   "description": "Nátěr a renovace fasády v Brně a okolí. Před nátěrem posoudíme omítku a opravíme poškozená místa. Pokaždé stejní lidé, termín dodržíme. Nacenění zdarma.",
+   "breadcrumb": [
+    "Úvod",
+    "Služby",
+    "Nátěry a renovace fasád"
+   ],
+   "eyebrow": "Tři Mistři / Brno a okolí",
+   "h1": "Nátěry a renovace fasád v Brně.",
+   "lead": "Dům, který zase vypadá upraveně. Posoudíme stav fasády, opravíme poškozená místa a nový nátěr sjednotíme do jednoho odstínu. Přijdou pokaždé stejní lidé a po práci uklidíme.",
+   "cta": "Chci cenu fasády",
+   "note": "Pošlete fotku fasády a přibližnou plochu a do 24 hodin se vám ozveme. Nacenění je zdarma a nezávazné. Termín, který domluvíme, dodržíme.",
+   "trust": [
+    "★★★★★ 5,0 / 529 recenzí na Google ↗",
+    "Náš tým má přes 15 let praxe v oboru"
+   ],
+   "cover": {
+    "src": "./assets/img/gallery/thumbs/fasadynatery22-700w.webp",
+    "alt": "Nátěr fasády - Rozdrojovice - po",
+    "w": "700",
+    "h": "933",
+    "label": "Z naší práce",
+    "place": "Rozdrojovice"
+   },
+   "jump": [
+    [
+     "O službě",
+     "#rozsah"
+    ],
+    [
+     "Ukázky",
+     "#ukazky"
+    ],
+    [
+     "Postup",
+     "#realizace-postup"
+    ],
+    [
+     "Otázky",
+     "#otazky"
+    ],
+    [
+     "Cena",
+     "#cena"
+    ],
+    [
+     "Poptávka ↗",
+     "#poptavka"
+    ]
+   ],
+   "showcase": {
+    "eyebrow": "Ukázky realizací",
+    "h2": "Podívejte se na výsledek.",
+    "visible": 2,
+    "more": "",
+    "other": [],
+    "extraText": []
+   },
+   "rozsah": {
+    "eyebrow": "01 / O službě",
+    "h2": "Proč fasádu s Tři Mistry",
+    "intro": [
+     "Nový nátěr vydrží jen na dobře připraveném podkladu. Nejdřív posoudíme původní vrstvy a rozsah oprav, potom zvolíme nátěrový systém a odstín."
+    ],
+    "benefits": [
+     [
+      "Víte, co fasáda potřebuje",
+      "Před nátěrem posoudíme omítku, původní vrstvy a rozsah poškození. Řekneme vám, jestli stačí čištění, nebo je potřeba nový nátěr."
+     ],
+     [
+      "Opravy i nový odstín",
+      "Poškozená místa opravíme a nátěrový systém zvolíme podle povrchu. Barevnost domluvíme s vámi a sjednotíme celou fasádu."
+     ],
+     [
+      "Stejní lidé, domluvený termín",
+      "Kdo si s vámi fasádu domluví, ten ji i udělá. Termín dodržíme a okolí domu po práci uklidíme."
+     ]
+    ],
+    "processTitle": "Jak probíhá realizace",
+    "steps": [
+     [
+      "Prohlédneme fasádu",
+      "Zkontrolujeme omítku, původní vrstvy a rozsah poškození."
+     ],
+     [
+      "Očistíme a opravíme",
+      "Připravíme podklad pro navazující nátěrový systém."
+     ],
+     [
+      "Sjednotíme odstín",
+      "Domluvíme barevnost a provedeme odpovídající vrstvy."
+     ],
+     [
+      "Projdeme celý výsledek",
+      "Zkontrolujeme detaily, napojení a dokončení zakázky."
+     ]
+    ],
+    "faqTitle": "Cena a časté otázky",
+    "faqs": [
+     [
+      "Jak se stanovuje cena nátěru fasády za m²?",
+      "<p>Samotná výměra nestačí. Cenu ovlivňuje stav a členitost fasády, rozsah oprav, počet vrstev a přístup k domu. Pošlete fotky celé fasády i poškozených míst a přibližnou plochu a připravíme nezávaznou cenu.</p>"
+     ],
+     [
+      "Potřebuji nový nátěr, nebo jen čištění?",
+      "<p>To závisí na stavu omítky a typu znečištění. Nabízíme také samostatné čištění fasád.</p>"
+     ],
+     [
+      "Vyřeší nový nátěr graffiti?",
+      "<p>Podle podkladu volíme čištění, odstranění nebo překrytí. Pro tento problém máme samostatnou službu.</p>"
+     ],
+     [
+      "Opravíte před nátěrem poškozenou omítku?",
+      "<p>Ano. Rozsah lokálních oprav určíme při prohlídce fasády a zahrneme ho do ceny, kterou vám předem potvrdíme.</p>"
+     ],
+     [
+      "Jak dlouho nátěr fasády trvá?",
+      "<p>Záleží na ploše, rozsahu oprav a počasí. Termín nástupu i dokončení domluvíme předem.</p>"
+     ],
+     [
+      "Kde fasády natíráte?",
+      "<p>V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna.</p>"
+     ]
+    ],
+    "allText": "01 / O služběProč fasádu s Tři Mistry Nový nátěr vydrží jen na dobře připraveném podkladu. Nejdřív posoudíme původní vrstvy a rozsah oprav, potom zvolíme nátěrový systém a odstín. Víte, co fasáda potřebujePřed nátěrem posoudíme omítku, původní vrstvy a rozsah poškození. Řekneme vám, jestli stačí čištění, nebo je potřeba nový nátěr. Opravy i nový odstínPoškozená místa opravíme a nátěrový systém zvolíme podle povrchu. Barevnost domluvíme s vámi a sjednotíme celou fasádu. Stejní lidé, domluvený termínKdo si s vámi fasádu domluví, ten ji i udělá. Termín dodržíme a okolí domu po práci uklidíme. Jak probíhá realizace 01Prohlédneme fasáduZkontrolujeme omítku, původní vrstvy a rozsah poškození.02Očistíme a opravímePřipravíme podklad pro navazující nátěrový systém.03Sjednotíme odstínDomluvíme barevnost a provedeme odpovídající vrstvy.04Projdeme celý výsledekZkontrolujeme detaily, napojení a dokončení zakázky. Cena a časté otázky Jak se stanovuje cena nátěru fasády za m²?+Samotná výměra nestačí. Cenu ovlivňuje stav a členitost fasády, rozsah oprav, počet vrstev a přístup k domu. Pošlete fotky celé fasády i poškozených míst a přibližnou plochu a připravíme nezávaznou cenu. Potřebuji nový nátěr, nebo jen čištění?+To závisí na stavu omítky a typu znečištění. Nabízíme také samostatné čištění fasád. Vyřeší nový nátěr graffiti?+Podle podkladu volíme čištění, odstranění nebo překrytí. Pro tento problém máme samostatnou službu. Opravíte před nátěrem poškozenou omítku?+Ano. Rozsah lokálních oprav určíme při prohlídce fasády a zahrneme ho do ceny, kterou vám předem potvrdíme. Jak dlouho nátěr fasády trvá?+Záleží na ploše, rozsahu oprav a počasí. Termín nástupu i dokončení domluvíme předem. Kde fasády natíráte?+V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna."
+   },
+   "hasReviews": false,
+   "cena": {
+    "eyebrow": "Cena fasády",
+    "h2": "Kolik stojí nátěr fasády?",
+    "lead": "Cenu počítáme podle skutečné plochy a stavu fasády. Příprava, opravy i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky.",
+    "factors": [
+     [
+      "Plocha a členitost",
+      "Kolik metrů čtverečních a kolik oken, říms a detailů."
+     ],
+     [
+      "Stav omítky",
+      "Praskliny, odlupující se vrstvy a rozsah lokálních oprav."
+     ],
+     [
+      "Počet vrstev a odstín",
+      "Zvolený nátěrový systém a změna barvy."
+     ],
+     [
+      "Přístup k domu",
+      "Výška domu a prostor kolem fasády."
+     ]
+    ],
+    "howEyebrow": "Jak získat cenu",
+    "how": [
+     [
+      "Pošlete fotku fasády",
+      "Stačí fotky celé fasády a poškozených míst, přibližná plocha a výška domu."
+     ],
+     [
+      "Ozveme se s cenou",
+      "Připravíme nezávaznou cenu zdarma. U větší zakázky se přijedeme podívat."
+     ],
+     [
+      "Domluvíme termín",
+      "Den nástupu i dokončení potvrdíme předem a dodržíme ho."
+     ]
+    ],
+    "cta": "Chci cenu fasády",
+    "phone": "nebo zavolejte +420 774 927 182",
+    "areaEyebrow": "Kde pracujeme",
+    "areaH2": "Fasády v Brně a okolí do 20 km",
+    "places": [
+     "Žabovřesky",
+     "Královo Pole",
+     "Líšeň",
+     "Bystrc",
+     "Bohunice",
+     "Židenice",
+     "Komín",
+     "Starý Lískovec",
+     "Střed",
+     "Modřice",
+     "Šlapanice",
+     "Kuřim",
+     "Rosice",
+     "Slavkov u Brna"
+    ],
+    "allText": "Cena fasády Kolik stojí nátěr fasády? Cenu počítáme podle skutečné plochy a stavu fasády. Příprava, opravy i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky. Plocha a členitostKolik metrů čtverečních a kolik oken, říms a detailů.Stav omítkyPraskliny, odlupující se vrstvy a rozsah lokálních oprav.Počet vrstev a odstínZvolený nátěrový systém a změna barvy.Přístup k domuVýška domu a prostor kolem fasády. Jak získat cenu 01Pošlete fotku fasádyStačí fotky celé fasády a poškozených míst, přibližná plocha a výška domu.02Ozveme se s cenouPřipravíme nezávaznou cenu zdarma. U větší zakázky se přijedeme podívat.03Domluvíme termínDen nástupu i dokončení potvrdíme předem a dodržíme ho. Chci cenu fasády↗ nebo zavolejte +420 774 927 182 Kde pracujemeFasády v Brně a okolí do 20 km ŽabovřeskyKrálovo PoleLíšeňBystrcBohuniceŽideniceKomínStarý LískovecStředModřiceŠlapaniceKuřimRosiceSlavkov u Brna"
+   },
+   "kontakt": {
+    "eyebrow": "02 / Nezávazná poptávka",
+    "h2": "Pojďme se domluvit.",
+    "p": "Pošlete nám stručné zadání. Probereme možnosti a připravíme nabídku podle skutečného rozsahu práce.",
+    "asideTitle": "Pro první domluvu stačí:",
+    "aside": "fotografie celé fasády a poškození, přibližná plocha a výška domu, informace o přístupu kolem domu.",
+    "formService": "Nátěry fasád",
+    "selected": "Nátěry fasád",
+    "hint": "Uveďte přibližnou plochu a výšku domu, stav omítky a přístup k fasádě. Chcete pouze čištění, nebo i nový nátěr? Připojte termín a fotografie."
+   },
+   "mobileBar": [
+    "Zavolat",
+    "Nezávazně poptat↗"
+   ]
+  },
+  "cisteni-fasad": {
+   "title": "Čištění fasády a povrchů Brno | Tři Mistři",
+   "description": "Čištění fasády, marmolitu, betonu a obkladů v Brně a okolí. Tlak a čisticí prostředky volíme podle materiálu, okolí zakryjeme a uklidíme. Cena podle fotek.",
+   "breadcrumb": [
+    "Úvod",
+    "Služby",
+    "Čištění fasád a povrchů"
+   ],
+   "eyebrow": "Tři Mistři / Brno a okolí",
+   "h1": "Čištění fasád a povrchů v Brně.",
+   "lead": "Fasáda zase čistá, bez usazenin a biologického znečištění. Čistíme omítky, marmolit, beton i obklady a postup volíme tak, aby povrch nepoškodil. Přijdou pokaždé stejní lidé a po práci uklidíme.",
+   "cta": "Chci cenu čištění",
+   "note": "Pošlete fotku znečištěného povrchu a do 24 hodin se vám ozveme. Nacenění je zdarma a nezávazné. Termín, který domluvíme, dodržíme.",
+   "trust": [
+    "★★★★★ 5,0 / 529 recenzí na Google ↗",
+    "Náš tým má přes 15 let praxe v oboru"
+   ],
+   "material": {
+    "aria": "Možnosti povrchové úpravy",
+    "eyebrow": "Řešení podle vašeho povrchu",
+    "h2": "Jak volíme způsob čištění",
+    "items": [
+     "Regulovaný tlak vody",
+     "Čisticí prostředky",
+     "Příprava před nátěrem"
+    ]
+   },
+   "jump": [
+    [
+     "O službě",
+     "#rozsah"
+    ],
+    [
+     "Ukázky",
+     "#ukazky"
+    ],
+    [
+     "Postup",
+     "#realizace-postup"
+    ],
+    [
+     "Otázky",
+     "#otazky"
+    ],
+    [
+     "Cena",
+     "#cena"
+    ],
+    [
+     "Poptávka ↗",
+     "#poptavka"
+    ]
+   ],
+   "showcase": {
+    "eyebrow": "Ukázky realizací",
+    "h2": "Podívejte se na výsledek.",
+    "visible": 1,
+    "more": "",
+    "other": [],
+    "extraText": []
+   },
+   "rozsah": {
+    "eyebrow": "01 / O službě",
+    "h2": "Proč čištění s Tři Mistry",
+    "intro": [
+     "Každý povrch snese něco jiného. Tlak vody, čisticí prostředek i teplotu volíme podle materiálu a jeho stavu, aby čištění povrch nepoškodilo."
+    ],
+    "benefits": [
+     [
+      "Šetrně k vašemu povrchu",
+      "Nejdřív určíme materiál a typ znečištění a postup vyzkoušíme. U starších omítek tlak omezíme nebo zvolíme jiný způsob."
+     ],
+     [
+      "Okolí domu v bezpečí",
+      "Prvky, které by mohla voda nebo čisticí prostředek poškodit, zakryjeme nebo odpojíme. Po práci uklidíme."
+     ],
+     [
+      "Čištění i nový nátěr",
+      "Čistíme samostatně i jako přípravu před nátěrem fasády. Kdo si s vámi práci domluví, ten ji i udělá."
+     ],
+     [
+      "Keramické a kamenné obklady",
+      "Čištění se zohledněním spár, povrchové úpravy a okolních materiálů."
+     ]
+    ],
+    "processTitle": "Jak probíhá realizace",
+    "steps": [
+     [
+      "Posouzení materiálu",
+      "Určíme podklad, jeho stav a typ znečištění."
+     ],
+     [
+      "Ochrana okolí",
+      "Zakryjeme nebo odpojíme prvky, které by mohla voda či čisticí prostředek poškodit."
+     ],
+     [
+      "Zkouška a čištění",
+      "Nastavíme šetrný účinný postup a postupujeme po ucelených plochách."
+     ],
+     [
+      "Kontrola výsledku",
+      "Po očištění zkontrolujeme podklad a doporučíme případnou další ochranu."
+     ]
+    ],
+    "faqTitle": "Cena a časté otázky",
+    "faqs": [
+     [
+      "Kolik stojí čištění fasády?",
+      "<p>Cenové faktory a podklady pro nabídku najdete v části <a href=\"#cena\">Cena a postup nacenění</a>.</p>"
+     ],
+     [
+      "Lze každou fasádu čistit vysokým tlakem?",
+      "<p>Ne. U starších nebo méně soudržných omítek je potřeba tlak omezit nebo zvolit jiný postup.</p>"
+     ],
+     [
+      "Odstraníte také biologické znečištění?",
+      "<p>Podle druhu a rozsahu lze čištění doplnit vhodným přípravkem. Konkrétní postup určíme po posouzení povrchu.</p>"
+     ],
+     [
+      "Můžete po čištění fasádu také natřít?",
+      "<p>Ano. Čištění může být první částí přípravy před opravami a novým fasádním nátěrem.</p>"
+     ],
+     [
+      "Co všechno kromě fasády čistíte?",
+      "<p>Marmolit a sokly, betonové stěny, podezdívky a chodníky i keramické a kamenné obklady.</p>"
+     ],
+     [
+      "Kde čištění děláte?",
+      "<p>V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna.</p>"
+     ]
+    ],
+    "allText": "01 / O služběProč čištění s Tři Mistry Každý povrch snese něco jiného. Tlak vody, čisticí prostředek i teplotu volíme podle materiálu a jeho stavu, aby čištění povrch nepoškodilo. Šetrně k vašemu povrchuNejdřív určíme materiál a typ znečištění a postup vyzkoušíme. U starších omítek tlak omezíme nebo zvolíme jiný způsob. Okolí domu v bezpečíPrvky, které by mohla voda nebo čisticí prostředek poškodit, zakryjeme nebo odpojíme. Po práci uklidíme. Čištění i nový nátěrČistíme samostatně i jako přípravu před nátěrem fasády. Kdo si s vámi práci domluví, ten ji i udělá. Keramické a kamenné obkladyČištění se zohledněním spár, povrchové úpravy a okolních materiálů. Jak probíhá realizace 01Posouzení materiáluUrčíme podklad, jeho stav a typ znečištění.02Ochrana okolíZakryjeme nebo odpojíme prvky, které by mohla voda či čisticí prostředek poškodit.03Zkouška a čištěníNastavíme šetrný účinný postup a postupujeme po ucelených plochách.04Kontrola výsledkuPo očištění zkontrolujeme podklad a doporučíme případnou další ochranu. Cena a časté otázky Kolik stojí čištění fasády?+Cenové faktory a podklady pro nabídku najdete v části Cena a postup nacenění. Lze každou fasádu čistit vysokým tlakem?+Ne. U starších nebo méně soudržných omítek je potřeba tlak omezit nebo zvolit jiný postup. Odstraníte také biologické znečištění?+Podle druhu a rozsahu lze čištění doplnit vhodným přípravkem. Konkrétní postup určíme po posouzení povrchu. Můžete po čištění fasádu také natřít?+Ano. Čištění může být první částí přípravy před opravami a novým fasádním nátěrem. Co všechno kromě fasády čistíte?+Marmolit a sokly, betonové stěny, podezdívky a chodníky i keramické a kamenné obklady. Kde čištění děláte?+V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna."
+   },
+   "hasReviews": true,
+   "cena": {
+    "eyebrow": "Cena čištění",
+    "h2": "Kolik stojí čištění fasády?",
+    "lead": "Cenu počítáme podle skutečné plochy a materiálu. Zakrytí okolí i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky.",
+    "factors": [
+     [
+      "Plocha",
+      "Kolik metrů čtverečních fasády nebo jiného povrchu."
+     ],
+     [
+      "Materiál",
+      "Omítka, marmolit, beton nebo obklad a jejich stav."
+     ],
+     [
+      "Druh znečištění",
+      "Běžné usazeniny, biologické znečištění a další nečistoty."
+     ],
+     [
+      "Přístupnost",
+      "Výška a prostor kolem čištěné plochy."
+     ]
+    ],
+    "howEyebrow": "Jak získat cenu",
+    "how": [
+     [
+      "Pošlete fotku povrchu",
+      "Stačí fotka znečištěného místa a přibližná plocha."
+     ],
+     [
+      "Ozveme se s cenou",
+      "Připravíme nezávaznou cenu zdarma. U větší zakázky se přijedeme podívat."
+     ],
+     [
+      "Domluvíme termín",
+      "Den nástupu i dokončení potvrdíme předem a dodržíme ho."
+     ]
+    ],
+    "cta": "Chci cenu čištění",
+    "phone": "nebo zavolejte +420 774 927 182",
+    "areaEyebrow": "Kde pracujeme",
+    "areaH2": "Čištění v Brně a okolí do 20 km",
+    "places": [
+     "Žabovřesky",
+     "Královo Pole",
+     "Líšeň",
+     "Bystrc",
+     "Bohunice",
+     "Židenice",
+     "Komín",
+     "Starý Lískovec",
+     "Střed",
+     "Modřice",
+     "Šlapanice",
+     "Kuřim",
+     "Rosice",
+     "Slavkov u Brna"
+    ],
+    "allText": "Cena čištění Kolik stojí čištění fasády? Cenu počítáme podle skutečné plochy a materiálu. Zakrytí okolí i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky. PlochaKolik metrů čtverečních fasády nebo jiného povrchu.MateriálOmítka, marmolit, beton nebo obklad a jejich stav.Druh znečištěníBěžné usazeniny, biologické znečištění a další nečistoty.PřístupnostVýška a prostor kolem čištěné plochy. Jak získat cenu 01Pošlete fotku povrchuStačí fotka znečištěného místa a přibližná plocha.02Ozveme se s cenouPřipravíme nezávaznou cenu zdarma. U větší zakázky se přijedeme podívat.03Domluvíme termínDen nástupu i dokončení potvrdíme předem a dodržíme ho. Chci cenu čištění↗ nebo zavolejte +420 774 927 182 Kde pracujemeČištění v Brně a okolí do 20 km ŽabovřeskyKrálovo PoleLíšeňBystrcBohuniceŽideniceKomínStarý LískovecStředModřiceŠlapaniceKuřimRosiceSlavkov u Brna"
+   },
+   "kontakt": {
+    "eyebrow": "03 / Nezávazná poptávka",
+    "h2": "Pojďme se domluvit.",
+    "p": "Pošlete nám stručné zadání. Probereme možnosti a připravíme nabídku podle skutečného rozsahu práce.",
+    "asideTitle": "Pro první domluvu stačí:",
+    "aside": "fotografie fasády a znečištěných míst, přibližná plocha a výška, materiál povrchu a přístup kolem domu.",
+    "formService": "Čištění fasády",
+    "selected": "Čištění fasády",
+    "hint": "Uveďte plochu a výšku fasády, druh znečištění a možnosti přístupu. Přiložte fotografie a požadovaný termín."
+   },
+   "mobileBar": [
+    "Zavolat",
+    "Nezávazně poptat↗"
+   ]
+  },
+  "natery-strech": {
+   "title": "Nátěr střechy a okapů Brno – 15 let praxe | Tři Mistři",
+   "description": "Nátěr plechové střechy, okapů a svodů v Brně a okolí. Před nabídkou ověříme, jestli krytina nátěr unese. Stejní lidé, termín dodržíme. Nacenění zdarma.",
+   "breadcrumb": [
+    "Úvod",
+    "Služby",
+    "Nátěry střech, okapů a svodů"
+   ],
+   "eyebrow": "Tři Mistři / Brno a okolí",
+   "h1": "Nátěry střech, okapů a svodů v Brně.",
+   "lead": "Střecha, okapy a svody s novou ochrannou vrstvou. Nejdřív ověříme, jestli jde vaši krytinu natřít, pak ji očistíme, připravíme a natřeme v domluveném odstínu. Přijdou pokaždé stejní lidé a po práci uklidíme.",
+   "cta": "Chci cenu nátěru střechy",
+   "note": "Pošlete fotky střechy a okapů a do 24 hodin se vám ozveme. Nacenění je zdarma a nezávazné. Termín, který domluvíme, dodržíme.",
+   "trust": [
+    "★★★★★ 5,0 / 529 recenzí na Google ↗",
+    "Náš tým má přes 15 let praxe v oboru"
+   ],
+   "material": {
+    "aria": "Možnosti povrchové úpravy",
+    "eyebrow": "Řešení podle vašeho povrchu",
+    "h2": "Co kontrolujeme před nátěrem",
+    "items": [
+     "Soudržnost starých vrstev",
+     "Koroze a poškození",
+     "Čistota a suchost"
+    ]
+   },
+   "jump": [
+    [
+     "O službě",
+     "#rozsah"
+    ],
+    [
+     "Postup",
+     "#realizace-postup"
+    ],
+    [
+     "Otázky",
+     "#otazky"
+    ],
+    [
+     "Cena",
+     "#cena"
+    ],
+    [
+     "Poptávka ↗",
+     "#poptavka"
+    ]
+   ],
+   "rozsah": {
+    "eyebrow": "01 / O službě",
+    "h2": "Proč nátěr střechy s Tři Mistry",
+    "intro": [
+     "Nátěr má smysl jen na krytině, která ho unese. Proto nejdřív zkontrolujeme soudržnost starých vrstev, korozi a čistotu povrchu. Teprve potom navrhneme přípravu a nátěrový systém."
+    ],
+    "benefits": [
+     [
+      "Nejdřív ověříme, jestli to jde",
+      "Ne každou střechu lze natřít. Vhodnost posoudíme podle krytiny, jejího stavu a soudržnosti starých vrstev ještě před nabídkou."
+     ],
+     [
+      "Střecha i klempířské prvky",
+      "Do jedné zakázky můžeme zahrnout plechovou krytinu, okapy, svody, lemování i další kovové části."
+     ],
+     [
+      "Stejní lidé, uklizené okolí",
+      "Kdo si s vámi střechu prohlédne, ten ji i natře. Termín potvrdíme předem a po práci uklidíme okolí domu."
+     ],
+     [
+      "Lokální opravy povrchu",
+      "Rozsah sjednocení určujeme podle poškození a stávajícího nátěru."
+     ]
+    ],
+    "processTitle": "Jak probíhá realizace",
+    "steps": [
+     [
+      "Prohlídka střechy",
+      "Určíme materiál, stav povrchu, rozsah přípravy a přístup."
+     ],
+     [
+      "Čištění a příprava",
+      "Odstraníme nečistoty a nesoudržné části a připravíme problematická místa."
+     ],
+     [
+      "Základní ochrana",
+      "Podle materiálu aplikujeme vhodnou základní nebo spojovací vrstvu."
+     ],
+     [
+      "Vrchní nátěr",
+      "Povrch sjednotíme ochranným nátěrem v dohodnutém odstínu."
+     ]
+    ],
+    "faqTitle": "Cena a časté otázky",
+    "faqs": [
+     [
+      "Kolik stojí nátěr střechy?",
+      "<p>Cenové faktory a podklady pro nabídku najdete v části <a href=\"#cena\">Cena a postup nacenění</a>.</p>"
+     ],
+     [
+      "Lze natřít každou střechu?",
+      "<p>Ne. Záleží na typu krytiny, jejím stavu a kompatibilitě se zvoleným systémem. Vhodnost ověřujeme před nabídkou.</p>"
+     ],
+     [
+      "Vyřeší nátěr zatékání?",
+      "<p>Nátěr není náhradou opravy netěsné krytiny, spojů nebo oplechování. Tyto závady musí být předem odstraněné.</p>"
+     ],
+     [
+      "Natíráte také okapy a svody?",
+      "<p>Ano, podle materiálu a stavu můžeme do zakázky zahrnout také klempířské prvky.</p>"
+     ],
+     [
+      "Jak dlouho nátěr střechy trvá?",
+      "<p>Záleží na ploše, rozsahu přípravy a počasí. Nátěr se nanáší na čistý a suchý povrch ve více vrstvách. Délku práce potvrdíme spolu s cenou.</p>"
+     ],
+     [
+      "Kde nátěry střech děláte?",
+      "<p>V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna.</p>"
+     ]
+    ],
+    "allText": "01 / O služběProč nátěr střechy s Tři Mistry Nátěr má smysl jen na krytině, která ho unese. Proto nejdřív zkontrolujeme soudržnost starých vrstev, korozi a čistotu povrchu. Teprve potom navrhneme přípravu a nátěrový systém. Nejdřív ověříme, jestli to jdeNe každou střechu lze natřít. Vhodnost posoudíme podle krytiny, jejího stavu a soudržnosti starých vrstev ještě před nabídkou. Střecha i klempířské prvkyDo jedné zakázky můžeme zahrnout plechovou krytinu, okapy, svody, lemování i další kovové části. Stejní lidé, uklizené okolíKdo si s vámi střechu prohlédne, ten ji i natře. Termín potvrdíme předem a po práci uklidíme okolí domu. Lokální opravy povrchuRozsah sjednocení určujeme podle poškození a stávajícího nátěru. Jak probíhá realizace 01Prohlídka střechyUrčíme materiál, stav povrchu, rozsah přípravy a přístup.02Čištění a přípravaOdstraníme nečistoty a nesoudržné části a připravíme problematická místa.03Základní ochranaPodle materiálu aplikujeme vhodnou základní nebo spojovací vrstvu.04Vrchní nátěrPovrch sjednotíme ochranným nátěrem v dohodnutém odstínu. Cena a časté otázky Kolik stojí nátěr střechy?+Cenové faktory a podklady pro nabídku najdete v části Cena a postup nacenění. Lze natřít každou střechu?+Ne. Záleží na typu krytiny, jejím stavu a kompatibilitě se zvoleným systémem. Vhodnost ověřujeme před nabídkou. Vyřeší nátěr zatékání?+Nátěr není náhradou opravy netěsné krytiny, spojů nebo oplechování. Tyto závady musí být předem odstraněné. Natíráte také okapy a svody?+Ano, podle materiálu a stavu můžeme do zakázky zahrnout také klempířské prvky. Jak dlouho nátěr střechy trvá?+Záleží na ploše, rozsahu přípravy a počasí. Nátěr se nanáší na čistý a suchý povrch ve více vrstvách. Délku práce potvrdíme spolu s cenou. Kde nátěry střech děláte?+V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna."
+   },
+   "hasReviews": true,
+   "cena": {
+    "eyebrow": "Cena nátěru střechy",
+    "h2": "Kolik stojí nátěr střechy?",
+    "lead": "Cenu počítáme podle skutečné plochy a stavu střechy. Čištění, příprava povrchu i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky.",
+    "factors": [
+     [
+      "Plocha a sklon",
+      "Kolik metrů čtverečních a jak strmá je střecha."
+     ],
+     [
+      "Přístupnost",
+      "Jak se dostaneme ke střeše, okapům a svodům."
+     ],
+     [
+      "Krytina a její stav",
+      "Materiál, soudržnost starých vrstev a koroze."
+     ],
+     [
+      "Rozsah přípravy",
+      "Čištění, odstranění nesoudržných částí a opravy."
+     ]
+    ],
+    "howEyebrow": "Jak získat cenu",
+    "how": [
+     [
+      "Pošlete fotky střechy",
+      "Stačí fotky střechy a okapů, přibližné rozměry a typ krytiny."
+     ],
+     [
+      "Ozveme se s cenou",
+      "Podle fotek připravíme nezávaznou cenu. Přesnou nabídku potvrdíme po prohlídce."
+     ],
+     [
+      "Domluvíme termín",
+      "Den nástupu i dokončení potvrdíme předem a dodržíme ho."
+     ]
+    ],
+    "cta": "Chci cenu nátěru střechy",
+    "phone": "nebo zavolejte +420 774 927 182",
+    "areaEyebrow": "Kde pracujeme",
+    "areaH2": "Nátěry střech v Brně a okolí do 20 km",
+    "places": [
+     "Žabovřesky",
+     "Královo Pole",
+     "Líšeň",
+     "Bystrc",
+     "Bohunice",
+     "Židenice",
+     "Komín",
+     "Starý Lískovec",
+     "Střed",
+     "Modřice",
+     "Šlapanice",
+     "Kuřim",
+     "Rosice",
+     "Slavkov u Brna"
+    ],
+    "allText": "Cena nátěru střechy Kolik stojí nátěr střechy? Cenu počítáme podle skutečné plochy a stavu střechy. Čištění, příprava povrchu i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky. Plocha a sklonKolik metrů čtverečních a jak strmá je střecha.PřístupnostJak se dostaneme ke střeše, okapům a svodům.Krytina a její stavMateriál, soudržnost starých vrstev a koroze.Rozsah přípravyČištění, odstranění nesoudržných částí a opravy. Jak získat cenu 01Pošlete fotky střechyStačí fotky střechy a okapů, přibližné rozměry a typ krytiny.02Ozveme se s cenouPodle fotek připravíme nezávaznou cenu. Přesnou nabídku potvrdíme po prohlídce.03Domluvíme termínDen nástupu i dokončení potvrdíme předem a dodržíme ho. Chci cenu nátěru střechy↗ nebo zavolejte +420 774 927 182 Kde pracujemeNátěry střech v Brně a okolí do 20 km ŽabovřeskyKrálovo PoleLíšeňBystrcBohuniceŽideniceKomínStarý LískovecStředModřiceŠlapaniceKuřimRosiceSlavkov u Brna"
+   },
+   "kontakt": {
+    "eyebrow": "03 / Nezávazná poptávka",
+    "h2": "Pojďme se domluvit.",
+    "p": "Pošlete nám stručné zadání. Probereme možnosti a připravíme nabídku podle skutečného rozsahu práce.",
+    "asideTitle": "Pro první domluvu stačí:",
+    "aside": "fotografie střechy, okapů a svodů, přibližná plocha a druh krytiny, přístup ke střeše.",
+    "formService": "Nátěry střech",
+    "selected": "Nátěry střech",
+    "hint": "Uveďte typ a plochu krytiny, stáří, stav starého nátěru, sklon, rozsah nátěru okapů a svodů a možnosti přístupu. Přiložte fotografie."
+   },
+   "mobileBar": [
+    "Zavolat",
+    "Nezávazně poptat↗"
+   ]
+  },
+  "natery-drevo-kovu": {
+   "title": "Nátěry dřeva, oken a kovů Brno | Tři Mistři",
+   "description": "Nátěr oken, dveří, podbití, pergoly nebo plotu v Brně a okolí. Starý nátěr očistíme, zvolíme vhodnou ochranu dřeva i kovu a po práci uklidíme. Cena podle fotek.",
+   "breadcrumb": [
+    "Úvod",
+    "Služby",
+    "Nátěry oken, podbití, dřeva a kovů"
+   ],
+   "eyebrow": "Tři Mistři / Brno a okolí",
+   "h1": "Nátěry dřeva, oken a kovů v Brně.",
+   "lead": "Okna, dveře, pergola nebo plot zase jako nové a chráněné před počasím. Starý nátěr očistíme a ochranu zvolíme podle materiálu. Přijdou pokaždé stejní lidé a po práci uklidíme.",
+   "cta": "Chci cenu nátěru",
+   "note": "Pošlete fotky prvků a detailů starého nátěru a do 24 hodin se vám ozveme. Nacenění je zdarma a nezávazné. Termín, který domluvíme, dodržíme.",
+   "trust": [
+    "★★★★★ 5,0 / 529 recenzí na Google ↗",
+    "Náš tým má přes 15 let praxe v oboru"
+   ],
+   "cover": {
+    "src": "./assets/img/gallery/thumbs/naterydreva6-700w.webp",
+    "alt": "Nátěr dřeva 1 - Blansko - Chata",
+    "w": "700",
+    "h": "1493",
+    "label": "Z naší práce",
+    "place": "Blansko - Chata"
+   },
+   "jump": [
+    [
+     "O službě",
+     "#rozsah"
+    ],
+    [
+     "Ukázky",
+     "#ukazky"
+    ],
+    [
+     "Postup",
+     "#realizace-postup"
+    ],
+    [
+     "Otázky",
+     "#otazky"
+    ],
+    [
+     "Cena",
+     "#cena"
+    ],
+    [
+     "Poptávka ↗",
+     "#poptavka"
+    ]
+   ],
+   "showcase": {
+    "eyebrow": "Ukázky realizací",
+    "h2": "Podívejte se na výsledek.",
+    "visible": 6,
+    "more": "Zobrazit další realizace ↓",
+    "other": [],
+    "extraText": []
+   },
+   "rozsah": {
+    "eyebrow": "01 / O službě",
+    "h2": "Proč nátěr dřeva a kovu s Tři Mistry",
+    "intro": [
+     "Nový nátěr drží jen na připraveném podkladu. Proto starý povrch nejdřív očistíme a ochranu zvolíme podle materiálu a toho, jak moc je vystavený počasí."
+    ],
+    "benefits": [
+     [
+      "Nátěr, který drží",
+      "Nesoudržné vrstvy a korozi odstraníme dřív, než natíráme. Nová vrstva tak navazuje na připravený podklad."
+     ],
+     [
+      "Ochrana podle materiálu",
+      "Na dřevo i kov volíme základ a vrchní nátěr podle prostředí. Zohledníme počasí i ochranu kovu před korozí."
+     ],
+     [
+      "Stejní lidé, čisté okolí",
+      "Kdo si s vámi práci domluví, ten ji i udělá. Okolí zakryjeme, termín dodržíme a po práci uklidíme."
+     ]
+    ],
+    "processTitle": "Jak probíhá realizace",
+    "steps": [
+     [
+      "Posoudíme starý nátěr",
+      "Projdeme materiál, poškození, korozi a přístup k jednotlivým prvkům."
+     ],
+     [
+      "Připravíme povrch",
+      "Očistíme a podle stavu odstraníme nesoudržné vrstvy."
+     ],
+     [
+      "Zvolíme ochranu",
+      "Základ a vrchní nátěr navrhneme podle materiálu a prostředí."
+     ],
+     [
+      "Dotáhneme hrany a spoje",
+      "Dokončíme členité detaily a domluvený odstín."
+     ]
+    ],
+    "faqTitle": "Cena a časté otázky",
+    "faqs": [
+     [
+      "Co ovlivňuje cenu nátěru dřeva nebo kovu?",
+      "<p>Rozhoduje plocha a členitost prvků, stav starého nátěru, rozsah přípravy, zvolený nátěrový systém a přístup k povrchu. Pošlete fotky celku i detailů a přibližné rozměry a připravíme nezávaznou cenu.</p>"
+     ],
+     [
+      "Natíráte také okna a podbití?",
+      "<p>Ano. Rozsah obnovy určíme podle materiálu a stavu původních vrstev.</p>"
+     ],
+     [
+      "Stačí starý povrch jen přetřít?",
+      "<p>Ne vždy. Nesoudržné vrstvy nebo koroze vyžadují odpovídající přípravu.</p>"
+     ],
+     [
+      "Natíráte i ploty, brány a zábradlí?",
+      "<p>Ano. Kovové prvky očistíme od koroze a nesoudržných vrstev a zvolíme základ i vrchní nátěr, který kov ochrání.</p>"
+     ],
+     [
+      "Můžu si vybrat odstín?",
+      "<p>Ano. Odstín domluvíme předem a podle něj zvolíme vhodný nátěrový systém.</p>"
+     ],
+     [
+      "Kde natíráte?",
+      "<p>V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna.</p>"
+     ]
+    ],
+    "allText": "01 / O služběProč nátěr dřeva a kovu s Tři Mistry Nový nátěr drží jen na připraveném podkladu. Proto starý povrch nejdřív očistíme a ochranu zvolíme podle materiálu a toho, jak moc je vystavený počasí. Nátěr, který držíNesoudržné vrstvy a korozi odstraníme dřív, než natíráme. Nová vrstva tak navazuje na připravený podklad. Ochrana podle materiáluNa dřevo i kov volíme základ a vrchní nátěr podle prostředí. Zohledníme počasí i ochranu kovu před korozí. Stejní lidé, čisté okolíKdo si s vámi práci domluví, ten ji i udělá. Okolí zakryjeme, termín dodržíme a po práci uklidíme. Jak probíhá realizace 01Posoudíme starý nátěrProjdeme materiál, poškození, korozi a přístup k jednotlivým prvkům.02Připravíme povrchOčistíme a podle stavu odstraníme nesoudržné vrstvy.03Zvolíme ochranuZáklad a vrchní nátěr navrhneme podle materiálu a prostředí.04Dotáhneme hrany a spojeDokončíme členité detaily a domluvený odstín. Cena a časté otázky Co ovlivňuje cenu nátěru dřeva nebo kovu?+Rozhoduje plocha a členitost prvků, stav starého nátěru, rozsah přípravy, zvolený nátěrový systém a přístup k povrchu. Pošlete fotky celku i detailů a přibližné rozměry a připravíme nezávaznou cenu. Natíráte také okna a podbití?+Ano. Rozsah obnovy určíme podle materiálu a stavu původních vrstev. Stačí starý povrch jen přetřít?+Ne vždy. Nesoudržné vrstvy nebo koroze vyžadují odpovídající přípravu. Natíráte i ploty, brány a zábradlí?+Ano. Kovové prvky očistíme od koroze a nesoudržných vrstev a zvolíme základ i vrchní nátěr, který kov ochrání. Můžu si vybrat odstín?+Ano. Odstín domluvíme předem a podle něj zvolíme vhodný nátěrový systém. Kde natíráte?+V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna."
+   },
+   "hasReviews": false,
+   "cena": {
+    "eyebrow": "Cena nátěru",
+    "h2": "Kolik stojí nátěr dřeva nebo kovu?",
+    "lead": "Cenu počítáme podle počtu a velikosti prvků. Příprava povrchu, zakrytí i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky.",
+    "factors": [
+     [
+      "Počet a velikost prvků",
+      "Kolik oken, dveří nebo metrů plotu a podbití."
+     ],
+     [
+      "Členitost",
+      "Hrany, spoje a detaily, které se natírají ručně."
+     ],
+     [
+      "Stav starého nátěru",
+      "Odlupující se vrstvy, poškozené dřevo nebo koroze."
+     ],
+     [
+      "Přístup",
+      "Výška a přístup k jednotlivým prvkům."
+     ]
+    ],
+    "howEyebrow": "Jak získat cenu",
+    "how": [
+     [
+      "Pošlete fotku prvků",
+      "Stačí fotky celku i detailů a počet nebo rozměry prvků."
+     ],
+     [
+      "Ozveme se s cenou",
+      "Připravíme nezávaznou cenu zdarma. U větší zakázky se přijedeme podívat."
+     ],
+     [
+      "Domluvíme termín",
+      "Den nástupu i dokončení potvrdíme předem a dodržíme ho."
+     ]
+    ],
+    "cta": "Chci cenu nátěru",
+    "phone": "nebo zavolejte +420 774 927 182",
+    "areaEyebrow": "Kde pracujeme",
+    "areaH2": "Nátěry v Brně a okolí do 20 km",
+    "places": [
+     "Žabovřesky",
+     "Královo Pole",
+     "Líšeň",
+     "Bystrc",
+     "Bohunice",
+     "Židenice",
+     "Komín",
+     "Starý Lískovec",
+     "Střed",
+     "Modřice",
+     "Šlapanice",
+     "Kuřim",
+     "Rosice",
+     "Slavkov u Brna"
+    ],
+    "allText": "Cena nátěru Kolik stojí nátěr dřeva nebo kovu? Cenu počítáme podle počtu a velikosti prvků. Příprava povrchu, zakrytí i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky. Počet a velikost prvkůKolik oken, dveří nebo metrů plotu a podbití.ČlenitostHrany, spoje a detaily, které se natírají ručně.Stav starého nátěruOdlupující se vrstvy, poškozené dřevo nebo koroze.PřístupVýška a přístup k jednotlivým prvkům. Jak získat cenu 01Pošlete fotku prvkůStačí fotky celku i detailů a počet nebo rozměry prvků.02Ozveme se s cenouPřipravíme nezávaznou cenu zdarma. U větší zakázky se přijedeme podívat.03Domluvíme termínDen nástupu i dokončení potvrdíme předem a dodržíme ho. Chci cenu nátěru↗ nebo zavolejte +420 774 927 182 Kde pracujemeNátěry v Brně a okolí do 20 km ŽabovřeskyKrálovo PoleLíšeňBystrcBohuniceŽideniceKomínStarý LískovecStředModřiceŠlapaniceKuřimRosiceSlavkov u Brna"
+   },
+   "kontakt": {
+    "eyebrow": "02 / Nezávazná poptávka",
+    "h2": "Pojďme se domluvit.",
+    "p": "Pošlete nám stručné zadání. Probereme možnosti a připravíme nabídku podle skutečného rozsahu práce.",
+    "asideTitle": "Pro první domluvu stačí:",
+    "aside": "co a z jakého materiálu natíráme, počet prvků nebo jejich rozměry, fotografie starého nátěru a detailů.",
+    "formService": "Nátěry dřeva a kovů",
+    "selected": "Nátěry dřeva a kovů",
+    "hint": "Napište, co potřebujete natřít (například okna, pergolu, plot nebo radiátory), počet či rozměry a stav starého nátěru. Připojte požadovaný termín a fotografie."
+   },
+   "mobileBar": [
+    "Zavolat",
+    "Nezávazně poptat↗"
+   ]
+  },
+  "epoxidove-podlahy": {
+   "title": "Epoxidová podlaha Brno: garáže a dílny | Tři Mistři",
+   "description": "Epoxidová podlaha do garáže, dílny nebo provozovny v Brně a okolí. Posoudíme podklad, navrhneme skladbu podle zatížení a po práci uklidíme. Cena podle fotek.",
+   "breadcrumb": [
+    "Úvod",
+    "Služby",
+    "Epoxidové podlahy"
+   ],
+   "eyebrow": "Tři Mistři / Brno a okolí",
+   "h1": "Epoxidové podlahy v Brně.",
+   "lead": "Podlaha do garáže, dílny nebo provozovny navržená podle toho, jak prostor používáte. Skladbu navrhneme podle zatížení a stavu podkladu. Přijdou pokaždé stejní lidé a po práci uklidíme.",
+   "cta": "Chci cenu podlahy",
+   "note": "Pošlete fotku podlahy a přibližnou plochu a do 24 hodin se vám ozveme. Nacenění je zdarma a nezávazné. Termín, který domluvíme, dodržíme.",
+   "trust": [
+    "★★★★★ 5,0 / 529 recenzí na Google ↗",
+    "Náš tým má přes 15 let praxe v oboru"
+   ],
+   "material": {
+    "aria": "Možnosti povrchové úpravy",
+    "eyebrow": "Řešení podle vašeho povrchu",
+    "h2": "Co potřebujeme znát před realizací",
+    "items": [
+     "Stav podkladu",
+     "Požadované zatížení",
+     "Termín a přístup"
+    ]
+   },
+   "jump": [
+    [
+     "O službě",
+     "#rozsah"
+    ],
+    [
+     "Postup",
+     "#realizace-postup"
+    ],
+    [
+     "Otázky",
+     "#otazky"
+    ],
+    [
+     "Cena",
+     "#cena"
+    ],
+    [
+     "Poptávka ↗",
+     "#poptavka"
+    ]
+   ],
+   "rozsah": {
+    "eyebrow": "01 / O službě",
+    "h2": "Proč epoxidovou podlahu s Tři Mistry",
+    "intro": [
+     "Epoxidová podlaha je jen tak dobrá, jak dobrý je podklad pod ní. Proto nejdřív posoudíme stávající podlahu a skladbu navrhneme podle toho, jak budete prostor používat."
+    ],
+    "benefits": [
+     [
+      "Podlaha podle provozu",
+      "Garáž, dílna nebo provozovna. Skladbu navrhneme podle zatížení a způsobu používání prostoru."
+     ],
+     [
+      "Příprava v nabídce",
+      "Rozsah oprav a přípravy stávající podlahy stanovíme předem. V nabídce vidíte přípravu i výslednou úpravu."
+     ],
+     [
+      "Termín, se kterým počítáte",
+      "Den nástupu i dobu, kdy můžete podlahu začít používat, domluvíme předem. Přijdou pokaždé stejní lidé a po práci uklidíme."
+     ],
+     [
+      "Vzhled a povrchová úprava",
+      "Barevnost a charakter povrchu dohodneme při přípravě nabídky."
+     ]
+    ],
+    "processTitle": "Jak probíhá realizace",
+    "steps": [
+     [
+      "Poptávka a posouzení",
+      "Projdeme fotografie, rozměry a požadavky. Podklad následně posoudíme pro konkrétní realizaci."
+     ],
+     [
+      "Návrh a kalkulace",
+      "Navrhneme rozsah prací, povrch a termín a připravíme nabídku."
+     ],
+     [
+      "Příprava a realizace",
+      "Připravíme podklad a aplikujeme zvolený podlahový systém."
+     ],
+     [
+      "Předání a údržba",
+      "Vysvětlíme údržbu a dobu, po které lze podlahu začít používat podle zvoleného systému."
+     ]
+    ],
+    "faqTitle": "Cena a časté otázky",
+    "faqs": [
+     [
+      "Kolik stojí epoxidová podlaha?",
+      "<p>Cenové faktory a podklady pro nabídku najdete v části <a href=\"#cena\">Cena a postup nacenění</a>.</p>"
+     ],
+     [
+      "Lze epoxidovou podlahu realizovat na stávající podklad?",
+      "<p>Možnost realizace určíme po posouzení materiálu, stávajících vrstev a stavu podkladu. Pošlete nám fotografie a popis podlahy.</p>"
+     ],
+     [
+      "Jak dlouho realizace trvá?",
+      "<p>Termín a délku prací stanovíme podle rozsahu přípravy a zvoleného systému. Předem domluvíme také dobu do uvedení podlahy do provozu.</p>"
+     ],
+     [
+      "Co mám poslat do poptávky?",
+      "<p>Uveďte lokalitu, plochu v metrech čtverečních, materiál a stav podkladu, použití prostoru a požadovaný termín. Přiložte fotografie.</p>"
+     ],
+     [
+      "Můžu si vybrat barvu podlahy?",
+      "<p>Ano. Barevnost a charakter povrchu domluvíme při přípravě nabídky.</p>"
+     ],
+     [
+      "Kde epoxidové podlahy děláte?",
+      "<p>V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna.</p>"
+     ]
+    ],
+    "allText": "01 / O služběProč epoxidovou podlahu s Tři Mistry Epoxidová podlaha je jen tak dobrá, jak dobrý je podklad pod ní. Proto nejdřív posoudíme stávající podlahu a skladbu navrhneme podle toho, jak budete prostor používat. Podlaha podle provozuGaráž, dílna nebo provozovna. Skladbu navrhneme podle zatížení a způsobu používání prostoru. Příprava v nabídceRozsah oprav a přípravy stávající podlahy stanovíme předem. V nabídce vidíte přípravu i výslednou úpravu. Termín, se kterým počítáteDen nástupu i dobu, kdy můžete podlahu začít používat, domluvíme předem. Přijdou pokaždé stejní lidé a po práci uklidíme. Vzhled a povrchová úpravaBarevnost a charakter povrchu dohodneme při přípravě nabídky. Jak probíhá realizace 01Poptávka a posouzeníProjdeme fotografie, rozměry a požadavky. Podklad následně posoudíme pro konkrétní realizaci.02Návrh a kalkulaceNavrhneme rozsah prací, povrch a termín a připravíme nabídku.03Příprava a realizacePřipravíme podklad a aplikujeme zvolený podlahový systém.04Předání a údržbaVysvětlíme údržbu a dobu, po které lze podlahu začít používat podle zvoleného systému. Cena a časté otázky Kolik stojí epoxidová podlaha?+Cenové faktory a podklady pro nabídku najdete v části Cena a postup nacenění. Lze epoxidovou podlahu realizovat na stávající podklad?+Možnost realizace určíme po posouzení materiálu, stávajících vrstev a stavu podkladu. Pošlete nám fotografie a popis podlahy. Jak dlouho realizace trvá?+Termín a délku prací stanovíme podle rozsahu přípravy a zvoleného systému. Předem domluvíme také dobu do uvedení podlahy do provozu. Co mám poslat do poptávky?+Uveďte lokalitu, plochu v metrech čtverečních, materiál a stav podkladu, použití prostoru a požadovaný termín. Přiložte fotografie. Můžu si vybrat barvu podlahy?+Ano. Barevnost a charakter povrchu domluvíme při přípravě nabídky. Kde epoxidové podlahy děláte?+V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna."
+   },
+   "hasReviews": true,
+   "cena": {
+    "eyebrow": "Cena podlahy",
+    "h2": "Kolik stojí epoxidová podlaha?",
+    "lead": "Cenu počítáme podle skutečné plochy a stavu podkladu. Příprava podlahy i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky.",
+    "factors": [
+     [
+      "Plocha",
+      "Kolik metrů čtverečních podlahy."
+     ],
+     [
+      "Stav podkladu",
+      "Materiál, stávající vrstvy a potřebné opravy."
+     ],
+     [
+      "Zatížení",
+      "Jak se bude prostor používat, třeba auto, dílna nebo provoz."
+     ],
+     [
+      "Skladba a vzhled",
+      "Zvolený podlahový systém, barevnost a povrch."
+     ]
+    ],
+    "howEyebrow": "Jak získat cenu",
+    "how": [
+     [
+      "Pošlete fotku podlahy",
+      "Stačí fotky, přibližná plocha a k čemu prostor slouží."
+     ],
+     [
+      "Ozveme se s cenou",
+      "Připravíme nezávaznou cenu zdarma. Podklad pak posoudíme na místě."
+     ],
+     [
+      "Domluvíme termín",
+      "Den nástupu i dokončení potvrdíme předem a dodržíme ho."
+     ]
+    ],
+    "cta": "Chci cenu podlahy",
+    "phone": "nebo zavolejte +420 774 927 182",
+    "areaEyebrow": "Kde pracujeme",
+    "areaH2": "Epoxidové podlahy v Brně a okolí do 20 km",
+    "places": [
+     "Žabovřesky",
+     "Královo Pole",
+     "Líšeň",
+     "Bystrc",
+     "Bohunice",
+     "Židenice",
+     "Komín",
+     "Starý Lískovec",
+     "Střed",
+     "Modřice",
+     "Šlapanice",
+     "Kuřim",
+     "Rosice",
+     "Slavkov u Brna"
+    ],
+    "allText": "Cena podlahy Kolik stojí epoxidová podlaha? Cenu počítáme podle skutečné plochy a stavu podkladu. Příprava podlahy i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky. PlochaKolik metrů čtverečních podlahy.Stav podkladuMateriál, stávající vrstvy a potřebné opravy.ZatíženíJak se bude prostor používat, třeba auto, dílna nebo provoz.Skladba a vzhledZvolený podlahový systém, barevnost a povrch. Jak získat cenu 01Pošlete fotku podlahyStačí fotky, přibližná plocha a k čemu prostor slouží.02Ozveme se s cenouPřipravíme nezávaznou cenu zdarma. Podklad pak posoudíme na místě.03Domluvíme termínDen nástupu i dokončení potvrdíme předem a dodržíme ho. Chci cenu podlahy↗ nebo zavolejte +420 774 927 182 Kde pracujemeEpoxidové podlahy v Brně a okolí do 20 km ŽabovřeskyKrálovo PoleLíšeňBystrcBohuniceŽideniceKomínStarý LískovecStředModřiceŠlapaniceKuřimRosiceSlavkov u Brna"
+   },
+   "kontakt": {
+    "eyebrow": "03 / Nezávazná poptávka",
+    "h2": "Pojďme se domluvit.",
+    "p": "Pošlete nám stručné zadání. Probereme možnosti a připravíme nabídku podle skutečného rozsahu práce.",
+    "asideTitle": "Pro první domluvu stačí:",
+    "aside": "fotografie podlahy, přibližná plocha v m², jak bude podlaha zatížená a kdy byste chtěli začít.",
+    "formService": "Epoxidové podlahy",
+    "selected": "Epoxidové podlahy",
+    "hint": "Uveďte plochu v m², stav a materiál podkladu, využití prostoru, lokalitu a termín. Přiložte fotografie."
+   },
+   "mobileBar": [
+    "Zavolat",
+    "Nezávazně poptat↗"
+   ]
+  },
+  "mikrocement": {
+   "title": "Mikrocement a stěrka přes obklad Brno | Tři Mistři",
+   "description": "Mikrocement do koupelny, kuchyně i obytného prostoru v Brně a okolí. Přes vhodný obklad bez bourání. Podklad předem ověříme a po práci uklidíme.",
+   "breadcrumb": [
+    "Úvod",
+    "Služby",
+    "Mikrocement a stěrky přes obklady"
+   ],
+   "eyebrow": "Tři Mistři / Brno a okolí",
+   "h1": "Mikrocement a stěrky přes obklady v Brně.",
+   "lead": "Nový vzhled koupelny nebo kuchyně bez bourání starého obkladu. Mikrocement vytvoří souvislý povrch na stěnách i přes vhodný obklad. Nejdřív ověříme podklad a po práci uklidíme.",
+   "cta": "Chci cenu mikrocementu",
+   "note": "Pošlete fotky obkladu a spár a do 24 hodin se vám ozveme. Nacenění je zdarma a nezávazné. Termín, který domluvíme, dodržíme.",
+   "trust": [
+    "★★★★★ 5,0 / 529 recenzí na Google ↗",
+    "Náš tým má přes 15 let praxe v oboru"
+   ],
+   "material": {
+    "aria": "Možnosti povrchové úpravy",
+    "eyebrow": "Řešení podle vašeho povrchu",
+    "h2": "Kdy lze stěrku aplikovat přes obklad",
+    "items": [
+     "Pevný a soudržný obklad",
+     "Vyrovnání spár a penetrace",
+     "Namáhané a mokré zóny"
+    ]
+   },
+   "jump": [
+    [
+     "O službě",
+     "#rozsah"
+    ],
+    [
+     "Postup",
+     "#realizace-postup"
+    ],
+    [
+     "Otázky",
+     "#otazky"
+    ],
+    [
+     "Cena",
+     "#cena"
+    ],
+    [
+     "Poptávka ↗",
+     "#poptavka"
+    ]
+   ],
+   "rozsah": {
+    "eyebrow": "01 / O službě",
+    "h2": "Proč mikrocement s Tři Mistry",
+    "intro": [
+     "Mikrocement vydrží jen na pevném podkladu. Před prací proto ověříme soudržnost obkladu, spáry a vlhkost a řekneme vám rovnou, jestli je váš povrch vhodný."
+    ],
+    "benefits": [
+     [
+      "Bez bourání obkladu",
+      "Pevný a soudržný obklad bez dutých míst překryjeme souvislou vrstvou. Ušetříte si bourání a nepořádek, který k němu patří."
+     ],
+     [
+      "Podklad ověříme předem",
+      "Obklad, spáry, rovinnost i vlhkost prověříme předem. Pokud povrch není vhodný, řekneme vám to dřív, než začneme."
+     ],
+     [
+      "Stejní lidé, čistá práce",
+      "Kdo si s vámi mikrocement domluví, ten ho i udělá. Okolí zakryjeme, po práci uklidíme a vysvětlíme vám údržbu."
+     ],
+     [
+      "Barevnost a struktura",
+      "Vzorek a charakter povrchu sladíme s interiérem a očekávanou údržbou."
+     ]
+    ],
+    "processTitle": "Jak probíhá realizace",
+    "steps": [
+     [
+      "Kontrola podkladu",
+      "Prověříme obklad, spáry, rovinnost, vlhkost a způsob používání prostoru."
+     ],
+     [
+      "Příprava a sjednocení",
+      "Povrch očistíme, odmastíme, opravíme a připravíme pro navazující vrstvy."
+     ],
+     [
+      "Aplikace stěrky",
+      "Vytvoříme jednotlivé vrstvy a výslednou kresbu povrchu."
+     ],
+     [
+      "Ochrana a předání",
+      "Povrch uzavřeme, vysvětlíme jeho údržbu a dobu potřebnou před plným zatížením."
+     ]
+    ],
+    "faqTitle": "Cena a časté otázky",
+    "faqs": [
+     [
+      "Kolik stojí mikrocement?",
+      "<p>Cenové faktory a podklady pro nabídku najdete v části <a href=\"#cena\">Cena a postup nacenění</a>.</p>"
+     ],
+     [
+      "Lze mikrocement nanést na každý obklad?",
+      "<p>Ne. Obklad musí být pevný, soudržný a bez aktivních poruch. Vhodnost vždy ověříme na místě nebo z podrobných fotografií.</p>"
+     ],
+     [
+      "Je povrch úplně bez spár?",
+      "<p>Výsledná pohledová plocha může být souvislá, ale technologické a konstrukční spáry nelze bez posouzení jednoduše zakrýt.</p>"
+     ],
+     [
+      "Hodí se mikrocement do koupelny?",
+      "<p>Ano, pro řadu koupelnových ploch. Konkrétní skladba a ochrana závisí na kontaktu s vodou a stavu podkladu.</p>"
+     ],
+     [
+      "Mikrocement, nebo betonová stěrka?",
+      "<p>Mikrocement nabízíme hlavně přes vhodné obklady. Pro stěny bez obkladu nabízíme také <a href=\"./dekoracni-sterky\">betonové a dekorativní stěrky</a>. Co se hodí k vašemu prostoru, probereme podle fotek.</p>"
+     ],
+     [
+      "Jak se o mikrocement starat?",
+      "<p>Při předání vysvětlíme údržbu povrchu a dobu, po které ho lze plně zatížit.</p>"
+     ],
+     [
+      "Kde mikrocement děláte?",
+      "<p>V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna.</p>"
+     ]
+    ],
+    "allText": "01 / O služběProč mikrocement s Tři Mistry Mikrocement vydrží jen na pevném podkladu. Před prací proto ověříme soudržnost obkladu, spáry a vlhkost a řekneme vám rovnou, jestli je váš povrch vhodný. Bez bourání obkladuPevný a soudržný obklad bez dutých míst překryjeme souvislou vrstvou. Ušetříte si bourání a nepořádek, který k němu patří. Podklad ověříme předemObklad, spáry, rovinnost i vlhkost prověříme předem. Pokud povrch není vhodný, řekneme vám to dřív, než začneme. Stejní lidé, čistá práceKdo si s vámi mikrocement domluví, ten ho i udělá. Okolí zakryjeme, po práci uklidíme a vysvětlíme vám údržbu. Barevnost a strukturaVzorek a charakter povrchu sladíme s interiérem a očekávanou údržbou. Jak probíhá realizace 01Kontrola podkladuPrověříme obklad, spáry, rovinnost, vlhkost a způsob používání prostoru.02Příprava a sjednoceníPovrch očistíme, odmastíme, opravíme a připravíme pro navazující vrstvy.03Aplikace stěrkyVytvoříme jednotlivé vrstvy a výslednou kresbu povrchu.04Ochrana a předáníPovrch uzavřeme, vysvětlíme jeho údržbu a dobu potřebnou před plným zatížením. Cena a časté otázky Kolik stojí mikrocement?+Cenové faktory a podklady pro nabídku najdete v části Cena a postup nacenění. Lze mikrocement nanést na každý obklad?+Ne. Obklad musí být pevný, soudržný a bez aktivních poruch. Vhodnost vždy ověříme na místě nebo z podrobných fotografií. Je povrch úplně bez spár?+Výsledná pohledová plocha může být souvislá, ale technologické a konstrukční spáry nelze bez posouzení jednoduše zakrýt. Hodí se mikrocement do koupelny?+Ano, pro řadu koupelnových ploch. Konkrétní skladba a ochrana závisí na kontaktu s vodou a stavu podkladu. Mikrocement, nebo betonová stěrka?+Mikrocement nabízíme hlavně přes vhodné obklady. Pro stěny bez obkladu nabízíme také betonové a dekorativní stěrky. Co se hodí k vašemu prostoru, probereme podle fotek. Jak se o mikrocement starat?+Při předání vysvětlíme údržbu povrchu a dobu, po které ho lze plně zatížit. Kde mikrocement děláte?+V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna."
+   },
+   "hasReviews": true,
+   "cena": {
+    "eyebrow": "Cena mikrocementu",
+    "h2": "Kolik stojí mikrocement?",
+    "lead": "Cenu počítáme podle skutečné plochy a stavu podkladu. Příprava, zakrytí i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky.",
+    "factors": [
+     [
+      "Plocha a tvar",
+      "Kolik metrů čtverečních a kolik rohů, nik a detailů."
+     ],
+     [
+      "Stav obkladu a spár",
+      "Soudržnost a členitost obkladu a rozsah vyrovnání spár."
+     ],
+     [
+      "Prostředí",
+      "Kuchyň, obytný prostor nebo koupelna se zatížením vodou."
+     ],
+     [
+      "Barevnost a struktura",
+      "Zvolený systém, odstín a charakter povrchu."
+     ]
+    ],
+    "howEyebrow": "Jak získat cenu",
+    "how": [
+     [
+      "Pošlete fotku obkladu",
+      "Stačí fotky obkladu a spár, přibližné rozměry a představa o vzhledu."
+     ],
+     [
+      "Ozveme se s cenou",
+      "Připravíme nezávaznou cenu zdarma. Vhodnost podkladu ověříme podle fotek nebo na místě."
+     ],
+     [
+      "Domluvíme termín",
+      "Den nástupu i dokončení potvrdíme předem a dodržíme ho."
+     ]
+    ],
+    "cta": "Chci cenu mikrocementu",
+    "phone": "nebo zavolejte +420 774 927 182",
+    "areaEyebrow": "Kde pracujeme",
+    "areaH2": "Mikrocement v Brně a okolí do 20 km",
+    "places": [
+     "Žabovřesky",
+     "Královo Pole",
+     "Líšeň",
+     "Bystrc",
+     "Bohunice",
+     "Židenice",
+     "Komín",
+     "Starý Lískovec",
+     "Střed",
+     "Modřice",
+     "Šlapanice",
+     "Kuřim",
+     "Rosice",
+     "Slavkov u Brna"
+    ],
+    "allText": "Cena mikrocementu Kolik stojí mikrocement? Cenu počítáme podle skutečné plochy a stavu podkladu. Příprava, zakrytí i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky. Plocha a tvarKolik metrů čtverečních a kolik rohů, nik a detailů.Stav obkladu a spárSoudržnost a členitost obkladu a rozsah vyrovnání spár.ProstředíKuchyň, obytný prostor nebo koupelna se zatížením vodou.Barevnost a strukturaZvolený systém, odstín a charakter povrchu. Jak získat cenu 01Pošlete fotku obkladuStačí fotky obkladu a spár, přibližné rozměry a představa o vzhledu.02Ozveme se s cenouPřipravíme nezávaznou cenu zdarma. Vhodnost podkladu ověříme podle fotek nebo na místě.03Domluvíme termínDen nástupu i dokončení potvrdíme předem a dodržíme ho. Chci cenu mikrocementu↗ nebo zavolejte +420 774 927 182 Kde pracujemeMikrocement v Brně a okolí do 20 km ŽabovřeskyKrálovo PoleLíšeňBystrcBohuniceŽideniceKomínStarý LískovecStředModřiceŠlapaniceKuřimRosiceSlavkov u Brna"
+   },
+   "kontakt": {
+    "eyebrow": "03 / Nezávazná poptávka",
+    "h2": "Pojďme se domluvit.",
+    "p": "Pošlete nám stručné zadání. Probereme možnosti a připravíme nabídku podle skutečného rozsahu práce.",
+    "asideTitle": "Pro první domluvu stačí:",
+    "aside": "fotografie obkladu a spár, přibližná plocha v m², zda jde o koupelnu, sprchu nebo kuchyň.",
+    "formService": "Mikrocement a stěrky přes obklady",
+    "selected": "Mikrocement a stěrky přes obklady",
+    "hint": "Uveďte místnost, plochu, typ podkladu a zda jde o mokrou zónu. Přiložte fotografie obkladu nebo stěny."
+   },
+   "mobileBar": [
+    "Zavolat",
+    "Nezávazně poptat↗"
+   ]
+  },
+  "specialni-natery": {
+   "title": "Protiplísňový a speciální nátěr Brno | Tři Mistři",
+   "description": "Protiplísňové, antibakteriální i termoizolační nátěry v Brně a okolí. Nejdřív zjistíme příčinu plísně nebo vlhkosti, pak zvolíme vhodný nátěr. Cena podle fotek.",
+   "breadcrumb": [
+    "Úvod",
+    "Služby",
+    "Speciální interiérové nátěry"
+   ],
+   "eyebrow": "Tři Mistři / Brno a okolí",
+   "h1": "Protiplísňové a speciální nátěry v Brně.",
+   "lead": "Plíseň v rohu nebo na ostění se po běžném vymalování často vrátí. Nejdřív zjistíme příčinu, připravíme podklad a zvolíme nátěr, který odpovídá místnosti. Přijdou pokaždé stejní lidé a po práci uklidíme.",
+   "cta": "Chci cenu nátěru",
+   "note": "Pošlete fotky problematického místa a do 24 hodin se vám ozveme. Nacenění je zdarma a nezávazné. Termín, který domluvíme, dodržíme.",
+   "trust": [
+    "★★★★★ 5,0 / 529 recenzí na Google ↗",
+    "Náš tým má přes 15 let praxe v oboru"
+   ],
+   "material": {
+    "aria": "Možnosti povrchové úpravy",
+    "eyebrow": "Řešení podle vašeho povrchu",
+    "h2": "Co je potřeba rozlišit",
+    "items": [
+     "Kondenzace a větrání",
+     "Zatékání nebo stavební vlhkost",
+     "Požadavek na hygienický povrch"
+    ]
+   },
+   "jump": [
+    [
+     "O službě",
+     "#rozsah"
+    ],
+    [
+     "Ukázky",
+     "#ukazky"
+    ],
+    [
+     "Postup",
+     "#realizace-postup"
+    ],
+    [
+     "Otázky",
+     "#otazky"
+    ],
+    [
+     "Cena",
+     "#cena"
+    ],
+    [
+     "Poptávka ↗",
+     "#poptavka"
+    ]
+   ],
+   "showcase": {
+    "eyebrow": "Ukázky realizací",
+    "h2": "Podívejte se na výsledek.",
+    "visible": 1,
+    "more": "",
+    "other": [],
+    "extraText": []
+   },
+   "rozsah": {
+    "eyebrow": "01 / O službě",
+    "h2": "Proč speciální nátěr s Tři Mistry",
+    "intro": [
+     "Speciální nátěr pomůže, jen když odpovídá příčině problému. Rozlišíme kondenzaci, zatékání a stavební vlhkost a podle toho zvolíme přípravu i nátěrový systém."
+    ],
+    "benefits": [
+     [
+      "Nejdřív zjistíme příčinu",
+      "Projdeme umístění a průběh poškození. Rozlišíme kondenzaci, zatékání a stavební vlhkost, protože samotný nátěr každou příčinu neodstraní."
+     ],
+     [
+      "Nátěr podle místnosti",
+      "Ložnice, koupelna, kuchyň nebo provozní prostor s požadavkem na omyvatelnost a hygienu. Systém volíme podle podkladu a používání. Po zatékání navazuje oprava stěn po zatékání."
+     ],
+     [
+      "Rada k údržbě, čistá práce",
+      "Po nátěru vysvětlíme, jak povrch udržovat a jak větrat. Přijdou pokaždé stejní lidé a po práci uklidíme."
+     ],
+     [
+      "Příprava podkladu",
+      "Odstranění nesoudržných vrstev, očištění, opravy a vhodná penetrace."
+     ]
+    ],
+    "processTitle": "Jak probíhá realizace",
+    "steps": [
+     [
+      "Zjištění problému",
+      "Projdeme umístění, průběh a pravděpodobnou příčinu poškození."
+     ],
+     [
+      "Volba systému",
+      "Navrhneme čištění, přípravu a nátěr odpovídající podkladu a provozu."
+     ],
+     [
+      "Příprava povrchu",
+      "Odstraníme nesoudržné vrstvy a povrch opravíme a sjednotíme."
+     ],
+     [
+      "Nátěr a doporučení",
+      "Aplikujeme předepsané vrstvy a vysvětlíme další údržbu a větrání."
+     ]
+    ],
+    "faqTitle": "Cena a časté otázky",
+    "faqs": [
+     [
+      "Kolik stojí protiplísňový nebo speciální nátěr?",
+      "<p>Cenové faktory a podklady pro nabídku najdete v části <a href=\"#cena\">Cena a postup nacenění</a>.</p>"
+     ],
+     [
+      "Vyřeší protiplísňová barva každou plíseň?",
+      "<p>Ne. Pokud příčinou zůstává zatékání, stavební vlhkost nebo výrazný tepelný most, samotný nátěr problém trvale neodstraní.</p>"
+     ],
+     [
+      "Co znamená termoizolační nátěr?",
+      "<p>Jde o speciální povrchovou úpravu s konkrétními vlastnostmi. Její vhodnost posuzujeme podle konstrukce a problému; nenahrazuje běžné zateplení stavby.</p>"
+     ],
+     [
+      "Lze nátěr použít v koupelně?",
+      "<p>Ano, pokud je zvolený systém vhodný pro daný podklad, vlhkost a způsob používání místnosti.</p>"
+     ],
+     [
+      "Jak zabránit tomu, aby se plíseň vrátila?",
+      "<p>Záleží na příčině. Pokud jde o zatékání nebo stavební vlhkost, je potřeba ji nejdřív odstranit. Po nátěru vysvětlíme, jak povrch udržovat a jak větrat.</p>"
+     ],
+     [
+      "Kde speciální nátěry děláte?",
+      "<p>V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna.</p>"
+     ]
+    ],
+    "allText": "01 / O služběProč speciální nátěr s Tři Mistry Speciální nátěr pomůže, jen když odpovídá příčině problému. Rozlišíme kondenzaci, zatékání a stavební vlhkost a podle toho zvolíme přípravu i nátěrový systém. Nejdřív zjistíme příčinuProjdeme umístění a průběh poškození. Rozlišíme kondenzaci, zatékání a stavební vlhkost, protože samotný nátěr každou příčinu neodstraní. Nátěr podle místnostiLožnice, koupelna, kuchyň nebo provozní prostor s požadavkem na omyvatelnost a hygienu. Systém volíme podle podkladu a používání. Po zatékání navazuje oprava stěn po zatékání. Rada k údržbě, čistá prácePo nátěru vysvětlíme, jak povrch udržovat a jak větrat. Přijdou pokaždé stejní lidé a po práci uklidíme. Příprava podkladuOdstranění nesoudržných vrstev, očištění, opravy a vhodná penetrace. Jak probíhá realizace 01Zjištění problémuProjdeme umístění, průběh a pravděpodobnou příčinu poškození.02Volba systémuNavrhneme čištění, přípravu a nátěr odpovídající podkladu a provozu.03Příprava povrchuOdstraníme nesoudržné vrstvy a povrch opravíme a sjednotíme.04Nátěr a doporučeníAplikujeme předepsané vrstvy a vysvětlíme další údržbu a větrání. Cena a časté otázky Kolik stojí protiplísňový nebo speciální nátěr?+Cenové faktory a podklady pro nabídku najdete v části Cena a postup nacenění. Vyřeší protiplísňová barva každou plíseň?+Ne. Pokud příčinou zůstává zatékání, stavební vlhkost nebo výrazný tepelný most, samotný nátěr problém trvale neodstraní. Co znamená termoizolační nátěr?+Jde o speciální povrchovou úpravu s konkrétními vlastnostmi. Její vhodnost posuzujeme podle konstrukce a problému; nenahrazuje běžné zateplení stavby. Lze nátěr použít v koupelně?+Ano, pokud je zvolený systém vhodný pro daný podklad, vlhkost a způsob používání místnosti. Jak zabránit tomu, aby se plíseň vrátila?+Záleží na příčině. Pokud jde o zatékání nebo stavební vlhkost, je potřeba ji nejdřív odstranit. Po nátěru vysvětlíme, jak povrch udržovat a jak větrat. Kde speciální nátěry děláte?+V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna."
+   },
+   "hasReviews": true,
+   "cena": {
+    "eyebrow": "Cena speciálního nátěru",
+    "h2": "Kolik stojí protiplísňový nebo speciální nátěr?",
+    "lead": "Cenu počítáme podle konkrétní místnosti a příčiny problému. Zakrytí, příprava podkladu i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky.",
+    "factors": [
+     [
+      "Příčina problému",
+      "Kondenzace, zatékání nebo stavební vlhkost."
+     ],
+     [
+      "Rozsah poškození",
+      "Lokální místo, nebo celá místnost a velikost plochy."
+     ],
+     [
+      "Příprava podkladu",
+      "Odstranění nesoudržných vrstev, očištění, opravy a penetrace."
+     ],
+     [
+      "Zvolený systém",
+      "Protiplísňový, antibakteriální nebo termoizolační nátěr."
+     ]
+    ],
+    "howEyebrow": "Jak získat cenu",
+    "how": [
+     [
+      "Pošlete fotky místa",
+      "Stačí fotka problému i celé místnosti a přibližné rozměry."
+     ],
+     [
+      "Ozveme se s cenou",
+      "Připravíme nezávaznou cenu zdarma. U větší zakázky se přijedeme podívat."
+     ],
+     [
+      "Domluvíme termín",
+      "Den nástupu i dokončení potvrdíme předem a dodržíme ho."
+     ]
+    ],
+    "cta": "Chci cenu nátěru",
+    "phone": "nebo zavolejte +420 774 927 182",
+    "areaEyebrow": "Kde pracujeme",
+    "areaH2": "Speciální nátěry v Brně a okolí do 20 km",
+    "places": [
+     "Žabovřesky",
+     "Královo Pole",
+     "Líšeň",
+     "Bystrc",
+     "Bohunice",
+     "Židenice",
+     "Komín",
+     "Starý Lískovec",
+     "Střed",
+     "Modřice",
+     "Šlapanice",
+     "Kuřim",
+     "Rosice",
+     "Slavkov u Brna"
+    ],
+    "allText": "Cena speciálního nátěru Kolik stojí protiplísňový nebo speciální nátěr? Cenu počítáme podle konkrétní místnosti a příčiny problému. Zakrytí, příprava podkladu i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky. Příčina problémuKondenzace, zatékání nebo stavební vlhkost.Rozsah poškozeníLokální místo, nebo celá místnost a velikost plochy.Příprava podkladuOdstranění nesoudržných vrstev, očištění, opravy a penetrace.Zvolený systémProtiplísňový, antibakteriální nebo termoizolační nátěr. Jak získat cenu 01Pošlete fotky místaStačí fotka problému i celé místnosti a přibližné rozměry.02Ozveme se s cenouPřipravíme nezávaznou cenu zdarma. U větší zakázky se přijedeme podívat.03Domluvíme termínDen nástupu i dokončení potvrdíme předem a dodržíme ho. Chci cenu nátěru↗ nebo zavolejte +420 774 927 182 Kde pracujemeSpeciální nátěry v Brně a okolí do 20 km ŽabovřeskyKrálovo PoleLíšeňBystrcBohuniceŽideniceKomínStarý LískovecStředModřiceŠlapaniceKuřimRosiceSlavkov u Brna"
+   },
+   "kontakt": {
+    "eyebrow": "03 / Nezávazná poptávka",
+    "h2": "Pojďme se domluvit.",
+    "p": "Pošlete nám stručné zadání. Probereme možnosti a připravíme nabídku podle skutečného rozsahu práce.",
+    "asideTitle": "Pro první domluvu stačí:",
+    "aside": "fotografie problematického místa, o jakou místnost jde a jak se větrá, případně kdy se problém objevil.",
+    "formService": "Speciální interiérové nátěry",
+    "selected": "Speciální interiérové nátěry",
+    "hint": "Popište problém, místnost, rozsah a známou příčinu. Uveďte, zda jde o plíseň, požadavek na hygienický povrch nebo studenou stěnu."
+   },
+   "mobileBar": [
+    "Zavolat",
+    "Nezávazně poptat↗"
+   ]
+  },
+  "odstraneni-grafiti": {
+   "title": "Odstranění graffiti Brno – fasády a zdi | Tři Mistři",
+   "description": "Odstranění graffiti z fasády a dalších povrchů v Brně a okolí. Podle materiálu zvolíme čištění, odstranění nebo překrytí a sjednotíme nátěr. Cena podle fotek.",
+   "breadcrumb": [
+    "Úvod",
+    "Služby",
+    "Odstranění graffiti"
+   ],
+   "eyebrow": "Tři Mistři / Brno a okolí",
+   "h1": "Odstranění graffiti v Brně.",
+   "lead": "Graffiti na fasádě nebo zdi chcete mít pryč co nejdřív. Podle materiálu zvolíme čištění, odstranění nebo překrytí a v případě potřeby sjednotíme nátěr, aby plocha působila jednotně. Přijdou pokaždé stejní lidé a po práci uklidíme.",
+   "cta": "Chci cenu odstranění graffiti",
+   "note": "Pošlete fotku detailu i celé plochy a do 24 hodin se vám ozveme. Nacenění je zdarma a nezávazné. Termín, který domluvíme, dodržíme.",
+   "trust": [
+    "★★★★★ 5,0 / 529 recenzí na Google ↗",
+    "Náš tým má přes 15 let praxe v oboru"
+   ],
+   "material": {
+    "aria": "Možnosti odstranění graffiti",
+    "eyebrow": "Řešení podle vašeho povrchu",
+    "h2": "Jak volíme postup",
+    "items": [
+     "Čištění podle materiálu",
+     "Odstranění nebo překrytí",
+     "Sjednocující nátěr plochy"
+    ]
+   },
+   "jump": [
+    [
+     "O službě",
+     "#rozsah"
+    ],
+    [
+     "Ukázky",
+     "#ukazky"
+    ],
+    [
+     "Postup",
+     "#realizace-postup"
+    ],
+    [
+     "Otázky",
+     "#otazky"
+    ],
+    [
+     "Cena",
+     "#cena"
+    ],
+    [
+     "Poptávka ↗",
+     "#poptavka"
+    ]
+   ],
+   "showcase": {
+    "eyebrow": "Ukázky realizací",
+    "h2": "Podívejte se na výsledek.",
+    "visible": 1,
+    "more": "",
+    "other": [],
+    "extraText": []
+   },
+   "rozsah": {
+    "eyebrow": "01 / O službě",
+    "h2": "Proč odstranění graffiti s Tři Mistry",
+    "intro": [
+     "Každý povrch snese jiný zásah. Nejdřív posoudíme materiál, barvu a stav plochy. Podle toho zvolíme čištění, odstranění nebo překrytí a domluvíme, jestli je potřeba navazující nátěr."
+    ],
+    "benefits": [
+     [
+      "Postup podle povrchu",
+      "Fasáda a další povrchy vyžadují odlišný přístup. Podle materiálu a jeho stavu zvolíme čištění, odstranění nebo překrytí."
+     ],
+     [
+      "Plocha, která působí jednotně",
+      "Pokud po zásahu zůstane rozdíl v barvě, domluvíme navazující nátěr a povrch sjednotíme. Celou fasádu obnovíme v rámci nátěrů fasád."
+     ],
+     [
+      "Stejní lidé, čistá práce",
+      "Kdo si s vámi zakázku domluví, ten ji i udělá. Termín potvrdíme předem a po práci uklidíme."
+     ]
+    ],
+    "processTitle": "Jak probíhá realizace",
+    "steps": [
+     [
+      "Pošlete detail i celek",
+      "Podle fotografií a materiálu probereme rozsah zásahu."
+     ],
+     [
+      "Posoudíme podklad",
+      "Zohledníme povrchovou úpravu a stav poškozeného místa."
+     ],
+     [
+      "Zvolíme vhodný postup",
+      "Použijeme čištění, odstranění nebo překrytí podle podmínek."
+     ],
+     [
+      "Sjednotíme výsledek",
+      "Případný navazující nátěr domluvíme podle stavu plochy."
+     ]
+    ],
+    "faqTitle": "Cena a časté otázky",
+    "faqs": [
+     [
+      "Kolik stojí odstranění graffiti?",
+      "<p>Cena závisí na velikosti a typu graffiti, materiálu a stavu podkladu, zvoleném postupu a případném navazujícím nátěru. Pošlete fotku detailu i celé plochy a přibližné rozměry a připravíme nezávaznou cenu.</p>"
+     ],
+     [
+      "Lze graffiti odstranit z každého povrchu?",
+      "<p>Postup a výsledek závisí na materiálu a barvě. Někdy je vhodnější překrytí nebo navazující nátěr.</p>"
+     ],
+     [
+      "Co vám máme poslat?",
+      "<p>Fotografii detailu i celé plochy, přibližné rozměry, materiál a místo realizace.</p>"
+     ],
+     [
+      "Zůstane po graffiti vidět skvrna?",
+      "<p>Záleží na materiálu a barvě podkladu. Pokud rozdíl zůstane, domluvíme navazující nátěr a plochu sjednotíme.</p>"
+     ],
+     [
+      "Jak dlouho odstranění graffiti trvá?",
+      "<p>Záleží na velikosti plochy, materiálu a zvoleném postupu. Délku práce potvrdíme spolu s cenou.</p>"
+     ],
+     [
+      "Kde graffiti odstraňujete?",
+      "<p>V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna.</p>"
+     ]
+    ],
+    "allText": "01 / O služběProč odstranění graffiti s Tři Mistry Každý povrch snese jiný zásah. Nejdřív posoudíme materiál, barvu a stav plochy. Podle toho zvolíme čištění, odstranění nebo překrytí a domluvíme, jestli je potřeba navazující nátěr. Postup podle povrchuFasáda a další povrchy vyžadují odlišný přístup. Podle materiálu a jeho stavu zvolíme čištění, odstranění nebo překrytí. Plocha, která působí jednotněPokud po zásahu zůstane rozdíl v barvě, domluvíme navazující nátěr a povrch sjednotíme. Celou fasádu obnovíme v rámci nátěrů fasád. Stejní lidé, čistá práceKdo si s vámi zakázku domluví, ten ji i udělá. Termín potvrdíme předem a po práci uklidíme. Jak probíhá realizace 01Pošlete detail i celekPodle fotografií a materiálu probereme rozsah zásahu.02Posoudíme podkladZohledníme povrchovou úpravu a stav poškozeného místa.03Zvolíme vhodný postupPoužijeme čištění, odstranění nebo překrytí podle podmínek.04Sjednotíme výsledekPřípadný navazující nátěr domluvíme podle stavu plochy. Cena a časté otázky Kolik stojí odstranění graffiti?+Cena závisí na velikosti a typu graffiti, materiálu a stavu podkladu, zvoleném postupu a případném navazujícím nátěru. Pošlete fotku detailu i celé plochy a přibližné rozměry a připravíme nezávaznou cenu. Lze graffiti odstranit z každého povrchu?+Postup a výsledek závisí na materiálu a barvě. Někdy je vhodnější překrytí nebo navazující nátěr. Co vám máme poslat?+Fotografii detailu i celé plochy, přibližné rozměry, materiál a místo realizace. Zůstane po graffiti vidět skvrna?+Záleží na materiálu a barvě podkladu. Pokud rozdíl zůstane, domluvíme navazující nátěr a plochu sjednotíme. Jak dlouho odstranění graffiti trvá?+Záleží na velikosti plochy, materiálu a zvoleném postupu. Délku práce potvrdíme spolu s cenou. Kde graffiti odstraňujete?+V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna."
+   },
+   "hasReviews": false,
+   "cena": {
+    "eyebrow": "Cena odstranění graffiti",
+    "h2": "Kolik stojí odstranění graffiti?",
+    "lead": "Cenu počítáme podle skutečné plochy a zvoleného postupu. Zakrytí okolí, samotná práce i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky.",
+    "factors": [
+     [
+      "Velikost plochy",
+      "Kolik metrů čtverečních graffiti zabírá."
+     ],
+     [
+      "Typ graffiti",
+      "Druh barvy, počet vrstev a stáří, pokud ho znáte."
+     ],
+     [
+      "Materiál podkladu",
+      "Fasáda nebo jiný povrch a jeho stav."
+     ],
+     [
+      "Postup a dokončení",
+      "Čištění, odstranění nebo překrytí a případný nový nátěr."
+     ]
+    ],
+    "howEyebrow": "Jak získat cenu",
+    "how": [
+     [
+      "Pošlete fotky graffiti",
+      "Stačí fotka detailu i celé plochy, přibližné rozměry a místo."
+     ],
+     [
+      "Ozveme se s cenou",
+      "Připravíme nezávaznou cenu zdarma. U větší zakázky se přijedeme podívat."
+     ],
+     [
+      "Domluvíme termín",
+      "Den nástupu i dokončení potvrdíme předem a dodržíme ho."
+     ]
+    ],
+    "cta": "Chci cenu odstranění graffiti",
+    "phone": "nebo zavolejte +420 774 927 182",
+    "areaEyebrow": "Kde pracujeme",
+    "areaH2": "Odstranění graffiti v Brně a okolí do 20 km",
+    "places": [
+     "Žabovřesky",
+     "Královo Pole",
+     "Líšeň",
+     "Bystrc",
+     "Bohunice",
+     "Židenice",
+     "Komín",
+     "Starý Lískovec",
+     "Střed",
+     "Modřice",
+     "Šlapanice",
+     "Kuřim",
+     "Rosice",
+     "Slavkov u Brna"
+    ],
+    "allText": "Cena odstranění graffiti Kolik stojí odstranění graffiti? Cenu počítáme podle skutečné plochy a zvoleného postupu. Zakrytí okolí, samotná práce i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky. Velikost plochyKolik metrů čtverečních graffiti zabírá.Typ graffitiDruh barvy, počet vrstev a stáří, pokud ho znáte.Materiál podkladuFasáda nebo jiný povrch a jeho stav.Postup a dokončeníČištění, odstranění nebo překrytí a případný nový nátěr. Jak získat cenu 01Pošlete fotky graffitiStačí fotka detailu i celé plochy, přibližné rozměry a místo.02Ozveme se s cenouPřipravíme nezávaznou cenu zdarma. U větší zakázky se přijedeme podívat.03Domluvíme termínDen nástupu i dokončení potvrdíme předem a dodržíme ho. Chci cenu odstranění graffiti↗ nebo zavolejte +420 774 927 182 Kde pracujemeOdstranění graffiti v Brně a okolí do 20 km ŽabovřeskyKrálovo PoleLíšeňBystrcBohuniceŽideniceKomínStarý LískovecStředModřiceŠlapaniceKuřimRosiceSlavkov u Brna"
+   },
+   "kontakt": {
+    "eyebrow": "02 / Nezávazná poptávka",
+    "h2": "Pojďme se domluvit.",
+    "p": "Pošlete nám stručné zadání. Probereme možnosti a připravíme nabídku podle skutečného rozsahu práce.",
+    "asideTitle": "Pro první domluvu stačí:",
+    "aside": "materiál a velikost plochy, stáří graffiti, pokud ho znáte, fotografie detailu i celého místa.",
+    "formService": "Odstranění graffiti",
+    "selected": "Odstranění graffiti",
+    "hint": "Uveďte materiál povrchu, přibližnou plochu a stáří graffiti. Přiložte fotografie a požadovaný termín zásahu."
+   },
+   "mobileBar": [
+    "Zavolat",
+    "Nezávazně poptat↗"
+   ]
+  },
+  "pismomalirstvi": {
+   "title": "Písmomalířství Brno – nápisy a loga na zeď | Tři Mistři",
+   "description": "Ručně malovaný nápis, firemní logo na fasádu nebo malba na zeď v Brně a okolí. Probereme motiv, rozměry i podklad, obnovíme i starý nápis. Cena podle fotek.",
+   "breadcrumb": [
+    "Úvod",
+    "Služby",
+    "Písmomalířství"
+   ],
+   "eyebrow": "Tři Mistři / Brno a okolí",
+   "h1": "Písmomalířství v Brně.",
+   "lead": "Ručně malovaný nápis nebo logo, které je dobře čitelné na fasádě i v interiéru. Váš motiv přeneseme na stěnu a proporce i barvy sladíme s podkladem. Přijdou pokaždé stejní lidé a po práci uklidíme.",
+   "cta": "Chci cenu nápisu",
+   "note": "Pošlete motiv, rozměry a fotku plochy a do 24 hodin se vám ozveme. Nacenění je zdarma a nezávazné. Termín, který domluvíme, dodržíme.",
+   "trust": [
+    "★★★★★ 5,0 / 529 recenzí na Google ↗",
+    "Náš tým má přes 15 let praxe v oboru"
+   ],
+   "cover": {
+    "src": "./assets/img/gallery/thumbs/pismomalirstvi2-700w.webp",
+    "alt": "Písmomalířství - Obec Vrbovec",
+    "w": "700",
+    "h": "933",
+    "label": "Z naší práce",
+    "place": "Obec Vrbovec"
+   },
+   "jump": [
+    [
+     "O službě",
+     "#rozsah"
+    ],
+    [
+     "Ukázky",
+     "#ukazky"
+    ],
+    [
+     "Postup",
+     "#realizace-postup"
+    ],
+    [
+     "Otázky",
+     "#otazky"
+    ],
+    [
+     "Cena",
+     "#cena"
+    ],
+    [
+     "Poptávka ↗",
+     "#poptavka"
+    ]
+   ],
+   "showcase": {
+    "eyebrow": "Ukázky realizací",
+    "h2": "Podívejte se na výsledek.",
+    "visible": 1,
+    "more": "",
+    "other": [],
+    "extraText": []
+   },
+   "rozsah": {
+    "eyebrow": "01 / O službě",
+    "h2": "Proč písmomalířství s Tři Mistry",
+    "intro": [
+     "U ručního nápisu rozhodují proporce a čisté hrany. Motiv s vámi projdeme, domluvíme umístění a barvy a malbu dokončíme tak, aby byla dobře čitelná."
+    ],
+    "benefits": [
+     [
+      "Nápis podle vašeho návrhu",
+      "Pošlete text, logo nebo motiv. Proporce, umístění a barvy sladíme s návrhem a charakterem povrchu."
+     ],
+     [
+      "Fasáda, interiér i obnova",
+      "Malujeme loga a nápisy na fasády i na stěny v interiéru. Obnovíme také stávající nápisy a značení na různých podkladech."
+     ],
+     [
+      "Stejní lidé od návrhu po předání",
+      "Kdo s vámi motiv projde, ten ho i namaluje. Termín potvrdíme předem a po práci uklidíme."
+     ]
+    ],
+    "processTitle": "Jak probíhá realizace",
+    "steps": [
+     [
+      "Projdeme motiv",
+      "Pošlete návrh, text a požadované rozměry."
+     ],
+     [
+      "Připravíme umístění",
+      "Domluvíme proporce, barvy a podklad."
+     ],
+     [
+      "Přeneseme návrh",
+      "Provedeme ruční malbu podle domluveného zadání."
+     ],
+     [
+      "Dokončíme detaily",
+      "Zkontrolujeme hrany, čitelnost a výsledné provedení."
+     ]
+    ],
+    "faqTitle": "Cena a časté otázky",
+    "faqs": [
+     [
+      "Kolik stojí ruční nápis nebo logo?",
+      "<p>Cena závisí na rozměrech a složitosti motivu, přípravě podkladu a přístupu k místu malby. Pošlete motiv, rozměry a fotku plochy a připravíme nezávaznou cenu.</p>"
+     ],
+     [
+      "Co potřebujete pro nacenění nápisu nebo loga?",
+      "<p>Pošlete motiv, jeho rozměry, fotografii a materiál plochy. Cenu ovlivňuje složitost návrhu, příprava podkladu a přístup k místu malby.</p>"
+     ],
+     [
+      "Malujete loga také na fasády?",
+      "<p>Ano, podle materiálu a stavu venkovní plochy.</p>"
+     ],
+     [
+      "Umíte obnovit stávající nápis?",
+      "<p>Ano. Z fotografie a stavu podkladu navrhneme vhodný rozsah obnovy.</p>"
+     ],
+     [
+      "Jak dlouho malba nápisu trvá?",
+      "<p>Záleží na velikosti a složitosti motivu a na přípravě podkladu. Délku práce potvrdíme spolu s cenou.</p>"
+     ],
+     [
+      "Kde písmomalířství děláte?",
+      "<p>V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna.</p>"
+     ]
+    ],
+    "allText": "01 / O služběProč písmomalířství s Tři Mistry U ručního nápisu rozhodují proporce a čisté hrany. Motiv s vámi projdeme, domluvíme umístění a barvy a malbu dokončíme tak, aby byla dobře čitelná. Nápis podle vašeho návrhuPošlete text, logo nebo motiv. Proporce, umístění a barvy sladíme s návrhem a charakterem povrchu. Fasáda, interiér i obnovaMalujeme loga a nápisy na fasády i na stěny v interiéru. Obnovíme také stávající nápisy a značení na různých podkladech. Stejní lidé od návrhu po předáníKdo s vámi motiv projde, ten ho i namaluje. Termín potvrdíme předem a po práci uklidíme. Jak probíhá realizace 01Projdeme motivPošlete návrh, text a požadované rozměry.02Připravíme umístěníDomluvíme proporce, barvy a podklad.03Přeneseme návrhProvedeme ruční malbu podle domluveného zadání.04Dokončíme detailyZkontrolujeme hrany, čitelnost a výsledné provedení. Cena a časté otázky Kolik stojí ruční nápis nebo logo?+Cena závisí na rozměrech a složitosti motivu, přípravě podkladu a přístupu k místu malby. Pošlete motiv, rozměry a fotku plochy a připravíme nezávaznou cenu. Co potřebujete pro nacenění nápisu nebo loga?+Pošlete motiv, jeho rozměry, fotografii a materiál plochy. Cenu ovlivňuje složitost návrhu, příprava podkladu a přístup k místu malby. Malujete loga také na fasády?+Ano, podle materiálu a stavu venkovní plochy. Umíte obnovit stávající nápis?+Ano. Z fotografie a stavu podkladu navrhneme vhodný rozsah obnovy. Jak dlouho malba nápisu trvá?+Záleží na velikosti a složitosti motivu a na přípravě podkladu. Délku práce potvrdíme spolu s cenou. Kde písmomalířství děláte?+V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna."
+   },
+   "hasReviews": false,
+   "cena": {
+    "eyebrow": "Cena nápisu",
+    "h2": "Kolik stojí ruční nápis nebo logo?",
+    "lead": "Cenu počítáme podle konkrétního motivu a plochy. Příprava podkladu, malba i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky.",
+    "factors": [
+     [
+      "Velikost motivu",
+      "Rozměry nápisu nebo loga na stěně."
+     ],
+     [
+      "Složitost návrhu",
+      "Písmo, detaily a tvar loga nebo malby."
+     ],
+     [
+      "Podklad",
+      "Materiál a stav plochy, potřebná příprava."
+     ],
+     [
+      "Přístup k místu",
+      "Interiér, fasáda nebo práce ve výšce."
+     ]
+    ],
+    "howEyebrow": "Jak získat cenu",
+    "how": [
+     [
+      "Pošlete motiv a fotku",
+      "Stačí návrh nebo text, požadované rozměry a fotka plochy."
+     ],
+     [
+      "Ozveme se s cenou",
+      "Připravíme nezávaznou cenu zdarma. U větší zakázky se přijedeme podívat."
+     ],
+     [
+      "Domluvíme termín",
+      "Den nástupu i dokončení potvrdíme předem a dodržíme ho."
+     ]
+    ],
+    "cta": "Chci cenu nápisu",
+    "phone": "nebo zavolejte +420 774 927 182",
+    "areaEyebrow": "Kde pracujeme",
+    "areaH2": "Písmomalířství v Brně a okolí do 20 km",
+    "places": [
+     "Žabovřesky",
+     "Královo Pole",
+     "Líšeň",
+     "Bystrc",
+     "Bohunice",
+     "Židenice",
+     "Komín",
+     "Starý Lískovec",
+     "Střed",
+     "Modřice",
+     "Šlapanice",
+     "Kuřim",
+     "Rosice",
+     "Slavkov u Brna"
+    ],
+    "allText": "Cena nápisu Kolik stojí ruční nápis nebo logo? Cenu počítáme podle konkrétního motivu a plochy. Příprava podkladu, malba i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky. Velikost motivuRozměry nápisu nebo loga na stěně.Složitost návrhuPísmo, detaily a tvar loga nebo malby.PodkladMateriál a stav plochy, potřebná příprava.Přístup k místuInteriér, fasáda nebo práce ve výšce. Jak získat cenu 01Pošlete motiv a fotkuStačí návrh nebo text, požadované rozměry a fotka plochy.02Ozveme se s cenouPřipravíme nezávaznou cenu zdarma. U větší zakázky se přijedeme podívat.03Domluvíme termínDen nástupu i dokončení potvrdíme předem a dodržíme ho. Chci cenu nápisu↗ nebo zavolejte +420 774 927 182 Kde pracujemePísmomalířství v Brně a okolí do 20 km ŽabovřeskyKrálovo PoleLíšeňBystrcBohuniceŽideniceKomínStarý LískovecStředModřiceŠlapaniceKuřimRosiceSlavkov u Brna"
+   },
+   "kontakt": {
+    "eyebrow": "02 / Nezávazná poptávka",
+    "h2": "Pojďme se domluvit.",
+    "p": "Pošlete nám stručné zadání. Probereme možnosti a připravíme nabídku podle skutečného rozsahu práce.",
+    "asideTitle": "Pro první domluvu stačí:",
+    "aside": "text, logo nebo motiv, rozměry a místo umístění, fotografie a materiál podkladu.",
+    "formService": "Písmomalířství",
+    "selected": "Písmomalířství",
+    "hint": "Uveďte rozměry, materiál podkladu, požadovaný text nebo motiv a termín. Přiložte fotografii místa a případný návrh."
+   },
+   "mobileBar": [
+    "Zavolat",
+    "Nezávazně poptat↗"
+   ]
+  },
+  "prumyslove-natery": {
+   "title": "Průmyslové a antikorozní nátěry Brno | Tři Mistři",
+   "description": "Antikorozní nátěry ocelových konstrukcí, hal a kovových prvků v Brně a okolí. Připravíme povrch, zvolíme systém podle provozu a termín potvrdíme předem.",
+   "breadcrumb": [
+    "Úvod",
+    "Služby",
+    "Průmyslové a antikorozní nátěry"
+   ],
+   "eyebrow": "Tři Mistři / Brno a okolí",
+   "h1": "Průmyslové a antikorozní nátěry v Brně.",
+   "lead": "Ochranný nátěr ocelových konstrukcí, hal a namáhaných kovových prvků. Posoudíme stav povrchu i podmínky provozu, povrch připravíme a naneseme vhodný ochranný systém. Termín i omezení provozu domluvíme předem.",
+   "cta": "Chci cenu nátěru",
+   "note": "Pošlete fotky konstrukce a přibližné rozměry a do 24 hodin se vám ozveme. Nacenění je zdarma a nezávazné. Termín, který domluvíme, dodržíme.",
+   "trust": [
+    "★★★★★ 5,0 / 529 recenzí na Google ↗",
+    "Náš tým má přes 15 let praxe v oboru"
+   ],
+   "cover": {
+    "src": "./assets/img/gallery/thumbs/prumyslovenatery12-700w.webp",
+    "alt": "Průmyslový nátěr 1 - Opatovice",
+    "w": "700",
+    "h": "933",
+    "label": "Z naší práce",
+    "place": "Opatovice"
+   },
+   "jump": [
+    [
+     "O službě",
+     "#rozsah"
+    ],
+    [
+     "Ukázky",
+     "#ukazky"
+    ],
+    [
+     "Postup",
+     "#realizace-postup"
+    ],
+    [
+     "Otázky",
+     "#otazky"
+    ],
+    [
+     "Cena",
+     "#cena"
+    ],
+    [
+     "Poptávka ↗",
+     "#poptavka"
+    ]
+   ],
+   "showcase": {
+    "eyebrow": "Ukázky realizací",
+    "h2": "Podívejte se na výsledek.",
+    "visible": 1,
+    "more": "",
+    "other": [],
+    "extraText": []
+   },
+   "rozsah": {
+    "eyebrow": "01 / O službě",
+    "h2": "Proč průmyslové nátěry s Tři Mistry",
+    "intro": [
+     "Ochranný nátěr drží jen na dobře připraveném povrchu. Proto nejdřív řešíme očištění, korozi a staré vrstvy. Nátěrový systém volíme podle materiálu a namáhání."
+    ],
+    "benefits": [
+     [
+      "Systém podle provozu",
+      "Nátěrový systém volíme podle materiálu a namáhání konkrétních prvků. Rozsah přizpůsobíme objektu a způsobu používání."
+     ],
+     [
+      "Příprava povrchu na prvním místě",
+      "Před ochrannými vrstvami očistíme povrch a posoudíme stav původních nátěrů i koroze. Podle toho určíme potřebnou přípravu."
+     ],
+     [
+      "Domluvený termín, stejní lidé",
+      "Termín i omezení provozu domluvíme předem a dodržíme je. Na zakázce pracují pokaždé stejní lidé a po práci uklidíme."
+     ]
+    ],
+    "processTitle": "Jak probíhá realizace",
+    "steps": [
+     [
+      "Projdeme objekt a provoz",
+      "Upřesníme rozsah konstrukcí, namáhání a možnosti přístupu."
+     ],
+     [
+      "Navrhneme systém",
+      "Stanovíme potřebnou přípravu a ochranné vrstvy."
+     ],
+     [
+      "Připravíme a natřeme",
+      "Očistíme povrch a provedeme domluvený systém."
+     ],
+     [
+      "Zkontrolujeme dokončení",
+      "Projdeme rozsah prací a předání podle dohody."
+     ]
+    ],
+    "faqTitle": "Cena a časté otázky",
+    "faqs": [
+     [
+      "Jak se stanovuje cena průmyslových nátěrů?",
+      "<p>Rozhoduje plocha a členitost konstrukcí, stupeň koroze, potřebná příprava, výška a omezení provozu. Pošlete fotky a přibližné rozměry konstrukcí a připravíme nezávaznou cenu. Podrobnosti upřesníme při prohlídce.</p>"
+     ],
+     [
+      "Natíráte ocelové konstrukce?",
+      "<p>Ano. Rozsah přípravy a ochranu volíme podle stavu a namáhání prvků.</p>"
+     ],
+     [
+      "Lze pracovat za provozu?",
+      "<p>Záleží na prostoru, přístupu a podmínkách realizace. Omezení provozu probereme před nabídkou.</p>"
+     ],
+     [
+      "Co vám máme poslat?",
+      "<p>Rozměry a fotky konstrukcí, stav koroze a starých vrstev, přístup a omezení vašeho provozu.</p>"
+     ],
+     [
+      "Jak dlouho nátěr konstrukce trvá?",
+      "<p>Záleží na ploše, přípravě povrchu, počtu vrstev a přístupu. Délku práce i případná omezení provozu potvrdíme spolu s cenou.</p>"
+     ],
+     [
+      "Kde průmyslové nátěry děláte?",
+      "<p>V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna.</p>"
+     ]
+    ],
+    "allText": "01 / O služběProč průmyslové nátěry s Tři Mistry Ochranný nátěr drží jen na dobře připraveném povrchu. Proto nejdřív řešíme očištění, korozi a staré vrstvy. Nátěrový systém volíme podle materiálu a namáhání. Systém podle provozuNátěrový systém volíme podle materiálu a namáhání konkrétních prvků. Rozsah přizpůsobíme objektu a způsobu používání. Příprava povrchu na prvním místěPřed ochrannými vrstvami očistíme povrch a posoudíme stav původních nátěrů i koroze. Podle toho určíme potřebnou přípravu. Domluvený termín, stejní lidéTermín i omezení provozu domluvíme předem a dodržíme je. Na zakázce pracují pokaždé stejní lidé a po práci uklidíme. Jak probíhá realizace 01Projdeme objekt a provozUpřesníme rozsah konstrukcí, namáhání a možnosti přístupu.02Navrhneme systémStanovíme potřebnou přípravu a ochranné vrstvy.03Připravíme a natřemeOčistíme povrch a provedeme domluvený systém.04Zkontrolujeme dokončeníProjdeme rozsah prací a předání podle dohody. Cena a časté otázky Jak se stanovuje cena průmyslových nátěrů?+Rozhoduje plocha a členitost konstrukcí, stupeň koroze, potřebná příprava, výška a omezení provozu. Pošlete fotky a přibližné rozměry konstrukcí a připravíme nezávaznou cenu. Podrobnosti upřesníme při prohlídce. Natíráte ocelové konstrukce?+Ano. Rozsah přípravy a ochranu volíme podle stavu a namáhání prvků. Lze pracovat za provozu?+Záleží na prostoru, přístupu a podmínkách realizace. Omezení provozu probereme před nabídkou. Co vám máme poslat?+Rozměry a fotky konstrukcí, stav koroze a starých vrstev, přístup a omezení vašeho provozu. Jak dlouho nátěr konstrukce trvá?+Záleží na ploše, přípravě povrchu, počtu vrstev a přístupu. Délku práce i případná omezení provozu potvrdíme spolu s cenou. Kde průmyslové nátěry děláte?+V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna."
+   },
+   "hasReviews": false,
+   "cena": {
+    "eyebrow": "Cena průmyslového nátěru",
+    "h2": "Kolik stojí průmyslový nebo antikorozní nátěr?",
+    "lead": "Cenu počítáme podle skutečné plochy a potřebné přípravy. Příprava povrchu, nátěr i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky.",
+    "factors": [
+     [
+      "Plocha a členitost",
+      "Kolik metrů čtverečních a jak složitá je konstrukce."
+     ],
+     [
+      "Stupeň koroze",
+      "Stav kovu a původních nátěrů."
+     ],
+     [
+      "Příprava a systém",
+      "Očištění povrchu a ochranné vrstvy podle namáhání."
+     ],
+     [
+      "Výška a provoz",
+      "Přístup ke konstrukci a omezení vašeho provozu."
+     ]
+    ],
+    "howEyebrow": "Jak získat cenu",
+    "how": [
+     [
+      "Pošlete fotky konstrukce",
+      "Stačí fotky, přibližné rozměry a popis provozu."
+     ],
+     [
+      "Ozveme se s cenou",
+      "Připravíme nezávaznou cenu zdarma. Podrobnosti upřesníme při prohlídce."
+     ],
+     [
+      "Domluvíme termín",
+      "Den nástupu i dokončení potvrdíme předem a dodržíme ho."
+     ]
+    ],
+    "cta": "Chci cenu nátěru",
+    "phone": "nebo zavolejte +420 774 927 182",
+    "areaEyebrow": "Kde pracujeme",
+    "areaH2": "Průmyslové nátěry v Brně a okolí do 20 km",
+    "places": [
+     "Žabovřesky",
+     "Královo Pole",
+     "Líšeň",
+     "Bystrc",
+     "Bohunice",
+     "Židenice",
+     "Komín",
+     "Starý Lískovec",
+     "Střed",
+     "Modřice",
+     "Šlapanice",
+     "Kuřim",
+     "Rosice",
+     "Slavkov u Brna"
+    ],
+    "allText": "Cena průmyslového nátěru Kolik stojí průmyslový nebo antikorozní nátěr? Cenu počítáme podle skutečné plochy a potřebné přípravy. Příprava povrchu, nátěr i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky. Plocha a členitostKolik metrů čtverečních a jak složitá je konstrukce.Stupeň korozeStav kovu a původních nátěrů.Příprava a systémOčištění povrchu a ochranné vrstvy podle namáhání.Výška a provozPřístup ke konstrukci a omezení vašeho provozu. Jak získat cenu 01Pošlete fotky konstrukceStačí fotky, přibližné rozměry a popis provozu.02Ozveme se s cenouPřipravíme nezávaznou cenu zdarma. Podrobnosti upřesníme při prohlídce.03Domluvíme termínDen nástupu i dokončení potvrdíme předem a dodržíme ho. Chci cenu nátěru↗ nebo zavolejte +420 774 927 182 Kde pracujemePrůmyslové nátěry v Brně a okolí do 20 km ŽabovřeskyKrálovo PoleLíšeňBystrcBohuniceŽideniceKomínStarý LískovecStředModřiceŠlapaniceKuřimRosiceSlavkov u Brna"
+   },
+   "kontakt": {
+    "eyebrow": "02 / Nezávazná poptávka",
+    "h2": "Pojďme se domluvit.",
+    "p": "Pošlete nám stručné zadání. Probereme možnosti a připravíme nabídku podle skutečného rozsahu práce.",
+    "asideTitle": "Pro první domluvu stačí:",
+    "aside": "rozměry a fotografie konstrukcí, stav koroze a starých vrstev, přístup a omezení vašeho provozu.",
+    "formService": "Ocelové konstrukce",
+    "selected": "Ocelové konstrukce",
+    "hint": "Uveďte rozměry konstrukce, stav koroze, přístup a požadovaný termín. Přiložte fotografie."
+   },
+   "mobileBar": [
+    "Zavolat",
+    "Nezávazně poptat↗"
+   ]
+  },
+  "sanace-po-zatekani": {
+   "title": "Oprava stěn a stropů po zatékání Brno | Tři Mistři",
+   "description": "Oprava stěn a stropů po zatékání v Brně a okolí. Odstraníme poškozené vrstvy, izolujeme vodní mapy a vymalujeme tak, aby oprava navazovala. Cena podle fotek.",
+   "breadcrumb": [
+    "Úvod",
+    "Služby",
+    "Sanace po zatékání"
+   ],
+   "eyebrow": "Tři Mistři / Brno a okolí",
+   "h1": "Oprava stěn a stropů po zatékání v Brně.",
+   "lead": "Po zatékání chcete hlavně čistý strop a stěny bez map. Až bude příčina opravená a podklad vyschne, odstraníme poškozené vrstvy, izolujeme skvrny a vymalujeme tak, aby oprava navazovala na okolí. Přijdou pokaždé stejní lidé a po práci uklidíme.",
+   "cta": "Chci cenu opravy",
+   "note": "Pošlete fotky poškozeného místa a do 24 hodin se vám ozveme. Nacenění je zdarma a nezávazné. Termín, který domluvíme, dodržíme.",
+   "trust": [
+    "★★★★★ 5,0 / 529 recenzí na Google ↗",
+    "Náš tým má přes 15 let praxe v oboru"
+   ],
+   "material": {
+    "aria": "Možnosti povrchové úpravy",
+    "eyebrow": "Řešení podle vašeho povrchu",
+    "h2": "Co musí být před opravou splněno",
+    "items": [
+     "Opravená příčina",
+     "Připravený podklad",
+     "Správná izolační vrstva"
+    ]
+   },
+   "jump": [
+    [
+     "O službě",
+     "#rozsah"
+    ],
+    [
+     "Ukázky",
+     "#ukazky"
+    ],
+    [
+     "Postup",
+     "#realizace-postup"
+    ],
+    [
+     "Otázky",
+     "#otazky"
+    ],
+    [
+     "Cena",
+     "#cena"
+    ],
+    [
+     "Poptávka ↗",
+     "#poptavka"
+    ]
+   ],
+   "showcase": {
+    "eyebrow": "Ukázky realizací",
+    "h2": "Podívejte se na výsledek.",
+    "visible": 2,
+    "more": "",
+    "other": [],
+    "extraText": []
+   },
+   "rozsah": {
+    "eyebrow": "01 / O službě",
+    "h2": "Proč opravu po zatékání s Tři Mistry",
+    "intro": [
+     "Vodní mapy běžnou barvou často prostupují. Proto nejdřív ověříme, že je příčina opravená a podklad suchý, a skvrny před malováním izolujeme vhodnou vrstvou."
+    ],
+    "benefits": [
+     [
+      "Nejdřív příčina, pak malba",
+      "S opravou začneme, až je zdroj vody odstraněný a podklad vyschlý. Jinak by se nová vrstva mohla znovu poškodit."
+     ],
+     [
+      "Izolace map a skvrn",
+      "Vodní mapy a zažloutlé skvrny izolujeme vhodnou vrstvou a omezíme jejich prostupování do nové malby. Pokud se objevila plíseň, řešíme ji speciálním nátěrem."
+     ],
+     [
+      "Navazující povrch, čistá práce",
+      "Odstín a strukturu sladíme s okolní plochou. Kdo si s vámi opravu domluví, ten ji i udělá, a po práci uklidíme."
+     ],
+     [
+      "Lokální i celoplošné opravy",
+      "Rozsah volíme tak, aby barevnost a struktura působily jednotně."
+     ]
+    ],
+    "processTitle": "Jak probíhá realizace",
+    "steps": [
+     [
+      "Prohlídka a ověření stavu",
+      "Posoudíme rozsah poškození a zda je možné s opravou bezpečně začít."
+     ],
+     [
+      "Odstranění poškozených vrstev",
+      "Oškrábeme nesoudržné části a opravíme nerovnosti a praskliny."
+     ],
+     [
+      "Izolace skvrn",
+      "Nanesením vhodné vrstvy omezíme prostupování map do nové malby."
+     ],
+     [
+      "Finální malba",
+      "Povrch sjednotíme odstínem a rozsahem odpovídajícím okolní ploše."
+     ]
+    ],
+    "faqTitle": "Cena a časté otázky",
+    "faqs": [
+     [
+      "Kolik stojí oprava stěny po zatékání?",
+      "<p>Cenové faktory a podklady pro nabídku najdete v části <a href=\"#cena\">Cena a postup nacenění</a>.</p>"
+     ],
+     [
+      "Můžete malovat ihned po zatékání?",
+      "<p>Ne. Příčina musí být odstraněná a podklad dostatečně vyschlý. Jinak hrozí další poškození nové vrstvy.</p>"
+     ],
+     [
+      "Stačí skvrnu přemalovat běžnou barvou?",
+      "<p>Často ne. Vodní mapy mohou běžným nátěrem prostupovat, proto se podle stavu používá izolační vrstva.</p>"
+     ],
+     [
+      "Opravujete jen poškozené místo?",
+      "<p>Je to možné, ale u výrazných rozdílů v odstínu nebo struktuře může být vhodné vymalovat celou navazující plochu.</p>"
+     ],
+     [
+      "Opravíte i strop po vytopení od sousedů?",
+      "<p>Ano. Po úniku vody z rozvodů nebo z prostoru nad místností opravíme strop i stěny, jakmile je příčina odstraněná a podklad vyschlý.</p>"
+     ],
+     [
+      "Kde opravy po zatékání děláte?",
+      "<p>V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna.</p>"
+     ]
+    ],
+    "allText": "01 / O služběProč opravu po zatékání s Tři Mistry Vodní mapy běžnou barvou často prostupují. Proto nejdřív ověříme, že je příčina opravená a podklad suchý, a skvrny před malováním izolujeme vhodnou vrstvou. Nejdřív příčina, pak malbaS opravou začneme, až je zdroj vody odstraněný a podklad vyschlý. Jinak by se nová vrstva mohla znovu poškodit. Izolace map a skvrnVodní mapy a zažloutlé skvrny izolujeme vhodnou vrstvou a omezíme jejich prostupování do nové malby. Pokud se objevila plíseň, řešíme ji speciálním nátěrem. Navazující povrch, čistá práceOdstín a strukturu sladíme s okolní plochou. Kdo si s vámi opravu domluví, ten ji i udělá, a po práci uklidíme. Lokální i celoplošné opravyRozsah volíme tak, aby barevnost a struktura působily jednotně. Jak probíhá realizace 01Prohlídka a ověření stavuPosoudíme rozsah poškození a zda je možné s opravou bezpečně začít.02Odstranění poškozených vrstevOškrábeme nesoudržné části a opravíme nerovnosti a praskliny.03Izolace skvrnNanesením vhodné vrstvy omezíme prostupování map do nové malby.04Finální malbaPovrch sjednotíme odstínem a rozsahem odpovídajícím okolní ploše. Cena a časté otázky Kolik stojí oprava stěny po zatékání?+Cenové faktory a podklady pro nabídku najdete v části Cena a postup nacenění. Můžete malovat ihned po zatékání?+Ne. Příčina musí být odstraněná a podklad dostatečně vyschlý. Jinak hrozí další poškození nové vrstvy. Stačí skvrnu přemalovat běžnou barvou?+Často ne. Vodní mapy mohou běžným nátěrem prostupovat, proto se podle stavu používá izolační vrstva. Opravujete jen poškozené místo?+Je to možné, ale u výrazných rozdílů v odstínu nebo struktuře může být vhodné vymalovat celou navazující plochu. Opravíte i strop po vytopení od sousedů?+Ano. Po úniku vody z rozvodů nebo z prostoru nad místností opravíme strop i stěny, jakmile je příčina odstraněná a podklad vyschlý. Kde opravy po zatékání děláte?+V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna."
+   },
+   "hasReviews": true,
+   "cena": {
+    "eyebrow": "Cena opravy po zatékání",
+    "h2": "Kolik stojí oprava stěny po zatékání?",
+    "lead": "Cenu počítáme podle rozsahu poškození a plochy, kterou je potřeba vymalovat. Zakrytí, opravy i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky.",
+    "factors": [
+     [
+      "Rozsah poškození",
+      "Jak velká je mapa a které vrstvy jsou poškozené."
+     ],
+     [
+      "Stav podkladu",
+      "Vyschnutí, nesoudržné části, nerovnosti a praskliny."
+     ],
+     [
+      "Izolace skvrn",
+      "Vhodná izolační vrstva podle typu znečištění."
+     ],
+     [
+      "Navazující malba",
+      "Jen poškozené místo, nebo celá stěna či strop."
+     ]
+    ],
+    "howEyebrow": "Jak získat cenu",
+    "how": [
+     [
+      "Pošlete fotky poškození",
+      "Stačí fotka skvrny i celé stěny nebo stropu a přibližné rozměry."
+     ],
+     [
+      "Ozveme se s cenou",
+      "Připravíme nezávaznou cenu zdarma. U větší zakázky se přijedeme podívat."
+     ],
+     [
+      "Domluvíme termín",
+      "Den nástupu i dokončení potvrdíme předem a dodržíme ho."
+     ]
+    ],
+    "cta": "Chci cenu opravy",
+    "phone": "nebo zavolejte +420 774 927 182",
+    "areaEyebrow": "Kde pracujeme",
+    "areaH2": "Opravy po zatékání v Brně a okolí do 20 km",
+    "places": [
+     "Žabovřesky",
+     "Královo Pole",
+     "Líšeň",
+     "Bystrc",
+     "Bohunice",
+     "Židenice",
+     "Komín",
+     "Starý Lískovec",
+     "Střed",
+     "Modřice",
+     "Šlapanice",
+     "Kuřim",
+     "Rosice",
+     "Slavkov u Brna"
+    ],
+    "allText": "Cena opravy po zatékání Kolik stojí oprava stěny po zatékání? Cenu počítáme podle rozsahu poškození a plochy, kterou je potřeba vymalovat. Zakrytí, opravy i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky. Rozsah poškozeníJak velká je mapa a které vrstvy jsou poškozené.Stav podkladuVyschnutí, nesoudržné části, nerovnosti a praskliny.Izolace skvrnVhodná izolační vrstva podle typu znečištění.Navazující malbaJen poškozené místo, nebo celá stěna či strop. Jak získat cenu 01Pošlete fotky poškozeníStačí fotka skvrny i celé stěny nebo stropu a přibližné rozměry.02Ozveme se s cenouPřipravíme nezávaznou cenu zdarma. U větší zakázky se přijedeme podívat.03Domluvíme termínDen nástupu i dokončení potvrdíme předem a dodržíme ho. Chci cenu opravy↗ nebo zavolejte +420 774 927 182 Kde pracujemeOpravy po zatékání v Brně a okolí do 20 km ŽabovřeskyKrálovo PoleLíšeňBystrcBohuniceŽideniceKomínStarý LískovecStředModřiceŠlapaniceKuřimRosiceSlavkov u Brna"
+   },
+   "kontakt": {
+    "eyebrow": "03 / Nezávazná poptávka",
+    "h2": "Pojďme se domluvit.",
+    "p": "Pošlete nám stručné zadání. Probereme možnosti a připravíme nabídku podle skutečného rozsahu práce.",
+    "asideTitle": "Pro první domluvu stačí:",
+    "aside": "fotografie poškozeného místa i celé stěny nebo stropu, zda je příčina zatékání už opravená.",
+    "formService": "Sanace po zatékání",
+    "selected": "Sanace po zatékání",
+    "hint": "Napište, kdy a odkud zatékalo, zda je příčina opravená, rozměr poškození a stav podkladu. Přiložte fotografie."
+   },
+   "mobileBar": [
+    "Zavolat",
+    "Nezávazně poptat↗"
+   ]
+  },
+  "tapetovani": {
+   "title": "Tapetování a lepení tapet Brno | Tři Mistři",
+   "description": "Tapetář v Brně a okolí. Lepíme vliesové, vinylové i klasické tapety a fototapety. Připravíme stěnu, navážeme vzor a po práci uklidíme. Cena podle fotek.",
+   "breadcrumb": [
+    "Úvod",
+    "Služby",
+    "Tapetování"
+   ],
+   "eyebrow": "Tři Mistři / Brno a okolí",
+   "h1": "Tapetování a lepení tapet v Brně.",
+   "lead": "Tapeta, na které nejsou vidět spoje. Připravíme stěnu, pečlivě navážeme vzor a dotáhneme rohy i okraje. Přijdou pokaždé stejní lidé a po práci uklidíme.",
+   "cta": "Chci cenu tapetování",
+   "note": "Pošlete fotku stěny a typ tapety a do 24 hodin se vám ozveme. Nacenění je zdarma a nezávazné. Termín, který domluvíme, dodržíme.",
+   "trust": [
+    "★★★★★ 5,0 / 529 recenzí na Google ↗",
+    "Náš tým má přes 15 let praxe v oboru"
+   ],
+   "cover": {
+    "src": "./assets/img/gallery/thumbs/dekoracnisterky20-700w.webp",
+    "alt": "Tapetování kanceláří - Brno-Trnitá",
+    "w": "700",
+    "h": "933",
+    "label": "Z naší práce",
+    "place": "Brno-Trnitá"
+   },
+   "jump": [
+    [
+     "O službě",
+     "#rozsah"
+    ],
+    [
+     "Ukázky",
+     "#ukazky"
+    ],
+    [
+     "Postup",
+     "#realizace-postup"
+    ],
+    [
+     "Otázky",
+     "#otazky"
+    ],
+    [
+     "Cena",
+     "#cena"
+    ],
+    [
+     "Poptávka ↗",
+     "#poptavka"
+    ]
+   ],
+   "showcase": {
+    "eyebrow": "Ukázky realizací",
+    "h2": "Podívejte se na výsledek.",
+    "visible": 3,
+    "more": "",
+    "other": [],
+    "extraText": []
+   },
+   "rozsah": {
+    "eyebrow": "01 / O službě",
+    "h2": "Proč tapetování s Tři Mistry",
+    "intro": [
+     "U tapety rozhoduje příprava stěny a přesná práce se vzorem. Postup přizpůsobíme vaší tapetě i podkladu, aby výsledek vypadal dobře i zblízka."
+    ],
+    "benefits": [
+     [
+      "Stěna připravená pod tapetu",
+      "Před lepením posoudíme stav stěny a domluvíme potřebné vyrovnání. Nerovnosti pod tapetou pak nejsou vidět."
+     ],
+     [
+      "Vzor, který navazuje",
+      "Pásy pečlivě napojíme a tapetu čistě zakončíme kolem rohů a okrajů. Platí to i pro fototapety."
+     ],
+     [
+      "Stejní lidé, čistá práce",
+      "Kdo si s vámi tapetování domluví, ten ho i udělá. Termín dodržíme a po práci uklidíme."
+     ]
+    ],
+    "processTitle": "Jak probíhá realizace",
+    "steps": [
+     [
+      "Projdeme vybranou tapetu",
+      "Zajímá nás typ, vzor, rozměry stěn a členitost prostoru."
+     ],
+     [
+      "Připravíme stěnu",
+      "Posoudíme podklad a domluvíme potřebné vyrovnání."
+     ],
+     [
+      "Nalepíme jednotlivé pásy",
+      "Pečlivě navážeme vzor a zakončíme okraje."
+     ],
+     [
+      "Zkontrolujeme celek",
+      "Projdeme spoje, rohy a dokončený povrch."
+     ]
+    ],
+    "faqTitle": "Cena a časté otázky",
+    "faqs": [
+     [
+      "Kolik stojí lepení tapet?",
+      "<p>Cena závisí na typu tapety, návaznosti vzoru, velikosti plochy, členitosti stěn a stavu podkladu. Pošlete fotku stěny, přibližné rozměry a typ nebo odkaz na tapetu a připravíme nezávaznou cenu.</p>"
+     ],
+     [
+      "Můžeme mít tapetu už koupenou?",
+      "<p>Ano. Pošlete její typ nebo odkaz a rozměry stěny, ať probereme provedení a potřebné množství.</p>"
+     ],
+     [
+      "Lepíte i fototapety?",
+      "<p>Ano. Přípravu a postup přizpůsobíme konkrétnímu typu tapety a podkladu.</p>"
+     ],
+     [
+      "Je potřeba stěnu před tapetováním připravit?",
+      "<p>Většinou ano. Stav stěny posoudíme podle fotek nebo na místě a potřebné vyrovnání domluvíme předem.</p>"
+     ],
+     [
+      "Jak dlouho tapetování trvá?",
+      "<p>Záleží na ploše, členitosti stěn a přípravě podkladu. Přesnou délku práce potvrdíme spolu s cenou.</p>"
+     ],
+     [
+      "Kde tapetujete?",
+      "<p>V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna.</p>"
+     ]
+    ],
+    "allText": "01 / O služběProč tapetování s Tři Mistry U tapety rozhoduje příprava stěny a přesná práce se vzorem. Postup přizpůsobíme vaší tapetě i podkladu, aby výsledek vypadal dobře i zblízka. Stěna připravená pod tapetuPřed lepením posoudíme stav stěny a domluvíme potřebné vyrovnání. Nerovnosti pod tapetou pak nejsou vidět. Vzor, který navazujePásy pečlivě napojíme a tapetu čistě zakončíme kolem rohů a okrajů. Platí to i pro fototapety. Stejní lidé, čistá práceKdo si s vámi tapetování domluví, ten ho i udělá. Termín dodržíme a po práci uklidíme. Jak probíhá realizace 01Projdeme vybranou tapetuZajímá nás typ, vzor, rozměry stěn a členitost prostoru.02Připravíme stěnuPosoudíme podklad a domluvíme potřebné vyrovnání.03Nalepíme jednotlivé pásyPečlivě navážeme vzor a zakončíme okraje.04Zkontrolujeme celekProjdeme spoje, rohy a dokončený povrch. Cena a časté otázky Kolik stojí lepení tapet?+Cena závisí na typu tapety, návaznosti vzoru, velikosti plochy, členitosti stěn a stavu podkladu. Pošlete fotku stěny, přibližné rozměry a typ nebo odkaz na tapetu a připravíme nezávaznou cenu. Můžeme mít tapetu už koupenou?+Ano. Pošlete její typ nebo odkaz a rozměry stěny, ať probereme provedení a potřebné množství. Lepíte i fototapety?+Ano. Přípravu a postup přizpůsobíme konkrétnímu typu tapety a podkladu. Je potřeba stěnu před tapetováním připravit?+Většinou ano. Stav stěny posoudíme podle fotek nebo na místě a potřebné vyrovnání domluvíme předem. Jak dlouho tapetování trvá?+Záleží na ploše, členitosti stěn a přípravě podkladu. Přesnou délku práce potvrdíme spolu s cenou. Kde tapetujete?+V celém Brně a okolí do zhruba 20 km, například v Modřicích, Šlapanicích, Kuřimi, Rosicích nebo Slavkově u Brna."
+   },
+   "hasReviews": false,
+   "cena": {
+    "eyebrow": "Cena tapetování",
+    "h2": "Kolik stojí tapetování?",
+    "lead": "Cenu počítáme podle skutečné plochy a zvolené tapety. Příprava stěny i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky.",
+    "factors": [
+     [
+      "Plocha a tvar stěn",
+      "Kolik metrů čtverečních a kolik rohů, oken a výklenků."
+     ],
+     [
+      "Typ tapety",
+      "Vliesová, vinylová, klasická tapeta nebo fototapeta."
+     ],
+     [
+      "Návaznost vzoru",
+      "Čím výraznější vzor, tím víc práce s napojením pásů."
+     ],
+     [
+      "Stav podkladu",
+      "Rovinnost stěny a potřebné vyrovnání před lepením."
+     ]
+    ],
+    "howEyebrow": "Jak získat cenu",
+    "how": [
+     [
+      "Pošlete fotku stěny",
+      "Stačí fotka, přibližné rozměry a typ nebo odkaz na tapetu."
+     ],
+     [
+      "Ozveme se s cenou",
+      "Připravíme nezávaznou cenu zdarma. U větší zakázky se přijedeme podívat."
+     ],
+     [
+      "Domluvíme termín",
+      "Den nástupu i dokončení potvrdíme předem a dodržíme ho."
+     ]
+    ],
+    "cta": "Chci cenu tapetování",
+    "phone": "nebo zavolejte +420 774 927 182",
+    "areaEyebrow": "Kde pracujeme",
+    "areaH2": "Tapetování v Brně a okolí do 20 km",
+    "places": [
+     "Žabovřesky",
+     "Královo Pole",
+     "Líšeň",
+     "Bystrc",
+     "Bohunice",
+     "Židenice",
+     "Komín",
+     "Starý Lískovec",
+     "Střed",
+     "Modřice",
+     "Šlapanice",
+     "Kuřim",
+     "Rosice",
+     "Slavkov u Brna"
+    ],
+    "allText": "Cena tapetování Kolik stojí tapetování? Cenu počítáme podle skutečné plochy a zvolené tapety. Příprava stěny i úklid jsou v ceně, kterou vám předem potvrdíme. Žádné skryté položky. Plocha a tvar stěnKolik metrů čtverečních a kolik rohů, oken a výklenků.Typ tapetyVliesová, vinylová, klasická tapeta nebo fototapeta.Návaznost vzoruČím výraznější vzor, tím víc práce s napojením pásů.Stav podkladuRovinnost stěny a potřebné vyrovnání před lepením. Jak získat cenu 01Pošlete fotku stěnyStačí fotka, přibližné rozměry a typ nebo odkaz na tapetu.02Ozveme se s cenouPřipravíme nezávaznou cenu zdarma. U větší zakázky se přijedeme podívat.03Domluvíme termínDen nástupu i dokončení potvrdíme předem a dodržíme ho. Chci cenu tapetování↗ nebo zavolejte +420 774 927 182 Kde pracujemeTapetování v Brně a okolí do 20 km ŽabovřeskyKrálovo PoleLíšeňBystrcBohuniceŽideniceKomínStarý LískovecStředModřiceŠlapaniceKuřimRosiceSlavkov u Brna"
+   },
+   "kontakt": {
+    "eyebrow": "02 / Nezávazná poptávka",
+    "h2": "Pojďme se domluvit.",
+    "p": "Pošlete nám stručné zadání. Probereme možnosti a připravíme nabídku podle skutečného rozsahu práce.",
+    "asideTitle": "Pro první domluvu stačí:",
+    "aside": "rozměry stěn a fotografie, typ nebo odkaz na vybranou tapetu, informace, zda je tapeta zakoupená.",
+    "formService": "Tapetování",
+    "selected": "Tapetování",
+    "hint": "Uveďte rozměry stěn, stav podkladu a požadovaný termín. Máte tapetu již zakoupenou? Přiložte její typ či odkaz a fotografie stěny."
+   },
+   "mobileBar": [
+    "Zavolat",
+    "Nezávazně poptat↗"
+   ]
+  }
+ },
+ "home": {
+  "title": "Malířské práce Brno | Malby, stěrky a nátěry | Tři Mistři",
+  "description": "Tři Mistři: malířské práce v Brně a okolí. Malování bytů a pokojů, dekorativní stěrky, tapetování a nátěry. Prohlédněte si realizace a poptejte práci.",
+  "hero": {
+   "kicker": "Malířství · nátěry · povrchy Brno a okolí",
+   "h1kicker": "Malíři v Brně a dekorativní stěrky",
+   "h1": "MALÍŘI V BRNĚ A DEKORATIVNÍ STĚRKY Práce, která zůstává.",
+   "p": "Pečlivá příprava, jistá ruka a výsledek, který obstojí v každodenním životě.",
+   "actions": [
+    [
+     "Nezávazně poptat↗",
+     "./#poptavka"
+    ],
+    [
+     "Prohlédnout realizace↓",
+     "#realizace"
+    ]
+   ],
+   "foot": [
+    "TŘI MISTŘI — ŘEMESLO V DETAILU",
+    "NÁŠ TÝM MÁ PŘES 15 LET PRAXE V OBORU"
+   ],
+   "rating": [
+    "★★★★★5,0 / 5z 29 recenzí zákazníků na Googlu"
+   ],
+   "shots": [
+    {
+     "img": "./assets/img/hero/mozaika/314-1200.webp",
+     "alt": "Dekorativní stěrka se zlatými akcenty, Brno",
+     "w": "1200",
+     "h": "1600",
+     "sources": [
+      "./assets/img/hero/mozaika/314-mobile.avif",
+      "./assets/img/hero/mozaika/314-mobile.webp",
+      "./assets/img/hero/mozaika/314-1200.avif"
+     ]
+    },
+    {
+     "img": "./assets/img/hero/mozaika/159-1440.webp",
+     "alt": "Dekorativní stěrka v ordinaci, Zlín",
+     "w": "1440",
+     "h": "962",
+     "sources": [
+      "./assets/img/hero/mozaika/159-mobile.avif",
+      "./assets/img/hero/mozaika/159-mobile.webp",
+      "./assets/img/hero/mozaika/159-1440.avif"
+     ]
+    },
+    {
+     "img": "./assets/img/hero/mozaika/272c-1086.webp",
+     "alt": "Průmyslový nátěr schodiště, Opatovice",
+     "w": "1086",
+     "h": "1448",
+     "sources": [
+      "./assets/img/hero/mozaika/272c-mobile.avif",
+      "./assets/img/hero/mozaika/272c-mobile.webp",
+      "./assets/img/hero/mozaika/272c-1086.avif"
+     ]
+    },
+    {
+     "img": "./assets/img/hero/mozaika/44-1200.webp",
+     "alt": "Renovace dveří, Příbram na Moravě",
+     "w": "1200",
+     "h": "1600",
+     "sources": [
+      "./assets/img/hero/mozaika/44-mobile.avif",
+      "./assets/img/hero/mozaika/44-mobile.webp",
+      "./assets/img/hero/mozaika/44-1200.avif"
+     ]
+    },
+    {
+     "img": "./assets/img/hero/mozaika/35-1920.webp",
+     "alt": "Výmalba cukrárny, Střelice",
+     "w": "2048",
+     "h": "1536",
+     "sources": [
+      "./assets/img/hero/mozaika/35-mobile.avif",
+      "./assets/img/hero/mozaika/35-mobile.webp",
+      "./assets/img/hero/mozaika/35-1920.avif"
+     ]
+    },
+    {
+     "img": "./assets/img/hero/mozaika/143-1200.webp",
+     "alt": "Nátěry a renovace fasád, Rozdrojovice",
+     "w": "1200",
+     "h": "1600",
+     "sources": [
+      "./assets/img/hero/mozaika/143-mobile.avif",
+      "./assets/img/hero/mozaika/143-mobile.webp",
+      "./assets/img/hero/mozaika/143-1200.avif"
+     ]
+    }
+   ]
+  },
+  "gallery": {
+   "eyebrow": "01Naše realizace",
+   "h2": "Řemeslo, které je vidět.",
+   "aside": "Každý prostor má svůj příběh.Prohlédněte si ty, na kterých jsme pracovali.",
+   "cats": [
+    {
+     "href": "./dekoracni-sterky",
+     "img": "https://app.trimistri.cz/api/public/web-image?id=ad9ae5b0-bbae-57b0-9697-9caba64e9a1c&size=thumb",
+     "alt": "Dekorativní stěrka - Zlín - Ortodoncie",
+     "h3": "Dekorativní stěrky",
+     "sub": "Ukázky realizací"
+    },
+    {
+     "href": "./natery-drevo-kovu",
+     "img": "https://app.trimistri.cz/api/public/web-image?id=d048159b-efe4-4633-88b7-071f1b39ae24&size=thumb",
+     "alt": "Renovace dveří a oken",
+     "h3": "Dřevo a kov",
+     "sub": "Ukázky realizací"
+    },
+    {
+     "href": "./natery-fasad",
+     "img": "https://app.trimistri.cz/api/public/web-image?id=17954c53-a473-5b54-86f3-73de60b8423c&size=thumb",
+     "alt": "Nátěr fasády - Rozdrojovice Fasáda - po",
+     "h3": "Fasády",
+     "sub": "Ukázky realizací"
+    },
+    {
+     "href": "./natery-interieru",
+     "img": "https://app.trimistri.cz/api/public/web-image?id=4b96f520-ff6b-4e77-8342-59d3b6956b7d&size=thumb",
+     "alt": "Výmalba Cukrárny",
+     "h3": "Malování interiérů",
+     "sub": "Ukázky realizací"
+    },
+    {
+     "href": "./pismomalirstvi",
+     "img": "./assets/img/gallery/thumbs/pismomalirstvi2-700w.webp",
+     "alt": "Písmomalířství - Obec Vrbovec",
+     "h3": "Písmomalířství",
+     "sub": "Ukázky realizací"
+    },
+    {
+     "href": "./prumyslove-natery",
+     "img": "https://app.trimistri.cz/api/public/web-image?id=84ff8f2f-e844-50b0-bdf0-0b1823d885c1&size=thumb",
+     "alt": "Průmyslový nátěr 13 - Opatovice",
+     "h3": "Průmyslové nátěry",
+     "sub": "Ukázky realizací"
+    },
+    {
+     "href": "./tapetovani",
+     "img": "https://app.trimistri.cz/api/public/web-image?id=d7d155e2-ee0e-4038-bbd3-a5668d458310&size=thumb",
+     "alt": "Tapetování • Dětský pokoj",
+     "h3": "Tapetování",
+     "sub": "Ukázky realizací"
+    },
+    {
+     "href": "./specialni-natery",
+     "img": "https://app.trimistri.cz/api/public/web-image?id=dc0eb749-ea7b-4b40-927c-598f7c1ea867&size=thumb",
+     "alt": "Renovace koupelny a wc",
+     "h3": "Speciální interiérové nátěry",
+     "sub": "Ukázky realizací"
+    },
+    {
+     "href": "./sanace-po-zatekani",
+     "img": "https://app.trimistri.cz/api/public/web-image?id=4662a8fd-d2cf-414d-be69-69dff24a5a92&size=thumb",
+     "alt": "Výmalba po zatečení",
+     "h3": "Sanace po zatékání",
+     "sub": "Ukázky realizací"
+    },
+    {
+     "href": "./cisteni-fasad",
+     "img": "https://app.trimistri.cz/api/public/web-image?id=927537d7-a8a9-4611-8821-ee6c749a8265&size=thumb",
+     "alt": "Čištění fasád",
+     "h3": "Čištění fasád a povrchů",
+     "sub": "Ukázky realizací"
+    },
+    {
+     "href": "./odstraneni-grafiti",
+     "img": "https://app.trimistri.cz/api/public/web-image?id=628ed508-bc60-49b3-abe5-5eeeefc65d97&size=thumb",
+     "alt": "Odstranění graffiti",
+     "h3": "Odstranění graffiti",
+     "sub": "Ukázky realizací"
+    }
+   ],
+   "rest": "01Naše realizaceŘemeslo, kteréje vidět.Každý prostor má svůj příběh.Prohlédněte si ty, na kterých jsme pracovali. <img src=\"https://app.trimistri.cz/api/public/web-image?id=ad9ae5b0-bbae-57b0-9697-9caba64e9a1c&amp;size=thumb\" alt=\"Dekorativní stěrka - Zlín - Ortodoncie\" loading=\"lazy\" decoding=\"async\" fetchpriority=\"low\">↗ Dekorativní stěrkyUkázky realizací <img src=\"https://app.trimistri.cz/api/public/web-image?id=d048159b-efe4-4633-88b7-071f1b39ae24&amp;size=thumb\" alt=\"Renovace dveří a oken\" loading=\"lazy\" decoding=\"async\" fetchpriority=\"low\">↗ Dřevo a kovUkázky realizací <img src=\"https://app.trimistri.cz/api/public/web-image?id=17954c53-a473-5b54-86f3-73de60b8423c&amp;size=thumb\" alt=\"Nátěr fasády - Rozdrojovice Fasáda - po\" loading=\"lazy\" decoding=\"async\" fetchpriority=\"low\">↗ FasádyUkázky realizací <img src=\"https://app.trimistri.cz/api/public/web-image?id=4b96f520-ff6b-4e77-8342-59d3b6956b7d&amp;size=thumb\" alt=\"Výmalba Cukrárny\" loading=\"lazy\" decoding=\"async\" fetchpriority=\"low\">↗ Malování interiérůUkázky realizací <img src=\"./assets/img/gallery/thumbs/pismomalirstvi2-700w.webp\" alt=\"Písmomalířství - Obec Vrbovec\" loading=\"lazy\" width=\"700\" height=\"933\" decoding=\"async\" fetchpriority=\"low\">↗ PísmomalířstvíUkázky realizací <img src=\"https://app.trimistri.cz/api/public/web-image?id=84ff8f2f-e844-50b0-bdf0-0b1823d885c1&amp;size=thumb\" alt=\"Průmyslový nátěr 13 - Opatovice\" loading=\"lazy\" decoding=\"async\" fetchpriority=\"low\">↗ Průmyslové nátěryUkázky realizací <img src=\"https://app.trimistri.cz/api/public/web-image?id=d7d155e2-ee0e-4038-bbd3-a5668d458310&amp;size=thumb\" alt=\"Tapetování • Dětský pokoj\" loading=\"lazy\" decoding=\"async\" fetchpriority=\"low\">↗ TapetováníUkázky realizací <img src=\"https://app.trimistri.cz/api/public/web-image?id=dc0eb749-ea7b-4b40-927c-598f7c1ea867&amp;size=thumb\" alt=\"Renovace koupelny a wc\" loading=\"lazy\" decoding=\"async\">↗ Speciální interiérové nátěryUkázky realizací <img src=\"https://app.trimistri.cz/api/public/web-image?id=4662a8fd-d2cf-414d-be69-69dff24a5a92&amp;size=thumb\" alt=\"Výmalba po zatečení\" loading=\"lazy\" decoding=\"async\">↗ Sanace po zatékáníUkázky realizací <img src=\"https://app.trimistri.cz/api/public/web-image?id=927537d7-a8a9-4611-8821-ee6c749a8265&amp;size=thumb\" alt=\"Čištění fasád\" loading=\"lazy\" decoding=\"async\">↗ Čištění fasád a povrchůUkázky realizací <img src=\"https://app.trimistri.cz/api/public/web-image?id=628ed508-bc60-49b3-abe5-5eeeefc65d97&amp;size=thumb\" alt=\"Odstranění graffiti\" loading=\"lazy\" decoding=\"async\">↗ Odstranění graffitiUkázky realizací"
+  },
+  "services": {
+   "html": "<span class=\"tm-anchor\" id=\"specialni-sluzby\"></span><span class=\"tm-anchor\" id=\"co-umime\"></span><div class=\"tm-container\">\n  <div class=\"tm-offer-heading\" data-reveal=\"\"><div><p class=\"tm-eyebrow tm-numbered\"><span class=\"tm-section-number\" aria-hidden=\"true\">02</span><span>Naše služby</span></p><h2>Malířské a natěračské práce <em>v Brně</em></h2><p class=\"tm-offer-intro\">Malování bytů a pokojů, dekorativní a betonové stěrky i nátěry. Pro domácnosti a firmy v Brně a okolí.</p></div><div><strong>Interiér, fasáda, dřevo i kov.</strong><p>Vyberte práci, kterou právě řešíte.</p></div></div>\n  <div class=\"tm-offer-grid tm-offer-grid--cats\">\n        <article class=\"tm-offer-card tm-offer-cat\" data-tm-motion=\"\" style=\"--tm-enter-delay: 0ms;\"><span class=\"tm-offer-icon\"></span><h3><a class=\"tm-offer-cat-link\" href=\"./natery-interieru\">Malování a interiéry</a></h3><p>Malby stěn a stropů, příprava podkladu a čisté dokončení.</p><ul class=\"tm-offer-subs\"><li><a href=\"./natery-interieru\">Malování bytů a interiérů<span aria-hidden=\"true\">↗</span></a></li><li><a href=\"./tapetovani\">Tapetování<span aria-hidden=\"true\">↗</span></a></li><li><a href=\"./specialni-natery\">Speciální interiérové nátěry<span aria-hidden=\"true\">↗</span></a></li><li><a href=\"./sanace-po-zatekani\">Sanace po zatékání<span aria-hidden=\"true\">↗</span></a></li></ul></article>\n        <article class=\"tm-offer-card tm-offer-cat\" data-tm-motion=\"\" style=\"--tm-enter-delay: 65ms;\"><span class=\"tm-offer-icon\"></span><h3><a class=\"tm-offer-cat-link\" href=\"./dekoracni-sterky\">Dekorativní stěrky</a></h3><p>Marmorino, betonové efekty, limewash a další dekorativní techniky.</p><p class=\"tm-offer-tags\"><span>Betonová stěrka</span><span>Marmorino</span><span>Travertino</span><span>Benátský štuk</span><span>Mikrocement</span></p><ul class=\"tm-offer-subs\"><li><a href=\"./dekoracni-sterky\">Betonové a dekorativní stěrky<span aria-hidden=\"true\">↗</span></a></li><li><a href=\"./mikrocement\">Mikrocement a stěrky přes obklady<span aria-hidden=\"true\">↗</span></a></li></ul></article>\n        <article class=\"tm-offer-card tm-offer-cat\" data-tm-motion=\"\" style=\"--tm-enter-delay: 130ms;\"><span class=\"tm-offer-icon\"></span><h3><a class=\"tm-offer-cat-link\" href=\"./natery-fasad\">Fasády, střechy, okapy a svody</a></h3><p>Příprava, opravy a ochranné fasádní nátěry.</p><ul class=\"tm-offer-subs\"><li><a href=\"./natery-fasad\">Nátěry a renovace fasád<span aria-hidden=\"true\">↗</span></a></li><li><a href=\"./natery-strech\">Nátěry střech, okapů a svodů<span aria-hidden=\"true\">↗</span></a></li><li><a href=\"./cisteni-fasad\">Čištění fasád a povrchů<span aria-hidden=\"true\">↗</span></a></li><li><a href=\"./odstraneni-grafiti\">Odstranění graffiti<span aria-hidden=\"true\">↗</span></a></li></ul></article>\n        <article class=\"tm-offer-card tm-offer-cat\" data-tm-motion=\"\" style=\"--tm-enter-delay: 0ms;\"><span class=\"tm-offer-icon\"></span><h3><a class=\"tm-offer-cat-link\" href=\"./natery-drevo-kovu\">Nátěry dřeva a kovů</a></h3><p>Okna, dveře, podbití, pergoly, ploty i ocelové konstrukce.</p><ul class=\"tm-offer-subs\"><li><a href=\"./natery-drevo-kovu\">Nátěry oken, podbití, dřeva a kovů<span aria-hidden=\"true\">↗</span></a></li><li><a href=\"./prumyslove-natery\">Průmyslové a antikorozní nátěry<span aria-hidden=\"true\">↗</span></a></li></ul></article>\n      </div>\n  <div class=\"tm-offer-more\" id=\"dalsi-sluzby\"><div class=\"tm-offer-more-heading\"><h3>Další služby</h3><a class=\"tm-underlink\" href=\"./#realizace\">Naše realizace ↗</a></div><div class=\"tm-offer-more-grid\"><a href=\"./epoxidove-podlahy\"><span>Epoxidové podlahy</span><span class=\"tm-offer-small-arrow\" aria-hidden=\"true\">↗</span></a><a href=\"./pismomalirstvi\"><span>Písmomalířství</span><span class=\"tm-offer-small-arrow\" aria-hidden=\"true\">↗</span></a>  </div></div>\n  <div class=\"tm-quick-quote\" data-quick-quote=\"\">\n    <label for=\"quick-service\" id=\"tm-select-label-1\">S čím vám pomůžeme?</label>\n    <div class=\"tm-quick-quote-controls\">\n      <div class=\"tm-select\"><select id=\"quick-service\" aria-describedby=\"quick-service-note\" class=\"tm-select-native\" tabindex=\"-1\" aria-hidden=\"true\"><option value=\"\">Vyberte službu</option><optgroup label=\"Malování a interiéry\"><option value=\"Malby interiéru\">Malby interiéru</option><option value=\"Tapetování\">Tapetování</option><option value=\"Speciální interiérové nátěry\">Speciální interiérové nátěry</option><option value=\"Sanace po zatékání\">Sanace po zatékání</option></optgroup><optgroup label=\"Dekorativní stěrky\"><option value=\"Dekorativní stěrky\">Dekorativní stěrky</option><option value=\"Mikrocement a stěrky přes obklady\">Mikrocement a stěrky přes obklady</option></optgroup><optgroup label=\"Fasády, střechy, okapy a svody\"><option value=\"Nátěry fasád\">Nátěry fasád</option><option value=\"Nátěry střech\">Nátěry střech, okapů a svodů</option><option value=\"Čištění fasády\">Čištění fasády</option><option value=\"Odstranění graffiti\">Odstranění graffiti</option></optgroup><optgroup label=\"Nátěry dřeva a kovů\"><option value=\"Nátěry dřeva a kovů\">Nátěry dřeva a kovů</option><option value=\"Ocelové konstrukce\">Ocelové konstrukce</option></optgroup><optgroup label=\"Další služby\"><option value=\"Epoxidové podlahy\">Epoxidové podlahy</option><option value=\"Písmomalířství\">Písmomalířství</option></optgroup></select><button type=\"button\" class=\"tm-select-trigger\" id=\"tm-select-button-1\" aria-haspopup=\"listbox\" aria-expanded=\"false\" aria-controls=\"tm-select-list-1\" aria-labelledby=\"tm-select-label-1 tm-select-button-1\"><span class=\"tm-select-value\">Vyberte službu</span></button><ul class=\"tm-select-list\" id=\"tm-select-list-1\" role=\"listbox\" tabindex=\"-1\" hidden=\"\" aria-labelledby=\"tm-select-label-1\"></ul></div>\n      <a class=\"tm-btn\" href=\"#poptavka\"><span class=\"tm-cta-label\">Poptat službu</span><span aria-hidden=\"true\">↗</span></a>\n    </div>\n    <p id=\"quick-service-note\">Vybranou službu vám rovnou předvyplníme do poptávky.</p>\n  </div>\n  <div class=\"tm-offer-help\"><div><strong>Nejste si jistí, co vaše zakázka potřebuje?</strong><p>Popište nám prostor nebo povrch a domluvíme další postup.</p></div><a class=\"tm-btn\" href=\"#poptavka\">Nezávazně poptat <span aria-hidden=\"true\">↗</span></a></div>\n</div>",
+   "text": "02\nNAŠE SLUŽBY\n\nMalířské a natěračské práce v Brně\n\nMalování bytů a pokojů, dekorativní a betonové stěrky i nátěry. Pro domácnosti a firmy v Brně a okolí.\n\nInteriér, fasáda, dřevo i kov.\n\nVyberte práci, kterou právě řešíte.\n\nMalování a interiéry\n\nMalby stěn a stropů, příprava podkladu a čisté dokončení.\n\nMalování bytů a interiérů\n↗\nTapetování\n↗\nSpeciální interiérové nátěry\n↗\nSanace po zatékání\n↗\nDekorativní stěrky\n\nMarmorino, betonové efekty, limewash a další dekorativní techniky.\n\nBetonová stěrka\nMarmorino\nTravertino\nBenátský štuk\nMikrocement\n\nBetonové a dekorativní stěrky\n↗\nMikrocement a stěrky přes obklady\n↗\nFasády, střechy, okapy a svody\n\nPříprava, opravy a ochranné fasádní nátěry.\n\nNátěry a renovace fasád\n↗\nNátěry střech, okapů a svodů\n↗\nČištění fasád a povrchů\n↗\nOdstranění graffiti\n↗\nNátěry dřeva a kovů\n\nOkna, dveře, podbití, pergoly, ploty i ocelové konstrukce.\n\nNátěry oken, podbití, dřeva a kovů\n↗\nPrůmyslové a antikorozní nátěry\n↗\nDalší služby\nNaše realizace ↗\nEpoxidové podlahy\n↗\nPísmomalířství\n↗\nS čím vám pomůžeme?\nVyberte službu\nMalby interiéru\nTapetování\nSpeciální interiérové nátěry\nSanace po zatékání\nDekorativní stěrky\nMikrocement a stěrky přes obklady\nNátěry fasád\nNátěry střech, okapů a svodů\nČištění fasády\nOdstranění graffiti\nNátěry dřeva a kovů\nOcelové konstrukce\nEpoxidové podlahy\nPísmomalířství\nVyberte službu\nPoptat službu\n↗\n\nVybranou službu vám rovnou předvyplníme do poptávky.\n\nNejste si jistí, co vaše zakázka potřebuje?\n\nPopište nám prostor nebo povrch a domluvíme další postup.\n\nNezávazně poptat\n↗"
+  },
+  "process": {
+   "img": "./assets/img/hero/process-kitchen-1280.b76cf611cbe7.webp",
+   "imgSrcset": "./assets/img/hero/process-kitchen-640.3aa9b348e311.webp 640w, ./assets/img/hero/process-kitchen-1280.b76cf611cbe7.webp 1280w",
+   "alt": "Dokončená výmalba kuchyně — Brno, Bohunice",
+   "exp": "Náš týmmá přes15 letpraxev oboru",
+   "eyebrow": "03Jak pracujeme",
+   "h2": "V klidu. Od první domluvy.",
+   "p": "Řeknete nám, co potřebujete změnit. Společně domluvíme postup, cenu a termín — a pustíme se do práce.",
+   "steps": [
+    [
+     "Probereme vaši představu",
+     "Pošlete místo, přibližný rozsah a ideálně fotografie. Upřesníme zadání a stav povrchu."
+    ],
+    [
+     "Domluvíme řešení i cenu",
+     "Vybereme vhodný postup a materiály. Předem si potvrdíme rozsah, kalkulaci a termín."
+    ],
+    [
+     "Připravíme, provedeme, předáme",
+     "Ochráníme okolí, připravíme podklad a dokončíme povrch. Hotovou práci s vámi projdeme."
+    ]
+   ],
+   "actions": [
+    [
+     "Nezávazně poptat↗",
+     "#poptavka"
+    ],
+    [
+     "Zavolat a probrat zadání",
+     "tel:+420774927182"
+    ]
+   ]
+  },
+  "reviewsHead": {
+   "eyebrow": "04Recenze zákazníků",
+   "h2": "Co o nás říkají klienti",
+   "summary": "Google★★★★★5,0 / 5z 29 recenzí zákazníků ↗",
+   "all": [
+    [
+     "Google★★★★★5,0 / 5z 29 recenzí zákazníků ↗",
+     "https://www.google.com/maps?cid=6542642701333762246"
+    ],
+    [
+     "Zobrazit všech 29 recenzí ↗",
+     "https://www.google.com/maps?cid=6542642701333762246"
+    ]
+   ]
+  },
+  "reviews": [
+   {
+    "name": "Jaroslav Hloušek",
+    "avatar": "J",
+    "source": "Recenze na Google",
+    "age": "včera",
+    "text": "Naprostá spokojenost!",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Jiři Komínková",
+    "avatar": "J",
+    "source": "Recenze na Google",
+    "age": "před 3 dny",
+    "text": "Moc rádi doporučujeme Honzu a Davida! 😊 Dělali nám doma výmalbu a stěrku a s výsledkem jsme opravdu moc spokojení. Oba jsou šikovní, pečliví a je vidět, že své práci rozumí.\nCo jsme ale ocenili snad úplně nejvíc – na čem jsme se domluvili, to vždy platilo. Přijeli, kdy řekli, dodrželi vše, co jsme si řekli, a celá spolupráce byla naprosto bez problémů. A musím říct, že právě tohle mi v dnešní době přijde skoro jako vzácnost. 😊\nKluci jsou navíc příjemní a spolehliví, takže za nás opravdu velká spokojenost. Určitě bychom se na ně obrátili znovu a můžeme je s čistým svědomím doporučit dál.",
+    "price": "Hodnocení ceny: Rozumná cena",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Oksana Fialova",
+    "avatar": "O",
+    "source": "Recenze na Google",
+    "age": "před 5 dny",
+    "text": "S realizací betonové stěrky na našem krbu jsme maximálně spokojeni. Práce byla odvedena naprosto precizně, detaily a rohy jsou dotažené k dokonalosti. Krb teď vypadá luxusně a stal se dominantou celého obývacího pokoje. Firmu Tři Mistři i pana řemeslníka Honzu mohu pro jeho profesionalitu a smysl pro detail všem vřele doporučit! 👍",
+    "price": "Hodnocení ceny: Rozumná cena",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Dávid Mikletič",
+    "avatar": "D",
+    "source": "Recenze na Google",
+    "age": "před týdnem",
+    "text": "Výborná práce a skvělá komunikace.",
+    "price": "Hodnocení ceny: Skvělá cena",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Libor Znebejanek",
+    "avatar": "L",
+    "source": "Recenze na Google",
+    "age": "před týdnem",
+    "text": "Perfektní rychlost domluvy i samotné realizace výmalby. Byt předán v čistém stavu, vše krásně zapravené, děkujeme.",
+    "price": "Hodnocení ceny: Rozumná cena",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Vlasta Zitnanska",
+    "avatar": "V",
+    "source": "Recenze na Google",
+    "age": "před týdnem",
+    "text": "Firmu mohu doporučit. Jsou to příjemní, pečliví a spolehliví řemeslníci.",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "nicolas",
+    "avatar": "N",
+    "source": "Recenze na Google",
+    "age": "před 4 týdny",
+    "text": "Skvělá zkušenost s touto firmou při realizaci dekoračních stěrek. Borci odvedli perfektní a hlavně čistou práci. Se vším poradili a výsledek vypadá opravdu moc hezky. Oceňuji skvělou komunikaci a dodržení termínu. Určitě doporučuji.",
+    "price": "Hodnocení ceny: Rozumná cena",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Jan Mazuch",
+    "avatar": "J",
+    "source": "Recenze na Google",
+    "age": "před 3 měsíci",
+    "text": "Velice spolehlivý a šikovní kluci, kteří odvádí skvělou práci. Jednoznačně doporučuji. Umí skvěle i tapety.",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Petr Jelinek",
+    "avatar": "P",
+    "source": "Recenze na Google",
+    "age": "před 3 měsíci",
+    "text": "S pány mám skvělou zkušenost. Krásně nám v rámci rekonstrukce vymalovali byt. V ložnici na naše přání udělali nádhernou malířskou stěrku. Všem doporučuji!",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Michaela Němcová Novotná",
+    "avatar": "M",
+    "source": "Recenze na Google",
+    "age": "před 3 měsíci",
+    "text": "Musím chlapy pochválit, malovali nám celý dům a na část dělali stěrku, odvedli kvalitně a velmi zodpovědně práci. Super rychlost, pečlivost a samozřejmě si po sobě uklidili.",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Martin Kudrmáček",
+    "avatar": "M",
+    "source": "Recenze na Google",
+    "age": "před 3 měsíci",
+    "text": "Rád bych touto cestou poděkoval za dlouhodobě skvělé služby. Tuto firmu jsem na malování využil již několikrát a vždy jsem byl nadmíru spokojen. Kombinace profesionálního přístupu, stoprocentní kvality a velmi příznivé ceny je v dnešní době vzácná.",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Lenka Kratka",
+    "avatar": "L",
+    "source": "Recenze na Google",
+    "age": "před 3 měsíci",
+    "text": "Skvělá spolupráce od začátku do konce. Rychlá a bezproblémová domluva, spolehlivý přístup a kvalitně odvedená práce. Jednalo se již o naši opakovanou spolupráci a opět jsme byli maximálně spokojeni.",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Dana Baláčová",
+    "avatar": "D",
+    "source": "Recenze na Google",
+    "age": "před 2 měsíci",
+    "text": "Výborná zkušenost a spolupráce. Kvalitně a precizně odvedená práce, včetně úklidu po malování prostor v OZP Brno.",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Jitka Dobrovolná",
+    "avatar": "J",
+    "source": "Recenze na Google",
+    "age": "před 3 měsíci",
+    "text": "Skvěle odvedená práce, výborná komunikace, spolehlivost. Provedené práce, nové omítky, výmalba, stěrka. Všechno proběhlo podle našich přání. Můžu doporučit.",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Pavel Nykl",
+    "avatar": "P",
+    "source": "Recenze na Google",
+    "age": "před 2 měsíci",
+    "text": "Perfektni prace 👍 doporucuji",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Pavel Poneš",
+    "avatar": "P",
+    "source": "Recenze na Google",
+    "age": "před měsícem",
+    "text": "Rychlé jednání, příjemné vystupování a skvěle odvedená práce. Jsou to Mistři 🙂",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Michal Binka",
+    "avatar": "M",
+    "source": "Recenze na Google",
+    "age": "před 2 týdny",
+    "text": "Vše proběhlo podle dohody, kvalitní práce, velmi pohodová parta, co odvede svoji práci.",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Anna S.",
+    "avatar": "A",
+    "source": "Recenze na Google",
+    "age": "před 3 měsíci",
+    "text": "Profesně i lidsky skvěle odvedená práce. Všechno perfektní. Předáno čisté a poklizené. Děkuji!",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Raluk007",
+    "avatar": "R",
+    "source": "Recenze na Google",
+    "age": "před 3 měsíci",
+    "text": "S touto firmou máme jen ty nejlepší zkušenosti. Nejprve nám realizovali malby a dekorativní stěrky v práci a díky skvěle odvedené práci jsme je bez váhání oslovili i pro náš domov. Ve všech případech odvedli precizní práci, dodrželi domluvené termíny.",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Radim Matela",
+    "avatar": "R",
+    "source": "Recenze na Google",
+    "age": "před 3 měsíci",
+    "text": "Výborná a čistá práce, absolutní spokojenost.",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Bronislav Hýbl",
+    "avatar": "B",
+    "source": "Recenze na Google",
+    "age": "před 2 měsíci",
+    "text": "Zakázka zahrnovala umytí a následný nátěr fasády RD. Pánové odvedli profesionální práci. Byli velmi pečliví a ochotní. S provedením zakázky jsme spokojeni.",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Kryštof Jeřábek",
+    "avatar": "K",
+    "source": "Recenze na Google",
+    "age": "před 2 měsíci",
+    "text": "S panem Honzou jsem byl velmi spokojený. Dostal jsem na něj kontakt na doporučení a nezklamal. Výborná domluva a vždy vyšel vstříc. Za ty peníze to stojí!",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Richard Dvořáček",
+    "avatar": "R",
+    "source": "Recenze na Google",
+    "age": "před 2 měsíci",
+    "text": "Kvalitní provedení vyborná domluva.👍",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "David Sudak",
+    "avatar": "D",
+    "source": "Recenze na Google",
+    "age": "před 2 měsíci",
+    "text": "Velice spokojení.Pánové byli moc šikovní..",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Iva Košíková",
+    "avatar": "I",
+    "source": "Recenze na Google",
+    "age": "před 3 měsíci",
+    "text": "Moc děkujeme za spolupráci velmi spokojeni",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Lenka Melnikova",
+    "avatar": "L",
+    "source": "Recenze na Google",
+    "age": "před měsícem",
+    "text": "Spolehliví, rychle a kvalitně odvedená práce.👍",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Veronika Plavcová",
+    "avatar": "V",
+    "source": "Recenze na Google",
+    "age": "před měsícem",
+    "text": "Chceme moc poděkovat za skvělou práci! Rychlost, výborná domluva a hlavně krásný výsledek! Určitě se na tuto firmu znovu obrátím :)",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Vít Starý Novotný",
+    "avatar": "V",
+    "source": "Recenze na Google",
+    "age": "před měsícem",
+    "text": "Potřeboval jsem zapravit otvory v sádrokartonu a vymalovat kuchyň a koupelnu. Mile mě překvapila samostatnost, smysl pro detail i časová flexibilita.",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   },
+   {
+    "name": "Radika C",
+    "avatar": "R",
+    "source": "Recenze na Google",
+    "age": "před měsícem",
+    "text": "Tři Mistry můžu opravdu doporučit. Už od prvního kontaktu jsem měla velmi dobrý dojem a samotná realizace moje očekávání ještě předčila. Kluci byli ochotní, pečliví a nic nebyl problém. Odvedli precizní a skvělou práci na všem, na čem jsme se domluvili, také splnili. S výsledkem výmalby a oprav zdí jsem moc spokojená a určitě se na Tři Mistry v budoucnu znovu obrátím. Můžu je jen doporučit.",
+    "price": "",
+    "stars": "5 z 5 hvězd"
+   }
+  ],
+  "reviewDialog": "×Recenze na GoogleZkušenost zákazníka★★★★★Recenze na Google ↗",
+  "kontakt": {
+   "html": "<div class=\"tm-container\">\n  <div class=\"tm-contact-heading\" data-reveal=\"\"><div class=\"tm-contact-copy\"><p class=\"tm-eyebrow tm-numbered\"><span class=\"tm-section-number\" aria-hidden=\"true\">05</span><span>Nezávazná poptávka</span></p><h2>Řekněte nám,<br><em>co potřebujete.</em></h2><p>Malování bytu, stěrka nebo nový nátěr? Popište práci, místo a přibližný rozsah. Když přidáte fotky, snáz navrhneme další postup.</p></div><div class=\"tm-direct-contact\"><span>Raději se domluvíte přímo?</span><a href=\"tel:+420774927182\">+420 774 927 182</a><a href=\"mailto:info@trimistri.cz\">info@trimistri.cz</a><p>Brno a okolí · domácnosti i firmy</p></div></div>\n  <div class=\"tm-form\"><section class=\"section-padding quote-section\">\n  <div class=\"container-xl\">\n    <div class=\"quote-header\">\n      <div class=\"quote-header-copy\">\n        <p class=\"eyebrow\"><span></span> Nezávazná poptávka</p>\n        <h2>Řekněte nám, co potřebujete</h2>\n        <p>Stručně popište práci a případně přiložte fotky. Ozveme se vám do 24 hodin.</p>\n      </div>\n      <div class=\"quote-direct\" id=\"tm-quote-direct\">\n        <span>Raději přímo?</span>\n        <a href=\"tel:+420774927182\"><i class=\"bi bi-telephone\" aria-hidden=\"true\"></i> +420 774 927 182</a>\n        <a href=\"mailto:info@trimistri.cz\"><i class=\"bi bi-envelope\" aria-hidden=\"true\"></i> info@trimistri.cz</a>\n      </div>\n    </div>\n\n    <div class=\"quote-content\">\n      <div class=\"tm-inquiry-layout\">\n        <aside class=\"tm-inquiry-aside\"><p class=\"tm-eyebrow\">Váš prostor. Naše řemeslo.</p><h3>Pár detailů.<br>A začneme.</h3><p>Pošlete nám zadání. Rozsah práce, cenu i termín spolu upřesníme.</p><div class=\"tm-inquiry-service\"><span>Co budeme řešit</span><strong data-form-service=\"\">Malby, nátěry a povrchy</strong></div><div class=\"tm-inquiry-direct\"><span>Raději se domluvíte přímo?</span><a class=\"tm-call-btn\" href=\"tel:+420774927182\"><span>+420 774 927 182</span></a><a href=\"mailto:info@trimistri.cz\">info@trimistri.cz</a></div><span class=\"tm-inquiry-area\"> Brno a okolí</span></aside>\n        <div class=\"tm-inquiry-fields\" id=\"poptavka\">\n\n        <div data-nosnippet=\"\">\n<form class=\"quote-form\" action=\"send\" method=\"post\" enctype=\"multipart/form-data\">\n\n<input type=\"hidden\" name=\"quote_form_token\" value=\"\">\n<input type=\"hidden\" name=\"return_to\" value=\"index.php\">\n<div class=\"form-honeypot\" aria-hidden=\"true\">\n            <label for=\"hp-field-x92\">Nevyplňujte toto pole</label>\n            <input type=\"text\" id=\"hp-field-x92\" name=\"hp_field_x92\" tabindex=\"-1\" autocomplete=\"off\">\n          </div>\n\n          <div class=\"quote-form-grid\">\n            <div class=\"quote-form-group\">\n              <p class=\"form-section-label\"><span>01</span> Kontaktní údaje <small class=\"quote-required-note\">* povinné údaje</small></p>\n              <div class=\"quote-contact-grid\">\n            <div class=\"quote-field\">\n              <label for=\"name\" class=\"form-label\">Jméno a příjmení <span class=\"required-mark\" aria-hidden=\"true\">*</span></label>\n              <div class=\"input-icon\">\n                <i class=\"bi bi-person\"></i>\n                <input type=\"text\" class=\"form-control\" id=\"name\" name=\"name\" placeholder=\"Jan Novák\" maxlength=\"100\" autocomplete=\"name\" required=\"\">\n              </div>\n            </div>\n            <div class=\"quote-field\">\n              <label for=\"phone\" class=\"form-label\">Telefon <span class=\"required-mark\" aria-hidden=\"true\">*</span></label>\n              <div class=\"input-icon\">\n                <i class=\"bi bi-telephone\"></i>\n                <input type=\"tel\" class=\"form-control\" id=\"phone\" name=\"phone\" placeholder=\"Váš telefon\" maxlength=\"30\" autocomplete=\"tel\" required=\"\">\n              </div>\n            </div>\n            <div class=\"quote-field\">\n              <label for=\"email\" class=\"form-label\">E-mail <span class=\"optional-label\">(nepovinné)</span></label>\n              <div class=\"input-icon\">\n                <i class=\"bi bi-envelope\"></i>\n                <input type=\"email\" class=\"form-control\" id=\"email\" name=\"email\" placeholder=\"vas@email.cz\" maxlength=\"254\" autocomplete=\"email\">\n              </div>\n            </div>\n            <div class=\"quote-field\">\n              <label for=\"service\" class=\"form-label\" id=\"tm-select-label-2\">Typ služby <span class=\"optional-label\">(nepovinné)</span></label>\n              <div class=\"tm-select\"><select class=\"form-select tm-select-native\" id=\"service\" name=\"service\" tabindex=\"-1\" aria-hidden=\"true\">\n                \n                <optgroup label=\"Malování a interiéry\">\n                  \n                  \n                  \n                  \n                </optgroup>\n                <optgroup label=\"Dekorativní stěrky\">\n                  \n                  \n                </optgroup>\n                <optgroup label=\"Fasády, střechy, okapy a svody\">\n                  \n                  \n                  \n                  \n                </optgroup>\n                <optgroup label=\"Nátěry dřeva a kovů\">\n                  \n                  \n                </optgroup>\n                <optgroup label=\"Další služby\">\n                  \n                  \n                </optgroup>\n              </select><button type=\"button\" class=\"tm-select-trigger\" id=\"tm-select-button-2\" aria-haspopup=\"listbox\" aria-expanded=\"false\" aria-controls=\"tm-select-list-2\" aria-labelledby=\"tm-select-label-2 tm-select-button-2\"><span class=\"tm-select-value\">Nevím / jiná služba</span></button><ul class=\"tm-select-list\" id=\"tm-select-list-2\" role=\"listbox\" tabindex=\"-1\" hidden=\"\" aria-labelledby=\"tm-select-label-2\"></ul></div>\n            </div>\n            <div class=\"quote-field quote-field--wide\">\n              <label for=\"city\" class=\"form-label\">Město / obec realizace <span class=\"optional-label\">(nepovinné)</span></label>\n              <div class=\"input-icon\">\n                <i class=\"bi bi-geo-alt\"></i>\n                <input type=\"text\" class=\"form-control\" id=\"city\" name=\"city\" placeholder=\"Např. Brno\" maxlength=\"120\" autocomplete=\"address-level2\">\n              </div>\n            </div>\n\n              </div>\n            </div>\n            <div class=\"quote-form-group\">\n              <p class=\"form-section-label\"><span>02</span> Detaily zakázky</p>\n            <div class=\"quote-field\">\n              <label for=\"message\" class=\"form-label\">Popis zakázky</label>\n              <p class=\"form-text\" id=\"message-hint\">Popište rozsah prací a požadovaný termín.</p>\n              <textarea class=\"form-control\" id=\"message\" name=\"message\" rows=\"5\" maxlength=\"5000\" aria-describedby=\"message-hint\" placeholder=\"Vaše zadání a případné dotazy\"></textarea>\n            </div>\n            <div class=\"quote-field\">\n              <label for=\"photos\" class=\"form-label\">Fotky prostoru nebo fasády <span class=\"optional-label\">(nepovinné)</span></label>\n              <label class=\"tm-upload-zone\" for=\"photos\"><span class=\"tm-upload-icon\" aria-hidden=\"true\"></span><strong>Přidat fotografie</strong><span>JPG, PNG nebo WebP · až 5 fotek</span><input class=\"form-control\" type=\"file\" id=\"photos\" name=\"photos[]\" multiple=\"\" accept=\".jpg,.jpeg,.png,.webp\" aria-describedby=\"photos-help\"></label><p class=\"tm-upload-status\" role=\"status\" hidden=\"\"></p>\n              <div class=\"form-text\" id=\"photos-help\">Můžete nahrát maximálně 5 fotek, každou do 4 MB. Pomůže nám to rychleji\n                odhadnout rozsah práce.</div>\n            <ul class=\"tm-photo-previews\" aria-label=\"Vybrané fotografie\"></ul></div>\n            </div>\n          </div>\n          <div class=\"quote-form-footer\">\n            <div class=\"quote-form-submit\">\n              <button class=\"btn btn-gold btn-lg tm-btn\" type=\"submit\"><span class=\"tm-cta-label\">Odeslat poptávku</span><span aria-hidden=\"true\">↗</span></button>\n              <small class=\"privacy-note\">Odesláním formuláře potvrzujete, že souhlasíte se\n                <a href=\"./ochrana-osobnich-udaju\" target=\"_blank\" rel=\"noopener\">zpracováním osobních údajů</a>.\n                Údaje použijeme pouze pro vyřízení Vaší poptávky.</small>\n            </div>\n          </div>\n        </form>\n</div>\n<script>\n  (() => {\n    const service = document.getElementById('service');\n    const hint = document.getElementById('message-hint');\n    const hints = {\"Epoxidové podlahy\":\"Uveďte plochu v m², stav a materiál podkladu, využití prostoru, lokalitu a termín. Přiložte fotografie.\",\"Malby interiéru\":\"Uveďte přibližnou plochu stěn a stropů, stav podkladu a požadovaný termín. Bude prostor během malování obývaný?\",\"Dekorativní stěrky\":\"Uveďte místnost, přibližnou plochu a požadovaný vzhled. U koupelny napište, zda jde o sprchový kout. Přiložte fotku podkladu nebo inspiraci.\",\"Nátěry dřeva a kovů\":\"Napište, co potřebujete natřít (například okna, pergolu, plot nebo radiátory), počet či rozměry a stav starého nátěru. Připojte požadovaný termín a fotografie.\",\"Tapetování\":\"Uveďte rozměry stěn, stav podkladu a požadovaný termín. Máte tapetu již zakoupenou? Přiložte její typ či odkaz a fotografie stěny.\",\"Nátěry fasád\":\"Uveďte přibližnou plochu a výšku domu, stav omítky a přístup k fasádě. Chcete pouze čištění, nebo i nový nátěr? Připojte termín a fotografie.\",\"Čištění fasády\":\"Uveďte plochu a výšku fasády, druh znečištění a možnosti přístupu. Přiložte fotografie a požadovaný termín.\",\"Odstranění graffiti\":\"Uveďte materiál povrchu, přibližnou plochu a stáří graffiti. Přiložte fotografie a požadovaný termín zásahu.\",\"Písmomalířství\":\"Uveďte rozměry, materiál podkladu, požadovaný text nebo motiv a termín. Přiložte fotografii místa a případný návrh.\",\"Ocelové konstrukce\":\"Uveďte rozměry konstrukce, stav koroze, přístup a požadovaný termín. Přiložte fotografie.\",\"Mikrocement a stěrky přes obklady\":\"Uveďte místnost, plochu, typ podkladu a zda jde o mokrou zónu. Přiložte fotografie obkladu nebo stěny.\",\"Speciální interiérové nátěry\":\"Popište problém, místnost, rozsah a známou příčinu. Uveďte, zda jde o plíseň, požadavek na hygienický povrch nebo studenou stěnu.\",\"Sanace po zatékání\":\"Napište, kdy a odkud zatékalo, zda je příčina opravená, rozměr poškození a stav podkladu. Přiložte fotografie.\",\"Nátěry střech\":\"Uveďte typ a plochu krytiny, stáří, stav starého nátěru, sklon, rozsah nátěru okapů a svodů a možnosti přístupu. Přiložte fotografie.\"};\n    if (!service || !hint) return;\n    const updateHint = () => {\n      hint.textContent = hints[service.value] || 'Popište rozsah prací a požadovaný termín.';\n      const serviceName=document.querySelector('[data-form-service]');\n      if(serviceName) serviceName.textContent=service.value || 'Malby, nátěry a povrchy';\n    };\n    service.addEventListener('change', updateHint);\n    updateHint();\n  })();\n</script>        </div>\n      </div>\n      </div>\n  </div>\n</section>\n\n</div></div>",
+   "text": "05\nNEZÁVAZNÁ POPTÁVKA\n\nŘekněte nám,\nco potřebujete.\n\nMalování bytu, stěrka nebo nový nátěr? Popište práci, místo a přibližný rozsah. Když přidáte fotky, snáz navrhneme další postup.\n\nRaději se domluvíte přímo?\n+420 774 927 182\ninfo@trimistri.cz\n\nBrno a okolí · domácnosti i firmy\n\nVÁŠ PROSTOR. NAŠE ŘEMESLO.\n\nPár detailů.\nA začneme.\n\nPošlete nám zadání. Rozsah práce, cenu i termín spolu upřesníme.\n\nCo budeme řešit\nMalby, nátěry a povrchy\nRaději se domluvíte přímo?\n+420 774 927 182\ninfo@trimistri.cz\nBrno a okolí\nNevyplňujte toto pole\n\n01\nKontaktní údaje\n* povinné údaje\n\nJméno a příjmení *\nTelefon *\nE-mail (nepovinné)\nTyp služby (nepovinné)\nNevím / jiná služba\nMalby interiéru\nTapetování\nSpeciální interiérové nátěry\nSanace po zatékání\nDekorativní stěrky\nMikrocement a stěrky přes obklady\nNátěry fasád\nNátěry střech, okapů a svodů\nČištění fasády\nOdstranění graffiti\nNátěry dřeva a kovů\nOcelové konstrukce\nEpoxidové podlahy\nPísmomalířství\nNevím / jiná služba\nMěsto / obec realizace (nepovinné)\n\n02\nDetaily zakázky\n\nPopis zakázky\n\nPopište rozsah prací a požadovaný termín.\n\nFotky prostoru nebo fasády (nepovinné)\nPřidat fotografie\nJPG, PNG nebo WebP · až 5 fotek\nMůžete nahrát maximálně 5 fotek, každou do 4 MB. Pomůže nám to rychleji odhadnout rozsah práce.\nOdeslat poptávku\n↗\nOdesláním formuláře potvrzujete, že souhlasíte se zpracováním osobních údajů. Údaje použijeme pouze pro vyřízení Vaší poptávky.",
+   "options": [
+    [
+     "Malování a interiéry",
+     [
+      "Malby interiéru",
+      "Tapetování",
+      "Speciální interiérové nátěry",
+      "Sanace po zatékání"
+     ]
+    ],
+    [
+     "Dekorativní stěrky",
+     [
+      "Dekorativní stěrky",
+      "Mikrocement a stěrky přes obklady"
+     ]
+    ],
+    [
+     "Fasády, střechy, okapy a svody",
+     [
+      "Nátěry fasád",
+      "Nátěry střech, okapů a svodů",
+      "Čištění fasády",
+      "Odstranění graffiti"
+     ]
+    ],
+    [
+     "Nátěry dřeva a kovů",
+     [
+      "Nátěry dřeva a kovů",
+      "Ocelové konstrukce"
+     ]
+    ],
+    [
+     "Další služby",
+     [
+      "Epoxidové podlahy",
+      "Písmomalířství"
+     ]
+    ]
+   ],
+   "first": "Nevím / jiná služba"
+  },
+  "hints": "{\"Epoxidové podlahy\":\"Uveďte plochu v m², stav a materiál podkladu, využití prostoru, lokalitu a termín. Přiložte fotografie.\",\"Malby interiéru\":\"Uveďte přibližnou plochu stěn a stropů, stav podkladu a požadovaný termín. Bude prostor během malování obývaný?\",\"Dekorativní stěrky\":\"Uveďte místnost, přibližnou plochu a požadovaný vzhled. U koupelny napište, zda jde o sprchový kout. Přiložte fotku podkladu nebo inspiraci.\",\"Nátěry dřeva a kovů\":\"Napište, co potřebujete natřít (například okna, pergolu, plot nebo radiátory), počet či rozměry a stav starého nátěru. Připojte požadovaný termín a fotografie.\",\"Tapetování\":\"Uveďte rozměry stěn, stav podkladu a požadovaný termín. Máte tapetu již zakoupenou? Přiložte její typ či odkaz a fotografie stěny.\",\"Nátěry fasád\":\"Uveďte přibližnou plochu a výšku domu, stav omítky a přístup k fasádě. Chcete pouze čištění, nebo i nový nátěr? Připojte termín a fotografie.\",\"Čištění fasády\":\"Uveďte plochu a výšku fasády, druh znečištění a možnosti přístupu. Přiložte fotografie a požadovaný termín.\",\"Odstranění graffiti\":\"Uveďte materiál povrchu, přibližnou plochu a stáří graffiti. Přiložte fotografie a požadovaný termín zásahu.\",\"Písmomalířství\":\"Uveďte rozměry, materiál podkladu, požadovaný text nebo motiv a termín. Přiložte fotografii místa a případný návrh.\",\"Ocelové konstrukce\":\"Uveďte rozměry konstrukce, stav koroze, přístup a požadovaný termín. Přiložte fotografie.\",\"Mikrocement a stěrky přes obklady\":\"Uveďte místnost, plochu, typ podkladu a zda jde o mokrou zónu. Přiložte fotografie obkladu nebo stěny.\",\"Speciální interiérové nátěry\":\"Popište problém, místnost, rozsah a známou příčinu. Uveďte, zda jde o plíseň, požadavek na hygienický povrch nebo studenou stěnu.\",\"Sanace po zatékání\":\"Napište, kdy a odkud zatékalo, zda je příčina opravená, rozměr poškození a stav podkladu. Přiložte fotografie.\",\"Nátěry střech\":\"Uveďte typ a plochu krytiny, stáří, stav starého nátěru, sklon, rozsah nátěru okapů a svodů a možnosti přístupu. Přiložte fotografie.\"}",
+  "mobileBar": "ZavolatNezávazná poptávka"
+ },
+ "dekujeme": {
+  "title": "Děkujeme za poptávku | Tři Mistři",
+  "robots": "noindex, nofollow",
+  "html": "\n    <section class=\"thankyou-section\">\n      <div class=\"container-xl\">\n        <div class=\"row justify-content-center text-center\">\n          <div class=\"col-lg-8\">\n            <div class=\"thankyou-icon\">\n              <i class=\"bi bi-check-lg\"></i>\n            </div>\n\n            <p class=\"eyebrow centered\"><span></span> Poptávka odeslána</p>\n            <h1>Děkujeme, <span>ozveme se Vám</span> co nejdříve</h1>\n            <p class=\"lead mx-auto\">Vaši poptávku jsme v pořádku přijali. Náš tým ji projde a ozve se Vám na uvedený\n              telefon nebo e-mail, abychom domluvili konzultaci a připravili cenovou nabídku.</p>\n\n            <div class=\"thankyou-steps mx-auto\">\n              <div>\n                <i class=\"bi bi-telephone\"></i>\n                <div>\n                  <strong>Ozveme se Vám</strong>\n                  <span>Obvykle do 1 pracovního dne od odeslání poptávky.</span>\n                </div>\n              </div>\n              <div>\n                <i class=\"bi bi-clipboard-check\"></i>\n                <div>\n                  <strong>Domluvíme konzultaci</strong>\n                  <span>Nezávazně posoudíme rozsah prací a vhodný materiál.</span>\n                </div>\n              </div>\n              <div>\n                <i class=\"bi bi-file-earmark-text\"></i>\n                <div>\n                  <strong>Připravíme cenovou nabídku</strong>\n                  <span>Konkrétní cenu, termín a harmonogram realizace tentýž den.</span>\n                </div>\n              </div>\n            </div>\n\n            <div class=\"thankyou-actions d-flex flex-wrap justify-content-center gap-3\">\n              <a class=\"btn btn-gold btn-lg\" href=\"./\"><i class=\"bi bi-house\"></i> Zpět na úvodní stránku</a>\n              <a class=\"btn btn-outline-dark btn-lg\" href=\"tel:+420774927182\"><i class=\"bi bi-telephone\"></i> Zavolat\n                nám</a>\n            </div>\n          </div>\n        </div>\n      </div>\n    </section>\n  ",
+  "text": "POPTÁVKA ODESLÁNA\n\nDěkujeme, ozveme se Vám co nejdříve\n\nVaši poptávku jsme v pořádku přijali. Náš tým ji projde a ozve se Vám na uvedený telefon nebo e-mail, abychom domluvili konzultaci a připravili cenovou nabídku.\n\nOzveme se Vám\nObvykle do 1 pracovního dne od odeslání poptávky.\nDomluvíme konzultaci\nNezávazně posoudíme rozsah prací a vhodný materiál.\nPřipravíme cenovou nabídku\nKonkrétní cenu, termín a harmonogram realizace tentýž den.\n ZPĚT NA ÚVODNÍ STRÁNKU\n ZAVOLAT NÁM"
+ },
+ "ochrana-osobnich-udaju": {
+  "title": "Ochrana osobních údajů | Tři Mistři",
+  "html": "\n    <section class=\"section-padding legal-section\">\n      <div class=\"container-xl\" style=\"max-width: 1040px;\">\n        <nav aria-label=\"breadcrumb\">\n          <ol class=\"breadcrumb mb-3\">\n            <li class=\"breadcrumb-item\"><a href=\"./\">Domů</a></li>\n            <li class=\"breadcrumb-item active\" aria-current=\"page\">Ochrana osobních údajů</li>\n          </ol>\n        </nav>\n\n        <div class=\"legal-header\">\n          <span class=\"eyebrow\">GDPR / Osobní údaje</span>\n          <h1>Zásady zpracování osobních údajů</h1>\n          <p class=\"lead\">Vysvětlení, jaké osobní údaje shromažďujeme, proč, jak dlouho je uchováváme a jaká máte\n            v souvislosti s jejich zpracováním práva. Platí pro webové stránky trimistri.cz.</p>\n        </div>\n\n        <div class=\"legal-layout\">\n          <nav class=\"legal-toc\" aria-label=\"Obsah stránky\">\n            <div class=\"legal-toc-title\">Obsah</div>\n            <ol>\n              <li><a href=\"#spravce\">1. Správce údajů</a></li>\n              <li><a href=\"#udaje\">2. Jaké údaje</a></li>\n              <li><a href=\"#ucel\">3. Účel a základ</a></li>\n              <li><a href=\"#doba\">4. Doba uchování</a></li>\n              <li><a href=\"#predavani\">5. Komu předáváme</a></li>\n              <li><a href=\"#cookies\">6. Cookies</a></li>\n              <li><a href=\"#prava\">7. Vaše práva</a></li>\n            </ol>\n          </nav>\n\n          <div class=\"legal-content\">\n\n        <h2 id=\"spravce\"><span class=\"num\">1</span> Kdo je správcem údajů</h2>\n        <p>Správcem osobních údajů je:</p>\n        <p>\n          <strong>Tři Mistři s.r.o.</strong><br>\n          Nové sady 988/2, Staré Brno, 602 00 Brno<br>\n          IČO: 30139015<br>\n          Zapsaná v obchodním rejstříku vedeném Krajským soudem v Brně, oddíl C, vložka 154435<br>\n          E-mail: <a href=\"mailto:info@trimistri.cz\">info@trimistri.cz</a><br>\n          Telefon: <a href=\"tel:+420774927182\">+420 774 927 182</a>\n        </p>\n\n        <h2 id=\"udaje\"><span class=\"num\">2</span> Jaké údaje zpracováváme</h2>\n        <p>Osobní údaje zpracováváme v těchto případech:</p>\n        <div class=\"table-wrap\">\n          <table>\n            <thead>\n              <tr>\n                <th>Situace</th>\n                <th>Jaké údaje</th>\n              </tr>\n            </thead>\n            <tbody>\n              <tr>\n                <td>Odeslání poptávkového formuláře</td>\n                <td>Jméno a příjmení, telefon, e-mail (nepovinně), popis zakázky, případně nahrané fotografie\n                  prostoru nebo fasády</td>\n              </tr>\n              <tr>\n                <td>Telefonický nebo e-mailový kontakt</td>\n                <td>Jméno, telefonní číslo nebo e-mailová adresa, obsah komunikace</td>\n              </tr>\n              <tr>\n                <td>Prohlížení webu</td>\n                <td>Technické a analytické údaje o návštěvě (viz sekce Cookies níže)</td>\n              </tr>\n            </tbody>\n          </table>\n        </div>\n\n        <h2 id=\"ucel\"><span class=\"num\">3</span> Proč údaje zpracováváme (účel a právní základ)</h2>\n        <ul>\n          <li><strong>Vyřízení poptávky a komunikace se zájemcem</strong> - na základě jednání o uzavření smlouvy\n            (čl. 6 odst. 1 písm. b) GDPR).</li>\n          <li><strong>Realizace a fakturace zakázky</strong>, pokud dojde k uzavření smlouvy - plnění smlouvy a\n            plnění právních povinností (fakturace, účetnictví).</li>\n          <li><strong>Měření návštěvnosti a vyhodnocování efektivity reklamy</strong> (Google Ads konverze) - na\n            základě Vašeho souhlasu s používáním nezbytných analytických/marketingových nástrojů.</li>\n        </ul>\n\n        <h2 id=\"doba\"><span class=\"num\">4</span> Jak dlouho údaje uchováváme</h2>\n        <ul>\n          <li>Údaje z nerealizované poptávky uchováváme po dobu <strong>12 měsíců</strong> od posledního kontaktu,\n            poté je mažeme.</li>\n          <li>Údaje k realizovaným zakázkám uchováváme po dobu vyžadovanou zákonem (např. účetní a daňové doklady\n            po dobu stanovenou zákonem o účetnictví a daňovými předpisy).</li>\n          <li>Nahrané fotografie prostoru mažeme nejpozději do <strong>12 měsíců</strong> od odeslání poptávky,\n            pokud nejsou součástí dokumentace k realizované zakázce.</li>\n        </ul>\n\n        <h2 id=\"predavani\"><span class=\"num\">5</span> Komu údaje předáváme</h2>\n        <p>Vaše údaje <strong>zásadně nepředáváme</strong> třetím stranám k jejich vlastnímu marketingu. Údaje mohou být zpřístupněny:</p>\n        <ul>\n          <li>poskytovateli webhostingu a e-mailových služeb, kteří pro nás zajišťují technický provoz webu,</li>\n          <li>společnosti Google (Google Ads, Google Analytics) za účelem měření návštěvnosti a účinnosti reklamy -\n            telefon a e-mail se přenáší pouze v podobě <strong>nevratného kryptografického otisku (hash)</strong>,\n            nikoli v čitelné podobě,</li>\n          <li>subdodavatelům podílejícím se na realizaci zakázky, je-li to nezbytné pro její provedení.</li>\n        </ul>\n\n        <h2 id=\"cookies\"><span class=\"num\">6</span> Cookies</h2>\n        <p>Web používá technické cookies nezbytné pro fungování formuláře a analytické/marketingové cookies služby\n          Google (Google Ads, Google Analytics) sloužící k měření návštěvnosti a vyhodnocení účinnosti reklamních\n          kampaní. Analytické a reklamní cookies můžete povolit nebo odmítnout; svou volbu lze kdykoli změnit přes\n          „Nastavení cookies“ v patičce webu. Technické cookies potřebné pro formulář zůstávají aktivní.</p>\n\n        <h2 id=\"prava\"><span class=\"num\">7</span> Vaše práva</h2>\n        <p>V souvislosti se zpracováním osobních údajů máte právo:</p>\n        <ul>\n          <li>na přístup ke svým osobním údajům,</li>\n          <li>na opravu nepřesných nebo neúplných údajů,</li>\n          <li>na výmaz údajů („právo být zapomenut\"), pokud pro jejich zpracování odpadl důvod,</li>\n          <li>na omezení zpracování,</li>\n          <li>na přenositelnost údajů,</li>\n          <li>vznést námitku proti zpracování,</li>\n          <li>podat stížnost u Úřadu pro ochranu osobních údajů (<a href=\"https://www.uoou.cz/\" target=\"_blank\" rel=\"noopener\">www.uoou.cz</a>), pokud se domníváte, že Vaše údaje zpracováváme v rozporu s právními\n            předpisy.</li>\n        </ul>\n        <p>Svá práva můžete uplatnit e-mailem nebo telefonicky na kontaktech uvedených výše.</p>\n\n        <div class=\"legal-contact-box\">\n          <div>\n            <strong>Kontakt pro uplatnění práv a dotazy ke zpracování osobních údajů</strong>\n            <p>E-mail: <a href=\"mailto:info@trimistri.cz\">info@trimistri.cz</a></p>\n            <p class=\"mb-0\">Telefon: <a href=\"tel:+420774927182\">+420 774 927 182</a></p>\n          </div>\n        </div>\n\n        <p class=\"mt-4\"><small class=\"text-muted\">Tyto zásady mohou být čas od času aktualizovány. Aktuální verze\n          je vždy dostupná na této stránce. Poslední aktualizace: srpen 2026.</small></p>\n\n          </div>\n        </div>\n      </div>\n    </section>\n  ",
+  "text": "Domů\nOchrana osobních údajů\nGDPR / OSOBNÍ ÚDAJE\nZásady zpracování osobních údajů\n\nVysvětlení, jaké osobní údaje shromažďujeme, proč, jak dlouho je uchováváme a jaká máte v souvislosti s jejich zpracováním práva. Platí pro webové stránky trimistri.cz.\n\nOBSAH\n1. Správce údajů\n2. Jaké údaje\n3. Účel a základ\n4. Doba uchování\n5. Komu předáváme\n6. Cookies\n7. Vaše práva\n1\nKdo je správcem údajů\n\nSprávcem osobních údajů je:\n\nTři Mistři s.r.o.\nNové sady 988/2, Staré Brno, 602 00 Brno\nIČO: 30139015\nZapsaná v obchodním rejstříku vedeném Krajským soudem v Brně, oddíl C, vložka 154435\nE-mail: info@trimistri.cz\nTelefon: +420 774 927 182\n\n2\nJaké údaje zpracováváme\n\nOsobní údaje zpracováváme v těchto případech:\n\nSituace\tJaké údaje\nOdeslání poptávkového formuláře\tJméno a příjmení, telefon, e-mail (nepovinně), popis zakázky, případně nahrané fotografie prostoru nebo fasády\nTelefonický nebo e-mailový kontakt\tJméno, telefonní číslo nebo e-mailová adresa, obsah komunikace\nProhlížení webu\tTechnické a analytické údaje o návštěvě (viz sekce Cookies níže)\n3\nProč údaje zpracováváme (účel a právní základ)\nVyřízení poptávky a komunikace se zájemcem - na základě jednání o uzavření smlouvy (čl. 6 odst. 1 písm. b) GDPR).\nRealizace a fakturace zakázky, pokud dojde k uzavření smlouvy - plnění smlouvy a plnění právních povinností (fakturace, účetnictví).\nMěření návštěvnosti a vyhodnocování efektivity reklamy (Google Ads konverze) - na základě Vašeho souhlasu s používáním nezbytných analytických/marketingových nástrojů.\n4\nJak dlouho údaje uchováváme\nÚdaje z nerealizované poptávky uchováváme po dobu 12 měsíců od posledního kontaktu, poté je mažeme.\nÚdaje k realizovaným zakázkám uchováváme po dobu vyžadovanou zákonem (např. účetní a daňové doklady po dobu stanovenou zákonem o účetnictví a daňovými předpisy).\nNahrané fotografie prostoru mažeme nejpozději do 12 měsíců od odeslání poptávky, pokud nejsou součástí dokumentace k realizované zakázce.\n5\nKomu údaje předáváme\n\nVaše údaje zásadně nepředáváme třetím stranám k jejich vlastnímu marketingu. Údaje mohou být zpřístupněny:\n\nposkytovateli webhostingu a e-mailových služeb, kteří pro nás zajišťují technický provoz webu,\nspolečnosti Google (Google Ads, Google Analytics) za účelem měření návštěvnosti a účinnosti reklamy - telefon a e-mail se přenáší pouze v podobě nevratného kryptografického otisku (hash), nikoli v čitelné podobě,\nsubdodavatelům podílejícím se na realizaci zakázky, je-li to nezbytné pro její provedení.\n6\nCookies\n\nWeb používá technické cookies nezbytné pro fungování formuláře a analytické/marketingové cookies služby Google (Google Ads, Google Analytics) sloužící k měření návštěvnosti a vyhodnocení účinnosti reklamních kampaní. Analytické a reklamní cookies můžete povolit nebo odmítnout; svou volbu lze kdykoli změnit přes „Nastavení cookies“ v patičce webu. Technické cookies potřebné pro formulář zůstávají aktivní.\n\n7\nVaše práva\n\nV souvislosti se zpracováním osobních údajů máte právo:\n\nna přístup ke svým osobním údajům,\nna opravu nepřesných nebo neúplných údajů,\nna výmaz údajů („právo být zapomenut\"), pokud pro jejich zpracování odpadl důvod,\nna omezení zpracování,\nna přenositelnost údajů,\nvznést námitku proti zpracování,\npodat stížnost u Úřadu pro ochranu osobních údajů (www.uoou.cz), pokud se domníváte, že Vaše údaje zpracováváme v rozporu s právními předpisy.\n\nSvá práva můžete uplatnit e-mailem nebo telefonicky na kontaktech uvedených výše.\n\nKontakt pro uplatnění práv a dotazy ke zpracování osobních údajů\n\nE-mail: info@trimistri.cz\n\nTelefon: +420 774 927 182\n\nTyto zásady mohou být čas od času aktualizovány. Aktuální verze je vždy dostupná na této stránce. Poslední aktualizace: srpen 2026."
+ }
+}
