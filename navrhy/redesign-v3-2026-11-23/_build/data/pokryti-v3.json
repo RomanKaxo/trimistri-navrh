@@ -1,0 +1,172 @@
+{
+ "404": {
+  "total": 54,
+  "missing": []
+ },
+ "index": {
+  "total": 249,
+  "missing": [
+   "BRNO · CZ",
+   "MALÍŘSTVÍ · NÁTĚRY · POVRCHY BRNO A OKOLÍ",
+   "NAŠE SLUŽBY"
+  ]
+ },
+ "natery-interieru": {
+  "total": 208,
+  "missing": [
+   "TŘI MISTŘI / BRNO A OKOLÍ",
+   "Prohlédnout realizaci ↗",
+   "01 / O SLUŽBĚ",
+   "KDE PRACUJEME",
+   "02 / NEZÁVAZNÁ POPTÁVKA"
+  ]
+ },
+ "dekoracni-sterky": {
+  "total": 196,
+  "missing": [
+   "TŘI MISTŘI / BRNO A OKOLÍ",
+   "Prohlédnout realizaci ↗",
+   "01 / O SLUŽBĚ",
+   "CENA STĚRKY",
+   "KDE PRACUJEME",
+   "02 / NEZÁVAZNÁ POPTÁVKA"
+  ]
+ },
+ "natery-fasad": {
+  "total": 182,
+  "missing": [
+   "TŘI MISTŘI / BRNO A OKOLÍ",
+   "Prohlédnout realizaci ↗",
+   "01 / O SLUŽBĚ",
+   "CENA FASÁDY",
+   "KDE PRACUJEME",
+   "02 / NEZÁVAZNÁ POPTÁVKA"
+  ]
+ },
+ "cisteni-fasad": {
+  "total": 274,
+  "missing": [
+   "TŘI MISTŘI / BRNO A OKOLÍ",
+   "Prohlédnout realizaci ↗",
+   "01 / O SLUŽBĚ",
+   "CENA ČIŠTĚNÍ",
+   "KDE PRACUJEME",
+   "03 / NEZÁVAZNÁ POPTÁVKA"
+  ]
+ },
+ "natery-strech": {
+  "total": 268,
+  "missing": [
+   "TŘI MISTŘI / BRNO A OKOLÍ",
+   "01 / O SLUŽBĚ",
+   "CENA NÁTĚRU STŘECHY",
+   "KDE PRACUJEME",
+   "03 / NEZÁVAZNÁ POPTÁVKA"
+  ]
+ },
+ "natery-drevo-kovu": {
+  "total": 195,
+  "missing": [
+   "TŘI MISTŘI / BRNO A OKOLÍ",
+   "Prohlédnout realizaci ↗",
+   "01 / O SLUŽBĚ",
+   "CENA NÁTĚRU",
+   "KDE PRACUJEME",
+   "02 / NEZÁVAZNÁ POPTÁVKA"
+  ]
+ },
+ "epoxidove-podlahy": {
+  "total": 266,
+  "missing": [
+   "TŘI MISTŘI / BRNO A OKOLÍ",
+   "01 / O SLUŽBĚ",
+   "CENA PODLAHY",
+   "KDE PRACUJEME",
+   "03 / NEZÁVAZNÁ POPTÁVKA"
+  ]
+ },
+ "mikrocement": {
+  "total": 268,
+  "missing": [
+   "TŘI MISTŘI / BRNO A OKOLÍ",
+   "01 / O SLUŽBĚ",
+   "CENA MIKROCEMENTU",
+   "KDE PRACUJEME",
+   "03 / NEZÁVAZNÁ POPTÁVKA"
+  ]
+ },
+ "specialni-natery": {
+  "total": 273,
+  "missing": [
+   "TŘI MISTŘI / BRNO A OKOLÍ",
+   "Prohlédnout realizaci ↗",
+   "01 / O SLUŽBĚ",
+   "CENA SPECIÁLNÍHO NÁTĚRU",
+   "KDE PRACUJEME",
+   "03 / NEZÁVAZNÁ POPTÁVKA"
+  ]
+ },
+ "odstraneni-grafiti": {
+  "total": 180,
+  "missing": [
+   "TŘI MISTŘI / BRNO A OKOLÍ",
+   "Prohlédnout realizaci ↗",
+   "01 / O SLUŽBĚ",
+   "CENA ODSTRANĚNÍ GRAFFITI",
+   "KDE PRACUJEME",
+   "02 / NEZÁVAZNÁ POPTÁVKA"
+  ]
+ },
+ "pismomalirstvi": {
+  "total": 176,
+  "missing": [
+   "TŘI MISTŘI / BRNO A OKOLÍ",
+   "Prohlédnout realizaci ↗",
+   "01 / O SLUŽBĚ",
+   "CENA NÁPISU",
+   "KDE PRACUJEME",
+   "02 / NEZÁVAZNÁ POPTÁVKA"
+  ]
+ },
+ "prumyslove-natery": {
+  "total": 179,
+  "missing": [
+   "TŘI MISTŘI / BRNO A OKOLÍ",
+   "Prohlédnout realizaci ↗",
+   "01 / O SLUŽBĚ",
+   "CENA PRŮMYSLOVÉHO NÁTĚRU",
+   "KDE PRACUJEME",
+   "02 / NEZÁVAZNÁ POPTÁVKA"
+  ]
+ },
+ "sanace-po-zatekani": {
+  "total": 276,
+  "missing": [
+   "TŘI MISTŘI / BRNO A OKOLÍ",
+   "Prohlédnout realizaci ↗",
+   "01 / O SLUŽBĚ",
+   "CENA OPRAVY PO ZATÉKÁNÍ",
+   "KDE PRACUJEME",
+   "03 / NEZÁVAZNÁ POPTÁVKA"
+  ]
+ },
+ "tapetovani": {
+  "total": 183,
+  "missing": [
+   "TŘI MISTŘI / BRNO A OKOLÍ",
+   "Prohlédnout realizaci ↗",
+   "01 / O SLUŽBĚ",
+   "CENA TAPETOVÁNÍ",
+   "KDE PRACUJEME",
+   "02 / NEZÁVAZNÁ POPTÁVKA"
+  ]
+ },
+ "dekujeme": {
+  "total": 53,
+  "missing": []
+ },
+ "ochrana-osobnich-udaju": {
+  "total": 102,
+  "missing": []
+ }
+}

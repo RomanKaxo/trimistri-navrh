@@ -1,0 +1,120 @@
+{
+ "404": [
+  "notfound-section"
+ ],
+ "index": [
+  "top",
+  "realizace",
+  "sluzby",
+  "postup",
+  "recenze",
+  "kontakt"
+ ],
+ "natery-interieru": [
+  "tm-detail-hero",
+  "ukazky",
+  "rozsah",
+  "cena",
+  "kontakt"
+ ],
+ "dekoracni-sterky": [
+  "tm-detail-hero",
+  "ukazky",
+  "rozsah",
+  "cena",
+  "kontakt"
+ ],
+ "natery-fasad": [
+  "tm-detail-hero",
+  "ukazky",
+  "rozsah",
+  "cena",
+  "kontakt"
+ ],
+ "cisteni-fasad": [
+  "tm-detail-hero",
+  "ukazky",
+  "rozsah",
+  "recenze",
+  "cena",
+  "kontakt"
+ ],
+ "natery-strech": [
+  "tm-detail-hero",
+  "rozsah",
+  "recenze",
+  "cena",
+  "kontakt"
+ ],
+ "natery-drevo-kovu": [
+  "tm-detail-hero",
+  "ukazky",
+  "rozsah",
+  "cena",
+  "kontakt"
+ ],
+ "epoxidove-podlahy": [
+  "tm-detail-hero",
+  "rozsah",
+  "recenze",
+  "cena",
+  "kontakt"
+ ],
+ "mikrocement": [
+  "tm-detail-hero",
+  "rozsah",
+  "recenze",
+  "cena",
+  "kontakt"
+ ],
+ "specialni-natery": [
+  "tm-detail-hero",
+  "ukazky",
+  "rozsah",
+  "recenze",
+  "cena",
+  "kontakt"
+ ],
+ "odstraneni-grafiti": [
+  "tm-detail-hero",
+  "ukazky",
+  "rozsah",
+  "cena",
+  "kontakt"
+ ],
+ "pismomalirstvi": [
+  "tm-detail-hero",
+  "ukazky",
+  "rozsah",
+  "cena",
+  "kontakt"
+ ],
+ "prumyslove-natery": [
+  "tm-detail-hero",
+  "ukazky",
+  "rozsah",
+  "cena",
+  "kontakt"
+ ],
+ "sanace-po-zatekani": [
+  "tm-detail-hero",
+  "ukazky",
+  "rozsah",
+  "recenze",
+  "cena",
+  "kontakt"
+ ],
+ "tapetovani": [
+  "tm-detail-hero",
+  "ukazky",
+  "rozsah",
+  "cena",
+  "kontakt"
+ ],
+ "dekujeme": [
+  "thankyou-section"
+ ],
+ "ochrana-osobnich-udaju": [
+  "section-padding"
+ ]
+}
